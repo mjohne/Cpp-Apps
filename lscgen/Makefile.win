@@ -1,0 +1,33 @@
+# Project: Landscape Generator
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = lscgen.o console.o $(RES)
+LINKOBJ  = lscgen.o console.o $(RES)
+LIBS =  -L"E:/C/Dev-Cpp/5beta9/lib"  
+INCS =  -I"E:/C/Dev-Cpp/5beta9/include" 
+CXXINCS =  -I"E:/C/Dev-Cpp/5beta9/lib/gcc/mingw32/3.4.2/include"  -I"E:/C/Dev-Cpp/5beta9/include/c++/3.4.2/backward"  -I"E:/C/Dev-Cpp/5beta9/include/c++/3.4.2/mingw32"  -I"E:/C/Dev-Cpp/5beta9/include/c++/3.4.2"  -I"E:/C/Dev-Cpp/5beta9/include" 
+BIN  = "Landscape Generator.exe"
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before "Landscape Generator.exe" all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "Landscape Generator.exe" $(LIBS)
+
+lscgen.o: lscgen.cpp
+	$(CPP) -c lscgen.cpp -o lscgen.o $(CXXFLAGS)
+
+console.o: console.cpp
+	$(CPP) -c console.cpp -o console.o $(CXXFLAGS)
