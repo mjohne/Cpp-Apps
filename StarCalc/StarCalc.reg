@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\StarCalc.Application = StarCalc Application
+HKEY_CLASSES_ROOT\StarCalc.Application\CLSID = {F4A40C0F-6D75-46C8-85E3-CB2589DAE43B}
+
+HKEY_CLASSES_ROOT\CLSID\{F4A40C0F-6D75-46C8-85E3-CB2589DAE43B} = StarCalc Application
+HKEY_CLASSES_ROOT\CLSID\{F4A40C0F-6D75-46C8-85E3-CB2589DAE43B}\ProgId = StarCalc.Application
+HKEY_CLASSES_ROOT\CLSID\{F4A40C0F-6D75-46C8-85E3-CB2589DAE43B}\LocalServer32 = STARCALC.EXE

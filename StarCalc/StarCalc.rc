@@ -1,0 +1,253 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\StarCalc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\StarCalc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 117, 81
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über StarCalc"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,10,15,21,20
+    LTEXT           "StarCalc Version 1.0",IDC_STATIC,40,15,65,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,25,65,8
+    DEFPUSHBUTTON   "OK",IDOK,33,50,50,14,WS_GROUP
+END
+
+IDD_STARCALC_DIALOG DIALOGEX 0, 0, 262, 211
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "StarCalc"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Jährliche Parallaxe:",IDC_STATIC_PARALLAX,20,20,70,8
+    EDITTEXT        IDC_EDIT_PARALLAX,100,20,45,12,ES_AUTOHSCROLL
+    LTEXT           "Scheinbare Helliigkeit:",IDC_STATIC_MVIS,20,40,71,8
+    EDITTEXT        IDC_EDIT_MVIS,100,40,45,12,ES_AUTOHSCROLL
+    LTEXT           """/y",IDC_STATIC_PARALLAX_UNIT,150,20,11,8
+    LTEXT           "mag",IDC_STATIC_MVIS_UNIT,150,40,14,8
+    DEFPUSHBUTTON   "Errechnen!",IDC_BUTTON_CALC,185,20,55,30
+    GROUPBOX        "",IDC_STATIC_FRAME_INPUT,15,10,155,50
+    LTEXT           "Entfernung:",IDC_STATIC_DISTANCE,15,70,75,8
+    LTEXT           "Absolute Helligkeit:",IDC_STATIC_MABS,15,85,80,8
+    LTEXT           "Leuchtkraft:",IDC_STATIC_LUMINOSITY,15,100,80,8
+    LTEXT           "Bolometrische Helligkeit:",IDC_STATIC_MBOL,15,115,85,8
+    LTEXT           "Radius:",IDC_STATIC_RADIUS,15,130,85,8
+    LTEXT           "Effektive Temperatur:",IDC_STATIC_TEFF,15,145,85,8
+    LTEXT           "Spektraltyp:",IDC_STATIC_SPECTYPE,15,160,85,8
+    LTEXT           "Masse",IDC_STATIC_MASS,15,175,85,8
+    LTEXT           "Dichte:",IDC_STATIC_DENSITY,15,190,85,8
+    EDITTEXT        IDC_EDIT_DISTANCE,100,70,45,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_MABS,100,85,45,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_LUMINOSITY,100,100,45,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_MBOL,100,115,45,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_RADIUS,100,130,45,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_TEFF,100,145,45,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_SPECTYPE,100,160,45,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_MASS,100,175,45,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_DENSITY,100,190,45,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_TABSTOP,WS_EX_RIGHT
+    LTEXT           "pc",IDC_STATIC_DISTANCE_UNIT,150,70,14,8
+    LTEXT           "mag",IDC_STATIC_MABS_UNIT,150,85,14,8
+    LTEXT           "mag",IDC_STATIC_MBOL_UNIT,150,115,14,8
+    LTEXT           "Sonne = 1",IDC_STATIC_DIAMETER_UNIT,150,130,34,8
+    LTEXT           "Sonne = 1",IDC_STATIC_LUMINOSITY_UNIT,150,100,34,8
+    LTEXT           "Kelvin",IDC_STATIC_TEFF_UNIT,150,145,20,8
+    LTEXT           "Sonne = 1",IDC_STATIC_MASS_UNIT,150,175,34,8
+    LTEXT           "g/cm^3",IDC_STATIC_DENSITY_UNIT,150,190,26,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MFC-Anwendung StarCalc\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "StarCalc\0"
+            VALUE "LegalCopyright", "Copyright (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "StarCalc.EXE\0"
+            VALUE "ProductName", "Anwendung StarCalc\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 110
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 74
+    END
+
+    IDD_STARCALC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 255
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 204
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+IDR_MANIFEST            24      DISCARDABLE     "res\\manifest.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "Fehler bei der OLE-Initialisierung. Überprüfen Sie, ob die OLE-Bibliotheken in der richtigen Version vorliegen."
+    IDS_ABOUTBOX            "Inf&o über StarCalc..."
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\StarCalc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
