@@ -1,0 +1,42 @@
+// StarCalc.odl : type library source for StarCalc.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (StarCalc.tlb).
+
+[ uuid(159FA624-93AB-44E3-B579-184F3B9A38A3), version(1.0) ]
+library StarCalc
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CStarCalcDoc
+	
+	[ uuid(9001C50D-9796-4F8A-93E1-DD3224EB5102) ]
+	dispinterface IStarCalc
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CStarCalcDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CStarCalcDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CStarCalcDoc
+	
+	[ uuid(F4A40C0F-6D75-46C8-85E3-CB2589DAE43B) ]
+	coclass StarCalc
+	{
+		[default] dispinterface IStarCalc;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

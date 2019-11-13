@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StarCalc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/StarCalc.res" /i "Release" /d "NDEBUG" "E:\Programmierung\C, C++ und C#\MyProjects\StarCalc\StarCalc.rc"" 
+Creating temporary file "C:\Users\MICHAE~1\AppData\Local\Temp\RSP1AD6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/StarCalc.pdb" /machine:I386 /out:"Release/StarCalc.exe" 
+".\Release\BCMenu.obj"
+".\Release\BtnST.obj"
+".\Release\DlgProxy.obj"
+".\Release\HyperLink.obj"
+".\Release\StarCalc.obj"
+".\Release\StarCalcDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\ThemeHelperST.obj"
+".\Release\XPStyleButtonST.obj"
+".\Release\XPTabCtrl.obj"
+".\Release\StarCalc.res"
+]
+Creating command line "link.exe @C:\Users\MICHAE~1\AppData\Local\Temp\RSP1AD6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+StarCalc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,30 @@
+# Microsoft Developer Studio Generated Dependency File, included by StarCalc.mak
+
+.\DlgProxy.cpp : \
+	".\DlgProxy.h"\
+	".\StarCalc.h"\
+	".\StarCalcDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StarCalc.cpp : \
+	".\StarCalc.h"\
+	".\StarCalcDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StarCalc.rc : \
+	".\res\StarCalc.ico"\
+	".\res\StarCalc.rc2"\
+	
+
+.\StarCalcDlg.cpp : \
+	".\DlgProxy.h"\
+	".\StarCalc.h"\
+	".\StarCalcDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
