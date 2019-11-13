@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ayat Finder - Win32 Static Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOKUME~1\MICHAE~1.MIC\LOKALE~1\Temp\RSP51A.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release Static/" /Fo"Release Static/" /Fd"Release Static/" /FD /c 
+"E:\Programmierung\C, C++ und C#\MyProjects\Ayat Finder\Ayat FinderDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\MICHAE~1.MIC\LOKALE~1\Temp\RSP51A.tmp" 
+Creating temporary file "C:\DOKUME~1\MICHAE~1.MIC\LOKALE~1\Temp\RSP51B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release Static/Ayat Finder.pdb" /machine:I386 /out:"Release Static/Ayat Finder.exe" 
+".\Release Static\AutoRichEditCtrl.obj"
+".\Release Static\Ayat Finder.obj"
+".\Release Static\Ayat FinderDlg.obj"
+".\Release Static\BCMenu.obj"
+".\Release Static\BtnST.obj"
+".\Release Static\DlgProxy.obj"
+".\Release Static\HyperLink.obj"
+".\Release Static\OptionsDlg.obj"
+".\Release Static\ResizableDialog.obj"
+".\Release Static\SaveResultDlg.obj"
+".\Release Static\StdAfx.obj"
+".\Release Static\ThemeHelperST.obj"
+".\Release Static\XPStyleButtonST.obj"
+".\Release Static\XPTabCtrl.obj"
+".\Release Static\XUnzip.obj"
+".\Release Static\XZip.obj"
+".\Release Static\Ayat Finder.res"
+]
+Creating command line "link.exe @C:\DOKUME~1\MICHAE~1.MIC\LOKALE~1\Temp\RSP51B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Ayat FinderDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Ayat Finder.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
