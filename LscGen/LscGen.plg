@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LscGen - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\MICHAE~1\AppData\Local\Temp\RSP9FC0.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/LscGen.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Programmierung\C, C++ und C#\MyProjects\Lscgen\LscNewDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\MICHAE~1\AppData\Local\Temp\RSP9FC0.tmp" 
+Creating temporary file "C:\Users\MICHAE~1\AppData\Local\Temp\RSP9FC1.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/LscGen.pdb" /machine:I386 /out:"Release/LscGen.exe" 
+".\Release\BCMenu.obj"
+".\Release\BtnST.obj"
+".\Release\ExportAsGraphicDlg.obj"
+".\Release\ExportAsModelDlg.obj"
+".\Release\HeightmapPreviewDlg.obj"
+".\Release\HyperLink.obj"
+".\Release\LscEditDlg.obj"
+".\Release\LscGen.obj"
+".\Release\LscGenDlg.obj"
+".\Release\LscNewDlg.obj"
+".\Release\Mtrx.obj"
+".\Release\StdAfx.obj"
+".\Release\ThemeHelperST.obj"
+".\Release\XPStyleButtonST.obj"
+".\Release\LscGen.res"
+]
+Creating command line "link.exe @C:\Users\MICHAE~1\AppData\Local\Temp\RSP9FC1.tmp"
+<h3>Output Window</h3>
+Compiling...
+LscNewDlg.cpp
+Linking...
+Creating temporary file "C:\Users\MICHAE~1\AppData\Local\Temp\RSPA3B9.tmp" with contents
+[
+/nologo /o"Release/LscGen.bsc" 
+".\Release\StdAfx.sbr"
+".\Release\BCMenu.sbr"
+".\Release\BtnST.sbr"
+".\Release\ExportAsGraphicDlg.sbr"
+".\Release\ExportAsModelDlg.sbr"
+".\Release\HeightmapPreviewDlg.sbr"
+".\Release\HyperLink.sbr"
+".\Release\LscEditDlg.sbr"
+".\Release\LscGen.sbr"
+".\Release\LscGenDlg.sbr"
+".\Release\LscNewDlg.sbr"
+".\Release\Mtrx.sbr"
+".\Release\ThemeHelperST.sbr"
+".\Release\XPStyleButtonST.sbr"]
+Creating command line "bscmake.exe @C:\Users\MICHAE~1\AppData\Local\Temp\RSPA3B9.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+LscGen.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

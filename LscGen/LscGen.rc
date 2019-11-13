@@ -1,0 +1,545 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_EXPORTAS_GRAPHIC DIALOGEX 0, 0, 102, 91
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Als Grafik exportieren"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,26,65,50,14
+    PUSHBUTTON      "",IDC_BUTTON_EXPORTAS_PGM,10,25,20,20
+    PUSHBUTTON      "",IDC_BUTTON_EXPORTAS_RAW,40,25,20,20
+    LTEXT           "Format auswählen:",IDC_STATIC,20,10,60,8
+    LTEXT           "PGM",IDC_STATIC,10,50,17,8
+    LTEXT           "RAW",IDC_STATIC,42,50,18,8
+    PUSHBUTTON      "",IDC_BUTTON_EXPORTAS_XPM,70,25,20,20
+    LTEXT           "XPM",IDC_STATIC,72,50,16,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_EXPORTAS_GRAPHIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 95
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral (Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 230, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über LscGen"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CTEXT           "LscGen Version 1.0",IDC_STATIC,0,85,66,8,SS_NOPREFIX,
+                    WS_EX_TRANSPARENT
+    CTEXT           "Copyright (C) 2007",IDC_STATIC,160,85,66,8,0,
+                    WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,82,75,64,14,WS_GROUP,WS_EX_TRANSPARENT
+    CONTROL         132,IDC_STATIC,"Static",SS_BITMAP,0,0,230,94
+END
+
+IDD_LSCGEN_DIALOG DIALOGEX 0, 0, 297, 226
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "LscGen"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "",IDC_BUTTON_LSC_NEW,15,25,20,20
+    PUSHBUTTON      "",IDC_BUTTON_LSC_LOAD,15,65,20,20
+    PUSHBUTTON      "",IDC_BUTTON_LSC_SAVE,15,105,20,20
+    LTEXT           "Neue Landschaft erstellen",IDC_STATIC,40,30,84,8
+    LTEXT           "Eine Landschaft laden",IDC_STATIC,40,70,72,8
+    LTEXT           "Aktuelle Landschaft speichern",IDC_STATIC,40,110,96,8
+    PUSHBUTTON      "",IDC_BUTTON_LSC_EDIT,155,25,20,20
+    PUSHBUTTON      "",IDC_BUTTON_EXPORTAS_MODEL,155,65,20,20
+    PUSHBUTTON      "",IDC_BUTTON_EXPORTAS_GRAPHIC,155,105,20,20
+    LTEXT           "Aktuelle Landschaft bearbeiten",IDC_STATIC,180,30,99,8
+    LTEXT           "Als Modell exportieren",IDC_STATIC,180,70,70,8
+    LTEXT           "Als Grafik exportieren",IDC_STATIC,180,110,68,8
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME | SS_SUNKEN,10,175,
+                    280,1
+    PUSHBUTTON      "",IDC_BUTTON_APP_ABOUT,15,185,20,20
+    LTEXT           "Programminformationen",IDC_STATIC,40,190,74,8
+    PUSHBUTTON      "",IDC_BUTTON_APP_EXIT,155,185,20,20
+    LTEXT           "Programm beenden",IDC_STATIC,180,190,62,8
+    PUSHBUTTON      "",IDC_BUTTON_EXPORTAS_SQL,155,145,20,20
+    LTEXT           "Als SQL-Skript exportieren",IDC_STATIC,180,150,83,8
+    PUSHBUTTON      "",IDC_BUTTON_LSC_CLOSE,15,145,20,20
+    LTEXT           "Aktuelle Landschaft schließen",IDC_STATIC,40,150,96,8
+END
+
+IDD_DIALOG_LSC_NEW DIALOGEX 0, 0, 197, 251
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Neue Landschaft erstellen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Name der Landschaft:",IDC_STATIC,10,5,75,8
+    EDITTEXT        IDC_EDIT_LSC_NAME,85,5,100,12,ES_AUTOHSCROLL
+    LTEXT           "&Kommentar:",IDC_STATIC,10,20,40,8
+    EDITTEXT        IDC_EDIT_LSC_COMMENTS,55,20,130,12,ES_AUTOHSCROLL
+    GROUPBOX        "Methode",IDC_STATIC,5,40,185,65
+    LTEXT           "&Algorithmus:",IDC_STATIC,10,49,38,8
+    COMBOBOX        IDC_COMBO_ALGORITHM,50,48,135,30,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Ausführen bis zum maximalen Höhenpunkt:",
+                    IDC_RADIO_METHOD1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    10,70,150,10
+    EDITTEXT        IDC_EDIT_METHOD1,160,70,25,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_RIGHT
+    CONTROL         "Ausführen in einer bestimmten Anzahl:",
+                    IDC_RADIO_METHOD2,"Button",BS_AUTORADIOBUTTON,10,85,135,
+                    10
+    EDITTEXT        IDC_EDIT_METHOD2,145,85,40,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_RIGHT
+    GROUPBOX        "Größe des Felds",IDC_STATIC,5,110,185,35
+    LTEXT           "X-Achse:",IDC_STATIC,20,125,30,8
+    EDITTEXT        IDC_EDIT_SIZEX,56,125,25,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_RIGHT
+    LTEXT           "Y-Achse:",IDC_STATIC,96,126,30,8
+    EDITTEXT        IDC_EDIT_SIZEY,131,125,25,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_RIGHT
+    GROUPBOX        "Startpunkt",IDC_STATIC,5,150,185,45
+    CONTROL         "X-Wert:",IDC_RADIO_START_XY,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,160,40,8
+    CONTROL         "zufallsbasierend",IDC_RADIO_START_RANDOM,"Button",
+                    BS_AUTORADIOBUTTON,10,176,66,10
+    CONTROL         "Mitte der Fläche",IDC_RADIO_START_MIDPOINT,"Button",
+                    BS_AUTORADIOBUTTON,90,176,67,10
+    EDITTEXT        IDC_EDIT_START_X,56,160,25,12,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_RIGHT
+    LTEXT           "Y-Wert:",IDC_STATIC,100,160,25,8
+    EDITTEXT        IDC_EDIT_START_Y,131,160,25,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER,WS_EX_RIGHT
+    LTEXT           "Generiere:",IDC_STATIC,5,205,34,8
+    CONTROL         "Progress1",IDC_PROGRESS_GENERATE,"msctls_progress32",
+                    PBS_SMOOTH | WS_BORDER,45,205,75,10
+    DEFPUSHBUTTON   "&Erstellen",IDC_BUTTON_GENERATE,5,225,50,19
+    PUSHBUTTON      "&OK",IDOK,70,225,50,19
+    PUSHBUTTON      "&Cancel",IDCANCEL,135,225,50,19
+    PUSHBUTTON      "&Vorschau",IDC_BUTTON_HM_PREVIEW,135,200,50,19
+END
+
+IDD_DIALOG_EXPORTAS_MODEL DIALOGEX 0, 0, 102, 91
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Als Modell exportieren"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,26,65,50,14
+    PUSHBUTTON      "",IDC_BUTTON_EXPORTAS_VRML,20,25,20,20
+    PUSHBUTTON      "",IDC_BUTTON_EXPORTAS_X3D,60,25,20,20
+    LTEXT           "Format auswählen:",IDC_STATIC,20,10,60,8
+    LTEXT           "VRML",IDC_STATIC,20,50,21,8
+    LTEXT           "X3D",IDC_STATIC,62,50,15,8
+END
+
+IDD_DIALOG_LSC_EDIT DIALOGEX 0, 0, 267, 222
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Aktuelle Landschaft bearbeiten"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKRECT,5,10,95,95
+    LTEXT           "Name der Landschaft:",IDC_STATIC,120,10,75,8
+    EDITTEXT        IDC_EDIT_LSC_NAME2,120,20,140,12,ES_AUTOHSCROLL
+    LTEXT           "Kommentar:",IDC_STATIC,120,40,40,8
+    EDITTEXT        IDC_EDIT_LSC_COMMENTS2,120,50,140,12,ES_AUTOHSCROLL
+    GROUPBOX        "Ebene",IDC_STATIC,120,65,65,55
+    PUSHBUTTON      "Erhöhen",IDC_BUTTON_RAISE,126,75,54,19
+    PUSHBUTTON      "Senken",IDC_BUTTON_FLAT,125,95,55,20
+    GROUPBOX        "Drehung",IDC_STATIC,190,65,70,55
+    PUSHBUTTON      "90° links",IDC_BUTTON_ROTATE_LEFT,195,75,60,19
+    PUSHBUTTON      "90° rechts",IDC_BUTTON_ROTATE_RIGHT,195,95,60,20
+    GROUPBOX        "Spiegelung",IDC_STATIC,120,125,65,60
+    PUSHBUTTON      "horizontal",IDC_BUTTON_HORIZONTAL,125,135,55,20
+    PUSHBUTTON      "vertikal",IDC_BUTTON_VERTICAL,125,160,55,20
+    GROUPBOX        "Schärfen?",IDC_STATIC,190,125,70,60
+    CONTROL         "Konstant",IDC_RADIO_CANYONIZE1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,195,135,44,10
+    CONTROL         "Variabel (1-10)",IDC_RADIO_CANYONIZE2,"Button",
+                    BS_AUTORADIOBUTTON,195,145,61,10
+    PUSHBUTTON      "Canyonize",IDC_BUTTON_CANYONIZE,195,160,60,20
+    PUSHBUTTON      "Invertieren",IDC_BUTTON_INVERT,125,195,60,20
+    PUSHBUTTON      "Glätten",IDC_BUTTON_GLACIATE,195,195,60,20
+    GROUPBOX        "Verschiebung",IDC_STATIC,5,110,95,65
+    PUSHBUTTON      "",IDC_BUTTON_UP2,40,120,20,20
+    PUSHBUTTON      "",IDC_BUTTON_LEFT2,20,135,20,20
+    PUSHBUTTON      "",IDC_BUTTON_DOWN2,40,150,20,20
+    PUSHBUTTON      "",IDC_BUTTON_RIGHT2,60,135,20,20
+    DEFPUSHBUTTON   "OK",IDOK,5,195,50,19
+    PUSHBUTTON      "Cancel",IDCANCEL,60,195,50,19
+END
+
+IDD_DIALOG_HM_PREVIEW DIALOG DISCARDABLE  0, 0, 110, 84
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Vorschau"
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_LSCGEN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 290
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 219
+    END
+
+    IDD_DIALOG_LSC_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 244
+    END
+
+    IDD_DIALOG_EXPORTAS_MODEL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 95
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_DIALOG_LSC_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_DIALOG_HM_PREVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 103
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\LscGen.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_LSCGEN         ICON    DISCARDABLE     "res\\LscGen.ico"
+IDI_ICON_MSVC7          ICON    DISCARDABLE     "res\\msvc7.ico"
+IDI_ICON_MFC7           ICON    DISCARDABLE     "res\\mfc7.ico"
+IDI_ICON_MFC            ICON    DISCARDABLE     "res\\mfc.ico"
+IDI_ICON_MSVC6          ICON    DISCARDABLE     "res\\msvc6.ico"
+IDI_ICON_LSC_NEW        ICON    DISCARDABLE     "res\\new.ico"
+IDI_ICON_LSC_SAVE       ICON    DISCARDABLE     "res\\save.ico"
+IDI_ICON_LSC_EDIT       ICON    DISCARDABLE     "res\\edit.ico"
+IDI_ICON_LSC_LOAD       ICON    DISCARDABLE     "res\\open.ico"
+IDI_ICON_HEIGHTFIELD    ICON    DISCARDABLE     "res\\heightfield.ico"
+IDI_ICON_MODEL          ICON    DISCARDABLE     "res\\model.ico"
+IDI_ICON_APP_ABOUT      ICON    DISCARDABLE     "res\\about.ico"
+IDI_ICON_APP_EXIT       ICON    DISCARDABLE     "res\\exit.ico"
+IDI_ICON_BOOK_OPEN      ICON    DISCARDABLE     "res\\book_open.ico"
+IDI_ICON_BOOK           ICON    DISCARDABLE     "res\\book_blue.ico"
+IDI_ICON_CLIPBOARD_EMPTY ICON    DISCARDABLE     "res\\clipboard_empty.ico"
+IDI_ICON_CHECK2         ICON    DISCARDABLE     "res\\check2.ico"
+IDI_ICON_CHECK          ICON    DISCARDABLE     "res\\check.ico"
+IDI_ICON_CLIPBOARD      ICON    DISCARDABLE     "res\\clipboard.ico"
+IDI_ICON_DELETE         ICON    DISCARDABLE     "res\\delete.ico"
+IDI_ICON_COLORS         ICON    DISCARDABLE     "res\\colors.ico"
+IDI_ICON_COPY           ICON    DISCARDABLE     "res\\copy.ico"
+IDI_ICON_CUT            ICON    DISCARDABLE     "res\\cut.ico"
+IDI_ICON_DATABASE       ICON    DISCARDABLE     "res\\data_into.ico"
+IDI_ICON_DELETE2        ICON    DISCARDABLE     "res\\delete2.ico"
+IDI_ICON_DOWNLOAD       ICON    DISCARDABLE     "res\\download.ico"
+IDI_ICON_DOC_CHECK      ICON    DISCARDABLE     "res\\document_check.ico"
+IDI_ICON_DOC_INFO       ICON    DISCARDABLE     "res\\document_info.ico"
+IDI_ICON_DOC_PREF       ICON    DISCARDABLE     "res\\document_preferences.ico"
+IDI_ICON_DOC_VIEW       ICON    DISCARDABLE     "res\\document_view.ico"
+IDI_ICON_EXCHANGE       ICON    DISCARDABLE     "res\\exchange.ico"
+IDI_ICON_EDIT2          ICON    DISCARDABLE     "res\\edit2.ico"
+IDI_ICON_ENVIROMENT     ICON    DISCARDABLE     "res\\environment.ico"
+IDI_ICON_ERROR          ICON    DISCARDABLE     "res\\error.ico"
+IDI_ICON_HELP_ONLINE    ICON    DISCARDABLE     "res\\help_online.ico"
+IDI_ICON_FAQ            ICON    DISCARDABLE     "res\\faq.ico"
+IDI_ICON_FITTOSIZE      ICON    DISCARDABLE     "res\\fit_to_size.ico"
+IDI_ICON_LSC_CLOSE      ICON    DISCARDABLE     "res\\folder_closed.ico"
+IDI_ICON_FORBIDDEN      ICON    DISCARDABLE     "res\\forbidden.ico"
+IDI_ICON_GEAR           ICON    DISCARDABLE     "res\\gear.ico"
+IDI_ICON_HELP2          ICON    DISCARDABLE     "res\\help2.ico"
+IDI_ICON_LOGIC_OR       ICON    DISCARDABLE     "res\\logic_or.ico"
+IDI_ICON_IDCARD         ICON    DISCARDABLE     "res\\id_card.ico"
+IDI_ICON_INFORMATION    ICON    DISCARDABLE     "res\\information.ico"
+IDI_ICON_LIGHTBULB      ICON    DISCARDABLE     "res\\lightbulb.ico"
+IDI_ICON_LIGHTBULB_ON   ICON    DISCARDABLE     "res\\lightbulb_on.ico"
+IDI_ICON_LOGIC_AND      ICON    DISCARDABLE     "res\\logic_and.ico"
+IDI_ICON_LOGIC_NOT      ICON    DISCARDABLE     "res\\logic_not.ico"
+IDI_ICON_NAVIGATE_UP    ICON    DISCARDABLE     "res\\navigate_up.ico"
+IDI_ICON_MAIL           ICON    DISCARDABLE     "res\\mail.ico"
+IDI_ICON_NAV_DOWN_GREEN ICON    DISCARDABLE     "res\\nav_down_green.ico"
+IDI_ICON_NAV_LEFT_GREEN ICON    DISCARDABLE     "res\\nav_left_green.ico"
+IDI_ICON_NAV_PLAIN_GREEN ICON    DISCARDABLE     "res\\nav_plain_green.ico"
+IDI_ICON_NAV_RIGHT_GREEN ICON    DISCARDABLE     "res\\nav_right_green.ico"
+IDI_ICON_NAV_UP_GREEN   ICON    DISCARDABLE     "res\\nav_up_green.ico"
+IDI_ICON_NAVIGATE_CROSS ICON    DISCARDABLE     "res\\navigate_cross.ico"
+IDI_ICON_NAVIGATE_DOWN  ICON    DISCARDABLE     "res\\navigate_down.ico"
+IDI_ICON_NAVIGATE_LEFT  ICON    DISCARDABLE     "res\\navigate_left.ico"
+IDI_ICON_NAVIGATE_MINUS ICON    DISCARDABLE     "res\\navigate_minus.ico"
+IDI_ICON_NAVIGATE_PLUS  ICON    DISCARDABLE     "res\\navigate_plus.ico"
+IDI_ICON_NAVIGATE_RIGHT ICON    DISCARDABLE     "res\\navigate_right.ico"
+IDI_ICON_PHOTO_SCENERY  ICON    DISCARDABLE     "res\\photo_scenery.ico"
+IDI_ICON_NOTEBOOK       ICON    DISCARDABLE     "res\\notebook.ico"
+IDI_ICON_NOTEBOOK_PREF  ICON    DISCARDABLE     "res\\notebook_preferences.ico"
+IDI_ICON_PASTE          ICON    DISCARDABLE     "res\\paste.ico"
+IDI_ICON_PHOTO_PORTRAIT ICON    DISCARDABLE     "res\\photo_portrait.ico"
+IDI_ICON_RECYCLE        ICON    DISCARDABLE     "res\\recycle.ico"
+IDI_ICON_REDO           ICON    DISCARDABLE     "res\\redo.ico"
+IDI_ICON_REFRESH        ICON    DISCARDABLE     "res\\refresh.ico"
+IDI_ICON_SCRIPT         ICON    DISCARDABLE     "res\\script.ico"
+IDI_ICON_STOP           ICON    DISCARDABLE     "res\\stop.ico"
+IDI_ICON_TRANSFORM2     ICON    DISCARDABLE     "res\\transform2.ico"
+IDI_ICON_TRANSFORM      ICON    DISCARDABLE     "res\\transform.ico"
+IDI_ICON_UNDO           ICON    DISCARDABLE     "res\\undo.ico"
+IDI_ICON_UNKNOWN        ICON    DISCARDABLE     "res\\unknown.ico"
+IDI_ICON_WARNING        ICON    DISCARDABLE     "res\\warning.ico"
+IDI_ICON_WINDOW_EARTH   ICON    DISCARDABLE     "res\\window_earth.ico"
+IDI_ICON_WINDOW_EDIT    ICON    DISCARDABLE     "res\\window_edit.ico"
+IDI_ICON_WINDOW_ENVIROMENT ICON    DISCARDABLE     "res\\window_environment.ico"
+IDI_ICON_WINDOW_GEAR    ICON    DISCARDABLE     "res\\window_gear.ico"
+IDI_ICON_WINDOW_INFO    ICON    DISCARDABLE     "res\\window_information.ico"
+IDI_ICON_WINDOW_NEW     ICON    DISCARDABLE     "res\\window_new.ico"
+IDI_ICON_NAVIGATE_CROSS2 ICON    DISCARDABLE     "res\\navi.ico"
+IDI_ICON_VRML           ICON    DISCARDABLE     "res\\vrml.ico"
+IDI_ICON_X3D            ICON    DISCARDABLE     "res\\x3d.ico"
+IDI_ICON_ARROW_UP_BLUE  ICON    DISCARDABLE     "res\\arrow_up_blue.ico"
+IDI_ICON_ARROW_DOWN_BLUE ICON    DISCARDABLE     "res\\arrow_down_blue.ico"
+IDI_ICON_ARROW_LEFT_BLUE ICON    DISCARDABLE     "res\\arrow_left_blue.ico"
+IDI_ICON_ARROW_RIGHT_BLUE ICON    DISCARDABLE     "res\\arrow_right_blue.ico"
+IDI_ICON_MIRROR_HORI    ICON    DISCARDABLE     "res\\mirror_hori.ico"
+IDI_ICON_MIRROR_VERT    ICON    DISCARDABLE     "res\\mirror_vert.ico"
+IDI_ICON_INVERT         ICON    DISCARDABLE     "res\\invert.ico"
+IDI_ICON_GLACIATE       ICON    DISCARDABLE     "res\\glaciate.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MFC-Anwendung LscGen\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "LscGen\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "LscGen.EXE\0"
+            VALUE "ProductName", "Anwendung LscGen\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_BANNER       BITMAP  DISCARDABLE     "res\\banner_current.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+IDR_MANIFEST            24      DISCARDABLE     "res\\manifest.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_LSC_NEW DLGINIT
+BEGIN
+    IDC_COMBO_ALGORITHM, 0x403, 22, 0
+0x757a, 0xe466, 0x6c6c, 0x6769, 0x2065, 0x6c50, 0x7461, 0x697a, 0x7265, 
+0x6e75, 0x0067, 
+    IDC_COMBO_ALGORITHM, 0x403, 28, 0
+0x7266, 0x6b61, 0x6174, 0x656c, 0x4220, 0x6172, 0x6e75, 0x6373, 0x6568, 
+0x4220, 0x7765, 0x6765, 0x6e75, 0x0067, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "Inf&o über LscGen..."
+    IDP_SOCKETS_INIT_FAILED "Fehler beim Initialisieren der Windows-Sockets."
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\LscGen.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
