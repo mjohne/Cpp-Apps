@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GrafMath - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/GrafMath.res" /d "NDEBUG" "E:\Programmierung\C, C++ und C#\MyProjects\GrafMath\GrafMath.rc"" 
+Creating temporary file "C:\DOKUME~1\MICHAE~1.MIC\LOKALE~1\Temp\RSP9D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Programmierung\C, C++ und C#\MyProjects\GrafMath\GrafMathDlg.cpp"
+"E:\Programmierung\C, C++ und C#\MyProjects\GrafMath\LengthTwoPoints.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\MICHAE~1.MIC\LOKALE~1\Temp\RSP9D.tmp" 
+Creating temporary file "C:\DOKUME~1\MICHAE~1.MIC\LOKALE~1\Temp\RSP9E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/GrafMath.pdb" /machine:I386 /out:"Release/GrafMath.exe" 
+".\Release\AxisOptionsDlg.obj"
+".\Release\BCMenu.obj"
+".\Release\BtnST.obj"
+".\Release\CreditsDlg.obj"
+".\Release\GaussEliminationDlg.obj"
+".\Release\GetXofYDlg.obj"
+".\Release\GradientDlg.obj"
+".\Release\GrafMath.obj"
+".\Release\GrafMathDlg.obj"
+".\Release\HelpDialog.obj"
+".\Release\HyperLink.obj"
+".\Release\InputFunctionDlg.obj"
+".\Release\IntegralDlg.obj"
+".\Release\LengthTwoPoints.obj"
+".\Release\MonotonyDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\TangentDlg.obj"
+".\Release\ThemeHelperST.obj"
+".\Release\ValueTableDlg.obj"
+".\Release\XPStyleButtonST.obj"
+".\Release\XPTabCtrl.obj"
+".\Release\GrafMath.res"
+]
+Creating command line "link.exe @C:\DOKUME~1\MICHAE~1.MIC\LOKALE~1\Temp\RSP9E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+GrafMathDlg.cpp
+LengthTwoPoints.cpp
+E:\Programmierung\C, C++ und C#\MyProjects\GrafMath\LengthTwoPoints.cpp(95) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GrafMath.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by GrafMath.mak
+
+.\GrafMath.cpp : \
+	".\GrafMath.h"\
+	".\GrafMathDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\GrafMath.rc : \
+	".\res\GrafMath.ico"\
+	".\res\GrafMath.rc2"\
+	
+
+.\GrafMathDlg.cpp : \
+	".\GrafMath.h"\
+	".\GrafMathDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
