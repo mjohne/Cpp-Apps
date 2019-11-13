@@ -1,0 +1,3953 @@
+Content-Type: multipart/related; start=<op.mhtml.1169739821812.d17b440c224948ce@192.168.12.27>; boundary=----------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Location: http://www.codeproject.com/cpp/makeversion.asp
+Subject: =?utf-8?Q?Add=20Build=20Date=20and=20Autoincrement=20Build=20Number=20-=20The=20Code=20Project=20-=20C++=20/=20MFC?=
+MIME-Version: 1.0
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=makeversion.htm
+Content-Type: text/html; name=makeversion.htm
+Content-Id: <op.mhtml.1169739821812.d17b440c224948ce@192.168.12.27>
+Content-Location: http://www.codeproject.com/cpp/makeversion.asp
+Content-Transfer-Encoding: Quoted-Printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Add Build Date and Autoincrement Build Number - The Code Project =
+- C++ / MFC</title>
+<base target=3D"_top" />
+<meta http-equiv=3D"Reply-to" content=3D"mailto:webmaster@codeproject.co=
+m" />
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-88=
+59-1" />
+<meta name=3D"MS.LOCALE"          content=3D"en-US" />
+<meta name=3D"Description"        content=3D"This article is about addin=
+g automation to your project that increments the build number and adds a=
+ build date that can be seen in the Version tab in the file properties w=
+indow." />
+<meta name=3D"Search.TopicType"   content=3D"kbArticle" />
+<meta name=3D"Author"             content=3D"gugulea" />
+<meta name=3D"Search.PublishDate" content=3D"23 May 2005 14:00:00 GMT" /=
+>
+<meta name=3D"Search.RevisedDate" content=3D"23 May 2005 14:00:00 GMT" /=
+>
+
+<meta NAME=3D"keywords" Content=3D"Free source code, , Visual C++, MFC, =
+Windows, autoincrement add build date time number">
+<meta name=3D"Copyright" content=3D"Article content copyright gugulea, 2=
+005, everthing else Copyright =A9 CodeProject, 1999-2006, All Rights Res=
+erved." />
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"CodeProjec=
+t Lounge Postings" href=3D"http://www.codeproject.com/webservices/Lounge=
+RSS.aspx" />
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"CodeProjec=
+t Latest articles - All topics" href=3D"http://www.codeproject.com/webse=
+rvices/articlerss.aspx?cat=3D1" />
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"CodeProjec=
+t Latest articles - MFC / C++" href=3D"http://www.codeproject.com/webser=
+vices/articlerss.aspx?cat=3D2" />
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"CodeProjec=
+t Latest articles - C#" href=3D"http://www.codeproject.com/webservices/a=
+rticlerss.aspx?cat=3D3" />
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"CodeProjec=
+t Latest articles - ASP.NET" href=3D"http://www.codeproject.com/webservi=
+ces/articlerss.aspx?cat=3D4" />
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"CodeProjec=
+t Latest articles - .NET" href=3D"http://www.codeproject.com/webservices=
+/articlerss.aspx?cat=3D5" />
+<link rel=3D"alternate" type=3D"application/rss+xml" title=3D"CodeProjec=
+t Latest articles - VB.NET" href=3D"http://www.codeproject.com/webservic=
+es/articlerss.aspx?cat=3D6" />
+<link rel=3D"search" type=3D"application/opensearchdescription+xml" titl=
+e=3D"The Code Project" href=3D"http://www.codeproject.com/info/OpenSearc=
+h.xml">
+<link rel=3D"icon" href=3D"/favicon.ico" type=3D"image/ico" />
+<link rel=3D"SHORTCUT ICON" href=3D"/favicon.ico" />
+<link rel=3D"stylesheet" type=3Dtext/css href=3D"/styles/global.css">
+
+<script language=3D"javascript" src=3D"/script/oncopy.js"></script>
+<script language=3D"javascript">
+if (top !=3D self) top.location.href =3D location.href;
+if (typeof(DemoUrl) !=3D "undefined")
+	document.write('<me' + 'ta http' + '-equiv=3D"re' + 'fresh" con' + 'ten=
+t=3D"1;url=3D' + DemoUrl + '">');
+</script>
+
+</head>
+<body text=3D"black" bgcolor=3D"white" alink=3D"red" link=3D"blue" vlink=
+=3D"navy" style=3D"margin: 0" =
+
+      oncopy=3D"return copyCode();">
+
+<!-- BEGIN I/PRO PAGE TAG - COPYRIGHT 2006 I/PRO Corporation ALL RIGHTS =
+RESERVED. --> =
+
+<script language=3D"JavaScript"> =
+
+var LSPT=3D""; =
+
+LSPT +=3D "?durl=3D" + escape(document.URL); =
+
+LSPT +=3D "&hostname=3D" + location.hostname; =
+
+LSPT +=3D "&url=3D" + location.pathname; =
+
+LSPT +=3D "&query=3D" + escape(location.search) + escape(location.hash);=
+ =
+
+LSPT +=3D "&referrer=3D" + escape(document.referrer); =
+
+LSPT +=3D "&browser=3D" + escape(navigator.appName); =
+
+LSPT +=3D "&version=3D" + escape(navigator.appVersion); =
+
+LSPT +=3D "&os=3D" + escape(navigator.platform); =
+
+LSPT +=3D "&xdomain=3Dcodeproject.com"; =
+
+LSPT +=3D "&custid=3Dcodeproject"; =
+
+</script> =
+
+<script Language=3D"Javascript"> =
+
+document.write('<img src=3Dhttp://'+'content.ipro.com/images/pixel.gif'+=
+LSPT+' height=3D"1" width=3D"1" style=3D"position:absolute;top:0px;left:=
+0px">'); =
+
+</script> =
+
+<noscript> =
+
+<img src=3D"http://content.ipro.com/images/pixel.gif?version=3Dnonjava&x=
+domain=3Dcodeproject.com" height=3D"1" width=3D"1" style=3D"position:abs=
+olute;top:0px;left:0px"> =
+
+</noscript> =
+
+<!-- END I/PRO PAGE TAG -->
+
+
+<table border=3D"0" cellPadding=3D"0" cellSpacing=3D"0" width=3D"100%">
+
+<tr>
+	<td class=3D"HeaderLogo"><a href=3D"/"><img alt=3D"Home" border=3D"0" h=
+eight=3D"90" src=3D"/images/AustraliaDay/codeproject225x90.gif" /></a></=
+td>
+	<td class=3D"HeaderBanner"><span id=3DAdBanner4><script language=3Djava=
+script>document.write("<a href=3D\"/script/admentor/admentorredir.asp?id=
+=3D2788&way=3Dban\" target=3D_blank><img src=3D\"/script/ann/ServeImg.as=
+px?File=3D%2Fscript%2Fadmentor%2Fimages%2Fvista%5Fapi%5Fcp%5Fcompetition=
+%5F728x90v4%2Egif&C=3DFalse&id=3D2788&cb=3D3836795\" alt=3D\"\" border=3D=
+0 width=3D728 height=3D90></a>");</script></span></td>
+</tr>
+<tr><td colspan=3D"2">
+<table cellpadding=3D"5" cellspacing=3D"0" width=3D"100%" class=3D"Membe=
+rNavBar" border=3D0>
+<tr valign=3D"middle">
+
+<td class=3D"smallText" style=3D"font-weight:bold">3,747,622 members and=
+ growing! &nbsp;
+17,976 now online.
+</td>
+
+
+<td align=3D"right" class=3D"userNavText">
+
+
+
+<a href=3D'/script/profile/whos_who.asp?id=3D3441581'>
+Michael Johne
+</a> |
+<a href=3D"/script/profile/modify.asp?ct=3D/cpp/makeversion.asp"><b>My S=
+ettings</b></a> |
+<a href=3D"/script/profile/bookmark_list.asp">My Bookmarks</a> |
+<a href=3D"/script/articles/list_articles.asp?userid=3D3441581">My Artic=
+les</a> |
+
+<a href=3D"/script/profile/logoff.asp?ct=3D/cpp/makeversion.asp">Sign ou=
+t</a>
+
+
+</td>
+</tr>
+</table></td></tr>
+<tr><td colspan=3D"2">
+<table cellpadding=3D"0" cellspacing=3D"0" class=3D"SiteNavBar" id=3D"tb=
+lSiteToolbar">
+<tr>
+<td><a href=3D"/">Home</a></td>
+<td  nowrap><a href=3D"/index.asp?cat=3D2" >MFC/C++</a></td>
+<td ><a href=3D"/index.asp?cat=3D3">C#</a></td>
+<td  nowrap><a href=3D"/index.asp?cat=3D4" >ASP.NET</a></td>
+<td  nowrap><a href=3D"/index.asp?cat=3D6">VB.NET</a></td>
+<td  nowrap><a href=3D"/index.asp?cat=3D8">Architect</a></td>
+<td  nowrap><a href=3D"/index.asp?cat=3D9">SQL</a></td>
+<td class=3D"SelCat" nowrap><a href=3D"/index.asp?cat=3D1">All Topics</a=
+></td>
+<td width=3D"100%">&nbsp;</td>
+<td>
+	<div id=3D'MenuPos' style=3D'position: relative; width: 300; height: 22=
+;top:1'>
+	<table id=3D"MPH" width=3D"300" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"border-width:0;height:20">
+	<tr valign=3D"middle">
+		<td nowrap style=3D"border-width:0"><a href=3D'/info/faq.asp'>Help!</a=
+></td>
+		<td nowrap style=3D"border-width:0"><a href=3D'/info/latest.asp'>Artic=
+les</a></td>
+		<td nowrap style=3D"border-width:0"><a href=3D'/script/comments/forums=
+.asp'>Message Boards</a></td>
+		=
+
+		<td nowrap style=3D"border-width:0"><a href=3D'/lounge.asp'>Lounge</a>=
+</td>
+	</tr>
+	</table>
+	</div>
+</td>
+</tr>
+</table>
+<script type=3D'text/javascript'>function Go(){return}</script>
+<script type=3D'text/javascript' src=3D'/script/HVMenu/cpmenu_var.js'></=
+script>
+<script type=3D'text/javascript' src=3D'/script/HVMenu/menu10_com.js'></=
+script>
+<script type=3D"text/javascript">
+var MPH =3D document.getElementById("MPH");
+if (MPH) MPH.style.display=3D'none';
+</script>
+</td></tr>
+
+
+<tr><td colspan=3D"2">
+
+	<table cellpadding=3D"3" cellspacing=3D"0" width=3D"100%" class=3D"Arti=
+cleHeader">
+	<tr valign=3D"top">
+		<td class=3D"smallText" style=3D"padding-right:10;"><a href=3D'/?cat=3D=
+1'>All Topics</a>, <a href=3D'/?cat=3D2'>MFC / C++</a> &gt;&gt; <a href=3D=
+'/cpp/'>C++ / MFC</a> &gt;&gt; <a href=3D'/cpp/#Howto'>Howto</a><br />
+			=
+
+			<br />
+			<div style=3D"font-weight:bold;font-size:16pt">Add Build Date and Aut=
+oincrement Build Number</div>
+			<b>By <a href=3D"/script/Articles/list_articles.asp?userid=3D1977854"=
+>gugulea</a></b>.
+			=
+
+			<br /><br /><div style=3D"font-size:12px">This article is about addin=
+g automation to your project that increments the build number and adds a=
+ build date that can be seen in the Version tab in the file properties w=
+indow.</div>
+		</td>
+		<td class=3D"smallText" style=3D"width:200;">
+			C++ (VC6), C<br> Windows<br> Win32, VS<br> Dev<br />
+			<span style=3D"padding-right:2ex">Posted</span>: <b>24 May 2005</b><b=
+r />
+			<span style=3D"padding-right:3ex">Views</span>: <b>14,630</b>
+		</td>
+	</tr>
+	=
+
+	=
+
+
+	</td></tr>
+</td></tr>
+
+</table>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+<tr valign=3D"top">
+
+	=
+
+	<td rowspan=3D"2" class=3D"LHNavBar">
+	=
+
+	<!-- Yes, there are IE hacks that will allow us to create a min-width D=
+IV =
+
+	     (eg http://www.webreference.com/programming/min-width/) but I coul=
+dn't
+	     be arsed. Wait for it in v2.0 -->
+	=
+
+	<div class=3D"FeatureBlockHeader">Announcements</div>
+<div class=3D"FeatureBlockContent RHFeatureBar">
+
+<div style=3D"padding-top:5"><img src=3D"/Feature/Vista/vista20.gif" wid=
+th=3D"20" height=3D"20" alt=3D"Vista" style=3D"float:left;padding-right:=
+10" />
+<a href=3D"/redir.aspx?id=3D2666">Vista API competition<br />$10,000 in =
+ prizes</a></div>
+
+<div style=3D"padding-top:5"><img src=3D"/Feature/Gadgets/gadgets20.gif"=
+ width=3D"20" height=3D"20" alt=3D"Vista" style=3D"float:left;padding-ri=
+ght:10" />
+<a href=3D"/redir.aspx?id=3D2848">Vista Gadget comp: $2,000 in prizes</a=
+></div>
+
+<div style=3D"padding-top:5"><img src=3D"/script/images/prize_winner_sm.=
+gif" width=3D"10"  height=3D"20" =
+
+alt=3D"Comp" style=3D"float:left;padding-right:10;margin-left:7;margin-r=
+ight:10;" /><a href=3D'/script/competitions/monthly/'>Monthly Competitio=
+n</a></div>
+
+</div>	<center>
+<script language=3Djavascript>document.write("<a href=3D\"/script/adment=
+or/admentorredir.asp?id=3D2838&way=3Dban\" target=3D_blank><img src=3D\"=
+/script/ann/ServeImg.aspx?File=3D%2Fscript%2Fadmentor%2Fimages%2Fvista%5=
+Fgadgets%5Fcp%5Fcompetition%5F160x600v4%2Egif&C=3DFalse&id=3D2838&cb=3D3=
+836804\" alt=3D\"\" border=3D0 width=3D160 height=3D600></a>");</script>=
+
+</center>
+<br /><br />
+
+	=
+
+	<img src=3D"/script/images/t.gif" height=3D"1" width=3D"160" />
+	=
+
+	</td>
+	=
+
+
+	<td width=3D"100%">
+
+		<table class=3D"SearchHeaderBar" cellspacing=3D"0" width=3D"100%">
+<tr>
+<td valign=3D"middle" align=3D"right" nowrap=3D"nowrap" width=3D"60%">
+
+	<form method=3D"post" action=3D"/info/search.asp" name=3D"Search" style=
+=3D"margin:0;">
+	<b>Search &nbsp;</b><input class=3D"smallText" name=3D"target" style=3D=
+"width:200;" />
+	<select style=3D"font-weight:bold;font-size:8pt" name=3D"st">
+		<option value=3D"kw">Articles</option>
+		<option value=3D"au">Authors</option>
+	</select>
+	<input type=3D"submit" style=3D"font-weight:bold;font-size:8pt" value=3D=
+" Go! " /> &nbsp;
+	</form>
+</td>
+
+<td class=3D"tinyText" nowrap=3D"nowrap">
+<a href=3D"/info/search.asp">Advanced Search</a><br />
+<a href=3D"/script/articles/sections.asp">Sitemap</a> =
+
+
+
+</td>
+</tr>
+</table>
+		=
+
+		<table width=3D"100%">
+		<tr valign=3D"top">
+		<td nowrap class=3D"SmallText"><table><tr><td nowrap class=3DsmallText=
+><img align=3Dabsmiddle src=3D'/images/print.gif'> <a href=3D'/cpp/makev=
+ersion.asp?print=3Dtrue' target=3D_print>Print</a></td><td nowrap class=3D=
+smallText><img align=3Dabsmiddle src=3D'/script/images/sitebuild_icon.gi=
+f'><a href=3D"/script/submit/ReportProblem.asp?GUID=3Dmakeversion%2Fcpp5=
+%2F24%2F2005">Broken Article?</a></td><td nowrap class=3DsmallText><img =
+align=3Dabsmiddle src=3D'/images/link.gif'><a href=3D"/script/profile/ad=
+d_bookmark.asp?t=3D0&ct=3D%2Fcpp%2Fmakeversion%2Easp&guid=3Dmakeversion%=
+2Fcpp5%2F24%2F2005">Bookmark</a></td><td nowrap class=3DsmallText><img a=
+lign=3Dabsmiddle src=3D'/images/mail_small.gif'> <a href=3D'#__comments'=
+>Discuss</a></td><td nowrap class=3DsmallText><img align=3Dabsmiddle src=
+=3D'/images/mail.gif'> <a href=3D"/script/recommend/form.asp?guid=3Dmake=
+version%2Fcpp5%2F24%2F2005">Send to a friend</a></td></tr></table>
+		</td>
+		<td align=3D"right" nowrap><a name=3D"__top"></a><table><tr><td align=3D=
+right class=3DsmallText>13 votes  for this article.</td><td>
+<table border=3D"2" cellpadding=3D"0" cellspacing=3D"0"><tr>
+<td><img src=3D'/script/images/red.gif' width=3D'20' height=3D'5' border=
+=3D'0'></td>
+<td><img src=3D'/script/images/red.gif' width=3D'20' height=3D'5' border=
+=3D'0'></td>
+<td><img src=3D'/script/images/red.gif' width=3D'20' height=3D'5' border=
+=3D'0'></td>
+<td><img src=3D'/script/images/red.gif' width=3D'20' height=3D'5' border=
+=3D'0'></td>
+<td><img src=3D'/script/images/red.gif' width=3D'1' height=3D'5' border=3D=
+'0'><img src=3D'/script/images/white.gif' width=3D'19' height=3D'5' bord=
+er=3D'0'></td>
+</tr></table>
+</td></tr><tr><td colspan=3D2 align=3Dright class=3DsmallText><a href=3D=
+'/script/articles/top_articles.asp?st=3D2' title=3D'Calculated as rating=
+ x Log10(# votes)'>Popularity: 4.48</a>. Rating: <b>4.03</b> out of 5.</=
+td></tr></table></td></tr>
+		</table>
+		=
+
+			=
+
+	</td>
+</tr>
+
+<tr>
+	<td class=3D"ArticlePane">
+
+<span id=3D"intelliTXT">
+<div id=3D"contentdiv">
+
+
+<!-- Article Starts -->
+
+
+<UL class=3Ddownload>
+<LI><A href=3D"makeversion/makeversion_src.zip">Download source files - =
+3.15 Kb</A> =
+
+<LI><A href=3D"makeversion/makeversion_exe.zip">Download EXE file - 18.6=
+ Kb</A> </LI></UL>
+<P><IMG height=3D339 src=3D"makeversion/makeversion.gif" width=3D335></P=
+>
+<H2>Introduction</H2>
+<P>There are many articles and applications posted here, but I couldn't =
+find one that could do what I wanted. I don't want to add any plug-in to=
+ Visual Studio, or modify any <I>.rc</I> files that the IDE should maint=
+ain and modify. I want to add more version info like build date. Some of=
+ the solutions given here are good but are not complete. They represent =
+only a starting point to my solution.</P>
+<H2>Solution</H2>
+<P>The goal is to add dynamic version numbers in the <I>.rc</I> file of =
+your project and a build a date string. Starting from the point that the=
+ .rc file of your project supports <CODE><span class=3D'cpp-preprocessor=
+'>#include</span></CODE> directives, I made the following:</P>
+<OL>
+<LI>Defined some constants: <PRE><span class=3D'cpp-preprocessor'>#defin=
+e VERSION_MAJOR 4</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_MINOR 5</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_BUILD 46</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_QFE 11</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_BUILD_DATE "24/05/2005"=
+</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_BUILD_TIME "08:37:55UTC=
+"</span>
+
+<span class=3D'cpp-preprocessor'>#define _STR(x) #x</span>
+<span class=3D'cpp-preprocessor'>#define STR(x) _STR(x)</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_NUMBER VERSION_MAJOR,VE=
+RSION_MINOR,</span>
+                                  VERSION_BUILD,VERSION_QFE
+<span class=3D'cpp-preprocessor'>#define VERSION_STRING STR(VERSION_MAJO=
+R) "." STR(VERSION_MINOR) "." \</span>
+                               STR(VERSION_BUILD) <span class=3D'cpp-str=
+ing'>"."</span> STR(VERSION_QFE)
+
+<span class=3D'cpp-preprocessor'>#define VERSION_COMPANY ""</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_COPYRIGHT "(C) Gugulea =
+2005"</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_TRADEMARK ""</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_BUILD_DATE_TIME VERSION=
+_BUILD_DATE " - " \</span>
+                                                 VERSION_BUILD_TIME</PRE=
+>
+<P>The version of a file looks like this: 4.5.46.11. The numbers represe=
+nt the major, minor, build and qfe numbers of your product. I chose to m=
+odify the build number, though my solution easily supports modifications=
+ of any of the numbers and even adds more.</P>
+<LI>Put all these <CODE><span class=3D'cpp-preprocessor'>#define</span><=
+/CODE>s in a <I>version.h</I> file, which I'll include in the <I>.rc</I>=
+ file: <PRE><span class=3D'cpp-preprocessor'>#ifndef _MAC</span>
+<span class=3D'cpp-comment'>/////////////////////////</span>
+<span class=3D'cpp-comment'>//</span>
+<span class=3D'cpp-comment'>// Version</span>
+<span class=3D'cpp-comment'>//</span>
+<span class=3D'cpp-preprocessor'>#include "version.h"</span>
+.........................
+<span class=3D'cpp-preprocessor'>#endif    // !_MAC</span></PRE>
+<P>because only some of these numbers/strings are modified, I have separ=
+ated them into <I>version.ver</I>:</P><PRE><span class=3D'cpp-preprocess=
+or'>#define VERSION_MAJOR 4</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_MINOR 5</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_BUILD 46</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_QFE 11</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_BUILD_DATE "24/05/2005"=
+</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_BUILD_TIME "08:37:55UTC=
+"</span></PRE>
+<P>and <I>version.h</I>:</P><PRE><span class=3D'cpp-preprocessor'>#inclu=
+de "version.ver"</span>
+
+<span class=3D'cpp-preprocessor'>#define _STR(x) #x</span>
+<span class=3D'cpp-preprocessor'>#define STR(x) _STR(x)</span>
+
+<span class=3D'cpp-preprocessor'>#define VERSION_NUMBER VERSION_MAJOR,VE=
+RSION_MINOR,</span>
+                              VERSION_BUILD,VERSION_QFE
+<span class=3D'cpp-preprocessor'>#define VERSION_STRING STR(VERSION_MAJO=
+R) "." STR(VERSION_MINOR) "." \</span>
+                                 STR(VERSION_BUILD) <span class=3D'cpp-s=
+tring'>"."</span> STR(VERSION_QFE)
+<span class=3D'cpp-preprocessor'>#define VERSION_COMPANY ""</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_COPYRIGHT "(C) Gugulea =
+2005"</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_TRADEMARK ""</span>
+<span class=3D'cpp-preprocessor'>#define VERSION_BUILD_DATE_TIME VERSION=
+_BUILD_DATE " - " \</span>
+                                          VERSION_BUILD_TIME</PRE>
+<P><I>version.h</I> includes <I>version.ver</I> and is included by the <=
+I>.rc</I> file, therefore instead of adding the version numbers directly=
+ into the <I>.rc</I> files I have separated them into more files. The on=
+ly file that will be modified is the <I>version.ver</I> file, which is p=
+retty simple and easy to maintain and modify, and it will be the only on=
+e that will be automatically modified on each build.</P>
+<P>The <I>.rc</I> file will look like this:</P><PRE><span class=3D'cpp-p=
+reprocessor'>#ifndef _MAC</span>
+<span class=3D'cpp-comment'>//////////////////////////////////////////</=
+span>
+<span class=3D'cpp-comment'>//</span>
+<span class=3D'cpp-comment'>// Version</span>
+<span class=3D'cpp-comment'>//</span>
+<span class=3D'cpp-preprocessor'>#include "version.h"</span>
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION VERSION_NUMBER
+PRODUCTVERSION VERSION_NUMBER
+...
+VALUE <span class=3D'cpp-string'>"Build Date"</span>, VERSION_BUILD_DATE=
+_TIME <span class=3D'cpp-string'>"\0"</span>
+VALUE <span class=3D'cpp-string'>"CompanyName"</span>, VERSION_COMPANY <=
+span class=3D'cpp-string'>"\0"</span>
+VALUE <span class=3D'cpp-string'>"FileVersion"</span>, VERSION_STRING <s=
+pan class=3D'cpp-string'>"\0"</span>
+VALUE <span class=3D'cpp-string'>"LegalCopyright"</span>, VERSION_COPYRI=
+GHT <span class=3D'cpp-string'>"\0"</span>
+VALUE <span class=3D'cpp-string'>"LegalTrademarks"</span>, VERSION_TRADE=
+MARK <span class=3D'cpp-string'>"\0"</span>
+VALUE <span class=3D'cpp-string'>"ProductVersion"</span>, VERSION_STRING=
+ <span class=3D'cpp-string'>"\0"</span>
+...
+<span class=3D'cpp-preprocessor'>#endif    // !_MAC</span></PRE>
+<P>The "Build Date" string is added manually and will appear in the vers=
+ion tab of the module, DLL or EXE.</P>
+<P>Now there is another problem with Visual C++ and <I>.rc</I> files. If=
+ you modify some of the resources or add new resources to your applicati=
+on it will overwrite the version strings. Therefore you can put all the =
+previous part in a <I>.rc2</I> file, which you can include in the <I>.rc=
+</I> file.</P>
+<P>That's all, the two files that you have included in the resource file=
+s are: <I>version.h</I> and <I>version.ver</I>. The last one will be mod=
+ified by an external application, whereas the resource files are not tou=
+ched. The file <I>makeversion.exe</I> will update the <CODE>VERSION_BUIL=
+D_DATE</CODE> and the <CODE>VERSION_BUILD_TIME</CODE> values to the curr=
+ent ones and will increment the <CODE>VERSION_BUILD</CODE> number. You c=
+an modify it to update any of the numbers in <I>version.ver</I>, like fo=
+r example <CODE>VERSION_MINOR</CODE>.</P>
+<LI>Run the makeversion tool at build time. For VC6 you have to add it i=
+n the "Pre-link step" entry of your project. <PRE lang=3Dtext>For Releas=
+e:
+makeversion.exe /inc version.ver
+rc.exe /l 0x409 /fo"Release/cdcdcd.res" /d "NDEBUG" "C:\cdcdcd.rc"
+
+For Debug:
+makeversion.exe version.ver
+rc.exe /l 0x409 /fo"Debug/cdcdcd.res" /d "_DEBUG" "C:\cdcdcd.rc"</PRE>
+<P>The <CODE>rc</CODE> command can be found in the Build log of the proj=
+ect.</P></LI></OL>
+<P>The /inc option will increment the build number and should only be ad=
+ded in the release version of your product. <I>makeversion.c</I> is writ=
+ten in C; <I>version.ver</I> file contains the standard <CODE><span clas=
+s=3D'cpp-preprocessor'>#define</span></CODE> directives and doesn't supp=
+ort any comments; empty lines are also ignored; /h or /? options in the =
+command line shows more parameters. If <I>version.ver</I> file does not =
+exist it will be automatically created. If it is empty it will be filled=
+ with default version 1.0.0.0 and the current time and date.</P>
+
+<!-- Article Ends -->
+
+
+
+</div>
+</span>
+
+<script type=3D"text/javascript" src=3D"/script/togglePre.js"></script>
+
+<h2>gugulea</h2>
+<div style=3D"overflow:hidden"><table border=3D0><tr valign=3Dtop><td no=
+wrap class=3DsmallText ><br></td><td class=3DsmallText><p class=3DsmallT=
+ext>Click <a href=3D'/script/profile/whos_who.asp?vt=3Darts&id=3D1977854=
+'>here</a> to view gugulea's online profile.</p></td></tr></table></div>=
+<br>
+<table cellpadding=3D4 width=3D'100%' border=3D0><tr valign=3Dtop>
+<td width=3D'100%'><h2>Other popular C++ / MFC articles:</h2><ul><li><a =
+href=3D"/cpp/FastDelegate.asp">Member Function Pointers and the Fastest =
+Possible C++ Delegates</a><div class=3D"smallText">A comprehensive tutor=
+ial on member function pointers, and an implementation of delegates that=
+ generates only two ASM opcodes!</div></li><li><a href=3D"/cpp/exception=
+handler.asp">How a C++ compiler implements exception handling</a><div cl=
+ass=3D"smallText">An indepth discussion of how VC++ implements exception=
+ handling. Source code includes exception handling library for VC++.</di=
+v></li><li><a href=3D"/cpp/Differentiation.asp">Symbolic Differentiation=
+</a><div class=3D"smallText">This article demonstrates differentiating e=
+xpressions using a stack and displaying the input expression and its der=
+ivative.</div></li><li><a href=3D"/cpp/pointers.asp">A Beginner's Guide =
+to Pointers</a><div class=3D"smallText">An article showing the use of po=
+inters in C and C++</div></li></ul></td>
+<td width=3D360>
+<script language=3Djavascript>document.write("<IFRAME src=3D\"/script/an=
+n/ServeHTML.aspx?C=3DFalse&id=3D2257&cb=3D3836812\" border=3D0 framebord=
+er=3D0 scrolling=3Dno width=3D300 height=3D250></IFRAME>");</script>
+</td>
+</tr></table>
+
+		<form action=3D"/script/rating/code/app/insert_vote.asp" method=3D"pos=
+t">
+		<input type=3D"hidden" name=3D"vote_name" value=3D"makeversion/cpp5/24=
+/2005">
+		<input type=3D"hidden" name=3D"goal" value=3D"/cpp/makeversion.asp">
+
+<table bgColor=3D#ff9900 border=3D0 cellPadding=3D1 cellSpacing=3D0 widt=
+h=3D"100%">
+<tr><td width=3D"100%">
+<table bgColor=3D#FBEDBB border=3D0 cellPadding=3D4 cellSpacing=3D0 widt=
+h=3D"100%"><tr>
+<td valign=3Dmiddle class=3Dsmalltext>[<a href=3D"#__top">Top</a>]</td>
+<td align=3Dright valign=3Dmiddle nowrap >
+<i><b>Rate this Article for us!</b></i>&nbsp;&nbsp;&nbsp;&nbsp; <i>Poor<=
+/i><input type=3Dradio value=3D'1'  name=3Drate><input type=3Dradio valu=
+e=3D'2'  name=3Drate><input type=3Dradio value=3D'3'  name=3Drate><input=
+ type=3Dradio value=3D'4'  name=3Drate><input type=3Dradio value=3D'5'  =
+name=3Drate><i>Excellent</i>&nbsp;&nbsp;<input type=3Dsubmit value=3DVot=
+e class=3DFormButton >
+</td></tr>
+</table></td></tr></table>
+</form>
+<center>
+<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0"><tr>
+<td width=3D"120" height=3D60 style=3D"background-color:#eee;padding:2;"=
+><div align=3D"center">
+<script language=3Djavascript>document.write("<a href=3D\"/script/adment=
+or/admentorredir.asp?id=3D2839&way=3Dban\" target=3D_blank><img src=3D\"=
+/script/ann/ServeImg.aspx?File=3D%2Fscript%2Fadmentor%2Fimages%2Fvista%5=
+Fgadgets%5Fcp%5Fcompetition%5F120x60v4%2Egif&C=3DFalse&id=3D2839&cb=3D38=
+36816\" alt=3D\"\" border=3D0 width=3D120 height=3D60></a>");</script>
+</div></td>
+<td width=3D100>&nbsp;</td>
+<td height=3D60 width=3D"468"><span id=3DAdBanner5><script language=3Dja=
+vascript>document.write("<a href=3D\"/script/admentor/admentorredir.asp?=
+id=3D2822&way=3Dban\" target=3D_blank><img src=3D\"/script/ann/ServeImg.=
+aspx?File=3D%2Fscript%2Fadmentor%2Fimages%2Fvista%5Fapi%5Fcp%5Fcompetiti=
+on%5F468x60v4%2Egif&C=3DFalse&id=3D2822&cb=3D3836799\" alt=3D\"\" border=
+=3D0 width=3D468 height=3D60></a>");</script></span></td>
+</tr></table></center>
+
+<a name=3D'__comments'></a>
+
+<script language=3D"JavaScript">
+
+function MsgVoteForm(MemberID, MsgID)
+{
+	document.write("<span id=3D\"MVF" + MsgID + "\">");
+	document.write("Rate this message: ");
+	for (var i=3D1; i<=3D5;i++)
+	{
+		document.write("<a href=3D'#xx" + MsgID.toString() + "xx' title=3D'giv=
+e this message a vote of " + i.toString());
+		document.write("' onclick=3D'return RateMsg(" + MemberID.toString() + =
+", " + MsgID.toString() + ", ");
+		document.write(i.toString() + ")'><b>" + i.toString() + "</b></a> ");
+	}
+	document.write(" (out of 5)");
+	document.writeln("</span>");
+	=
+
+	document.write("<br />Report as <a href=3D'#xx" + MsgID.toString() + "x=
+x' title=3D'Mark as Spam' onclick=3D'return ReportMsg(" + MemberID.toStr=
+ing());
+	document.writeln(", " + MsgID.toString() + ",-1)'>Spam</a> or ");
+	document.write("<a href=3D'#xx" + MsgID.toString() + "xx' title=3D'Mark=
+ as Abuse' onclick=3D'return ReportMsg(" + MemberID.toString());
+	document.writeln(", " + MsgID.toString() + ",-2)'>Abuse</a>");
+}
+
+function RetypeForm(MemberID, MsgID)
+{
+	var types =3D [
+				 {pic:'news_general.gif',  id: 1},
+	             {pic:'news_info.gif',     id: 2},
+	             {pic:'news_question.gif', id: 4},
+	             {pic:'news_answer.gif',   id: 8},
+	             {pic:'news_game.gif',     id: 16},
+	             {pic:'news_spam.gif',     id: 32}
+	            ];
+	=
+
+	document.write("<span id=3D\"RTF" + MsgID + "\">");
+	for (var i=3D0;i<types.length;i++)
+	{
+		document.write("<a href=3D'/script/comments/retype?msg=3D" + MsgID.toS=
+tring());
+		document.write("&mid=3D" + MemberID.toString() + "&type=3D" + types[i]=
+.id + "'>");
+		document.write("<img border=3D0 src=3D'/script/images/" + types[i].pic=
+ + "'></a><br />");
+	}
+	document.writeln("</span>");
+}
+
+function ReportMsg(userid, msgid, score)
+{
+	if (confirm("Are you sure you want to report this message?") =3D=3D tru=
+e)
+		return RateMsg(userid, msgid, score);
+	else return false;
+}
+
+
+function RateMsg(userid, msgid, score)
+{
+
+   var req =3D new XMLHttpRequest();
+
+   req.onreadystatechange =3D function()
+   {
+      if ( req.readyState =3D=3D 4 )
+      {
+         if ( req.status =3D=3D 200 )
+         {
+         	var respText =3D req.responseText;
+         	var re =3D new RegExp("\<div\>([^\<]*)\</div\>", "g");
+         	var match =3D re.exec(respText);
+         	status.innerHTML =3D "<b>" + (match)?match[1]:"An error occure=
+d" + "</b>";
+         }
+         else
+         {
+            status.innerHTML =3D "<b style=3D'color:red'>Failed!" + req.=
+statusText + "</b>";
+         }
+      }
+   }
+   =
+
+   var status =3D document.getElementById("MVF" + msgid);
+   if (!status) return;  // should never happen...   =
+
+   status.innerHTML =3D "<b style=3D'color:green'>Voting...</b>";
+   =
+
+   var strAction =3D "/script/comments/vote.asp?js=3D1&user=3D"+userid+"=
+&msg=3D"+msgid+"&score=3D"+score;
+   req.open("GET", strAction, true);
+   req.send(null);
+   return false;
+}
+
+</script>
+
+
+<script language=3D"JavaScript">
+var Selected =3D "";
+
+var AdTime =3D new Date();
+
+
+// Ensures the expanded message appears reasonably close to where =
+
+// it should appear: on screen, and if possible, under the mouse cursor.=
+
+function SwitchMessage(e)
+{
+   if ( !e ) e =3D window.event;
+   var target =3D e.target ? e.target : e.srcElement;
+
+   // is it a post?
+   while ( target && target.id !=3D 'DynMessLink' )
+      target =3D target.parentNode;
+   if ( !target || target.id !=3D 'DynMessLink' )
+      return;
+
+   if (Selected)
+   {
+      var body =3D document.getElementById(Selected + "_h1");
+      if (body)
+         body.style.display =3D 'none';
+      var head =3D document.getElementById(Selected + "_h0");
+      if (head)
+         head.bgColor =3D '#FEF9E7';
+   }
+
+   if (Selected =3D=3D target.name) // just collapse
+      Selected=3D"";
+   else
+   {
+      Selected =3D target.name;
+      var body =3D document.getElementById(Selected + "_h1");
+      if (body)
+      {
+         if (body.style.display=3D=3D'none')
+            body.style.display=3D'';
+         else
+            body.style.display =3D 'none';
+      }
+      var head =3D document.getElementById(Selected + "_h0");
+      if (head)
+         head.bgColor =3D '#99CCFF';
+
+      if ( body && head && body.style.display !=3D 'none' )
+      {
+         // the bit that keeps the post on-screen and under the cursor
+         //var dif =3D (getRealPos(head, "Top") + head.offsetHeight/2) -=
+ (document.body.scrollTop+e.clientY);
+         //document.body.scrollTop +=3D dif;
+         document.body.scrollTop =3D getRealPos(head, "Top") - document.=
+body.clientHeight/10;
+         EnsureMessageVisible(target.name, true);
+      }
+   }
+
+   if ( e.preventDefault )
+      e.preventDefault();
+   else
+      e.returnValue =3D false;
+   return false;
+}
+
+// does its best to make a message visible on-screen (vs. scrolled off s=
+omewhere).
+function EnsureMessageVisible(msgID, bShowTop) {
+   var msgHeader =3D document.getElementById(msgID + "_h0");
+   var msgBody =3D document.getElementById(msgID + "_h1");
+
+   // determine scroll position of top and bottom
+   var scrollContainer =3D document.body;
+   var top =3D getRealPos(msgHeader, 'Top');
+   var bottom =3D getRealPos(msgBody, 'Top') + msgBody.offsetHeight;
+
+   // if not already visible, scroll to make it so
+   if ( scrollContainer.scrollTop > top && !bShowTop)
+      scrollContainer.scrollTop =3D top - document.body.clientHeight/10;=
+
+   if ( scrollContainer.scrollTop+scrollContainer.clientHeight < bottom =
+)
+      scrollContainer.scrollTop =3D bottom-scrollContainer.clientHeight;=
+
+   if ( scrollContainer.scrollTop > top && bShowTop)
+      scrollContainer.scrollTop =3D top - document.body.clientHeight/10;=
+
+}
+
+// utility
+function getRealPos(i,which)
+{
+   iPos =3D 0
+   while (i!=3Dnull)
+   {
+      iPos +=3D i["offset" + which];
+      i =3D i.offsetParent;
+   }
+   return iPos
+}
+
+
+</script>
+<div id=3D"_MessageBoard" onclick=3D"SwitchMessage(event)"><table border=
+=3D0 bgcolor=3D'#ff9900' width=3D100% cellpadding=3D0 cellspacing=3D0><t=
+r><td width=3D'100%'><table border=3D0 id=3DForumTable bgcolor=3D'#ff990=
+0' width=3D100% cellpadding=3D0 cellspacing=3D1><form action=3D'/script/=
+comments/app/do_filtermessages.asp?main=3D/cpp/makeversion.asp&df=3D100&=
+forumid=3D183690' method=3Dpost><tr><td><table width=3D100% bgcolor=3Dwh=
+ite border=3D0 cellspacing=3D0 cellpadding=3D3><tr bgcolor=3D#FBEDBB><td=
+ nowrap class=3Dsmalltext><a href=3D'/script/comments/faq.asp'><img src=3D=
+'/script/images/forum_faq.GIF' border=3D0 width=3D16 height=3D16 align=3D=
+absmiddle> <b>FAQ</b></a>&nbsp;</td><td nowrap valign=3Dtop align=3Drigh=
+t class=3Dsmalltext>Message score threshold <select size=3D1 name=3Dnois=
+e class=3Dsmalltext><option value=3D"1">1.0 </option>
+<option value=3D"2">2.0</option>
+<option selected value=3D"3">3.0</option>
+<option value=3D"4">4.0</option>
+<option value=3D"5">5.0</option>
+</select>&nbsp;&nbsp;</td><td class=3Dsmalltext nowrap align=3Dright val=
+ign=3Dmiddle colspan=3D2><a href=3D'/script/comments/search_comments.asp=
+?forumid=3D183690'><img src=3D"/script/images/forum_search.gif" width=3D=
+16 height=3D15 border=3D0> Search comments</a> &nbsp;</td><td valign=3Dt=
+op align=3Dright><input type=3Dsubmit value=3D'Set Options' name=3Dsubmi=
+t class=3DFormButton></td></tr><tr bgcolor=3D'#ff9900'><td width=3D'100%=
+'>&nbsp;</td><td nowrap align=3Dright valign=3Dtop class=3Dsmalltext>Vie=
+w <select size=3D1 name=3Dexpand class=3Dsmalltext><option value=3D"0">N=
+ormal (slow)</option>
+<option value=3D"2">Preview (slow)</option>
+<option selected value=3D"5">Message View</option>
+<option value=3D"6">Topic View</option>
+<option value=3D"1">Thread View</option>
+<option value=3D"3">Expanded (Supporters only)</option>
+</select>&nbsp;&nbsp;</td><td nowrap valign=3Dtop class=3Dsmalltext>Per =
+page <select size=3D1 name=3Dperpage class=3Dsmalltext><option value=3D"=
+10">10</option>
+<option selected value=3D"25">25</option>
+<option value=3D"50">50</option>
+</select></td><td colspan=3D2>&nbsp;</td></tr></table>
+</td></tr></form><tr bgcolor=3D#FBEDBB><td><a name=3Dxx0xx></a><table bo=
+rder=3D0 cellpadding=3D2 width=3D100% bgcolor=3D#FBEDBB><tr><td class=3D=
+messagetitle><img src=3D'/script/images/forum_newmsg.gif' width=3D16 hei=
+ght=3D16 border=3D0 align=3Dtop><a href=3D'/script/comments/user_new.asp=
+?main=3D/cpp/makeversion.asp&df=3D100&forumid=3D183690'  class=3DHoverLi=
+nk  target=3D_top name=3DHoverNL title=3D'Add a new message to the discu=
+ssions'><b>New Message</b></a></td><td class=3Dmessagetitle>Msgs 1 to 8 =
+of 8 (Total: 8) (<a href=3D'/cpp/makeversion.asp?df=3D100&forumid=3D1836=
+90'>Refresh</a>)</td><td align=3Dright nowrap><font class=3Dmessagetitle=
+><span class=3DHoverLink >First</span> <span class=3DHoverLink >Prev</sp=
+an> <span class=3DHoverLink >Next</span> <span class=3DHoverLink >&nbsp;=
+&nbsp;&nbsp;&nbsp;</span> </font></td></tr></table>
+</td></tr><tr bgcolor=3Dwhite><td><table border=3D0 cellspacing=3D0 cell=
+padding=3D0 width=3D'100%' border=3D0><tr><td width=3D'70%' colspan=3D2 =
+bgcolor=3D#FBEDBB><table border=3D0 cellspacing=3D0 cellpadding=3D2 widt=
+h=3D'100%'><tr><td class=3Dmessagetitle>Subject&nbsp;</td></tr></table><=
+/td><td width=3D140 bgcolor=3D#FBEDBB><table border=3D0 cellspacing=3D0 =
+cellpadding=3D0 width=3D'100%'><tr><td><img src=3D'/script/images/t.gif'=
+ border=3D0 width=3D1 height=3D1></td></tr><tr><td class=3Dmessagetitle>=
+Author&nbsp;</td></tr><tr><td><img src=3D'/script/images/t.gif' border=3D=
+0 width=3D1 height=3D1></td></tr></table></td><td width=3D'12%' bgcolor=3D=
+#FBEDBB><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%'=
+><tr><td><img src=3D'/script/images/t.gif' border=3D0 width=3D1 height=3D=
+1></td></tr><tr><td align=3Dright class=3Dmessagetitle>Date&nbsp;</td></=
+tr><tr><td><img src=3D'/script/images/t.gif' border=3D0 width=3D1 height=
+=3D1></td></tr></table></td></tr>
+<tr><td colspan=3D4><img src=3D'/script/images/t.gif' border=3D0 width=3D=
+1 height=3D5></td></tr><tr bgcolor=3D'#FEF9E7' id=3D1666369_h0><td width=
+=3D'70%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%=
+'><tr><td bgcolor=3Dwhite><a name=3D'xx1666369xx'></a><img align=3Dabsmi=
+ddle src=3D'/script/images/news_general.gif'>&nbsp;</td>
+<td width=3D'100%' class=3Dmessagetitle><a class=3Dmessagetitle id=3DDyn=
+MessLink name=3D1666369 href=3D'/cpp/makeversion.asp?df=3D100&forumid=3D=
+183690&select=3D1666369#xx1666369xx'><b>KB Q237870</b></a></td></tr></ta=
+ble></td><td valign=3Dbottom nowrap><a href=3D'/script/profile/whos_who.=
+asp?id=3D1797577'><img src=3D'/script/images/userinfo.gif' title=3D'Clic=
+k for User Profile' border=3D0 width=3D14 height=3D15></a>&nbsp;</td><td=
+ width=3D'140' nowrap><font class=3Dmessagetitle ><b>p e r t h e l i</b>=
+&nbsp;</font></td><td nowrap align=3Dright width=3D'12%'><font class=3Dm=
+essagetitle ><b>21:32 12 Sep '06</b>&nbsp;</font></td></tr>
+<tr id=3D1666369_h1 style=3D'display:none' ><td colspan=3D4 width=3D'100=
+%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr>=
+<td><img align=3Dabsmiddle src=3D'/script/images/news_blank.gif'>&nbsp;<=
+/td><td bgcolor=3D'#D5EAFF' width=3D'100%'><table border=3D0 cellspacing=
+=3D5 cellpadding=3D0 width=3D'100%'><tr><td><table border=3D0 cellspacin=
+g=3D0 cellpadding=3D0 width=3D'100%'><tr><td colspan=3D2><font class=3Dm=
+essagecontent>A similar article:<br>Microsoft Knowledge Base article Q23=
+7870<br>"How to increment version information after each build in Visual=
+ C++"<br>http://support.microsoft.com/kb/q237870/ <br>&nbsp;</font></td>=
+</tr><tr valign=3Dtop><td class=3Dmessagetitle>[<a href=3D'/script/comme=
+nts/user_reply.asp?main=3D/cpp/makeversion.asp&df=3D100&forumid=3D183690=
+&select=3D1666369' title=3D'Reply to this current thread'>Reply</a> | <a=
+ href=3D'/script/comments/user_mail.asp?main=3D/cpp/makeversion.asp&df=3D=
+100&forumid=3D183690&select=3D1666369'  title=3D'Email a reply to the au=
+thor of this message'>Email</a> | <a href=3D'/cpp/makeversion.asp?df=3D1=
+00&tid=3D1666369&forumid=3D183690&select=3D1666369#xx1666369xx' title=3D=
+'View only messages within this thread'>View Thread</a> | <a href=3D'/cp=
+p/makeversion.asp?msg=3D1666369#xx1666369xx' title=3D'Get the URL for th=
+is message'>Get Link</a>]</td><td align=3Dright class=3Dmessagetitle> <s=
+cript language=3DJavascript>MsgVoteForm(1797577,1666369);</script></td><=
+/tr></table></td></tr></table></td></tr></table></td></tr>
+<tr><td colspan=3D4><img src=3D'/script/images/t.gif' border=3D0 width=3D=
+1 height=3D5></td></tr><tr height=3D1><td colspan=3D4 bgcolor=3D'#ff9900=
+'><img src=3D'/script/images/t.gif' width=3D1 height=3D1></td></tr><tr b=
+gcolor=3D'#FEF9E7' id=3D1533191_h0><td width=3D'70%'><table border=3D0 c=
+ellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr><td bgcolor=3Dwhite><a=
+ name=3D'xx1533191xx'></a><img align=3Dabsmiddle src=3D'/script/images/n=
+ews_general.gif'>&nbsp;</td>
+<td width=3D'100%' class=3Dmessagetitle><a class=3Dmessagetitle id=3DDyn=
+MessLink name=3D1533191 href=3D'/cpp/makeversion.asp?df=3D100&forumid=3D=
+183690&select=3D1533191#xx1533191xx'><b>the version numbers</b></a></td>=
+</tr></table></td><td valign=3Dbottom nowrap><a href=3D'/script/profile/=
+whos_who.asp?id=3D1977854'><img src=3D'/script/images/userinfo.gif' titl=
+e=3D'Click for User Profile' border=3D0 width=3D14 height=3D15></a>&nbsp=
+;</td><td width=3D'140' nowrap><font class=3Dmessagetitle ><b>gugulea</b=
+>&nbsp;</font></td><td nowrap align=3Dright width=3D'12%'><font class=3D=
+messagetitle ><b>2:57 15 Jun '06</b>&nbsp;</font></td></tr>
+<tr id=3D1533191_h1 style=3D'display:none' ><td colspan=3D4 width=3D'100=
+%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr>=
+<td><img align=3Dabsmiddle src=3D'/script/images/news_blank.gif'>&nbsp;<=
+/td><td bgcolor=3D'#D5EAFF' width=3D'100%'><table border=3D0 cellspacing=
+=3D5 cellpadding=3D0 width=3D'100%'><tr><td><table border=3D0 cellspacin=
+g=3D0 cellpadding=3D0 width=3D'100%'><tr><td colspan=3D2><font class=3Dm=
+essagecontent>Extras from a Microsoft tutorial:<br><br>The parts of the =
+version number are major, minor, build and revision. There are no semant=
+ics applied to the parts of the version number. That is, the common lang=
+uage runtime does not infer compatibility or any other characteristic of=
+ an assembly based on how the version number is assigned (version 1.0.0.=
+0 of some assembly and version 2.1.0.2 are completely different identiti=
+es as far as the class loader is concerned). As a developer you are free=
+ to change any portion of this number as you see fit. Even though there =
+are no semantics applied to the format of the version number, individual=
+ organizations will likely find it useful to establish conventions aroun=
+d how the version number is changed. This helps maintain consistency thr=
+oughout an organization and makes it easier to determine things like whi=
+ch build a particular assembly came from. One typical convention is as f=
+ollows:<br><br>Major or minor. Changes to the major or minor portion of =
+the version number indicate an incompatible change. Under this conventio=
+n then, version 2.0.0.0 would be considered incompatible with version 1.=
+0.0.0. Examples of an incompatible change would be a change to the types=
+ of some method parameters or the removal of a type or method altogether=
+.<br><br>Build. The Build number is typically used to distinguish betwee=
+n daily builds or smaller compatible releases.<br><br>Revision. Changes =
+to the revision number are typically reserved for an incremental build n=
+eeded to fix a particular bug. You'll sometimes hear this referred to as=
+ the "emergency bug fix" number in that the revision is what is often ch=
+anged when a fix to a specific bug is shipped to a customer.<br><br>An a=
+ssembly with compatibility version number 2.0.0.0 is then considered inc=
+ompatible with an assembly whose compatibility version number is 1.0.0.0=
+. Also, compatibility number 2.0.2.11 is considered a QFE to compatibili=
+ty number 2.0.2.1. <br>&nbsp;</font></td></tr><tr valign=3Dtop><td class=
+=3Dmessagetitle>[<a href=3D'/script/comments/user_reply.asp?main=3D/cpp/=
+makeversion.asp&df=3D100&forumid=3D183690&select=3D1533191' title=3D'Rep=
+ly to this current thread'>Reply</a> | <a href=3D'/script/comments/user_=
+mail.asp?main=3D/cpp/makeversion.asp&df=3D100&forumid=3D183690&select=3D=
+1533191'  title=3D'Email a reply to the author of this message'>Email</a=
+> | <a href=3D'/cpp/makeversion.asp?df=3D100&tid=3D1533191&forumid=3D183=
+690&select=3D1533191#xx1533191xx' title=3D'View only messages within thi=
+s thread'>View Thread</a> | <a href=3D'/cpp/makeversion.asp?msg=3D153319=
+1#xx1533191xx' title=3D'Get the URL for this message'>Get Link</a>]</td>=
+<td align=3Dright class=3Dmessagetitle>Score: 2.0 (1 vote).  <script lan=
+guage=3DJavascript>MsgVoteForm(1977854,1533191);</script></td></tr></tab=
+le></td></tr></table></td></tr></table></td></tr>
+<tr><td colspan=3D4><img src=3D'/script/images/t.gif' border=3D0 width=3D=
+1 height=3D5></td></tr><tr height=3D1><td colspan=3D4 bgcolor=3D'#ff9900=
+'><img src=3D'/script/images/t.gif' width=3D1 height=3D1></td></tr><tr b=
+gcolor=3D'#FEF9E7' id=3D1521899_h0><td width=3D'70%'><table border=3D0 c=
+ellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr><td bgcolor=3Dwhite><a=
+ name=3D'xx1521899xx'></a><img align=3Dabsmiddle src=3D'/script/images/n=
+ews_general.gif'>&nbsp;</td>
+<td width=3D'100%' class=3Dmessagetitle><a class=3Dmessagetitle id=3DDyn=
+MessLink name=3D1521899 href=3D'/cpp/makeversion.asp?df=3D100&forumid=3D=
+183690&select=3D1521899#xx1521899xx'><b>Good Tool</b></a></td></tr></tab=
+le></td><td valign=3Dbottom nowrap><a href=3D'/script/profile/whos_who.a=
+sp?id=3D1942930'><img src=3D'/script/images/userinfo.gif' title=3D'Click=
+ for User Profile' border=3D0 width=3D14 height=3D15></a>&nbsp;</td><td =
+width=3D'140' nowrap><font class=3Dmessagetitle ><b>chrislovevc</b>&nbsp=
+;</font></td><td nowrap align=3Dright width=3D'12%'><font class=3Dmessag=
+etitle ><b>0:27 8 Jun '06</b>&nbsp;</font></td></tr>
+<tr id=3D1521899_h1 style=3D'display:none' ><td colspan=3D4 width=3D'100=
+%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr>=
+<td><img align=3Dabsmiddle src=3D'/script/images/news_blank.gif'>&nbsp;<=
+/td><td bgcolor=3D'#D5EAFF' width=3D'100%'><table border=3D0 cellspacing=
+=3D5 cellpadding=3D0 width=3D'100%'><tr><td><table border=3D0 cellspacin=
+g=3D0 cellpadding=3D0 width=3D'100%'><tr><td colspan=3D2><font class=3Dm=
+essagecontent>This really helps me much. And I found this tool only ran =
+ok in release mode.So I modified your code to make it run well in Debug =
+mode. <br>&nbsp;</font></td></tr><tr valign=3Dtop><td class=3Dmessagetit=
+le>[<a href=3D'/script/comments/user_reply.asp?main=3D/cpp/makeversion.a=
+sp&df=3D100&forumid=3D183690&select=3D1521899' title=3D'Reply to this cu=
+rrent thread'>Reply</a> | <a href=3D'/script/comments/user_mail.asp?main=
+=3D/cpp/makeversion.asp&df=3D100&forumid=3D183690&select=3D1521899'  tit=
+le=3D'Email a reply to the author of this message'>Email</a> | <a href=3D=
+'/cpp/makeversion.asp?df=3D100&tid=3D1521899&forumid=3D183690&select=3D1=
+521899#xx1521899xx' title=3D'View only messages within this thread'>View=
+ Thread</a> | <a href=3D'/cpp/makeversion.asp?msg=3D1521899#xx1521899xx'=
+ title=3D'Get the URL for this message'>Get Link</a>]</td><td align=3Dri=
+ght class=3Dmessagetitle> <script language=3DJavascript>MsgVoteForm(1942=
+930,1521899);</script></td></tr></table></td></tr></table></td></tr></ta=
+ble></td></tr>
+<tr><td colspan=3D4><img src=3D'/script/images/t.gif' border=3D0 width=3D=
+1 height=3D5></td></tr><tr height=3D1><td colspan=3D4 bgcolor=3D'#ff9900=
+'><img src=3D'/script/images/t.gif' width=3D1 height=3D1></td></tr><tr b=
+gcolor=3D'#FEF9E7' id=3D1293224_h0><td width=3D'70%'><table border=3D0 c=
+ellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr><td bgcolor=3Dwhite><a=
+ name=3D'xx1293224xx'></a><img align=3Dabsmiddle src=3D'/script/images/n=
+ews_general.gif'>&nbsp;</td>
+<td width=3D'100%' class=3Dmessagetitle><a class=3Dmessagetitle id=3DDyn=
+MessLink name=3D1293224 href=3D'/cpp/makeversion.asp?df=3D100&forumid=3D=
+183690&select=3D1293224#xx1293224xx'><b>Nice</b></a></td></tr></table></=
+td><td valign=3Dbottom nowrap><a href=3D'/script/profile/whos_who.asp?id=
+=3D2300101'><img src=3D'/script/images/userinfo.gif' title=3D'Click for =
+User Profile' border=3D0 width=3D14 height=3D15></a>&nbsp;</td><td width=
+=3D'140' nowrap><font class=3Dmessagetitle ><b>tworca</b>&nbsp;</font></=
+td><td nowrap align=3Dright width=3D'12%'><font class=3Dmessagetitle ><b=
+>14:22 30 Nov '05</b>&nbsp;</font></td></tr>
+<tr id=3D1293224_h1 style=3D'display:none' ><td colspan=3D4 width=3D'100=
+%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr>=
+<td><img align=3Dabsmiddle src=3D'/script/images/news_blank.gif'>&nbsp;<=
+/td><td bgcolor=3D'#D5EAFF' width=3D'100%'><table border=3D0 cellspacing=
+=3D5 cellpadding=3D0 width=3D'100%'><tr><td><table border=3D0 cellspacin=
+g=3D0 cellpadding=3D0 width=3D'100%'><tr><td colspan=3D2><font class=3Dm=
+essagecontent>Thank you very much! <br>&nbsp;</font></td></tr><tr valign=
+=3Dtop><td class=3Dmessagetitle>[<a href=3D'/script/comments/user_reply.=
+asp?main=3D/cpp/makeversion.asp&df=3D100&forumid=3D183690&select=3D12932=
+24' title=3D'Reply to this current thread'>Reply</a> | <a href=3D'/scrip=
+t/comments/user_mail.asp?main=3D/cpp/makeversion.asp&df=3D100&forumid=3D=
+183690&select=3D1293224'  title=3D'Email a reply to the author of this m=
+essage'>Email</a> | <a href=3D'/cpp/makeversion.asp?df=3D100&tid=3D12932=
+24&forumid=3D183690&select=3D1293224#xx1293224xx' title=3D'View only mes=
+sages within this thread'>View Thread</a> | <a href=3D'/cpp/makeversion.=
+asp?msg=3D1293224#xx1293224xx' title=3D'Get the URL for this message'>Ge=
+t Link</a>]</td><td align=3Dright class=3Dmessagetitle> <script language=
+=3DJavascript>MsgVoteForm(2300101,1293224);</script></td></tr></table></=
+td></tr></table></td></tr></table></td></tr>
+<tr><td colspan=3D4><img src=3D'/script/images/t.gif' border=3D0 width=3D=
+1 height=3D5></td></tr><tr height=3D1><td colspan=3D4 bgcolor=3D'#ff9900=
+'><img src=3D'/script/images/t.gif' width=3D1 height=3D1></td></tr><tr b=
+gcolor=3D'#FEF9E7' id=3D1134833_h0><td width=3D'70%'><table border=3D0 c=
+ellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr><td bgcolor=3Dwhite><a=
+ name=3D'xx1134833xx'></a><img align=3Dabsmiddle src=3D'/script/images/n=
+ews_general.gif'>&nbsp;</td>
+<td width=3D'100%' class=3Dmessagetitle><a class=3Dmessagetitle id=3DDyn=
+MessLink name=3D1134833 href=3D'/cpp/makeversion.asp?df=3D100&forumid=3D=
+183690&select=3D1134833#xx1134833xx'><b>Can we have five level of versio=
+n number in File Version in properties... ???</b></a></td></tr></table><=
+/td><td valign=3Dbottom nowrap><a href=3D'/script/profile/whos_who.asp?i=
+d=3D991619'><img src=3D'/script/images/userinfo.gif' title=3D'Click for =
+User Profile' border=3D0 width=3D14 height=3D15></a>&nbsp;</td><td width=
+=3D'140' nowrap><font class=3Dmessagetitle ><b>Jigar Mehta</b>&nbsp;</fo=
+nt></td><td nowrap align=3Dright width=3D'12%'><font class=3Dmessagetitl=
+e ><b>1:51 14 Jun '05</b>&nbsp;</font></td></tr>
+<tr id=3D1134833_h1 style=3D'display:none' ><td colspan=3D4 width=3D'100=
+%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr>=
+<td><img align=3Dabsmiddle src=3D'/script/images/news_blank.gif'>&nbsp;<=
+/td><td bgcolor=3D'#D5EAFF' width=3D'100%'><table border=3D0 cellspacing=
+=3D5 cellpadding=3D0 width=3D'100%'><tr><td><table border=3D0 cellspacin=
+g=3D0 cellpadding=3D0 width=3D'100%'><tr><td colspan=3D2><font class=3Dm=
+essagecontent>Hi,<br>   I want to set five levels of version number for =
+my executable file like, 11.2.3.5.62 in the file version shown in the fi=
+le properties.. (not in the list but on the top left corner of the prope=
+rties...) If i am adding the fifth level it is giving me the error that =
+RC.exe can not be successfully executed.. So, i suppose that microsoft s=
+upports only four levels of version number.. Is it correct ?? <br><br>Ji=
+gar Mehta<br>(jigarmehta@gatescorp.com)<br><br>Software Developer<br>Gat=
+es Information Systems<br>India<br>&nbsp;</font></td></tr><tr valign=3Dt=
+op><td class=3Dmessagetitle>[<a href=3D'/script/comments/user_reply.asp?=
+main=3D/cpp/makeversion.asp&df=3D100&forumid=3D183690&select=3D1134833' =
+title=3D'Reply to this current thread'>Reply</a> | <a href=3D'/script/co=
+mments/user_mail.asp?main=3D/cpp/makeversion.asp&df=3D100&forumid=3D1836=
+90&select=3D1134833'  title=3D'Email a reply to the author of this messa=
+ge'>Email</a> | <a href=3D'/cpp/makeversion.asp?df=3D100&tid=3D1134833&f=
+orumid=3D183690&select=3D1134833#xx1134833xx' title=3D'View only message=
+s within this thread'>View Thread</a> | <a href=3D'/cpp/makeversion.asp?=
+msg=3D1134833#xx1134833xx' title=3D'Get the URL for this message'>Get Li=
+nk</a>]</td><td align=3Dright class=3Dmessagetitle> <script language=3DJ=
+avascript>MsgVoteForm(991619,1134833);</script></td></tr></table></td></=
+tr></table></td></tr></table></td></tr>
+<tr><td colspan=3D4><img src=3D'/script/images/t.gif' border=3D0 width=3D=
+1 height=3D6></td></tr><tr bgcolor=3D'#FEF9E7' id=3D1135058_h0><td width=
+=3D'70%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%=
+'><tr><td bgcolor=3Dwhite><a name=3D'xx1135058xx'></a><img height=3D1 wi=
+dth=3D18 src=3D'/script/images/ind.gif'><img align=3Dabsmiddle src=3D'/s=
+cript/images/news_general.gif'>&nbsp;</td>
+<td width=3D'100%' class=3Dmessagetitle><a class=3Dmessagetitle id=3DDyn=
+MessLink name=3D1135058 href=3D'/cpp/makeversion.asp?df=3D100&forumid=3D=
+183690&select=3D1135058#xx1135058xx'>Re: Can we have five level of versi=
+on number in File Version in properties... ???</a></td></tr></table></td=
+><td valign=3Dbottom nowrap><a href=3D'/script/profile/whos_who.asp?id=3D=
+1977854'><img src=3D'/script/images/userinfo.gif' title=3D'Click for Use=
+r Profile' border=3D0 width=3D14 height=3D15></a>&nbsp;</td><td width=3D=
+'140' nowrap><font class=3Dmessagetitle >gugulea&nbsp;</font></td><td no=
+wrap align=3Dright width=3D'12%'><font class=3Dmessagetitle >2:39 14 Jun=
+ '05&nbsp;</font></td></tr>
+<tr id=3D1135058_h1 style=3D'display:none' ><td colspan=3D4 width=3D'100=
+%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr>=
+<td><img height=3D1 width=3D18 src=3D'/script/images/ind.gif'><img align=
+=3Dabsmiddle src=3D'/script/images/news_blank.gif'>&nbsp;</td><td bgcolo=
+r=3D'#D5EAFF' width=3D'100%'><table border=3D0 cellspacing=3D5 cellpaddi=
+ng=3D0 width=3D'100%'><tr><td><table border=3D0 cellspacing=3D0 cellpadd=
+ing=3D0 width=3D'100%'><tr><td colspan=3D2><font class=3Dmessagecontent>=
+The resources compiler is expecting four comma separated numbers for FIL=
+EVERSION entry. <br>&nbsp;</font></td></tr><tr valign=3Dtop><td class=3D=
+messagetitle>[<a href=3D'/script/comments/user_reply.asp?main=3D/cpp/mak=
+eversion.asp&df=3D100&forumid=3D183690&select=3D1135058' title=3D'Reply =
+to this current thread'>Reply</a> | <a href=3D'/script/comments/user_mai=
+l.asp?main=3D/cpp/makeversion.asp&df=3D100&forumid=3D183690&select=3D113=
+5058'  title=3D'Email a reply to the author of this message'>Email</a> |=
+ <a href=3D'/cpp/makeversion.asp?df=3D100&tid=3D1134833&forumid=3D183690=
+&select=3D1135058#xx1135058xx' title=3D'View only messages within this t=
+hread'>View Thread</a> | <a href=3D'/cpp/makeversion.asp?msg=3D1135058#x=
+x1135058xx' title=3D'Get the URL for this message'>Get Link</a>]</td><td=
+ align=3Dright class=3Dmessagetitle>Score: 2.0 (1 vote).  <script langua=
+ge=3DJavascript>MsgVoteForm(1977854,1135058);</script></td></tr></table>=
+</td></tr></table></td></tr></table></td></tr>
+<tr><td colspan=3D4><img src=3D'/script/images/t.gif' border=3D0 width=3D=
+1 height=3D5></td></tr><tr height=3D1><td colspan=3D4 bgcolor=3D'#ff9900=
+'><img src=3D'/script/images/t.gif' width=3D1 height=3D1></td></tr><tr b=
+gcolor=3D'#FEF9E7' id=3D1121840_h0><td width=3D'70%'><table border=3D0 c=
+ellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr><td bgcolor=3Dwhite><a=
+ name=3D'xx1121840xx'></a><img align=3Dabsmiddle src=3D'/script/images/n=
+ews_general.gif'>&nbsp;</td>
+<td width=3D'100%' class=3Dmessagetitle><a class=3Dmessagetitle id=3DDyn=
+MessLink name=3D1121840 href=3D'/cpp/makeversion.asp?df=3D100&forumid=3D=
+183690&select=3D1121840#xx1121840xx'><b>Source Safe Auto-Chekout</b></a>=
+</td></tr></table></td><td valign=3Dbottom nowrap><a href=3D'/script/pro=
+file/whos_who.asp?id=3D108248'><img src=3D'/script/images/userinfo.gif' =
+title=3D'Click for User Profile' border=3D0 width=3D14 height=3D15></a>&=
+nbsp;</td><td width=3D'140' nowrap><font class=3Dmessagetitle ><b>Wander=
+ley Caloni</b>&nbsp;</font></td><td nowrap align=3Dright width=3D'12%'><=
+font class=3Dmessagetitle ><b>12:06 31 May '05</b>&nbsp;</font></td></tr=
+>
+<tr id=3D1121840_h1 style=3D'display:none' ><td colspan=3D4 width=3D'100=
+%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr>=
+<td><img align=3Dabsmiddle src=3D'/script/images/news_blank.gif'>&nbsp;<=
+/td><td bgcolor=3D'#D5EAFF' width=3D'100%'><table border=3D0 cellspacing=
+=3D5 cellpadding=3D0 width=3D'100%'><tr><td><table border=3D0 cellspacin=
+g=3D0 cellpadding=3D0 width=3D'100%'><tr><td colspan=3D2><font class=3Dm=
+essagecontent>Hi!<br><br>It's great get a build number version automatio=
+n. Unfortunately, when the file version is on source control (the defaul=
+t) the checkout isn't performed automatically. Do you know a way to aggr=
+egate it on your solution?<br><br>[]s <br><br>--------------------<br>Wa=
+nderley Caloni Jr.<br><br>-----BEGIN GEEK CODE BLOCK-----<br>Version: 3.=
+1<br>GCS/IT d++(--) s+: a- C++ L E- W++ K- w++ PS<br>PE Y+ PGP+ t+ X+ R =
+tv b+ DI++ D+ G e h- r y+<br>------END GEEK CODE BLOCK------<br>&nbsp;</=
+font></td></tr><tr valign=3Dtop><td class=3Dmessagetitle>[<a href=3D'/sc=
+ript/comments/user_reply.asp?main=3D/cpp/makeversion.asp&df=3D100&forumi=
+d=3D183690&select=3D1121840' title=3D'Reply to this current thread'>Repl=
+y</a> | <a href=3D'/script/comments/user_mail.asp?main=3D/cpp/makeversio=
+n.asp&df=3D100&forumid=3D183690&select=3D1121840'  title=3D'Email a repl=
+y to the author of this message'>Email</a> | <a href=3D'/cpp/makeversion=
+.asp?df=3D100&tid=3D1121840&forumid=3D183690&select=3D1121840#xx1121840x=
+x' title=3D'View only messages within this thread'>View Thread</a> | <a =
+href=3D'/cpp/makeversion.asp?msg=3D1121840#xx1121840xx' title=3D'Get the=
+ URL for this message'>Get Link</a>]</td><td align=3Dright class=3Dmessa=
+getitle>Score: 2.0 (1 vote).  <script language=3DJavascript>MsgVoteForm(=
+108248,1121840);</script></td></tr></table></td></tr></table></td></tr><=
+/table></td></tr>
+<tr><td colspan=3D4><img src=3D'/script/images/t.gif' border=3D0 width=3D=
+1 height=3D6></td></tr><tr bgcolor=3D'#FEF9E7' id=3D1122427_h0><td width=
+=3D'70%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%=
+'><tr><td bgcolor=3Dwhite><a name=3D'xx1122427xx'></a><img height=3D1 wi=
+dth=3D18 src=3D'/script/images/ind.gif'><img align=3Dabsmiddle src=3D'/s=
+cript/images/news_general.gif'>&nbsp;</td>
+<td width=3D'100%' class=3Dmessagetitle><a class=3Dmessagetitle id=3DDyn=
+MessLink name=3D1122427 href=3D'/cpp/makeversion.asp?df=3D100&forumid=3D=
+183690&select=3D1122427#xx1122427xx'>Re: Source Safe Auto-Chekout</a></t=
+d></tr></table></td><td valign=3Dbottom nowrap><a href=3D'/script/profil=
+e/whos_who.asp?id=3D310106'><img src=3D'/script/images/userinfo.gif' tit=
+le=3D'Click for User Profile' border=3D0 width=3D14 height=3D15></a>&nbs=
+p;</td><td width=3D'140' nowrap><font class=3Dmessagetitle >Ulfen&nbsp;<=
+/font></td><td nowrap align=3Dright width=3D'12%'><font class=3Dmessaget=
+itle >2:17 1 Jun '05&nbsp;</font></td></tr>
+<tr id=3D1122427_h1 style=3D'display:none' ><td colspan=3D4 width=3D'100=
+%'><table border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D'100%'><tr>=
+<td><img height=3D1 width=3D18 src=3D'/script/images/ind.gif'><img align=
+=3Dabsmiddle src=3D'/script/images/news_blank.gif'>&nbsp;</td><td bgcolo=
+r=3D'#D5EAFF' width=3D'100%'><table border=3D0 cellspacing=3D5 cellpaddi=
+ng=3D0 width=3D'100%'><tr><td><table border=3D0 cellspacing=3D0 cellpadd=
+ing=3D0 width=3D'100%'><tr><td colspan=3D2><font class=3Dmessagecontent>=
+SourceSafe can be run as a command line tool. That means you can add the=
+ check out command as a pre-build step and check the file in as a post-b=
+uild step. <br>&nbsp;</font></td></tr><tr valign=3Dtop><td class=3Dmessa=
+getitle>[<a href=3D'/script/comments/user_reply.asp?main=3D/cpp/makevers=
+ion.asp&df=3D100&forumid=3D183690&select=3D1122427' title=3D'Reply to th=
+is current thread'>Reply</a> | <a href=3D'/script/comments/user_mail.asp=
+?main=3D/cpp/makeversion.asp&df=3D100&forumid=3D183690&select=3D1122427'=
+  title=3D'Email a reply to the author of this message'>Email</a> | <a h=
+ref=3D'/cpp/makeversion.asp?df=3D100&tid=3D1121840&forumid=3D183690&sele=
+ct=3D1122427#xx1122427xx' title=3D'View only messages within this thread=
+'>View Thread</a> | <a href=3D'/cpp/makeversion.asp?msg=3D1122427#xx1122=
+427xx' title=3D'Get the URL for this message'>Get Link</a>]</td><td alig=
+n=3Dright class=3Dmessagetitle> <script language=3DJavascript>MsgVoteFor=
+m(310106,1122427);</script></td></tr></table></td></tr></table></td></tr=
+></table></td></tr>
+<tr><td colspan=3D4><img src=3D'/script/images/t.gif' border=3D0 width=3D=
+1 height=3D5></td></tr></table></td></tr><tr bgcolor=3D#FBEDBB><td><tabl=
+e width=3D'100%' cellpadding=3D2><tr><td class=3Dmessagetitle>Last Visit=
+: 10:33 Thursday 25th January, 2007</td><td align=3Dright nowrap><font c=
+lass=3Dmessagetitle><span class=3DHoverLink >First</span> <span class=3D=
+HoverLink >Prev</span> <span class=3DHoverLink >Next</span> <span class=3D=
+HoverLink >&nbsp;&nbsp;&nbsp;&nbsp;</span> </font></td></tr></table></td=
+></tr></table></td></tr></table>
+</div><p class=3DsmallText><img align=3Dabsmiddle src=3D'/script/images/=
+news_general.gif'> General comment &nbsp;&nbsp; <img align=3Dabsmiddle s=
+rc=3D'/script/images/news_info.gif'> News / Info &nbsp;&nbsp; <img align=
+=3Dabsmiddle src=3D'/script/images/news_question.gif'> Question &nbsp;&n=
+bsp; <img align=3Dabsmiddle src=3D'/script/images/news_answer.gif'> Answ=
+er &nbsp;&nbsp; <img align=3Dabsmiddle src=3D'/script/images/news_game.g=
+if'> Joke / Game &nbsp;&nbsp; <img align=3Dabsmiddle src=3D'/script/imag=
+es/news_sticky.gif'> Admin message</p>
+<br>
+
+
+<table width=3D100% cellspacing=3D5>
+<tr valign=3D"top"><td class=3D"smallText">
+
+Updated: 24 May 2005
+</td><td align=3D"right" class=3D"SmallText">
+Article content copyright gugulea, 2005<br>
+everything else Copyright =A9 <A href=3D'mailto:webmaster@codeproject.co=
+m'>CodeProject</A>, 1999-2006</a>.
+
+<br>
+Web19 |
+<a href=3D'/info/MediaKit'>Advertise on The Code Project</a> | <a href=3D=
+"/info/privacy.asp">Privacy</a>
+
+</td></tr>
+</table>
+
+</td></tr></table>
+
+
+<script type=3D"text/javascript" src=3D"http://codeproject.us.intellitxt=
+.com/intellitxt/front.asp?ipid=3D5102"></script>
+<br>
+<center>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"95%">
+<tr><td height=3D1 bgcolor=3D#ff9900><img src=3D'/images/space.gif' heig=
+ht=3D1></td></tr>
+<tr>
+<td align=3Dcenter><font size=3D1>
+
+<a href=3D"http://www.theultimatetoolbox.com">The Ultimate Toolbox</a> =95=
+
+<a href=3D"http://www.ASPAlliance.com/">ASP Alliance</a> =95
+<a href=3D"http://www.developerfusion.co.uk/">Developer Fusion</a> =95
+<a href=3D"http://www.developersdex.com/">Developersdex</a> =95
+<a href=3D"http://www.devguru.com/">DevGuru</a> =95
+<a href=3D"http://www.programmersheaven.com/">Programmers Heaven</a> =95=
+
+<A href=3D"http://www.planet-source-code.com/">Planet Source Code</a> =95=
+
+<a href=3D"http://www.tek-tips.com/">Tek-Tips Forums</a> =95
+
+</font>	=
+
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=favicon.ico
+Content-Type: image/x-icon; name=favicon.ico
+Content-Location: http://www.codeproject.com/favicon.ico
+Content-Transfer-Encoding: Base64
+
+AAABAAUAICAAAAEACACoCAAAVgAAACAgAAABACAAqBAAAP4IAAAQEAAAAQAIAGgF
+AACmGQAAEBAAAAEAIABoBAAADh8AADAwAAABACAAqCUAAHYjAAAoAAAAIAAAAEAA
+AAABAAgAAAAAAIAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+AACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABEREQAWFhYAHBwcACIi
+IgApKSkAVVVVAE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCp
+rQAAADMAAABmAAAAmQAAAMwAADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABm
+MwAAZmYAAGaZAABmzAAAZv8AAJkAAACZMwAAmWYAAJmZAACZzAAAmf8AAMwAAADM
+MwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/mQAA/8wAMwAAADMAMwAzAGYAMwCZADMA
+zAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNmMwAzZmYAM2aZADNm
+zAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPM
+zAAzzP8AM/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA
+/wBmMwAAZjMzAGYzZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZ
+AABmmTMAZplmAGaZmQBmmcwAZpn/AGbMAABmzDMAZsyZAGbMzABmzP8AZv8AAGb/
+MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDMAJkAAACZMzMAmQBmAJkz
+zACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkAmZnMAJmZ
+/wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn/
+/wDMAAAAmQAzAMwAZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxm
+AADMZjMAmWZmAMxmmQDMZswAmWb/AMyZAADMmTMAzJlmAMyZmQDMmcwAzJn/AMzM
+AADMzDMAzMxmAMzMmQDMzMwAzMz/AMz/AADM/zMAmf9mAMz/mQDM/8wAzP//AMwA
+MwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA/zP/AP9mAAD/ZjMAzGZmAP9m
+mQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/zDMA/8xmAP/M
+mQD/zMwA/8z/AP//MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//
+ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvLywCysrIA19fXAN3d3QDj4+MA6urqAPHx
+8QD4+PgA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////ADIy
+MjIyMjIyMjIyKhQQDCoyKyMQECorMjIyMjIyMjIyMjIyMjIyMjIyKxAQc3lRFCMj
+S1F5SgwqMjIyMjIyMjIyMjIyMjIyMjIyDAxKc3kUDAxzeVEjDCoyMjIyMjIyMjIy
+MjIyMjIyMjIyKiMjKioQECoqECMrMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyKyor
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIjKiMrMjIyMjIyMjIyMjIyMjIy
+MjIyMioqIzIyMjIyKgwMDCMyMjIyKyMqKzIyMjIyMjIyMjIyKwwMMjIyMioMFHN5
+FCoyMjIrDAwrMjIyMjIyMjIyMisjDAwyMjIrDBB+fnN+SisyMisMDCoyMjIyMjIy
+MjIyKysqKysrMioMc35zSn5zKzIrKysqKjIyMjIyMjIyMjIyMjIyKwwrKgxRfn55
+fnkrKiMyMjIyMjIyMjIyMjIyMjIyMjIyKxAQDBR+fn5+UQwjKzIyMjIyMjIyMjIy
+MjIyMjIyMjIyKgwMDEp5eVEMIzIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyIwwMDAwM
+DBAyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIQDAwUUXNzSisyMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyDAwMeX5+fn5+USsyMjIyMjIyMjIyMjIyMjIyMjIyMiMMDHN+UXN+
+eX5+USsyMjIyMjIyMjIyMjIyMjIyMjIqDAxRfhQQDFF+UUp+SzIyMjIyMjIyMjIy
+MjIyMjIyMhAMDH5REBsHEFEUEEp5KzIyMjIyMjIyMjIyMjIyMjIyDAwUfhQHSgft
+DAcbSnMrMjIyMjIyMjIyMjIyMjIyMisMDBR5SgcQSnMUBxRzUXMyMjIyMjIyMjIy
+MjIyMjIyMgwMFHkUGwxKBxRzSu1RKzIyMjIyMjIyMjIyMjIyMjIyIwwMeRTtBxtK
+DBsbSlErMjIyMjIyMjIyMjIyMjIyMjIrDAxKcwwH7RBKFBRKczIyMjIyMjIyMjIy
+MjIyMjIyMjIqDAx+UQwQc35RSnlLMjIyMjIyMjIyMjIyMjIyMjIyMisMDBR+eXl+
+eX5+USsyMjIyMjIyMjIyMjIyMjIyMjIyMisMDFF+fnl5fnkqMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyMiMMEHl+eXl+SjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMiMMFH5+
+flEqMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgwMUX5zKjIyMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyMjIyKwwQURQyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyKxAM
+KzIyMjIyMjIyMjIyMjIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgA
+AAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAmf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBmmf9CQkL/IiIi/wwM
+DP8AZpn/AJn//wBmzP8AM2b/IiIi/yIiIv8AZpn/AGbM/wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wBmzP8iIiL/IiIi/2aZmf9mzMz/M5mZ/0JCQv8AM2b/ADNm/zNm
+mf8zmZn/ZszM/zNmZv8MDAz/AGaZ/wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wwM
+DP8MDAz/M2Zm/2aZmf9mzMz/QkJC/wwMDP8MDAz/ZpmZ/2bMzP8zmZn/ADNm/wwM
+DP8AZpn/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBmmf8AM2b/ADNm/wBm
+mf8AZpn/IiIi/yIiIv8AZpn/AGaZ/yIiIv8AM2b/AGbM/wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBmzP8AZpn/AGbM/wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//ADNm/wBmmf8AM2b/AGbM/wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8AZpn/AGaZ/wAzZv8Amf//AJn//wCZ//8Amf//AJn//wBm
+mf8MDAz/DAwM/wwMDP8AM2b/AJn//wCZ//8Amf//AJn//wBmzP8AM2b/AGaZ/wBm
+zP8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBm
+zP8MDAz/DAwM/wCZ//8Amf//AJn//wCZ//8AZpn/DAwM/0JCQv9mmZn/ZszM/0JC
+Qv8AZpn/AJn//wCZ//8Amf//AGbM/wwMDP8MDAz/AGbM/wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8AZsz/ADNm/wwMDP8MDAz/AJn//wCZ
+//8Amf//AGbM/wwMDP8iIiL/Zv/M/2b/zP9mmZn/Zv/M/zNmZv8AZsz/AJn//wCZ
+//8AZsz/DAwM/wwMDP8AZpn/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wBmzP8AZsz/AGaZ/wBmzP8AZsz/AGbM/wCZ//8AZpn/DAwM/2aZ
+mf9m/8z/ZpmZ/zNmZv9m/8z/ZpmZ/wBmzP8Amf//AGbM/wBmzP8AZsz/AGaZ/wBm
+mf8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wBmzP8MDAz/AGbM/wBmmf8MDAz/M5mZ/2b/zP9m/8z/ZszM/2b/
+zP9mzMz/AGbM/wBmmf8AM2b/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBm
+zP8iIiL/IiIi/wwMDP9CQkL/Zv/M/2b/zP9m/8z/Zv/M/zOZmf8MDAz/ADNm/wBm
+zP8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBmmf8MDAz/DAwM/wwM
+DP8zZmb/ZszM/2bMzP8zmZn/DAwM/wAzZv8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wAzZv8MDAz/DAwM/wwMDP8MDAz/DAwM/wwM
+DP8iIiL/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//IiIi/wwMDP8MDAz/QkJC/zOZmf9mmZn/ZpmZ/zNmZv8AZsz/AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wwMDP8MDAz/DAwM/2bM
+zP9m/8z/Zv/M/2b/zP9m/8z/Zv/M/zOZmf8AZsz/AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8AM2b/DAwM/wwMDP9mmZn/Zv/M/zOZmf9mmZn/Zv/M/2bM
+zP9m/8z/Zv/M/zOZmf8AZsz/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AGaZ/wwM
+DP8MDAz/M5mZ/2b/zP9CQkL/IiIi/wwMDP8zmZn/Zv/M/zOZmf8zZmb/Zv/M/zNm
+mf8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8iIiL/DAwM/wwMDP9m/8z/M5mZ/yIi
+Iv/W5+f/wMDA/yIiIv8zmZn/QkJC/yIiIv8zZmb/ZszM/wBmzP8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wwMDP8MDAz/QkJC/2b/zP9CQkL/wMDA/zNmZv/AwMD/lpaW/wwM
+DP/AwMD/1ufn/zNmZv9mmZn/AGbM/wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8AZsz/DAwM/wwM
+DP9CQkL/ZszM/zNmZv/AwMD/IiIi/zNmZv9mmZn/QkJC/8DAwP9CQkL/ZpmZ/zOZ
+mf9mmZn/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8MDAz/DAwM/0JCQv9mzMz/QkJC/9bn
+5/8MDAz/M2Zm/8DAwP9CQkL/ZpmZ/zNmZv+Wlpb/M5mZ/wBmzP8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wAzZv8MDAz/DAwM/2bMzP9CQkL/lpaW/8DAwP/W5+f/M2Zm/wwM
+DP/W5+f/1ufn/zNmZv8zmZn/AGbM/wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AGbM/wwM
+DP8MDAz/M2Zm/2aZmf8MDAz/wMDA/5aWlv8iIiL/M2Zm/0JCQv9CQkL/M2Zm/2aZ
+mf8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AGaZ/wwMDP8MDAz/Zv/M/zOZ
+mf8MDAz/IiIi/2aZmf9m/8z/M5mZ/zNmZv9mzMz/M2aZ/wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8AZsz/DAwM/wwMDP9CQkL/Zv/M/2bMzP9mzMz/Zv/M/2bM
+zP9m/8z/Zv/M/zOZmf8AZsz/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8AZsz/DAwM/wwMDP8zmZn/Zv/M/2b/zP9mzMz/ZszM/2b/zP9mzMz/AGaZ/wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8AM2b/DAwM/yIi
+Iv9mzMz/Zv/M/2bMzP9mzMz/Zv/M/zNmZv8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8AM2b/DAwM/0JCQv9m/8z/Zv/M/2b/
+zP8zmZn/AGaZ/wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8MDAz/DAwM/zOZmf9m/8z/ZpmZ/wBmmf8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBm
+zP8MDAz/IiIi/zOZmf9CQkL/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBmzP8iIiL/DAwM/wBm
+zP8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAEAAAACAA
+AAABAAgAAAAAAEABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+AACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABEREQAWFhYAHBwcACIi
+IgApKSkAVVVVAE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCp
+rQAAADMAAABmAAAAmQAAAMwAADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABm
+MwAAZmYAAGaZAABmzAAAZv8AAJkAAACZMwAAmWYAAJmZAACZzAAAmf8AAMwAAADM
+MwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/mQAA/8wAMwAAADMAMwAzAGYAMwCZADMA
+zAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNmMwAzZmYAM2aZADNm
+zAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPM
+zAAzzP8AM/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA
+/wBmMwAAZjMzAGYzZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZ
+AABmmTMAZplmAGaZmQBmmcwAZpn/AGbMAABmzDMAZsyZAGbMzABmzP8AZv8AAGb/
+MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDMAJkAAACZMzMAmQBmAJkz
+zACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkAmZnMAJmZ
+/wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn/
+/wDMAAAAmQAzAMwAZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxm
+AADMZjMAmWZmAMxmmQDMZswAmWb/AMyZAADMmTMAzJlmAMyZmQDMmcwAzJn/AMzM
+AADMzDMAzMxmAMzMmQDMzMwAzMz/AMz/AADM/zMAmf9mAMz/mQDM/8wAzP//AMwA
+MwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA/zP/AP9mAAD/ZjMAzGZmAP9m
+mQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/zDMA/8xmAP/M
+mQD/zMwA/8z/AP//MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//
+ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvLywCysrIA19fXAN3d3QDj4+MA6urqAPHx
+8QD4+PgA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////ADIy
+MjIyKUopKkpKKzIyMjIyMjIyMSJQFQ9RESoyMjIyMjIyMjIyMisqMjEyMjIyMjIy
+MioxMjIiIzIyKyoyMjIyMisiKzIic3hRMioiMTIyMjIyMisqIn5+eCoxMjIyMjIy
+MjIyKgpKcyIrMjIyMjIyMjIyMisASlFLMjIyMjIyMjIyMjEKUXN5flEyMjIyMjIy
+MjIjQ3P46utzMTIyMjIyMjIyIkpz6vj4+FIyMjIyMjIyMiMRc+3q6+sxMjIyMjIy
+MjIyC1BKc3NRMjIyMjIyMjIyMioOfn5+UTIyMjIyMjIyMjIyI0p+UTIyMjIyMjIy
+MjIyMjIiSisyMjIyMjIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAABAAAAAgAAAAAQAgAAAA
+AABABAAAAAAAAAAAAAAAAAAAAAAAAACZ//8Amf//AJn//wCZ//8Amf//AGZm/zNm
+Zv8AZmb/AGaZ/zNmZv8zZmb/AGbM/wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJnM/wAzM/8zmWb/OTk5/xwcHP8zmZn/KSkp/wBmmf8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBmzP8AZpn/AJn//wCZ
+zP8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wBmmf8Amcz/AJn//wCZ
+//8AMzP/ADNm/wCZ//8Amf//AGbM/wBmmf8Amf//AJn//wCZ//8Amf//AJn//wBm
+zP8AMzP/AGbM/wCZ//8AMzP/ZpmZ/2bMmf8zmZn/AJn//wBmmf8AMzP/AJnM/wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wBmzP8AZpn/ADMz/2b/zP9m/8z/ZsyZ/wBm
+mf8Amcz/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AGaZ/wQE
+BP8zZmb/ZpmZ/wAzM/8AZsz/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wBmzP8AAAD/M2Zm/zOZmf8zZpn/AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZzP8EBAT/M5mZ/2aZmf9mzMz/Zv/M/zOZ
+mf8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8AM2b/MzMz/2aZ
+mf+AgID/X19f/3d3d/9mmZn/AJnM/wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//ADMz/zNmZv9mmZn/X19f/4CAgP+AgID/gICA/zOZzP8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wAzZv8pKSn/ZpmZ/5aWlv9fX1//d3d3/3d3
+d/8Amcz/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//CAgI/zOZ
+Zv8zZmb/ZpmZ/2aZmf8zmZn/AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wBmmf8WFhb/Zv/M/2b/zP9m/8z/M5mZ/wCZ//8Amf//AJn//wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//ADNm/zNmZv9m/8z/M5mZ/wCZ
+//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ//8Amf//AJn//wCZ
+//8AMzP/M2Zm/wBmzP8Amf//AJn//wCZ//8Amf//AJn//wCZ//8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAKAAAADAAAABgAAAAAQAgAAAAAACAJQAAAAAAAAAAAAAAAAAAAAAAAPz+
+/P/8/vz//P78//z+/P/8/vz//P78//z+/P/8/vz//P78//z+/P/8/vz//P78//z+
+/P////////////H6+f/Q6OH/v+LY/7fh1v+04dX/s+HU/7vm2v/Z8uz/////////
+///+//7/x+Da/7zf1f+34db/s+DV/7vj2P/H6d//2vHs///9/v///////P38//v9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//39
+/f/q7Or/couA/zB7ZP8egmf/FYtu/xGUdf8WmHn/Gpt9/y2rjP9Hw6f/q+XX/97w
+7P9Ojnv/F2xS/xKBZf8SlHb/GZp7/xycfv8oo4b/P7Wa/2/OuP/H7OT///7+//z9
+/P/7/fz/+/38//v9/P/7/fz/+/38//z9/P/8/fz//P38//z9/P/7/fz//P38//z9
+/P/7/fz//P38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/7/fz//P38////
+//9/hX//AAAA/wBAJv8Ab1D/AoBi/wOMa/8NkXD/DpR0/xudf/80uJf/RMeo/yGh
+hP8AYEH/AGNG/wB0V/8HiWn/DZFy/w2Uc/8WnHz/JqeG/0PAov9x0Lr/7ff0///+
+/v/7/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//z9
+/P/7/fz//P38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/7/fz//P38////
+//+5vbr/AAYA/wAZBP8CUDb/BGlN/wR5W/8FhWb/A4Jk/wB5Wf8IhGT/G5l5/waH
+aP8Dc1f/AGxO/wBqTf8Ca0//AnNU/wZ7Xf8FiWr/F55+/yy0k/991L//+fz7//7+
+/f/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//z9
+/P/7/fz//P38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/7/fz//P38//3+
+/f//////qbmx/yFINP8ANh3/AEkt/wBdP/8Abk7/AXla/xR+Yv8JZEj/AFc+/wBc
+Qf8AcVL/EX1i/w5uVP8AVjn/AFEz/wBdPv8AcVD/CpNz/2jFrv/n9/L///7+//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//z9
+/P/7/fz//P38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/7/fz//P38//v9
+/P/9/f3///////P7+f+rycD/fLGj/3q3p/+dzcD/xuPc//L5+P+evLL/LH1l/4a2
+qv80lHv/6vb1/97t6f+z08n/jryv/3S1pf+Ox7j/yOjh////////////+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//z+
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/8/fz//P38//z9/P/8/fz//P38//v9
+/P/8/Pz//P38//////////////////////////////////////+mycD/iryv////
+//9usKH///////////////////////////////////////3+/f/7/fz//P38//z9
+/P/8/fz/+/38//v9/P/7/fz/+/38//z9/P/8/fz//P38//z9/P/7/fz//P38//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//f39//z9/P////////////v9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//f79//////9SnIv/r9jO////
+//9cpZT/1Onl///////7/fz//P38//z9/P/8/fz//P38//z9/P/7/fz/////////
+///8/fz//P38//39/f/7/fz/+/38//z9/P/8/fz//P38//z9/P/7/fz//P38//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/6/Pv////////////W5+P/sdXO//7/
+/v/8/fz//P38//v9/P/8/fz//P38//v9/P/8/fz//////7jHwv8DYET/esq4/7Xe
+1f8ilnr/ndjK///////8/fz//P38//z9/P/7/fz//P38//z9/P/+//7/z+bh/7DX
+z/////////////v8+//8/fz/+/38//z9/P/8/fz//P38//z9/P/7/fz//P38//z+
+/P/8/fz//P38//z9/P/8/fz//P38///////Z5+X/UZuJ/+n69/+Itqz/abGh////
+///8/fz//P38//v9/P/8/fz//P38//z9/P//////wdLN/xRFMP8AXkH/CZR0/w6Y
+d/82sZP/ZMy0/97z7v//////+/38//z9/P/7/fz//P38//v9/P//////lLiu/1Gg
+jv/0+fj/fsO0/7Lh1v//////+/38//z9/P/8/fz//P38//z9/P/7/fz//P38//z+
+/P/8/fz//P38//z9/P/8/fz//P38//3//f/6+/v/RXJi/x1uVf87jXr/jsm6////
+///9/v3//P38//v9/P/8/fz//P39//////+luLD/CCwY/wAzG/8EZUn/AoRk/yGl
+hf9Gw6b/Ysy0/4XWw//q9/P///////z9/P/7/fz//P38//z9/P//////g5uQ/ydy
+Xf9TqJT/Tq2X/+r49P/+//7/+/38//z9/P/8/fz//P38//z9/P/7/fz//P38//z+
+/P/8/fz//P38//z9/P/8/fz/+/38////////////7+vr/w0bEP8hcFv/p+LU//3+
+/v/9/f3//P38//z9/P/7/fz//////7vFwf8BEgb/AB0J/wRJMP8Da07/Bopp/yGz
+kf9Hyqv/Zs21/4DTv/+Y2sn/9Pr5//7+/v/7/fz/+/38//z9/P//////dXFx/wA0
+JP9bvab/2PPr////////////+/38//z9/P/8/fz//P38//z9/P/7/fz//P38//z+
+/P/8/fz//P38//z9/P/8/fz//f79/+Xv7f9vnY//PGtZ/wAdDP8Uc1r/eNXB//j9
++////v7/+/38//z+/P/+/v7/+Pn5/y41Mv8AAAD/BCwU/wRQN/8EcVT/CZZ0/xme
+fv8/rJH/ZtG3/4fVwv+S1sf/wuff///////7/fz/+/38//39/f//////XVtc/wAN
+AP9NqJH/csez/3jPuv/N7eb//v7+//z9/P/8/fz//P38//z9/P/7/fz//P38//z+
+/P/8/fz//P38//z9/P/8/fz//v/+/+Ht6v9yoJH/ToZz/0mNd/9JqpL/jdXF//n8
++/////////////z9/P//////vcG//wAAAP8DBQL/BCoT/wRTOf8Dd1n/CqB9/0Fr
+Yv86QT7/adK5/4rXxP+m28//st7V//b7+f/+/v3////////////8/v3/pK+q/0VZ
+Sv9LlYH/XLij/3jMt//H6+P//v7+//z9/P/7/fz//P38//z9/P/7/fz//P38//z+
+/P/8/fz//P38//z9/P/7/fz//P38/////////////////////////////////93t
+6f9yt6f/4fPw////////////iY2L/wAAAP8EBAL/BCgS/wVWO/8EfV3/C6J9/0Oz
+mf9er53/atG6/47Wxf+w3tT/uuDW/+349P//////+/n6/37GtP++4tr/////////
+////////////////////////+/38//z9/P/7/fz//P38//z9/P/7/fz//P38//z9
+/P/7/fz//P38//z9/P/7/fz//P38//v9/P/8/fz//f79//7+/f/+/v7//f79//7+
+/v+QvbL/HYJp/7jh2P//////hoyJ/wAAAP8EBAL/BCgS/wRUOf8EfV7/FKWC/yvE
+of9Oza//bM64/4nXxP+p3ND/t97V//3+/v/R49//Lpd+/3C/rP/5/Pv//v79//7/
+/v/+/v7//f79//z9/P/8/fz/+/38//z9/P/7/fz//P38//z9/P/8/fz//P78//z9
+/P/7/fz//P38//z9/P/7/fz//P38//z9/P/8/fz/+/38//z9/P/8/fz/+/38//3+
+/f//////kbGp/wBkSP95xLD/f4SB/wEAAP8EBAL/BCgS/wRSOP8Fe17/FKiE/yrC
+nv9Ix6j/Ycy0/3/Uv/+f2sz/td/W/7De1P8knoH/fsi1/////////v7/+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//z9
+/P/7/fz//P38//z9/P/7/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/+/v3//////5Sto/8AIwz/AAoE/wQAA/8EBQL/BCkT/wRVO/8EgGH/Fa2K/zLD
+of9Kxqr/Xcqx/3XQuf+M18T/m9vL/2XIsf+h3c////////7+/f/8/fz/+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/8/fz//P38//z9/P/8/fz//P78//z9
+/P/7/fz//P38//z9/P/7/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/7/fz//f79//////+LiYn/AAAA/wMAA/8EBQL/BCsV/wRXPv8HhWb/IbaU/0LF
+pv9Uya7/Zc21/3jSvP+F1cH/e9K9/8Dp3f///////v39//z9/P/8/fz/+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz//P38//z9/P/7/fz//P78//z9
+/P/7/fz//P38//z9/P/7/fz//P38//v9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/7/fz/+/38//7//v//////QUJC/wAAAP8EAgL/BCYS/wRVPP8FhGb/I7eU/0vI
+qv9jzLX/fNO9/5HXx/+T18j/w+rf///////9/v3//P38//z9/P/8/fz/+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//z9/P/8/fz//P38//z9
+/P/7/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/7/fz//P38//z9/P//////bXBu/wAAAP8EBQL/BCwW/wNXPv8Ghmf/KLaW/1LJ
+rf9yz7n/jdbD/6Xb0P+w3tP//fz8///////7/fz//P38//z9/P/8/fz/+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz//P38//z9
+/P/7/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/7/fz//f38///////M2NP/FyMZ/wEJAf8EIA7/BD8n/wRiR/8Ii2z/J7mW/1HI
+rP9mzbf/fdS//5LYxf+R2cj/lNrK/+T18f///////P38//z9/P/8/fz/+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z+
+/P/7/fz//P38//z9/P/7/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/8/v3//////7PHwf8SNSL/ACAK/wQ1HP8EQyv/BFg9/wN0Vv8LlnX/I7qX/0DE
+pf9Xya//Y820/2rOuf9x0Lr/b8+3/3XRu//R7+j///////z9/P/8/fz/+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z9
+/P/8/fz//P38//v9/P/7/fz//P38//z9/P/8/fz//P38//z9/P/8/fz/+/38//z9
+/f//////rcC4/wIkDv8AIw7/BUMr/wRTOP8EYUX/BHNV/weRb/8VtY7/HMmg/y7F
+ov9Ew6T/UMeq/1fJr/9byrH/Z821/3TRuf970bz/1vDr///////8/fz/+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z9
+/P/8/fz/+/38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38////
+///V3dr/CyAS/wAXAf8EPSX/BFQ8/wVnS/8EeFr/BpVx/wp8X/8PWET/HHRg/yK0
+kf8uyqX/PMGi/0fDpf9SzK3/XNS5/27TvP+C07//jdfG//D59v///v7/+/38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/8/fz/+/38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/7/fz//v7+//7/
+//8/S0X/AAAA/wQsFv8FSjL/BWVK/wR5XP8JmXb/CFpE/wAAAP8AAAD/EQIF/zhF
+Qv8trY3/Kcah/zjKpv9GwKT/UqKP/2rAqv992cP/jdbG/7jk2f///v///P38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//z9
+/P/8/fz/+/38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/8/fz//////7i+
+uv8AAAD/AgsC/wQ0HP8EVjv/BHNV/weWc/8Kel7/AAAA/xYVFv9xcXH/b3Bv/0U5
+O/9EWVT/Jcqj/yWykf8SKCH/KB4g/2tpaf+HvrD/l97N/6DbzP/s9/T//v7+//z9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz//P38//z9
+/P/8/fz/+/38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/f3//////19m
+Yf8AAAD/BBMG/wQ3IP8EXkT/BH5g/w6mgf8DJx3/GxQW/9TV1f///////////7Oy
+sv9IPkD/LG9e/wAlHP8hFhf/lpeW/52Zm/+Vlpb/ndbH/6Pcz//R7Ob///////z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/8/fz/+/38//v9/P/7/fz//P38//z9/P/8/fz//P38//z9/P///v//+Pv5/ycq
+Kf8AAAD/BA0F/wQ6If8EY0j/Bo9t/xKYdP8AAAD/j4uM///////g3+D/4uLi//3+
+/f9xcXH/EgoL/w4ICf/Lzcz///////T19f+2sbL/p8G6/7Lh1//F5t///v79//z9
+/P/7/fz/+/38//v9/P/7/fz/+/38//z9/P/8/fz//P38//z9/P/7/fz//P78//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P//////6ezr/xgX
+GP8AAAD/BAsD/wQ2HP8DYUb/C5t3/wt+Yv8MBQf/0tLT//v6+/9BQUH/d3h3////
+//+jpKP/AAAA/1xcXP//////p6en/+Hg4f/f3N3/qbm2/7bf1v/A5t3/+v37//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P//////7Ozs/xoY
+Gf8AAAD/BAUD/wQtGP8EXUT/Cpp3/wFsU/8gFhr/6+3s/9/g4P8HBQf/SkpK//n5
++f+8vLv/AAAA/5GRkf/o5+j/KCgo/8PDxP/t6+z/qLOv/6nbz/+14Nb/+vz7//3+
+/f/7/fz/+/38//v9/P/7/fz/+/38//z9/P/8/fz//P38//z9/P/7/fz//P38//z+
+/P/8/fz/+/38//v9/P/7/fz//P38//z9/P/8/fz//P38//z9/P/+//7/+fr6/yUo
+J/8AAAD/BAMC/wQsF/8EWD//B41t/wJtU/8bExX/6Onp/+Hh4f8FBAX/OTg5//b3
+9/+0tLT/AAAA/5SUlP/f4OD/GBcZ/7O1tP/v7O3/nKqn/5rZyv+q3tP/+vz7//3+
+/f/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//v8
+/P/8/fz/+/38//v9/P/7/fz//P38//z9/P/8/fz//P38//v9/P/8/fz//////11f
+Xv8AAAD/BAID/wQlEP8ETTP/BHpd/wh9Xv8FAgL/wsHC//39/f88PT3/VVZV////
+//+FhoX/AAAA/2hlaP//////YGJh/8XHxv/e29z/i6Ca/47byf+n4NL//P39//39
+/f/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P78//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//v9/P/8/fz//////73A
+vf8AAAD/AgAB/wQYCP8EQCf/BGVJ/waIZ/8ADAb/Y1xe///////m5+f/6+zs//P2
+9f9BPj7/AQAA/xIJDP/f4N////////79/v+lnZ7/ga2i/4PaxP+55dr///////z9
+/P/7/fz/+/38//v9/P/7/fz/+/38//z9/P/8/fz//P38//z9/P/7/fz//P38//z+
+/P/7/fz//P38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//z9/P/8/fz//v7+//7/
+//9DR0T/AAAA/wQKBP8ELhb/BE82/wV7Xf8DUj3/AgAA/4+Pj//09vT/6+vr/2pl
+Z/8iIyP/GpR3/wE4KP8zIyj/qaeo/5CJiv9vd3X/gdO//3/UwP/d8u3///////z9
+/P/7/fz/+/38//v9/P/7/fz/+/38//z9/P/8/fz//P38//z9/P/7/fz//P78//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/7/fz//P38////
+///Jzcv/AgQE/wEBAP8EGwr/BDwk/wReQ/8FgmL/AjEk/wAAAP8mHB//GQ0R/wwA
+AP8eg2r/HNGn/yTBnP8RQzb/FhgZ/0RUUP9uv6v/eNnB/5bayf/9/v3//f39//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz/+/38//3+
+/f//////cnt1/wAAAP8ECQP/BCoT/wRHL/8Eakz/Bodm/whUQv8CIhj/AjQm/xOG
+a/8bwpr/Ir2X/zDGo/9DzKv/Uruh/2LLsv911r7/c9C6/83u5f///////P38//v9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P////7/9fj2/y0zL/8AAAD/BBQH/wQzG/8FTzb/BG9R/wiVc/8RrYf/G8KY/xvE
+m/8cu5X/K8Cc/zjCov9Kxaj/Ws+0/2jQt/920br/ldjI//79/v/+/v3//P38//v9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/8/fz//////8vTzf8HDAj/AQAA/wQdCv8EOyT/BFg9/wNzVf8Jj3D/FauG/xy7
+lP8iv5v/NMKg/0LDo/9Tya3/YMuz/3HQuP9tz7j/0+/o///////8/fz//P38//v9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/8/fz//f79//////+Wnpr/AAAA/wMGAf8EJhH/BEIp/wReRP8EeVz/CJZy/xi0
+j/8rwp//PMKi/0zHqP9ayrD/Z822/2zPt/+a3cz///////3+/f/7/fz//P38//v9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/8/fz//P38//3+/f//////YGxk/wAAAP8EEAX/BDAZ/wRIL/8EZEn/BX9h/xWo
+hv80xKL/RsOl/1TJrv9gy7P/b9C5/3HQuf/n9vL///////z9/P/8/fz//P38//v9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/8/fz//P38//v9/P//////9vr4/zlCPf8AAAD/BBYH/wQ0G/8ETTX/AmlM/xOg
+fv88w6T/Tseq/1rLsv9rz7f/aM20/7nn3P///////P38//v9/P/8/fz//P38//v9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/8/fz//P38//z9/P/8/fz//////+Po5f8XIxz/AAAA/wQfC/8ENyD/AlU9/xOW
+dv9CxKT/U8qt/2LMtP9nzbP/itnG//3+/f/+/v3//P38//z9/P/8/fz//P38//v9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z9
+/P/7/fz//P38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/7/fz/+/38//v9
+/P/7/fz//P38//z9/P/8/fz//P38///////Ez8j/DBEN/wABAP8EJQ7/Akcu/w6N
+bv9Bw6P/Wsyy/2TMs/9rzrf/6fbz///////8/fz//P38//v9/P/7/fz//P38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/7/fz//P38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/7/fz/+/38//v9
+/P/7/fz//P38//z9/P/7/fz//P38//v9/P//////rriy/wEFAv8ACwD/BDkj/wNy
+Vf8tspP/WMuw/1vKsf/H7OP///////z9/P/8/fz//P38//v9/P/7/fz//P38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/7/fz//P38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/7/fz/+/38//v9
+/P/7/fz//P38//z9/P/7/fz//P38//v9/P/8/f3//////6Gspf8ACQD/ACIM/wFf
+RP8Rl3b/Oryc/6ni1v///////P38//v9/P/8/fz//P38//v9/P/7/fz//P38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z+
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/8/fz//f79//////+uvLT/GUUw/wBU
+Nv8Fhmb/i9PB///////9/v3//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//v9
+/P/8/fz//P38//z9/P/8/fz//P38//v9/P/7/fz/+/38//v9/P/8/fz/+/z8//z9
+/P/7/fz//P38//z9/P/8/fz/+/38//v9/P/7/fz/+/38//v9/P/7/fz/+/38//v9
+/P/7/fz//P38//z9/P/7/fz//P38//z+/P/8/fz//P38//z+/P//////wtjR/y5/
+Zf9lsp7//v///////v/8/fz//P38//v9/P/8/fz//P38//v9/P/7/fz//P38//z9
+/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38//z9/P/8/fz//P38/wAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=download.gif
+Content-Type: image/gif; name=download.gif
+Content-Location: http://www.codeproject.com/images/download.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQALMAAAD//39/f8DAwAAAAP///4AAAP8AAAD/AACAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAACH5BAEAAAAALAAAAAAQABAAQARDEMgJShl0BsG75wFGWYUx
+nNQWrGwrrGJWxpls1tvnIQfc/j/a6FarzYo2AzEDHAABAYJ0SpX6dLprtfoKAU7g
+cFgSAQA7AA==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=global.css
+Content-Type: text/css; name=global.css
+Content-Location: http://www.codeproject.com/styles/global.css
+Content-Transfer-Encoding: 8bit
+
+/* General styles */
+BODY, P, H1, H2, H3, H4, H5, H6, LI, TD, TH, DD, DT
+{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	color: black;
+}
+BODY
+{
+	background-color: #ffffff;
+	color: #000000;
+}
+LI,UL,OL
+{
+	list-style-image: none;
+}
+H1, H2, H3, H4, H5, TH
+{
+	font-weight: bold;
+}
+H2, H3, H5
+{
+	color: #ff9900;
+}
+H1
+{
+	font-size: 16pt;
+}
+H2
+{
+	font-size: 13pt;
+}
+H3
+{
+	font-family: Arial, sans-serif;
+	font-size: 11pt;
+}
+H4
+{
+	font-size: 10pt;
+	margin-bottom: 2px;
+}
+H5
+{
+	font-size: 9pt;
+	margin-bottom: 2px;
+}
+H6
+{
+	color: #626262;
+	font-size: 65%;
+	font-weight: normal;
+}
+DD
+{
+	margin-left: 20px;
+}
+PRE
+{
+	background-color: #FBEDBB;
+	padding: 7pt;
+	font: 9pt "Courier New", Courier, mono;
+	white-space: pre;
+	overflow:auto;
+}
+CODE
+{
+	color: #990000;
+	font-family: "Courier New", Courier, mono;
+}
+a:link    { text-decoration:none;      }
+a:visited { text-decoration:none;      }
+a:active  { text-decoration:underline; }
+a:hover   { text-decoration:underline; }
+
+TT.equation 
+{ 
+	font-family: 'Times New Roman', serif; 
+	font-size: 10pt; 
+	font-style: italic; 
+	white-space: pre; 
+}
+/* End General styles */
+
+
+/* Menu and navigation styles */
+.MenuCat
+{
+	border-width:0;
+	text-transform: uppercase; 
+	color: #FFFFFF; 
+	font-family: Arial,Verdana; 
+	font-size: 12px; 
+	font-weight: bold; 
+	background-color: #333;	
+	/*background-color:#488E00;*/
+	/*width:160px;*/
+	padding: 2 0 2 5;
+	margin:0;
+}
+.MenuGroup
+{
+	border-width:0;
+	background-color: #ffcc99;
+	font-weight: normal;
+	font-family: Tahoma, Arial, sans-serif;
+	position: relative;
+	top: 0px;
+	width: 160px;
+	padding:0;
+	margin:0
+}
+.MenuSubCat
+{
+	font-family: Arial; 
+	font-size: 8pt; 
+	color: #000000; 
+	font-weight: bold; 
+	/*width:160px;*/
+	border-style: solid; 
+	border-width: 1; 
+	padding: 1 0 1 5;
+	margin:0;
+    border-color:#fb3;
+	border-top-width: 0;
+	background-color: #FFCC66;
+}
+.MenuSubCat a
+{
+	color: #000000; 
+}
+.MenuSubCat:hover
+{
+	color: #000000;
+	background-color:#FFE0B3;
+}
+.MI, .MI a, .MIS, .MIS a
+{
+    background-color:#FFE0B3;
+	color: black;
+	font-size: 8pt;
+	font-weight: normal;
+	font-family: Verdana, Arial, sans-serif;
+	width: 155 !important; 
+	padding: 1 0 1 3;
+}
+.MI a:hover
+{	
+	text-decoration: none;
+    background-color:#FFFAF2;
+}
+.userNavText, .userNavText a
+{
+    font-size:8pt;
+    color:Black;
+    font-family:verdana,Sans-Serif;
+    letter-spacing:-1;
+}
+/* End Menu and navigation styles */
+
+/* General headlines and bar text */
+.HeaderLogo
+{
+    background-color:#ff9900;
+}
+.HeaderBanner
+{
+    background-color:#ff9900;
+    text-align:right;
+    vertical-align:middle;
+    width:100%;
+}
+.PageBlockHeader
+{
+    padding:2;
+    padding-left:5;
+    font-weight:bold;
+    color:Black;
+    font-family:Arial,Verdana;
+    font-size:15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    white-space: nowrap;
+    border-bottom-style:none;
+}
+.MainBlockHeader
+{
+    padding:2;
+    padding-left:5;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:Black;
+    font-family:Arial,Verdana;
+    font-size:13px;
+    background-color:#EFEFEF;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    white-space: nowrap;
+}
+.MainBlockContent
+{
+    width:inherit;    
+    padding:5;
+    font-size:11px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-top-style:none;
+    margin-bottom:10;
+}
+.FeatureBlockHeader
+{
+    width:inherit;
+    padding:2;
+    padding-left:5;
+    font-weight:bold;
+    text-transform:uppercase;
+    color:#990000;
+    font-family:Arial,Verdana;
+    font-size:13px;
+    background-color:#FFE0B3;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF9900;
+    white-space: nowrap;
+}
+.FeatureBlockHeader a
+{
+    color:#990000;
+}
+.FeatureBlockContent 
+{
+    font-size: 11px;
+    padding:5;
+    background-color:#FFFAF2;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF9900;
+    border-top-style:none;
+    margin-bottom:10;
+    overflow:hidden;
+    text-overflow:ellipsis;	
+}
+.BlockExtraText
+{
+    text-transform:none;
+    padding-left:20;
+    font-size:11px;
+}
+.TitleBar
+{
+	color: #ff9900;
+	font-size: 135%;
+	font-weight: bold;
+	margin-top:10;
+	text-align:left;
+}
+/* End General headlines and bar text */
+
+
+/* Specialised homepage headers */
+.JoinHeader
+{
+    font-size:13pt;
+    margin:5pt;
+    white-space:nowrap;
+    font-weight:bold;
+    border-style:solid;
+    border-width:1;
+    border-color:black;
+    background-color:#FFB443;
+    padding:5;
+}
+.JoinHeader a
+{
+    color: #990000;
+    height:20;
+}
+.ShopHeader
+{
+    font-size:13pt;
+    margin:5pt;
+    white-space:nowrap;
+    font-weight:bold;
+    border-style:solid;
+    border-width:1;
+    border-color:black;
+    background-color:#76AB40;
+    padding:5;
+}
+.ShopHeader a
+{
+    color: White;
+    filter: Shadow(color=#000000,strength=1,direction=135); 
+    height:20;
+}
+/* End Specialised homepage headers */
+
+
+/* Info and quick-pick bars */
+.MemberNavBar
+{
+    border-bottom-style: solid;
+    border-bottom-width: 1;
+    border-bottom-color: black;
+    background-color:#FFCC66;
+}
+.SiteNavBar td
+{
+    border-color:#488E00;
+    border-style:solid;
+    border-width:1;
+    margin:0;
+	padding-left: 5;
+	padding-right: 5;
+	padding-top:0;
+	padding-bottom:0;
+	position: relative;
+    background-color:#488E00;
+}
+.SiteNavBar a
+{
+    font-weight:bold;
+    font-size:12px;
+    color:White;
+    height:16;
+    padding:1;
+    border-width:1;
+    border-color:#488E00;
+    border-style:solid;
+}
+.SiteNavBar a:hover
+{
+   background-color: #C3DE6C;
+   color:Black;
+   padding:1;
+   text-decoration:none;
+}
+td.SelCat   /* Selected category in the site nav bar */
+{
+	border-color:#488E00;
+	background-color:#C3DE6C;
+}
+td.SelCat a  /* Selected category in the site nav bar */
+{
+	color:black;
+	border-color:#C3DE6C;
+	background-color:#C3DE6C;
+}
+.SearchHeaderBar
+{
+    background-color:#EFEFEF;
+    border-bottom-color:#cccccc;
+    border-bottom-style:solid;
+    border-bottom-width:1;
+    padding:3;
+    margin:0;
+}
+.LHNavBar
+{
+    vertical-align:top;
+    width:160px;
+    /*width: expression(document.body.clientWidth > 160? "160px" : "auto");    */
+    background-color:#FF9900;
+    padding:3;
+}
+.ContentPane
+{
+    vertical-align:top;
+    padding-left:5;
+    padding-right:5;
+    min-height: 300;    
+    height: expression(this.height < 300? "300" : "auto");
+    width:expression(document.body.clientWidth < 973? "813" : document.body.clientWidth-160);
+    position:relative;
+}
+.ArticlePane
+{
+    vertical-align:top;
+    padding-left:5;
+    padding-right:5;
+    width:100%;
+    position:relative;
+}
+.RHFeatureBar
+{
+    vertical-align:top;
+    max-width:160;
+    width:160;
+    overflow:hidden;
+}
+.ArticleHeader, .ArticleUneditedHeader, .ArticlePurgatoryHeader
+{
+    border-bottom-style:solid;
+    border-bottom-width:1;
+    border-bottom-color:#cccccc
+}
+.ArticleHeader          { background-color:#FBEDBB;}
+.ArticleUneditedHeader  { background-color:#DCE2F5;}
+.ArticlePurgatoryHeader { background-color:#E2E2E2;}
+
+/* End Info and quick-pick bars */
+
+/* Quick styles for consistency */
+.precollapse
+{
+	font-size:7pt;
+	font-weight:bold;
+	background-color: #FBEDBB;
+	display:inline;
+	border-bottom-style:solid;
+	border-bottom-width:1;
+	border-bottom-color:#cccccc;
+}
+.formButton
+{ 
+	font-size:90%; 
+	color: white; 
+	border-color: #FBEDBB; 
+	background-color: #E08900; 
+	font-weight: 700; 
+}
+.SmallText
+{
+	font-size:8pt; 
+}
+.tinyText
+{
+	font-size:7pt;
+}
+.Caption
+{	
+	font-size:8pt;
+	font-style:italic;
+}
+.Filename
+{	
+	font-style:italic;
+}
+/* End Quick styles for consistency */
+
+/* List types */
+ul.InfoList
+{
+    padding-left:15;
+    margin-left:0;
+    margin-bottom:5;
+    margin-top:5;
+}
+ul.InfoList li
+{
+    padding-bottom:5;
+}
+ul.download 
+{
+	margin-left: 1.5em
+}
+ul.download LI, LI.download
+{
+	list-style-image: url(/images/download.gif);
+	font-size: 9pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 0.5em;
+}
+
+ul.delegate li, li.delegate   { list-style-image: url(/images/symbols/delegate.gif); }
+ul.enum li, li.enum			  { list-style-image: url(/images/symbols/Enum.GIF); }
+ul.event li, li.event		  { list-style-image: url(/images/symbols/event.GIF); }
+ul.interface li, li.interface { list-style-image: url(/images/symbols/interface.GIF); }
+ul.literal li, li.literal	  { list-style-image: url(/images/symbols/literal.GIF); }
+ul.method li, li.method		  { list-style-image: url(/images/symbols/method.GIF); }
+ul.namespace li, li.namespace { list-style-image: url(/images/symbols/namespace.GIF); }
+ul.property li, li.property	  { list-style-image: url(/images/symbols/property.GIF); }
+ul.struct li, li.struct		  { list-style-image: url(/images/symbols/struct.GIF); }
+
+ul.compactlist li, li.compactlist 
+{
+	list-style-image: url(/images/smallarrow.gif);
+	font-size: 8pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-left: -1em;
+	margin-bottom: 0pt;
+}
+ul.compactlist
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+/* End List types */
+
+
+/* Forum Stuff. To be extracted. */
+
+textarea#ContentText { behavior: url(/styles/lnkutils.htc); }
+
+.messagecontent
+{
+	font: 9.5pt Verdana, "Courier New", Courier, mono;
+}
+.Default		  { font-family: Verdana, Helvetica, Arial, sans-serif; }
+:link.forum_link    { text-decoration:none;      color:#E08900 }
+:visited.forum_link { text-decoration:none;      color:#E08900 }
+:active.forum_link  { text-decoration:none;      color:#E08900 }
+:hover.forum_link   { text-decoration:underline; color:#E08900 }
+.forum_hilite       { background-color: yellow}
+.FQ
+{
+	PADDING-LEFT: 0.6em; 
+	MARGIN-LEFT: 0.25em; 
+	BORDER-LEFT: gray 0.2em solid; 
+	COLOR: #556655; 
+	MARGIN-RIGHT: 1em;
+	margin-bottom: -1em;
+}
+.FQA
+{
+	font-size: 10px;
+	font-weight: bold;
+	MARGIN-LEFT: -0.25em;
+}
+.cpp-comment,.cs-comment,.vb-comment	{ COLOR: green; FONT-STYLE: italic; }
+.cpp-keyword,.cs-keyword, .vb-function	{ COLOR: blue; }
+.cpp-preprocessor, .cs-preprocessor		{ COLOR: navy; }
+.cpp-string,.cs-string,.vb-string		{ COLOR: purple; }
+.cpp-literal,.cs-literal,.vb-literal	{ COLOR: midnightblue }
+.cs-clrtype	{ color: #339999; }
+.vb-keyword,.vb-statement	{ COLOR: blue; font-weight:normal;}
+
+TABLE#tblButtonBar {
+	MARGIN-TOP: 1px
+}
+.clsButton {
+	BACKGROUND-COLOR: #ff9900;
+	BORDER-RIGHT: #ff9900 1px solid; 
+	BORDER-TOP: #ff9900 1px solid; 
+	BORDER-LEFT: #ff9900 1px solid; 
+	BORDER-BOTTOM: #ff9900 1px solid;
+ 	text-decoration: none; 
+	font-weight: bold; 
+	FONT-SIZE: 8pt; 
+	color: #333300;
+}
+TD.clsButtonBar TABLE.clsButton TD {
+	PADDING: 1px;
+}
+.clsButtonLnk {
+ 	text-decoration: none; 
+	font-weight: bold; 
+	FONT-SIZE: 8pt; 
+	color: #333300;
+	padding: 1;
+}
+:hover.clsButtonLnk {
+	color: blue;
+}
+
+/* ...and this stuff? Deprecated. Begone... */
+
+.Headline 
+{ 
+    font-weight: bold; 
+    font-size:13px; 
+    margin-bottom: 5px !important; 
+    color:Black;
+}
+.sidebar
+{
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 9pt;
+	text-decoration: none;
+}
+.navbar 
+{
+	font-weight: bold;
+	color: white;
+	font-size: 8pt;
+	text-decoration: none;
+}
+
+button.toolbar 
+{
+	border: 1px;
+	border-style: solid;
+	background-color: white;
+	border-color: white;
+	font-family: Verdana, Arial, Tahoma, "MS Sans Serif", sans-serif;
+	font-size: 9pt;
+}
+div.toolbar 
+{
+	background-color: white;
+	border-color: #FF9900;
+	padding: 1px 2px 2px 2px;
+}
+
+
+:hover.navbar  { color:blue; } 
+:active.navbar { color:red; }
+:hover.NavMenuItem  { color: Blue; }
+:active.NavMenuItem { color: Red;  }
+.AdLink, a .AdLink
+{
+	color: black;
+	font-size: 8pt;
+}
+.infobar
+{
+	font-size: 8pt;
+	margin-left: 0pt;
+	text-indent: 0pt;
+}
+.infobarList
+{
+	font-size: 8pt;
+	margin-left: 1.5em;
+	text-indent: -1.5em;
+}
+.InfobarHeader
+{
+	font-size: 9pt;
+	font-weight: bold;
+	margin-bottom: -10px;
+	color: #ab2600;
+}
+.HoverLink
+{ 
+	text-decoration: none;      
+	font-size:8pt; 
+	padding: 1px 2px 1px 2px;
+	background-color: #fbedbb;
+	border-color: #fbedbb;
+	border-width: 1px;
+	border-style: solid;
+}
+A.HoverLink
+{
+	text-decoration: none;      
+	color : blue; 
+}
+a:hover.HoverLink
+{
+	border-color: #ff9900;
+	background-color: #ffcc99;
+}
+a:active.HoverLink
+{
+	background-color: #FFC082;
+	border-color: #ff9900;
+}
+.links, .messagetitle, .SiteNewsHeading
+{
+	font-size:8pt; 
+}
+.FeatureBox
+{
+	background-color: #A5C9EF;
+	BORDER: #6699cc 1px solid; 
+	PADDING: 2px; 
+}
+.FeatureBoxHeader, .FeatureBoxHeader a
+{
+	color: #993300;
+	font-family: Verdana;	
+	
+	padding-left: 2pt;
+	padding-bottom: 2pt;
+	font-weight: bold;
+	font-size: 13pt;
+}
+.FeatureBoxHeaderArrow
+{
+	background-color: #6699cc;
+}
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=oncopy.js
+Content-Type: application/x-javascript; name=oncopy.js
+Content-Location: http://www.codeproject.com/script/oncopy.js
+Content-Transfer-Encoding: Base64
+
+Ly8gSG9vay11cCB0byB0aGUgZG9jdW1lbnQuYm9keS5vbmNvcHkgZXZlbnQsDQov
+LyBvciBpbiB0aGUgPGJvZHk+J3MgIm9uY29weSIgYXR0cmlidXRlLg0KLy8gQXV0
+aG9yOiBIZWF0aCBTdGV3YXJ0DQpmdW5jdGlvbiBjb3B5Q29kZSgpDQp7DQoJdHJ5
+DQoJew0KCQl2YXIgcmFuZ2UgPSBkb2N1bWVudC5zZWxlY3Rpb24uY3JlYXRlUmFu
+Z2UoKTsNCgkJaWYgKGRvY3VtZW50LnNlbGVjdGlvbi50eXBlICE9ICJub25lIikN
+CgkJew0KCQkJdmFyIHBhcmVudCA9IHJhbmdlLnBhcmVudEVsZW1lbnQoKTsNCgkJ
+CXZhciBwYXJlbnROYW1lID0gcGFyZW50LnRhZ05hbWU7DQoJCQlpZiAocGFyZW50
+TmFtZSAhPSBudWxsKQ0KCQkJew0KCQkJCWlmIChwYXJlbnROYW1lLnRvTG93ZXJD
+YXNlKCkgPT0gInByZSIpDQoJCQkJew0KCQkJCQkvLyBSZXBsYWNlIHN1cGVyZmx1
+b3VzIDxicj4gdGFncyBpbiBhIDxwcmU+IGJsb2NrLg0KCQkJCQl2YXIgcmUgPSAv
+PGJyPi9naTsNCgkJCQkJdmFyIGNvZGUgPSByYW5nZS5odG1sVGV4dC5yZXBsYWNl
+KHJlLCAiXHJcbiIpOw0KDQoJCQkJCS8vIFJlcGxhY2Ugbm9uLWJyZWFraW5nIHNw
+YWNlcy4NCgkJCQkJcmUgPSAvJm5ic3A7L2dpOw0KCQkJCQljb2RlID0gY29kZS5y
+ZXBsYWNlKHJlLCAiICIpOw0KDQoJCQkJCS8vIFJlcGxhY2UgJiBjaGFyYWN0ZXJz
+Lg0KCQkJCQlyZSA9IC8mYW1wOy9naTsNCgkJCQkJY29kZSA9IGNvZGUucmVwbGFj
+ZShyZSwgIiYiKTsNCg0KCQkJCQkvLyBSZXBsYWNlIDwgY2hhcmFjdGVycy4NCgkJ
+CQkJcmUgPSAvJmx0Oy9naTsNCgkJCQkJY29kZSA9IGNvZGUucmVwbGFjZShyZSwg
+IjwiKTsNCg0KCQkJCQkvLyBSZXBsYWNlID4gY2hhcmFjdGVycy4NCgkJCQkJcmUg
+PSAvJmd0Oy9naTsNCgkJCQkJY29kZSA9IGNvZGUucmVwbGFjZShyZSwgIj4iKTsN
+CgkJCQkJDQoJCQkJCS8vIENKTTogUmVtb3ZlIGNvbG9yaXphdGlvbg0KCQkJCQly
+ZSA9IC88XC8/c3BhbihbXj5dKSo+L2dpOw0KCQkJCQljb2RlID0gY29kZS5yZXBs
+YWNlKHJlLCAiIik7DQoNCgkJCQkJaWYgKGNvZGUgIT0gbnVsbCkNCgkJCQkJew0K
+CQkJCQkJd2luZG93LmV2ZW50LnJldHVyblZhbHVlID0gZmFsc2U7DQoJCQkJCQl3
+aW5kb3cuY2xpcGJvYXJkRGF0YS5zZXREYXRhKCJUZXh0IiwgY29kZSk7DQoJCQkJ
+CX0NCgkJCQl9DQoJCQl9DQoJCX0NCgl9DQoJY2F0Y2goZSkge30NCn0NCg==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=codeproject225x90.gif
+Content-Type: image/gif; name=codeproject225x90.gif
+Content-Location: http://www.codeproject.com/images/AustraliaDay/codeproject225x90.gif
+Content-Transfer-Encoding: Base64
+
+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
+qclqipOY4LzcMbWJzjQGAgA7
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=cpmenu_var.js
+Content-Type: application/x-javascript; name=cpmenu_var.js
+Content-Location: http://www.codeproject.com/script/HVMenu/cpmenu_var.js
+Content-Transfer-Encoding: Base64
+
+dmFyIEJhc2VIcmVmPSIiOw0KdmFyIE5vT2ZmRmlyc3RMaW5lTWVudXM9NDsNCg0K
+dmFyIEZvbnRGYW1pbHk9IlZlcmRhbmEsIEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMt
+c2VyaWYiOw0KdmFyIEZvbnRTaXplPTEyOw0KdmFyIEZvbnRCb2xkPTE7DQp2YXIg
+Rm9udEl0YWxpYz0wOw0KdmFyIE1lbnVUZXh0Q2VudGVyZWQ9ImxlZnQiOw0KdmFy
+IE1lbnVDZW50ZXJlZD0ibGVmdCI7DQp2YXIgTWVudVZlcnRpY2FsQ2VudGVyZWQ9
+InRvcCI7DQp2YXIgUGFydE9mV2luZG93PTAuNzsNCg0KdmFyIExvd0JnQ29sb3I9
+IiM0ODhFMDAiOw0KdmFyIEhpZ2hCZ0NvbG9yPSIjQzNERTZDIjsNCnZhciBGb250
+TG93Q29sb3I9IiNGRkYiOw0KdmFyIEZvbnRIaWdoQ29sb3I9IiMwMDAiOw0KdmFy
+IEJvcmRlckNvbG9yPUxvd0JnQ29sb3I7DQp2YXIgSG92ZXJCb3JkZXJDb2xvcj0i
+IzQ4OEUwMCI7DQoNCnZhciBCb3JkZXJXaWR0aE1haW49MjsNCnZhciBCb3JkZXJX
+aWR0aFN1Yj0yOw0KdmFyIEJvcmRlcldpZHRoSG92ZXI9MTsNCnZhciBCb3JkZXJC
+dHduTWFpbj0zOw0KdmFyIEJvcmRlckJ0d25TdWI9MTsNCg0KdmFyIFN0YXJ0VG9w
+PTA7DQp2YXIgU3RhcnRMZWZ0PTA7DQp2YXIgVmVyQ29ycmVjdD0xOw0KdmFyIEhv
+ckNvcnJlY3Q9MDsNCnZhciBMZWZ0UGFkZG5nPTU7DQp2YXIgVG9wUGFkZG5nPTI7
+DQp2YXIgRmlyc3RMaW5lSG9yaXpvbnRhbD0xOw0KdmFyIFRhcmdldExvYz0iTWVu
+dVBvcyI7DQoNCnZhciBCZ0ltZ0xlZnRPZmZzZXQ9NTsNCnZhciBTY2FsZU1lbnU9
+MDsNCnZhciBEaXN0RnJtRnJhbWVCcmRyPTA7DQoNCnZhciBIb3ZlckJvbGQ9MDsN
+CnZhciBIb3Zlckl0YWxpYz0wOw0KdmFyIEhvdmVyVW5kZXJMaW5lPTA7DQp2YXIg
+SG92ZXJUZXh0U2l6ZT0wOw0KdmFyIEhvdmVyVmFyaWFudD0wOw0KdmFyIEhvdmVy
+Qm9yZGVyPTE7DQoNCnZhciBEaXNzYXBlYXJEZWxheT0zMDA7DQp2YXIgVW5mb2xk
+RGVsYXk9MjAwOw0KdmFyIENoaWxkT3ZlcmxhcD0wOw0KdmFyIENoaWxkVmVydGlj
+YWxPdmVybGFwPTA7DQp2YXIgQnVpbGRPbkRlbWFuZD0wOw0KdmFyIE92ZXJGb3Jt
+RWxlbWVudHM9MTsNCg0KdmFyIEJvdHRvbVVwPTA7DQp2YXIgTWVudVdyYXA9MTsN
+CnZhciBSaWdodFRvTGVmdD0wOw0KdmFyIFVuZm9sZHNPbkNsaWNrPTA7DQp2YXIg
+UmVtZW1iZXJTdGF0dXM9MDsNCg0KdmFyIFRha2VPdmVyQmdDb2xvcj0xOw0KdmFy
+IEZpcnN0TGluZUZyYW1lPSIiOw0KdmFyIFNlY0xpbmVGcmFtZT0iIjsNCnZhciBE
+b2NUYXJnZXRGcmFtZT0iIjsNCnZhciBNZW51RnJhbWVzVmVydGljYWw9MTsNCnZh
+ciBNZW51VXNlc0ZyYW1lcz0wOw0KDQp2YXIgTWVudVNsaWRlPSIiOw0KdmFyIE1l
+bnVTaGFkb3c9IiI7IA0KdmFyIE1lbnVPcGFjaXR5PSIiOyAvLyJwcm9naWQ6RFhJ
+bWFnZVRyYW5zZm9ybS5NaWNyb3NvZnQuQWxwaGEob3BhY2l0eT04NSkiOw0KdmFy
+IERyb3BNZW51U2hhZG93PSJwcm9naWQ6RFhJbWFnZVRyYW5zZm9ybS5NaWNyb3Nv
+ZnQuU2hhZG93KGNvbG9yPSM5OTk5OTksIGRpcmVjdGlvbj0xMzUsIHN0cmVuZ3Ro
+PTMpIjsNCnZhciBNYWluTWVudUZpbHRlcj0icHJvZ2lkOkRYSW1hZ2VUcmFuc2Zv
+cm0uTWljcm9zb2Z0LlNoYWRvdyhjb2xvcj0jMDAwMDAwLCBkaXJlY3Rpb249MTM1
+LCBzdHJlbmd0aD0xKSI7DQoNCmZ1bmN0aW9uIEJlZm9yZVN0YXJ0KCl7cmV0dXJu
+fQ0KZnVuY3Rpb24gQWZ0ZXJCdWlsZCgpe3JldHVybn0NCmZ1bmN0aW9uIEJlZm9y
+ZUZpcnN0T3Blbigpe3JldHVybn0NCmZ1bmN0aW9uIEFmdGVyQ2xvc2VBbGwoKXty
+ZXR1cm59DQoNCnZhciBBcnJ3cz1bQmFzZUhyZWYrIiIsLCxCYXNlSHJlZisiIiws
+LEJhc2VIcmVmKyIiLCwsQmFzZUhyZWYrIiIsLF07DQoNCg0KTWVudTE9bmV3IEFy
+cmF5KCJIZWxwISIsIi9pbmZvL2ZhcS5hc3AiLCIiLDUsMTgsNDUsIiIsIiIsIiIs
+IiIsIiIsIiIsLTEsLTEsLTEsIiIsIiIpOw0KCU1lbnUxXzE9bmV3IEFycmF5KCJX
+aGF0IGlzICdUaGUgQ29kZSBQcm9qZWN0Jz8iLCIvaW5mby9ndWlkZS5hc3AiLCIi
+LDAsMTgsMTkwLCIiLCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIiKTsNCglN
+ZW51MV8yPW5ldyBBcnJheSgiR2VuZXJhbCBGQVEiLCIvaW5mby9mYXEuYXNwIiwi
+IiwwLDE4LDE5MCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwtMSwtMSwiIiwiIik7DQoJ
+TWVudTFfMz1uZXcgQXJyYXkoIlBvc3QgYSBRdWVzdGlvbiIsIi9zY3JpcHQvY29t
+bWVudHMvZm9ydW1zLmFzcCIsIiIsMCwxOCwxOTAsIiIsIiIsIiIsIiIsIiIsIiIs
+LTEsLTEsLTEsIiIsIiIpOw0KCU1lbnUxXzQ9bmV3IEFycmF5KCJTaXRlIERpcmVj
+dG9yeSIsIi9zY3JpcHQvYXJ0aWNsZXMvc2VjdGlvbnMuYXNwIiwiIiwwLDE4LDE5
+MCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwtMSwtMSwiIiwiIik7DQoJTWVudTFfNT1u
+ZXcgQXJyYXkoIkFib3V0IFVzIiwiL2luZm8vYWJvdXQuYXNwIiwiIiwwLDE4LDE5
+MCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwtMSwtMSwiIiwiIik7DQpNZW51Mj1uZXcg
+QXJyYXkoIkFydGljbGVzIiwiL2luZm8vbGF0ZXN0LmFzcCIsIiIsNywxOCw2MCwi
+IiwiIiwiIiwiIiwiIiwiIiwtMSwtMSwtMSwiIiwiIik7DQoJTWVudTJfMT1uZXcg
+QXJyYXkoIkxhdGVzdCIsIi9pbmZvL2xhdGVzdC5hc3AiLCIiLDAsMTgsMTUwLCIi
+LCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIiKTsJDQoJTWVudTJfMj1uZXcg
+QXJyYXkoIk1vc3QgUG9wdWxhciIsIi9zY3JpcHQvYXJ0aWNsZXMvdG9wX2FydGlj
+bGVzLmFzcD9zdD0yIiwiIiwwLDE4LDE1MCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwt
+MSwtMSwiIiwiIik7CQ0KCU1lbnUyXzM9bmV3IEFycmF5KCJTZWFyY2giLCIvaW5m
+by9zZWFyY2guYXNwIiwiIiwwLDE4LDE1MCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwt
+MSwtMSwiIiwiIik7CQkNCglNZW51Ml80PW5ldyBBcnJheSgiU2l0ZSBEaXJlY3Rv
+cnkiLCIvc2NyaXB0L2FydGljbGVzL3NlY3Rpb25zLmFzcCIsIiIsMCwxOCwxOTAs
+IiIsIiIsIiIsIiIsIiIsIiIsLTEsLTEsLTEsIiIsIiIpOw0KCU1lbnUyXzU9bmV3
+IEFycmF5KCJTdWJtaXQgYW4gQXJ0aWNsZSIsIi9pbmZvL3N1Ym1pdC5hc3AiLCIi
+LDAsMTgsMTUwLCIiLCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIiKTsNCglN
+ZW51Ml82PW5ldyBBcnJheSgiVXBkYXRlIGFuIEFydGljbGUiLCIvaW5mby9zdWJt
+aXQuYXNwI1VwZGF0ZSIsIiIsMCwxOCwxNTAsIiIsIiIsIiIsIiIsIiIsIiIsLTEs
+LTEsLTEsIiIsIiIpOw0KCU1lbnUyXzc9bmV3IEFycmF5KCJBcnRpY2xlIENvbXBl
+dGl0aW9uIiwiL3NjcmlwdC9jb21wZXRpdGlvbnMvbW9udGhseS8iLCIiLDAsMTgs
+MTUwLCIiLCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIiKTsNCk1lbnUzPW5l
+dyBBcnJheSgiTWVzc2FnZSBCb2FyZHMiLCIvc2NyaXB0L2NvbW1lbnRzL2ZvcnVt
+cy5hc3AiLCIiLDI0LDE4LDEyMCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwtMSwtMSwi
+IiwiIik7DQoJTWVudTNfMT1uZXcgQXJyYXkoIldpbmRvd3MgVmlzdGEiLCIvc2Ny
+aXB0L2NvbW1lbnRzL2ZvcnVtcy5hc3A/Zm9ydW1pZD0zNjM0MDMiLCIiLDAsMTgs
+MTcwLCIiLCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIiKTsNCglNZW51M18y
+PW5ldyBBcnJheSgiVmlzdWFsIEMrKyIsIi9zY3JpcHQvY29tbWVudHMvZm9ydW1z
+LmFzcD9mb3J1bWlkPTE2NDciLCIiLDAsMTgsMTcwLCIiLCIiLCIiLCIiLCIiLCIi
+LC0xLC0xLC0xLCIiLCIiKTsNCglNZW51M18zPW5ldyBBcnJheSgiQVRMIC8gV1RM
+IC8gU1RMIiwiL3NjcmlwdC9jb21tZW50cy9mb3J1bXMuYXNwP2ZvcnVtaWQ9NDQ4
+NiIsIiIsMCwxOCwxNzAsIiIsIiIsIiIsIiIsIiIsIiIsLTEsLTEsLTEsIiIsIiIp
+Ow0KCU1lbnUzXzQ9bmV3IEFycmF5KCJDT00iLCIvc2NyaXB0L2NvbW1lbnRzL2Zv
+cnVtcy5hc3A/Zm9ydW1pZD0xNjQ4IiwiIiwwLDE4LDE3MCwiIiwiIiwiIiwiIiwi
+IiwiIiwtMSwtMSwtMSwiIiwiIik7DQoJTWVudTNfNT1uZXcgQXJyYXkoIkMrKy9D
+TEkiLCIvc2NyaXB0L2NvbW1lbnRzL2ZvcnVtcy5hc3A/Zm9ydW1pZD0zNzg1Iiwi
+IiwwLDE4LDE3MCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwtMSwtMSwiIiwiIik7DQoJ
+TWVudTNfNj1uZXcgQXJyYXkoIkMjIiwiL3NjcmlwdC9jb21tZW50cy9mb3J1bXMu
+YXNwP2ZvcnVtaWQ9MTY0OSIsIiIsMCwxOCwxNzAsIiIsIiIsIiIsIiIsIiIsIiIs
+LTEsLTEsLTEsIiIsIiIpOw0KCU1lbnUzXzc9bmV3IEFycmF5KCJBU1AuTkVUIiwi
+L3NjcmlwdC9jb21tZW50cy9mb3J1bXMuYXNwP2ZvcnVtaWQ9MTIwNzYiLCIiLDAs
+MTgsMTcwLCIiLCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIiKTsNCglNZW51
+M184PW5ldyBBcnJheSgiVkIuTkVUIiwiL3NjcmlwdC9jb21tZW50cy9mb3J1bXMu
+YXNwP2ZvcnVtaWQ9MTY0NiIsIiIsMCwxOCwxNzAsIiIsIiIsIiIsIiIsIiIsIiIs
+LTEsLTEsLTEsIiIsIiIpOw0KCU1lbnUzXzk9bmV3IEFycmF5KCJXZWIgRGV2ZWxv
+cG1lbnQiLCIvc2NyaXB0L2NvbW1lbnRzL2ZvcnVtcy5hc3A/Zm9ydW1pZD0xNjQw
+IiwiIiwwLDE4LDE3MCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwtMSwtMSwiIiwiIik7
+DQoJTWVudTNfMTA9bmV3IEFycmF5KCIuTkVUIEZyYW1ld29yayIsIi9zY3JpcHQv
+Y29tbWVudHMvZm9ydW1zLmFzcD9mb3J1bWlkPTE2NTAiLCIiLDAsMTgsMTcwLCIi
+LCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIiKTsNCglNZW51M18xMT1uZXcg
+QXJyYXkoIk1vYmlsZSBEZXZlbG9wbWVudCIsIi9zY3JpcHQvY29tbWVudHMvZm9y
+dW1zLmFzcD9mb3J1bWlkPTEzNjk1IiwiIiwwLDE4LDE3MCwiIiwiIiwiIiwiIiwi
+IiwiIiwtMSwtMSwtMSwiIiwiIik7DQoJTWVudTNfMTI9bmV3IEFycmF5KCJTUUwg
+LyBBRE8gLyBBRE8uTkVUIiwiL3NjcmlwdC9jb21tZW50cy9mb3J1bXMuYXNwP2Zv
+cnVtaWQ9MTcyNSIsIiIsMCwxOCwxNzAsIiIsIiIsIiIsIiIsIiIsIiIsLTEsLTEs
+LTEsIiIsIiIpOw0KCU1lbnUzXzEzPW5ldyBBcnJheSgiWE1MIC8gWFNMIiwiL3Nj
+cmlwdC9jb21tZW50cy9mb3J1bXMuYXNwP2ZvcnVtaWQ9MzQyMSIsIiIsMCwxOCwx
+NzAsIiIsIiIsIiIsIiIsIiIsIiIsLTEsLTEsLTEsIiIsIiIpOw0KCU1lbnUzXzE0
+PW5ldyBBcnJheSgiT1MgLyBTeXNBZG1pbiIsIi9zY3JpcHQvY29tbWVudHMvZm9y
+dW1zLmFzcD9mb3J1bWlkPTE2NDQiLCIiLDAsMTgsMTcwLCIiLCIiLCIiLCIiLCIi
+LCIiLC0xLC0xLC0xLCIiLCIiKTsNCglNZW51M18xNT1uZXcgQXJyYXkoIldvcmsg
+SXNzdWVzIiwiL3NjcmlwdC9jb21tZW50cy9mb3J1bXMuYXNwP2ZvcnVtaWQ9MzMw
+NCIsIiIsMCwxOCwxNzAsIiIsIiIsIiIsIiIsIiIsIiIsLTEsLTEsLTEsIiIsIiIp
+Ow0KCU1lbnUzXzE2PW5ldyBBcnJheSgiQXJ0aWNsZSBSZXF1ZXN0cyIsIi9zY3Jp
+cHQvY29tbWVudHMvZm9ydW1zLmFzcD9mb3J1bWlkPTE2NDEiLCIiLDAsMTgsMTcw
+LCIiLCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIiKTsNCglNZW51M18xNz1u
+ZXcgQXJyYXkoIkNvbGxhYm9yYXRpb24iLCIvc2NyaXB0L2NvbW1lbnRzL2ZvcnVt
+cy5hc3A/Zm9ydW1pZD0xNjUxIiwiIiwwLDE4LDE3MCwiIiwiIiwiIiwiIiwiIiwi
+IiwtMSwtMSwtMSwiIiwiIik7DQoJTWVudTNfMTg9bmV3IEFycmF5KCJHZW5lcmFs
+IERpc2N1c3Npb25zIiwiL3NjcmlwdC9jb21tZW50cy9mb3J1bXMuYXNwP2ZvcnVt
+aWQ9MTY0MiIsIiIsMCwxOCwxNzAsIiIsIiIsIiIsIiIsIiIsIiIsLTEsLTEsLTEs
+IiIsIiIpOw0KCU1lbnUzXzE5PW5ldyBBcnJheSgiSGFyZHdhcmUiLCIvc2NyaXB0
+L2NvbW1lbnRzL2ZvcnVtcy5hc3A/Zm9ydW1pZD0xODYzMDEiLCIiLDAsMTgsMTcw
+LCIiLCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIiKTsNCglNZW51M18yMD1u
+ZXcgQXJyYXkoIkFsZ29yaXRobXMgLyBNYXRoIiwiL3NjcmlwdC9jb21tZW50cy9m
+b3J1bXMuYXNwP2ZvcnVtaWQ9MzI2ODU5IiwiIiwwLDE4LDE3MCwiIiwiIiwiIiwi
+IiwiIiwiIiwtMSwtMSwtMSwiIiwiIik7DQoJTWVudTNfMjE9bmV3IEFycmF5KCJE
+ZXNpZ24gYW5kIEFyY2hpdGVjdHVyZSIsIi9zY3JpcHQvY29tbWVudHMvZm9ydW1z
+LmFzcD9mb3J1bWlkPTM2OTI3MCIsIiIsMCwxOCwxNzAsIiIsIiIsIiIsIiIsIiIs
+IiIsLTEsLTEsLTEsIiIsIiIpOw0KCU1lbnUzXzIyPW5ldyBBcnJheSgiU3VidGxl
+IEJ1Z3MiLCIvc2NyaXB0L2NvbW1lbnRzL2ZvcnVtcy5hc3A/Zm9ydW1pZD0zNDMy
+ODAiLCIiLDAsMTgsMTcwLCIiLCIiLCIiLCIiLCIiLCIiLC0xLC0xLC0xLCIiLCIi
+KTsNCglNZW51M18yMz1uZXcgQXJyYXkoIlN1Z2dlc3Rpb25zIiwiL3NjcmlwdC9j
+b21tZW50cy9mb3J1bXMuYXNwP2ZvcnVtaWQ9MTY0NSIsIiIsMCwxOCwxNzAsIiIs
+IiIsIiIsIiIsIiIsIiIsLTEsLTEsLTEsIiIsIiIpOw0KCU1lbnUzXzI0PW5ldyBB
+cnJheSgiVGhlIFNvYXBib3giLCIvc2NyaXB0L2NvbW1lbnRzL2ZvcnVtcy5hc3A/
+Zm9ydW1pZD0yNjA1IiwiIiwwLDE4LDE3MCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwt
+MSwtMSwiIiwiIik7DQovL01lbnU0PW5ldyBBcnJheSgiU3RvcmVGcm9udCIsIi9z
+dG9yZS8iLCIiLDAsMTgsODAsIiIsIiIsIiIsIiIsIiIsIiIsLTEsLTEsLTEsIiIs
+IiIpOw0KTWVudTQ9bmV3IEFycmF5KCJMb3VuZ2UiLCIvbG91bmdlLmFzcCIsIiIs
+MCwxOCw2MCwiIiwiIiwiIiwiIiwiIiwiIiwtMSwtMSwtMSwiIiwiIik7
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=menu10_com.js
+Content-Type: application/x-javascript; name=menu10_com.js
+Content-Location: http://www.codeproject.com/script/HVMenu/menu10_com.js
+Content-Transfer-Encoding: Base64
+
+LyoqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioq
+DQoqCShjKSBHZXIgVmVyc2x1aXMgMjAwMCB2ZXJzaW9uIDEzLjExIEFwcmlsIDEz
+LCAyMDA1ICAgICAgICoNCioJWW91IG1heSB1c2UgdGhpcyBzY3JpcHQgb24gbm9u
+IGNvbW1lcmNpYWwgc2l0ZXMuCSAgICAgICAgICAqDQoqCXd3dy5idXJtZWVzLm5s
+L21lbnUJCQkgICAgICAgICAgKg0KKioqKioqKioqKioqKioqKioqKioqKioqKioq
+KioqKioqKioqKioqKioqKioqKioqLw0KDQppZihkb2N1bWVudC5nZXRFbGVtZW50
+QnlJZCl7DQoJdmFyIEFnbnRVc3I9bmF2aWdhdG9yLnVzZXJBZ2VudC50b0xvd2Vy
+Q2FzZSgpLEFwcFZlcj1uYXZpZ2F0b3IuYXBwVmVyc2lvbi50b0xvd2VyQ2FzZSgp
+LA0KCU9wcjc9QWdudFVzci5pbmRleE9mKCJvcGVyYSIpIT0tMSYmcGFyc2VJbnQo
+QWdudFVzci5zdWJzdHJpbmcoQWdudFVzci5pbmRleE9mKCJvcGVyYSIpKzYpKT42
+P3RydWU6ZmFsc2U7DQoJaWYoKEFnbnRVc3IuaW5kZXhPZigib3BlcmEiKT09LTF8
+fE9wcjcpKXsNCgkJdmFyIE5hdlllcz0oKEFnbnRVc3IuaW5kZXhPZigibW96aWxs
+YSIpIT0tMSYmQWdudFVzci5pbmRleE9mKCJjb21wYXRpYmxlIik9PS0xKXx8T3By
+Nyk/dHJ1ZTpmYWxzZSxFeHBZZXM9KEFnbnRVc3IuaW5kZXhPZigibXNpZSIpIT0t
+MSYmIU9wcjcpPwl0cnVlOmZhbHNlOw0KCQlpZihNZW51VXNlc0ZyYW1lcyYmIXBh
+cmVudC5mcmFtZXNbMF0pTWVudVVzZXNGcmFtZXM9MDsNCgkJdmFyIEV4cDZQbHVz
+PSgoQXBwVmVyLmluZGV4T2YoIm1zaWUgNiIpIT0tMXx8QXBwVmVyLmluZGV4T2Yo
+Im1zaWUgNyIpIT0tMSkmJiFPcHI3KT90cnVlOmZhbHNlLE1hY0V4cDU9KEFwcFZl
+ci5pbmRleE9mKCJtYWMiKSE9LTEmJkFwcFZlci5pbmRleE9mKCJtc2llIDUiKSE9
+LTEpP3RydWU6ZmFsc2UsDQoJCUZMb2MsU2NMb2MsRGNMb2MsU0xkQWduV2luLEZX
+aW5ILEZDb2xXLFNDb2xXLERDb2xXLFNXaW5XLFNXaW5ILEZXaW5XLFJMdmw9MCxG
+bnRGYz0xLFN0YXRpY1Bvcz0wLFp0b3A9MTAwLEZyc3RDcmVhdD10cnVlLExkZD1m
+YWxzZSwNCgkJQ3J0ZD1mYWxzZSxGQ21wbG50PWZhbHNlLFNDbXBsbnQ9ZmFsc2Us
+TV9DbGNrZD1mYWxzZSxJbmlGbGc9ZmFsc2UsU2h3RmxnPWZhbHNlLEFjcnNzRnJt
+cz10cnVlLEZyc3RDbnRucj1udWxsLEN1ck92cj1udWxsLEZIdG1sPW51bGwsU2NI
+dG1sPW51bGwsDQoJCUNsb3NlVG1yPW51bGwsT3BuVG1yPW51bGwsUm1ick5vdz1u
+dWxsLEZTdHI9IiIsTV9IaWRlPSJoaWRkZW4iLE1fU2hvdz0idmlzaWJsZSIsUF9Y
+PSJweCIsTV9TdHJ0VHA9U3RhcnRUb3AsTV9TdHJ0TGZ0PVN0YXJ0TGVmdCwNCgkJ
+UGFyPU1lbnVVc2VzRnJhbWVzP3BhcmVudDp3aW5kb3csRG9jPVBhci5kb2N1bWVu
+dCxCb2Q9RG9jLmJvZHksVHJpZ2dlcj1OYXZZZXM/UGFyOkJvZCwNCgkJTmF2X09w
+PU5hdlllcyYmQWdudFVzci5pbmRleE9mKCJnZWNrby8iKSE9LTEmJkFnbnRVc3Iu
+aW5kZXhPZigibWFjIik9PS0xJiZwYXJzZUludChBZ250VXNyLnN1YnN0cmluZyhB
+Z250VXNyLmluZGV4T2YoImdlY2tvLyIpKzYsQWdudFVzci5pbmRleE9mKCJnZWNr
+by8iKSsxMikpPj0yMDAzMDM/dHJ1ZTpmYWxzZSwNCgkJSW5pdExkZCxNc3RTej0w
+O0xkVG1yPXNldEludGVydmFsKCJDaGNrSW5pdExkKCkiLDEwMCl9fQ0KDQpmdW5j
+dGlvbiBDaGNrSW5pdExkKCl7DQoJSW5pdExkZD1FeHBZZXM/DQoJCU1lbnVVc2Vz
+RnJhbWVzP1Bhci5mcmFtZXNbRmlyc3RMaW5lRnJhbWVdLmRvY3VtZW50LnJlYWR5
+U3RhdGU9PSJjb21wbGV0ZSImJlBhci5mcmFtZXNbU2VjTGluZUZyYW1lXS5kb2N1
+bWVudC5yZWFkeVN0YXRlPT0iY29tcGxldGUiPw0KCQkxOjA6UGFyLmRvY3VtZW50
+LnJlYWR5U3RhdGU9PSJjb21wbGV0ZSI/DQoJCTE6MDpNZW51VXNlc0ZyYW1lcz9Q
+YXIuZnJhbWVzW0ZpcnN0TGluZUZyYW1lXS5kb2N1bWVudC5ib2R5JiZQYXIuZnJh
+bWVzW1NlY0xpbmVGcmFtZV0uZG9jdW1lbnQuYm9keT8xOjA6UGFyLmRvY3VtZW50
+LmJvZHk/MTowOw0KCWlmKEluaXRMZGQpCXtjbGVhckludGVydmFsKExkVG1yKTtH
+bygpfX0NCg0KZnVuY3Rpb24gQ25jbFNsY3QoKXtyZXR1cm4gZmFsc2V9DQoNCmZ1
+bmN0aW9uIFJlUG9zKCl7DQoJRldpblc9RXhwWWVzP0ZDbXBsbnQ/Rkh0bWwuY2xp
+ZW50V2lkdGg6RkxvYy5kb2N1bWVudC5ib2R5LmNsaWVudFdpZHRoOkZMb2MuaW5u
+ZXJXaWR0aDsNCglGV2luSD1FeHBZZXM/RkNtcGxudD9GSHRtbC5jbGllbnRIZWln
+aHQ6RkxvYy5kb2N1bWVudC5ib2R5LmNsaWVudEhlaWdodDpGTG9jLmlubmVySGVp
+Z2h0Ow0KCVNXaW5XPUV4cFllcz9TQ21wbG50P1NjSHRtbC5jbGllbnRXaWR0aDpT
+Y0xvYy5kb2N1bWVudC5ib2R5LmNsaWVudFdpZHRoOlNjTG9jLmlubmVyV2lkdGg7
+DQoJU1dpbkg9RXhwWWVzP1NDbXBsbnQ/U2NIdG1sLmNsaWVudEhlaWdodDpTY0xv
+Yy5kb2N1bWVudC5ib2R5LmNsaWVudEhlaWdodDpTY0xvYy5pbm5lckhlaWdodDsN
+CglpZihNc3RTeilTaXplTWVudShGcnN0Q250bnIpOw0KCVN0YXRpY1Bvcz0tMTsN
+CglDbGNSbCgpO2lmKFRhcmdldExvYylDbGNUcmd0KCk7Q2xjTGZ0KCk7Q2xjVHAo
+KTsNCglQb3NNZW51KEZyc3RDbnRucixTdGFydFRvcCxTdGFydExlZnQpOw0KCWlm
+KFJlbWVtYmVyU3RhdHVzKVN0TW51KCl9DQoNCmZ1bmN0aW9uIFVuTGRkKCl7DQoJ
+TGRkPUNydGQ9ZmFsc2U7DQoJU2V0TWVudT0iMCI7DQoJdmFyIE09RnJzdENudG5y
+P0Zyc3RDbnRuci5GcnN0TWJyOm51bGw7DQoJaWYoRXhwWWVzKXt3aGlsZShNIT1u
+dWxsKXtpZihNLkNDbil7TWFrZU51bGwoTS5DQ24pO00uQ0NuPW51bGx9TT1NLlBy
+dk1icn19DQoJTGRUbXI9c2V0SW50ZXJ2YWwoIkNoY2tMZGQoKSIsMTAwKX0NCg0K
+ZnVuY3Rpb24gVW5MZGRUb3RhbCgpew0KCU1ha2VOdWxsKEZyc3RDbnRucik7DQoJ
+RnJzdENudG5yPVJtYnJOb3c9RkxvYz1TY0xvYz1EY0xvYz1TTGRBZ25XaW49Q3Vy
+T3ZyPUNsb3NlVG1yPURvYz1Cb2Q9VHJpZ2dlcj1udWxsfQ0KDQpmdW5jdGlvbiBN
+YWtlTnVsbChQKXsNCgl2YXIgTT1QLkZyc3RNYnIsTWk7DQoJd2hpbGUoTSE9bnVs
+bCl7TWk9TTtpZihNLkNDbil7TWFrZU51bGwoTS5DQ24pO00uQ0NuLm1pZj1udWxs
+O00uQ0NuPW51bGx9TT1NLlBydk1icjtNaS5QcnZNYnI9bnVsbDtNaT1udWxsfQ0K
+CVAuRnJzdE1icj1udWxsfQ0KDQpmdW5jdGlvbiBDaGNrTGRkKCl7aWYoIUV4cFll
+cyl7DQoJaWYoU2NMb2MuZG9jdW1lbnQuYm9keSl7Y2xlYXJJbnRlcnZhbChMZFRt
+cik7R28oKX19DQoJZWxzZSBpZihTY0xvYy5kb2N1bWVudC5yZWFkeVN0YXRlPT0i
+Y29tcGxldGUiKXtpZihMZFRtciljbGVhckludGVydmFsKExkVG1yKTtHbygpfX0N
+Cg0KZnVuY3Rpb24gR28oKXsNCglpZighTGRkKXsJQ3J0ZD1mYWxzZTtMZGQ9dHJ1
+ZTsNCgkJQmVmb3JlU3RhcnQoKTsNCgkJaWYoU2NhbGVNZW51KXsNCgkJCWlmKGRv
+Y3VtZW50LmRlZmF1bHRWaWV3JiZkb2N1bWVudC5kZWZhdWx0Vmlldy5nZXRDb21w
+dXRlZFN0eWxlKUZudEZjPXBhcnNlSW50KGRvY3VtZW50LmRlZmF1bHRWaWV3Lmdl
+dENvbXB1dGVkU3R5bGUoZG9jdW1lbnQuYm9keSwnJykuZ2V0UHJvcGVydHlWYWx1
+ZSgiZm9udC1zaXplIikpLzE2Ow0KCQkJZWxzZSBpZihFeHBZZXMmJmRvY3VtZW50
+LmJvZHkuY3VycmVudFN0eWxlKUZudEZjPXBhcnNlSW50KGRvY3VtZW50LmJvZHku
+Y3VycmVudFN0eWxlLmZvbnRTaXplKS8xMn0NCgkJc3RhdHVzPSJCdWlsZGluZyBt
+ZW51IjsNCgkJRkxvYz1NZW51VXNlc0ZyYW1lcz9wYXJlbnQuZnJhbWVzW0ZpcnN0
+TGluZUZyYW1lXTp3aW5kb3c7DQoJCVNjTG9jPU1lbnVVc2VzRnJhbWVzP3BhcmVu
+dC5mcmFtZXNbU2VjTGluZUZyYW1lXTp3aW5kb3c7DQoJCURjTG9jPU1lbnVVc2Vz
+RnJhbWVzP3BhcmVudC5mcmFtZXNbRG9jVGFyZ2V0RnJhbWVdOndpbmRvdzsNCgkJ
+aWYoTWVudVVzZXNGcmFtZXMpe2lmKCFGTG9jKUZMb2M9d2luZG93O2lmKCFTY0xv
+YylTY0xvYz13aW5kb3c7aWYoIURjTG9jKURjTG9jPXdpbmRvd30NCgkJaWYoRkxv
+Yz09U2NMb2MpQWNyc3NGcm1zPWZhbHNlOw0KCQlpZihBY3Jzc0ZybXMpRmlyc3RM
+aW5lSG9yaXpvbnRhbD1NZW51RnJhbWVzVmVydGljYWw/MDpGaXJzdExpbmVIb3Jp
+em9udGFsP0ZpcnN0TGluZUhvcml6b250YWw6MTsNCgkJaWYoRXhwNlBsdXN8fE9w
+cjcpew0KCQkJRkh0bWw9RkxvYy5kb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFt
+ZSgiSFRNTCIpWzBdO1NjSHRtbD1TY0xvYy5kb2N1bWVudC5nZXRFbGVtZW50c0J5
+VGFnTmFtZSgiSFRNTCIpWzBdOw0KCQkJRkNtcGxudD1GTG9jLmRvY3VtZW50LmNv
+bXBhdE1vZGUuaW5kZXhPZigiQ1NTIik9PS0xP2ZhbHNlOnRydWU7U0NtcGxudD1T
+Y0xvYy5kb2N1bWVudC5jb21wYXRNb2RlLmluZGV4T2YoIkNTUyIpPT0tMT9mYWxz
+ZTp0cnVlfQ0KCQlGV2luVz1FeHBZZXM/RkNtcGxudD9GSHRtbC5jbGllbnRXaWR0
+aDpGTG9jLmRvY3VtZW50LmJvZHkuY2xpZW50V2lkdGg6RkxvYy5pbm5lcldpZHRo
+Ow0KCQlGV2luSD1FeHBZZXM/RkNtcGxudD9GSHRtbC5jbGllbnRIZWlnaHQ6Rkxv
+Yy5kb2N1bWVudC5ib2R5LmNsaWVudEhlaWdodDpGTG9jLmlubmVySGVpZ2h0Ow0K
+CQlTV2luVz1FeHBZZXM/U0NtcGxudD9TY0h0bWwuY2xpZW50V2lkdGg6U2NMb2Mu
+ZG9jdW1lbnQuYm9keS5jbGllbnRXaWR0aDpTY0xvYy5pbm5lcldpZHRoOw0KCQlT
+V2luSD1FeHBZZXM/U0NtcGxudD9TY0h0bWwuY2xpZW50SGVpZ2h0OlNjTG9jLmRv
+Y3VtZW50LmJvZHkuY2xpZW50SGVpZ2h0OlNjTG9jLmlubmVySGVpZ2h0Ow0KCQlG
+Q29sVz1GTG9jLmRvY3VtZW50LmJvZHk7U0NvbFc9U2NMb2MuZG9jdW1lbnQuYm9k
+eTtEQ29sVz1TY0xvYy5kb2N1bWVudC5ib2R5Ow0KCQlpZihUYWtlT3ZlckJnQ29s
+b3IpRkNvbFcuc3R5bGUuYmFja2dyb3VuZENvbG9yPUFjcnNzRnJtcz9TQ29sVy5i
+Z0NvbG9yOkRDb2xXLmJnQ29sb3I7DQoJCWlmKEZyc3RDcmVhdHx8RkxvYz09U2NM
+b2MpRnJzdENudG5yPUNyZWF0ZU1lbnVTdHJ1Y3R1cmUoIk1lbnUiLE5vT2ZmRmly
+c3RMaW5lTWVudXMsbnVsbCk7DQoJCWVsc2UgQ3JlYXRlTWVudVN0cnVjdHVyZUFn
+YWluKCJNZW51IixOb09mZkZpcnN0TGluZU1lbnVzKTsNCgkJU2l6ZU1lbnUoRnJz
+dENudG5yKTsNCgkJQ2xjUmwoKTtpZihUYXJnZXRMb2MpQ2xjVHJndCgpO0NsY0xm
+dCgpO0NsY1RwKCk7DQoJCVBvc01lbnUoRnJzdENudG5yLFN0YXJ0VG9wLFN0YXJ0
+TGVmdCk7DQoJCUNydGQ9dHJ1ZTsNCgkJU0xkQWduV2luPUV4cFllcz9TY0xvYy5k
+b2N1bWVudC5ib2R5OlNjTG9jO1NMZEFnbldpbi5vbnVubG9hZD1VbkxkZDsNCgkJ
+aWYoRXhwWWVzKVRyaWdnZXIub251bmxvYWQ9VW5MZGRUb3RhbDsNCgkJVHJpZ2dl
+ci5vbnJlc2l6ZT1SZVBvczsNCgkJQWZ0ZXJCdWlsZCgpOw0KCQlpZihSZW1lbWJl
+clN0YXR1cylTdE1udSgpOw0KCQlGcnN0Q3JlYXQ9ZmFsc2U7DQoJCWlmKE1lbnVW
+ZXJ0aWNhbENlbnRlcmVkPT0ic3RhdGljIiYmIUFjcnNzRnJtcylzZXRJbnRlcnZh
+bCgiS2VlcFBvcygpIiw1MCk7DQoJCWlmKCFFeHBZZXMpe0ZXaW5XPS0xO1JlUG9z
+KCl9DQoJCUluaUZsZz10cnVlO0luaXRpYXRlKCk7DQoJCXN0YXR1cz0iTWVudSBy
+ZWFkeSBmb3IgdXNlIn19DQoNCmZ1bmN0aW9uIEtlZXBQb3MoKXsNCgl2YXIgVFM9
+RXhwWWVzP1NDbXBsbnQ/U2NIdG1sLnNjcm9sbFRvcDpTY0xvYy5kb2N1bWVudC5i
+b2R5LnNjcm9sbFRvcDpTY0xvYy5wYWdlWU9mZnNldDsNCglpZihUUyE9U3RhdGlj
+UG9zKXsNCgkJU3RhdGljUG9zKz0oVFMtU3RhdGljUG9zKSouMjsNCgkJaWYoTWF0
+aC5hYnMoU3RhdGljUG9zLVRTKTw9MSlTdGF0aWNQb3M9VFM7DQoJCUZyc3RDbnRu
+ci5PcmdUb3A9U3RhcnRUb3ArU3RhdGljUG9zOw0KCQlGcnN0Q250bnIuc3R5bGUu
+dG9wPUZyc3RDbnRuci5taWYuc3R5bGUudG9wPUZyc3RDbnRuci5PcmdUb3ArUF9Y
+fX0NCg0KZnVuY3Rpb24gQ2xjUmwoKXtTdGFydFRvcD1NX1N0cnRUcDwxJiZNX1N0
+cnRUcD4wP01fU3RydFRwKkZXaW5IOk1fU3RydFRwO1N0YXJ0TGVmdD1NX1N0cnRM
+ZnQ8MSYmTV9TdHJ0TGZ0PjA/TV9TdHJ0TGZ0KkZXaW5XOk1fU3RydExmdH0NCg0K
+ZnVuY3Rpb24gQ2xjVHJndCgpew0KCXZhciBUTG9jPUZMb2MuZG9jdW1lbnQuZ2V0
+RWxlbWVudEJ5SWQoVGFyZ2V0TG9jKTsNCgl3aGlsZShUTG9jKXtTdGFydFRvcCs9
+VExvYy5vZmZzZXRUb3A7U3RhcnRMZWZ0Kz1UTG9jLm9mZnNldExlZnQ7VExvYz1U
+TG9jLm9mZnNldFBhcmVudH19DQoNCmZ1bmN0aW9uIENsY0xmdCgpew0KCWlmKE1l
+bnVDZW50ZXJlZC5pbmRleE9mKCJsZWZ0Iik9PS0xKXsNCgkJdmFyIFN6PUZXaW5X
+LXBhcnNlSW50KEZyc3RDbnRuci5zdHlsZS53aWR0aCk7DQoJCVN0YXJ0TGVmdCs9
+TWVudUNlbnRlcmVkLmluZGV4T2YoInJpZ2h0IikhPS0xP1N6OlN6LzI7aWYoU3Rh
+cnRMZWZ0PDApU3RhcnRMZWZ0PTB9fQ0KDQpmdW5jdGlvbiBDbGNUcCgpew0KCWlm
+KE1lbnVWZXJ0aWNhbENlbnRlcmVkIT0idG9wIiYmTWVudVZlcnRpY2FsQ2VudGVy
+ZWQhPSJzdGF0aWMiKXsNCgkJdmFyIFN6PUZXaW5ILXBhcnNlSW50KEZyc3RDbnRu
+ci5zdHlsZS5oZWlnaHQpOw0KCQlTdGFydFRvcCs9TWVudVZlcnRpY2FsQ2VudGVy
+ZWQ9PSJib3R0b20iP1N6OlN6LzI7aWYoU3RhcnRUb3A8MClTdGFydFRvcD0wfX0N
+Cg0KZnVuY3Rpb24gU2l6ZU1lbnUoQyl7DQoJdmFyIENtcGxudD1DLkx2bD09MT9G
+Q21wbG50OlNDbXBsbnQsTT1DLkZyc3RNYnIsTWksaSxXPTAsSD0wLFdkLEh0LFJJ
+LEJSVz1DLkx2bD09MT9Cb3JkZXJXaWR0aE1haW46Qm9yZGVyV2lkdGhTdWIsQlRX
+bj1DLkx2bD09MT9Cb3JkZXJCdHduTWFpbjpCb3JkZXJCdHduU3ViOw0KCWlmKEMu
+THZsPD1GaXJzdExpbmVIb3Jpem9udGFsKXsNCgkJd2hpbGUoTSE9bnVsbCl7Vys9
+TWF0aC5yb3VuZCgoTS5BcnJbNV08MT8oTS5BcnJbNV0qKE0uTHZsPT0xP0ZXaW5X
+OlNXaW5XKSk6KE0uQXJyWzVdKkZudEZjKSkpO01pPU07TT1NLlBydk1icn0NCgkJ
+Vys9KChDLk5ySXRtcy0xKSpCVFduKzIqQlJXKTsNCgkJSHQ9SD1NYXRoLnJvdW5k
+KChNaS5BcnJbNF08MT8oTWkuQXJyWzRdKihNaS5Mdmw9PTE/Rldpbkg6U1dpbkgp
+KTooTWkuQXJyWzRdKkZudEZjKSkpO0grPSgyKkJSVyl9DQoJZWxzZSB7CXdoaWxl
+KE0hPW51bGwpe0grPU1hdGgucm91bmQoKE0uQXJyWzRdPDE/KE0uQXJyWzRdKihN
+Lkx2bD09MT9GV2luSDpTV2luSCkpOihNLkFycls0XSpGbnRGYykpKTtNaT1NO009
+TS5QcnZNYnJ9DQoJCUgrPSgoQy5Ockl0bXMtMSkqQlRXbisyKkJSVyk7DQoJCVdk
+PVc9TWF0aC5yb3VuZCgoTWkuQXJyWzVdPDE/KE1pLkFycls1XSooTWkuTHZsPT0x
+P0ZXaW5XOlNXaW5XKSk6KE1pLkFycls1XSpGbnRGYykpKTtXKz0oMipCUlcpfQ0K
+CUMuc3R5bGUud2lkdGg9Qy5taWYuc3R5bGUud2lkdGg9VytQX1g7Qy5zdHlsZS5o
+ZWlnaHQ9Qy5taWYuc3R5bGUuaGVpZ2h0PUgrUF9YOw0KCU09Qy5GcnN0TWJyOw0K
+CXdoaWxlKE0hPW51bGwpew0KCQlpZihNLkFycls1XTwxKXtXPUMuTHZsPD1GaXJz
+dExpbmVIb3Jpem9udGFsPyhNLkFycls1XSooTS5Mdmw9PTE/Rldpblc6U1dpblcp
+KTpXZDtNc3RTej0xfQ0KCQllbHNlIFc9KEMuTHZsPD1GaXJzdExpbmVIb3Jpem9u
+dGFsP00uQXJyWzVdOldkKSpGbnRGYzsNCgkJaWYoTS5BcnJbNF08MSl7SD1DLkx2
+bDw9Rmlyc3RMaW5lSG9yaXpvbnRhbD9IdDooTS5BcnJbNF0qKE0uTHZsPT0xP0ZX
+aW5IOlNXaW5IKSk7TXN0U3o9MX0NCgkJZWxzZSBIPShDLkx2bDw9Rmlyc3RMaW5l
+SG9yaXpvbnRhbD9IdDpNLkFycls0XSkqRm50RmM7DQoJCVc9TWF0aC5yb3VuZChX
+KTtIPU1hdGgucm91bmQoSCk7DQoJCWlmKE0udmFsdWUuaW5kZXhPZigiPCIpPT0t
+MSl7DQoJCQlNLnRwZD1Ub3BQYWRkbmc8MD8oTWF0aC5yb3VuZChIKi41LU0uQXJy
+WzEyXSpGbnRGYykpOlRvcFBhZGRuZztpZihNLnRwZDwwfHxNLnRwZD5IKU0udHBk
+PTA7DQoJCQlNLmx0cD1MZWZ0UGFkZG5nO2lmKE0ubHRwPDB8fE0ubHRwPlcpTS5s
+dHA9MDsNCgkJCWlmKChOYXZZZXMmJiFPcHI3KXx8TWFjRXhwNXx8Q21wbG50KXtN
+Lmx4PU0ubHRwO00udHg9TS50cGR9fQ0KCQlNLnN0eWxlLndpZHRoPVctTS5seCtQ
+X1g7TS5zdHlsZS5oZWlnaHQ9SC1NLnR4K1BfWDsNCgkJTS5zdHlsZS5wYWRkaW5n
+TGVmdD1NLmx0cCtQX1g7TS5zdHlsZS5wYWRkaW5nVG9wPU0udHBkK1BfWDsNCgkJ
+aWYoTS5ybyl7Ukk9KE0uTHZsPT0xP0ZMb2M6U2NMb2MpLmRvY3VtZW50LmltYWdl
+c1tNLnJpZF07Ukkuc3R5bGUud2lkdGg9VytQX1g7Ukkuc3R5bGUuaGVpZ2h0PUgr
+UF9YfQ0KCQlpZihNLkNDbilTaXplTWVudShNLkNDbik7DQoJCU09TS5QcnZNYnJ9
+fQ0KDQpmdW5jdGlvbiBQb3NNZW51KEN0LFRwLEx0KXsNCglSTHZsKys7DQoJdmFy
+IGEsTWI9Q3QuRnJzdE1icixNV3Q9cGFyc2VJbnQoTWIuc3R5bGUud2lkdGgpK01i
+Lmx4LA0KCU1IdD1wYXJzZUludChNYi5zdHlsZS5oZWlnaHQpK01iLnR4LENXdD1w
+YXJzZUludChDdC5zdHlsZS53aWR0aCksQ0h0PXBhcnNlSW50KEN0LnN0eWxlLmhl
+aWdodCksQ0N3LENDaCxTVHAsU0x0LFRpLExpLEhpLA0KCUJSVz1STHZsPT0xP0Jv
+cmRlcldpZHRoTWFpbjpCb3JkZXJXaWR0aFN1YixCVFduPVJMdmw9PTE/Qm9yZGVy
+QnR3bk1haW46Qm9yZGVyQnR3blN1YjsNCglpZihSTHZsPT0xJiZBY3Jzc0ZybXMp
+IU1lbnVGcmFtZXNWZXJ0aWNhbD9UcD1Cb3R0b21VcD9EaXN0RnJtRnJhbWVCcmRy
+OkZXaW5ILUNIdC1EaXN0RnJtRnJhbWVCcmRyOkx0PVJpZ2h0VG9MZWZ0P0Rpc3RG
+cm1GcmFtZUJyZHI6RldpblctQ1d0LURpc3RGcm1GcmFtZUJyZHI7DQoJaWYoUkx2
+bD09MiYmQWNyc3NGcm1zKSFNZW51RnJhbWVzVmVydGljYWw/VHA9Qm90dG9tVXA/
+U1dpbkgtQ0h0OjA6THQ9UmlnaHRUb0xlZnQ/U1dpblctQ1d0OjA7DQoJaWYoUkx2
+bD09Mil7VHArPVZlckNvcnJlY3Q7THQrPUhvckNvcnJlY3R9DQoJQ3Quc3R5bGUu
+dG9wPUN0Lm1pZi5zdHlsZS50b3A9Ukx2bD09MT9UcCtQX1g6MDtDdC5PcmdUb3A9
+VHA7DQoJQ3Quc3R5bGUubGVmdD1DdC5taWYuc3R5bGUubGVmdD1STHZsPT0xP0x0
+K1BfWDowO0N0Lk9yZ0xlZnQ9THQ7DQoJaWYoUkx2bDw9Rmlyc3RMaW5lSG9yaXpv
+bnRhbCl7SGk9MTtMaT1DV3QtTVd0LTIqQlJXO1RpPTB9DQoJZWxzZXtIaT1MaT0w
+O1RpPUNIdC1NSHQtMipCUld9DQoJd2hpbGUoTWIhPW51bGwpew0KCQlNYi5zdHls
+ZS5sZWZ0PUxpK0JSVytQX1g7TWIuc3R5bGUudG9wPVRpK0JSVytQX1g7DQoJCWlm
+KE1iLkNDbil7DQoJCQlpZihSaWdodFRvTGVmdClDQ3c9cGFyc2VJbnQoTWIuQ0Nu
+LnN0eWxlLndpZHRoKTsNCgkJCWlmKEJvdHRvbVVwKUNDaD1wYXJzZUludChNYi5D
+Q24uc3R5bGUuaGVpZ2h0KTsNCgkJCWlmKEhpKXtTVHA9Qm90dG9tVXA/VGktQ0No
+OlRpK01IdCsyKkJSVztTTHQ9UmlnaHRUb0xlZnQ/TGkrTVd0LUNDdzpMaX0NCgkJ
+CWVsc2V7CVNMdD1SaWdodFRvTGVmdD9MaS1DQ3crQ2hpbGRPdmVybGFwKk1XdCtC
+Ulc6TGkrKDEtQ2hpbGRPdmVybGFwKSpNV3QrQlJXOw0KCQkJCVNUcD1STHZsPT0x
+JiZBY3Jzc0ZybXM/Qm90dG9tVXA/VGktQ0NoK01IdDpUaTpCb3R0b21VcD9UaS1D
+Q2grKDEtQ2hpbGRWZXJ0aWNhbE92ZXJsYXApKk1IdCsyKkJSVzpUaStDaGlsZFZl
+cnRpY2FsT3ZlcmxhcCpNSHR9DQoJCQlQb3NNZW51KE1iLkNDbixTVHAsU0x0KX0N
+CgkJYT1STHZsPD1GaXJzdExpbmVIb3Jpem9udGFsP0JvdHRvbVVwPzk6MzpSaWdo
+dFRvTGVmdD82OjA7DQoJCWlmKE1iLmFpKXsJTWIuYWkuc3R5bGUudG9wPShSTHZs
+PD1GaXJzdExpbmVIb3Jpem9udGFsP0JvdHRvbVVwPzI6TUh0LUFycndzW2ErMl0t
+MjooTUh0LUFycndzW2ErMl0pLzIpK1BfWDtNYi5haS5zdHlsZS5sZWZ0PShSaWdo
+dFRvTGVmdD8yOk1XdC1BcnJ3c1thKzFdLTIpK1BfWH0NCgkJTWI9TWIuUHJ2TWJy
+Ow0KCQlpZihNYil7TVd0PXBhcnNlSW50KE1iLnN0eWxlLndpZHRoKStNYi5seDtN
+SHQ9cGFyc2VJbnQoTWIuc3R5bGUuaGVpZ2h0KStNYi50eDtIaT9MaS09TVd0K0JU
+V246VGktPU1IdCtCVFdufX0NCglSTHZsLS19DQoNCmZ1bmN0aW9uIFN0TW51KCl7
+DQoJaWYoQ3J0ZCl7CXZhciBpLFBudHI9RnJzdENudG5yLFN0cj1TY0xvYy5TZXRN
+ZW51P1NjTG9jLlNldE1lbnU6IjAiOw0KCQl3aGlsZShTdHIuaW5kZXhPZigiXyIp
+IT0tMSYmUmVtZW1iZXJTdGF0dXM9PTEpew0KCQkJaT1QbnRyLk5ySXRtcy1wYXJz
+ZUludChTdHIuc3Vic3RyaW5nKDAsU3RyLmluZGV4T2YoIl8iKSkpO1N0cj1TdHIu
+c2xpY2UoU3RyLmluZGV4T2YoIl8iKSsxKTsNCgkJCVBudHI9UG50ci5GcnN0TWJy
+O2ZvcihpO2k7aS0tKVBudHI9UG50ci5QcnZNYnI7UG50ci5PTSgpO1BudHI9UG50
+ci5DQ259DQoJCWk9UG50ci5Ockl0bXMtcGFyc2VJbnQoU3RyKTtQbnRyPVBudHIu
+RnJzdE1icjsNCgkJZm9yKGk7aTtpLS0pCVBudHI9UG50ci5QcnZNYnI7DQoJCWlm
+KFJtYnJOb3chPW51bGwpe1NldEl0ZW0oUm1ick5vdywwKTtSbWJyTm93LkNsY2tk
+PTB9DQoJCWlmKFBudHIhPW51bGwpe1NldEl0ZW0oUG50ciwxKTtQbnRyLkNsY2tk
+PTE7aWYoUmVtZW1iZXJTdGF0dXM9PTEpUG50ci5PTSgpfQ0KCQlSbWJyTm93PVBu
+dHI7DQoJCUNsckFsbENobGRzKEZyc3RDbnRuci5GcnN0TWJyKTsNCgkJUm1icihG
+cnN0Q250bnIpfX0NCg0KZnVuY3Rpb24gSW5pdGlhdGUoKXsNCglpZihJbmlGbGcm
+JkxkZCl7DQoJCUluaXQoRnJzdENudG5yKTtJbmlGbGc9ZmFsc2U7aWYoUmVtZW1i
+ZXJTdGF0dXMpUm1icihGcnN0Q250bnIpOw0KCQlpZihTaHdGbGcpQWZ0ZXJDbG9z
+ZUFsbCgpO1Nod0ZsZz1NX0NsY2tkPWZhbHNlfX0NCg0KZnVuY3Rpb24gUm1icihD
+bnRQdHIpew0KCXZhciBNYnI9Q250UHRyLkZyc3RNYnIsU3Q7DQoJd2hpbGUoTWJy
+IT1udWxsKXsNCgkJaWYoTWJyLkRvUm1icil7DQoJCQlIaWxpdGVJdGVtKE1icik7
+aWYoTWJyLkNDbiYmUmVtZW1iZXJTdGF0dXM9PTEpe1N0PU1ici5DQ24uc3R5bGU7
+U3QudmlzaWJpbGl0eT1NX1Nob3c7Um1icihNYnIuQ0NuKX1icmVha30NCgkJZWxz
+ZSBNYnI9TWJyLlBydk1icn19DQoNCmZ1bmN0aW9uIEluaXQoQ1B0KXsNCgl2YXIg
+TWI9Q1B0LkZyc3RNYnI7DQoJUkx2bCsrOw0KCUNQdC5zdHlsZS52aXNpYmlsaXR5
+PUNQdC5taWYuc3R5bGUudmlzaWJpbGl0eT1STHZsPT0xP01fU2hvdzpNX0hpZGU7
+DQoJQ1B0LlNodz1STHZsPT0xPzE6MDsNCgl3aGlsZShNYiE9bnVsbCl7aWYoTWIu
+SGlsaXRlKUxvd0l0ZW0oTWIpO2lmKE1iLkNDbilJbml0KE1iLkNDbik7TWI9TWIu
+UHJ2TWJyfQ0KCVJMdmwtLX0NCg0KZnVuY3Rpb24gQ2xyQWxsQ2hsZHMoUHQpew0K
+CXZhciBQU3QsUGM7DQoJd2hpbGUoUHQpew0KCQlpZihQdC5IaWxpdGUpew0KCQkJ
+UGM9UHQ7aWYoUGMhPUN1ck92cilMb3dJdGVtKFB0KTsNCgkJCWlmKFB0LkNDbikJ
+e1BTdD1QdC5DQ24uc3R5bGU7aWYoUGMhPUN1ck92cil7UFN0LnZpc2liaWxpdHk9
+UHQuQ0NuLm1pZi5zdHlsZS52aXNpYmlsaXR5PU1fSGlkZTtQdC5DQ24uU2h3PTB9
+Q2xyQWxsQ2hsZHMoUHQuQ0NuLkZyc3RNYnIpfQ0KCQkJYnJlYWt9DQoJCVB0PVB0
+LlBydk1icn19DQoNCmZ1bmN0aW9uIFNldEl0ZW0oUG50cix4KXt3aGlsZShQbnRy
+IT1udWxsKXtQbnRyLkRvUm1icj14O1BudHI9UG50ci5DdG5yLkNsbHJ9fQ0KDQpm
+dW5jdGlvbiBHb1RvKCl7DQoJaWYoVW5mb2xkc09uQ2xpY2smJiFNX0NsY2tkJiZ0
+aGlzLkFyclszXSl7TV9DbGNrZD10cnVlO09wZW5NZW51SUkodGhpcyl9DQoJZWxz
+ZSBpZih0aGlzLkFyclsxXSl7DQoJCXN0YXR1cz0iIjtMb3dJdGVtKHRoaXMpO0lu
+aUZsZz10cnVlO0luaXRpYXRlKCk7DQoJCWlmKHRoaXMuQXJyWzFdLmluZGV4T2Yo
+ImphdmFzY3JpcHQ6IikhPS0xKWV2YWwodGhpcy5BcnJbMV0pOw0KCQllbHNlIGlm
+KERjTG9jLmxvY2F0aW9uLmhyZWYhPUJhc2VIcmVmK3RoaXMuQXJyWzFdKURjTG9j
+LmxvY2F0aW9uLmhyZWY9QmFzZUhyZWYrdGhpcy5BcnJbMV19fQ0KDQpmdW5jdGlv
+biBIaWxpdGVJdGVtKFApew0KCWlmKFAucm9iKVAuc3R5bGUuYmFja2dyb3VuZElt
+YWdlPSJ1cmwoXCIiK1AucmliMisiXCIpIjsNCglpZihQLnJvKXt2YXIgTGM9UC5M
+dmw9PTE/RkxvYzpTY0xvYztMYy5kb2N1bWVudC5pbWFnZXNbUC5yaWRdLnNyYz1Q
+LnJpMn0NCgllbHNlewlpZihQLkFycls3XSlQLnN0eWxlLmJhY2tncm91bmRDb2xv
+cj1QLkFycls3XTtpZihQLkFycls5XSlQLnN0eWxlLmNvbG9yPVAuQXJyWzldOw0K
+CQlpZihIb3ZlckJvbGQpUC5zdHlsZS5mb250V2VpZ2h0PSJib2xkIjtpZihIb3Zl
+ckl0YWxpYylQLnN0eWxlLmZvbnRTdHlsZT0iaXRhbGljIjsNCgkJaWYoSG92ZXJV
+bmRlckxpbmUpUC5zdHlsZS50ZXh0RGVjb3JhdGlvbj0idW5kZXJsaW5lIjsNCgkJ
+aWYoSG92ZXJUZXh0U2l6ZSlQLnN0eWxlLmZvbnRTaXplPXBhcnNlSW50KFAuc3R5
+bGUuZm9udFNpemUpK0hvdmVyVGV4dFNpemUrUF9YOw0KCQlpZihIb3ZlclZhcmlh
+bnQpUC5zdHlsZS5mb250VmFyaWFudD0ic21hbGwtY2FwcyJ9DQoJCWlmKEhvdmVy
+Qm9yZGVyKXtQLnN0eWxlLmJvcmRlckNvbG9yPUhvdmVyQm9yZGVyQ29sb3I7UC5z
+dHlsZS5ib3JkZXJXaWR0aD1Cb3JkZXJXaWR0aEhvdmVyO1Auc3R5bGUuYm9yZGVy
+U3R5bGU9J3NvbGlkJzt9CQkNCglQLkhpbGl0ZT0xfQ0KDQpmdW5jdGlvbiBMb3dJ
+dGVtKFApew0KCVAuSGlsaXRlPTA7DQoJaWYoUC5yb2IpUC5zdHlsZS5iYWNrZ3Jv
+dW5kSW1hZ2U9InVybChcIiIrUC5yaWIxKyJcIikiOw0KCWlmKFAucm8pe3ZhciBM
+Yz1QLkx2bD09MT9GTG9jOlNjTG9jO0xjLmRvY3VtZW50LmltYWdlc1tQLnJpZF0u
+c3JjPVAucmkxfQ0KCWVsc2V7CWlmKFAuQXJyWzZdKVAuc3R5bGUuYmFja2dyb3Vu
+ZENvbG9yPVAuQXJyWzZdO2lmKFAuQXJyWzhdKVAuc3R5bGUuY29sb3I9UC5BcnJb
+OF07DQoJCWlmKEhvdmVyQm9sZClQLnN0eWxlLmZvbnRXZWlnaHQ9Im5vcm1hbCI7
+aWYoSG92ZXJJdGFsaWMpUC5zdHlsZS5mb250U3R5bGU9Im5vcm1hbCI7DQoJCWlm
+KEhvdmVyVW5kZXJMaW5lKVAuc3R5bGUudGV4dERlY29yYXRpb249Im5vbmUiOw0K
+CQlpZihIb3ZlclRleHRTaXplKVAuc3R5bGUuZm9udFNpemU9cGFyc2VJbnQoUC5z
+dHlsZS5mb250U2l6ZSktSG92ZXJUZXh0U2l6ZStQX1g7DQoJCWlmKEhvdmVyVmFy
+aWFudClQLnN0eWxlLmZvbnRWYXJpYW50PSJub3JtYWwifQ0KCQlpZihIb3ZlckJv
+cmRlcil7UC5zdHlsZS5ib3JkZXJDb2xvcj1QLnN0eWxlLmJhY2tncm91bmRDb2xv
+cjtQLnN0eWxlLmJvcmRlcldpZHRoPTA7UC5zdHlsZS5ib3JkZXJTdHlsZT0nbm9u
+ZSc7fQkNCgkJfQ0KDQpmdW5jdGlvbiBPcGVuTWVudSgpew0KCWlmKExkZCYmQ3J0
+ZCl7DQoJCWlmKFVuZm9sZHNPbkNsaWNrJiYhTV9DbGNrZCl7Q3VyT3ZyPXRoaXM7
+SW5pRmxnPWZhbHNlO0NsckFsbENobGRzKHRoaXMuQ3Ruci5GcnN0TWJyKTtIaWxp
+dGVJdGVtKHRoaXMpO3N0YXR1cz10aGlzLkFyclsxNl19DQoJCWVsc2UgT3Blbk1l
+bnVJSSh0aGlzKX19DQoNCmZ1bmN0aW9uIE9wZW5NZW51SUkoUHRyKXsNCglpZihP
+cG5UbXIpY2xlYXJUaW1lb3V0KE9wblRtcik7DQoJaWYoUHRyLkFyclszXSYmIVB0
+ci5DQ24pew0KCQlSTHZsPVB0ci5Mdmw7DQoJCVB0ci5DQ249Q3JlYXRlTWVudVN0
+cnVjdHVyZShQdHIuTU4rIl8iLFB0ci5BcnJbM10sUHRyKTsNCgkJU2l6ZU1lbnUo
+UHRyLkNDbik7DQoJCXZhciBUaSxMaSxIaSxDQ3csQ0NoLFNUcCxTTHQsDQoJCU1X
+dD1wYXJzZUludChQdHIuc3R5bGUud2lkdGgpK1B0ci5seCxNSHQ9cGFyc2VJbnQo
+UHRyLnN0eWxlLmhlaWdodCkrUHRyLnR4LEJSVz1STHZsPT0xP0JvcmRlcldpZHRo
+TWFpbjpCb3JkZXJXaWR0aFN1YjsNCgkJaWYoUmlnaHRUb0xlZnQpQ0N3PXBhcnNl
+SW50KFB0ci5DQ24uc3R5bGUud2lkdGgpOw0KCQlpZihCb3R0b21VcClDQ2g9cGFy
+c2VJbnQoUHRyLkNDbi5zdHlsZS5oZWlnaHQpOw0KCQlpZihSTHZsPD1GaXJzdExp
+bmVIb3Jpem9udGFsKXtIaT0xO0xpPXBhcnNlSW50KFB0ci5zdHlsZS5sZWZ0KS1C
+Ulc7VGk9MH0NCgkJZWxzZXtIaT1MaT0wO1RpPXBhcnNlSW50KFB0ci5zdHlsZS50
+b3ApLUJSV30NCgkJaWYoSGkpe1NUcD1Cb3R0b21VcD9UaS1DQ2g6VGkrTUh0KzIq
+QlJXO1NMdD1SaWdodFRvTGVmdD9MaStNV3QtQ0N3OkxpfQ0KCQllbHNlewlTTHQ9
+UmlnaHRUb0xlZnQ/TGktQ0N3K0NoaWxkT3ZlcmxhcCpNV3QrQlJXOkxpKygxLUNo
+aWxkT3ZlcmxhcCkqTVd0Ow0KCQkJU1RwPVJMdmw9PTEmJkFjcnNzRnJtcz9Cb3R0
+b21VcD9UaS1DQ2grTUh0OlRpOkJvdHRvbVVwP1RpLUNDaCsoMS1DaGlsZFZlcnRp
+Y2FsT3ZlcmxhcCkqTUh0KzIqQlJXOlRpK0NoaWxkVmVydGljYWxPdmVybGFwKk1I
+dCtCUld9DQoJCVBvc01lbnUoUHRyLkNDbixTVHAsU0x0KTsNCgkJUkx2bD0wfQ0K
+CUN1ck92cj1QdHI7DQoJSW5pRmxnPWZhbHNlO0NsckFsbENobGRzKFB0ci5DdG5y
+LkZyc3RNYnIpOw0KCWlmKCFQdHIuSGlsaXRlKUhpbGl0ZUl0ZW0oUHRyKTsNCgkv
+L2lmKEV4cDZQbHVzKXtGU3RyPSIiO2lmKE1lbnVTaGFkb3cpRlN0cis9TWVudVNo
+YWRvdztpZihGU3RyIT0iIilQdHIuZmlsdGVyPUZTdHJ9DQoJaWYoUHRyLkNDbiE9
+bnVsbCYmIVB0ci5DQ24uU2h3KVJlbWVtYmVyU3RhdHVzP1VuZmxkKCk6T3BuVG1y
+PXNldFRpbWVvdXQoIlVuZmxkKCkiLFVuZm9sZERlbGF5KTsNCglzdGF0dXM9UHRy
+LkFyclsxNl19DQoNCmZ1bmN0aW9uIFVuZmxkKCl7DQoJdmFyIFA9Q3VyT3ZyLENT
+dD1QLkN0bnIuc3R5bGUsQ0NudD1QLkNDbixDQ1N0PUNDbnQuc3R5bGUsQ0NtU3Q9
+Q0NudC5taWYuc3R5bGUsDQoJVEh0PXBhcnNlSW50KFAuc3R5bGUuaGVpZ2h0KSxU
+V3Q9cGFyc2VJbnQoUC5zdHlsZS53aWR0aCksVEx0PUFjcnNzRnJtcyYmUC5Mdmw9
+PTEmJiFGaXJzdExpbmVIb3Jpem9udGFsPzA6cGFyc2VJbnQoQ1N0LmxlZnQpLA0K
+CVRUcD1BY3Jzc0ZybXMmJlAuTHZsPT0xJiZGaXJzdExpbmVIb3Jpem9udGFsPzA6
+cGFyc2VJbnQoQ1N0LnRvcCksQ0NXPXBhcnNlSW50KENDU3Qud2lkdGgpLENDSD1w
+YXJzZUludChDQ1N0LmhlaWdodCksDQoJVFM9RXhwWWVzP1NDbXBsbnQ/U2NIdG1s
+LnNjcm9sbFRvcDpTY0xvYy5kb2N1bWVudC5ib2R5LnNjcm9sbFRvcDpTY0xvYy5w
+YWdlWU9mZnNldCwNCglMUz1FeHBZZXM/U0NtcGxudD9TY0h0bWwuc2Nyb2xsTGVm
+dDpTY0xvYy5kb2N1bWVudC5ib2R5LnNjcm9sbExlZnQ6U2NMb2MucGFnZVhPZmZz
+ZXQsDQoJU0x0PUFjcnNzRnJtcyYmUC5Mdmw9PTE/Q0NudC5PcmdMZWZ0K1RMdCtM
+UzpDQ250Lk9yZ0xlZnQrVEx0LAlTVHA9QWNyc3NGcm1zJiZQLkx2bD09MT8JQ0Nu
+dC5PcmdUb3ArVFRwK1RTOkNDbnQuT3JnVG9wK1RUcDsNCglpZighU2h3RmxnKXtT
+aHdGbGc9dHJ1ZTtCZWZvcmVGaXJzdE9wZW4oKX0NCglpZihNZW51V3JhcCl7DQoJ
+CWlmKFJpZ2h0VG9MZWZ0KXtpZihTTHQ8TFMpU0x0PVAuTHZsPT0xP0xTOlNMdCso
+Q0NXKygxLTIqQ2hpbGRPdmVybGFwKSpUV3QpO2lmKFNMdCtDQ1c+U1dpblcrTFMp
+U0x0PVNXaW5XK0xTLUNDV30NCgkJZWxzZXtpZihTTHQrQ0NXPlNXaW5XK0xTKVNM
+dD1QLkx2bD09MT9TV2luVytMUy1DQ1c6U0x0LShDQ1crKDEtMipDaGlsZE92ZXJs
+YXApKlRXdCk7aWYoU0x0PExTKVNMdD1MU30NCgkJaWYoQm90dG9tVXApe2lmKFNU
+cDxUUylTVHA9UC5Mdmw9PTE/VFM6U1RwKyhDQ0gtKDEtMipDaGlsZFZlcnRpY2Fs
+T3ZlcmxhcCkqVEh0KTtpZihTVHArQ0NIPlNXaW5IK1RTKVNUcD1TV2luSCtUUy1D
+Q0grMH0NCgkJZWxzZXtpZihTVHArQ0NIPlRTK1NXaW5IKVNUcD1QLkx2bD09MT9T
+VHA9VFMrU1dpbkgtQ0NIOlNUcC1DQ0grKDEtMipDaGlsZFZlcnRpY2FsT3Zlcmxh
+cCkqVEh0O2lmKFNUcDxUUylTVHA9VFN9fQ0KCUNDU3QudG9wPUNDbVN0LnRvcD1T
+VHArUF9YO0NDU3QubGVmdD1DQ21TdC5sZWZ0PVNMdCtQX1g7DQoJaWYoRXhwNlBs
+dXMmJk1lbnVTbGlkZSl7Q0NudC5maWx0ZXJzWzBdLkFwcGx5KCk7Q0NudC5maWx0
+ZXJzWzBdLnBsYXkoKX0NCglDQ1N0LnZpc2liaWxpdHk9Q0NtU3QudmlzaWJpbGl0
+eT1NX1Nob3d9DQoNCmZ1bmN0aW9uIENsb3NlTWVudSgpDQp7DQoJaWYoTGRkJiZD
+cnRkKXtzdGF0dXM9IiI7DQoJaWYodGhpcz09Q3VyT3ZyKSB7DQoJaWYoT3BuVG1y
+KWNsZWFyVGltZW91dChPcG5UbXIpOw0KCWlmKENsb3NlVG1yKWNsZWFyVGltZW91
+dChDbG9zZVRtcik7DQoJCUluaUZsZz10cnVlOw0KCQlDbG9zZVRtcj1zZXRUaW1l
+b3V0KCJJbml0aWF0ZShDdXJPdnIpIixEaXNzYXBlYXJEZWxheSkNCgkJLy9pZihF
+eHA2UGx1cylUUy5maWx0ZXI9IiINCgl9fX0NCg0KZnVuY3Rpb24gQ250bnJTZXRV
+cChOb09mZixXTXUsTWMsVEwpew0KCXZhciB4PWV2YWwoV011KyJbMTBdIikhPSIi
+P2V2YWwoV011KyJbMTBdIik6Qm9yZGVyQ29sb3IsVFM9dGhpcy5zdHlsZTsNCgl0
+aGlzLkx2bD1STHZsO3RoaXMuRnJzdE1icj1udWxsO3RoaXMuTnJJdG1zPU5vT2Zm
+O3RoaXMuQ2xscj1NYzt0aGlzLlNodz0wO3RoaXMuT3JnTGVmdD10aGlzLk9yZ1Rv
+cD0wOw0KCWlmKHgpVFMuYmFja2dyb3VuZENvbG9yPXg7DQoJVFMuekluZGV4PVJM
+dmwrWnRvcDtpZihFeHBZZXMmJiFNYWNFeHA1KXRoaXMubWlmLnN0eWxlLnpJbmRl
+eD1UUy56SW5kZXgtMTsNCglpZihOYXZfT3AmJiFPcHI3JiZNZW51T3BhY2l0eSlU
+Uy5Nb3pPcGFjaXR5PXBhcnNlSW50KE1lbnVPcGFjaXR5LnN1YnN0cmluZyhNZW51
+T3BhY2l0eS5pbmRleE9mKCI9IikrMSxNZW51T3BhY2l0eS5pbmRleE9mKCIpIikp
+KS8xMDU7DQoJaWYoRXhwNlBsdXMpDQoJew0KCQlpZiAoIVRMKSB7DQoJCQlGU3Ry
+PSIiOw0KCQkJaWYoTWVudVNsaWRlJiZSTHZsIT0xKUZTdHI9TWVudVNsaWRlOw0K
+CQkJaWYoRHJvcE1lbnVTaGFkb3cpRlN0cis9RHJvcE1lbnVTaGFkb3c7DQoJCQlp
+ZihNZW51T3BhY2l0eSlGU3RyKz1NZW51T3BhY2l0eTsNCgkJCWlmKEZTdHIhPSIi
+KVRTLmZpbHRlcj1GU3RyDQoJCX0NCgl9DQoJaWYoRXhwWWVzJiYhTWFjRXhwNSYm
+T3ZlckZvcm1FbGVtZW50cyl0aGlzLm1pZi5zdHlsZS5maWx0ZXI9IkFscGhhKE9w
+YWNpdHk9MCkifQ0KDQpmdW5jdGlvbiBNYnJTZXRVcChNYkMsUHJNbWJyLFdNdSxU
+TCl7DQoJdmFyIExjdG49Ukx2bD09MT9GTG9jOlNjTG9jLHQsYSx0YTI9dGhpcy5B
+cnJbMl0sVGZsZD10aGlzLkFyclswXTsNCgl0aGlzLlBydk1icj1Qck1tYnI7dGhp
+cy5Mdmw9Ukx2bDt0aGlzLkN0bnI9TWJDO3RoaXMuQ0NuPXRoaXMuYWk9bnVsbDt0
+aGlzLkhpbGl0ZT10aGlzLkRvUm1icj10aGlzLkNsY2tkPXRoaXMucm89dGhpcy5y
+b2I9dGhpcy5seD10aGlzLnR4PXRoaXMubHRwPXRoaXMudHBkPTA7DQoJdGhpcy5P
+TT1PcGVuTWVudTt0aGlzLk1OPVdNdTt0aGlzLnN0eWxlLm92ZXJmbG93PSJoaWRk
+ZW4iOw0KCXRoaXMuc3R5bGUuY3Vyc29yPSh0aGlzLkFyclsxXXx8KFJMdmw9PTEm
+JlVuZm9sZHNPbkNsaWNrKSk/RXhwWWVzPyJoYW5kIjoicG9pbnRlciI6ImRlZmF1
+bHQiOw0KCWlmKFRmbGQuaW5kZXhPZigicm9sbG92ZXIiKSE9LTEpew0KCQl0aGlz
+LnJvPTE7dGhpcy5yaTE9VGZsZC5zdWJzdHJpbmcoVGZsZC5pbmRleE9mKCI/Iikr
+MSxUZmxkLmxhc3RJbmRleE9mKCI/IikpO3RoaXMucmkyPVRmbGQuc3Vic3RyaW5n
+KFRmbGQubGFzdEluZGV4T2YoIj8iKSsxLFRmbGQubGVuZ3RoKTt0aGlzLnJpZD1X
+TXUrImkiOw0KCQlUZmxkPSI8aW1nIHNyYz1cIiIrdGhpcy5yaTErIlwiIG5hbWU9
+XCIiK3RoaXMucmlkKyJcIj4ifQ0KCXRoaXMudmFsdWU9VGZsZDsNCglpZighdGhp
+cy5BcnJbNl0pdGhpcy5BcnJbNl09TG93QmdDb2xvcjtpZih0aGlzLkFycls2XSYm
+IXRoaXMucm8pdGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9dGhpcy5BcnJbNl07
+DQoJaWYoIXRoaXMuQXJyWzddKXRoaXMuQXJyWzddPUhpZ2hCZ0NvbG9yOw0KCWlm
+KCF0aGlzLkFycls4XSl0aGlzLkFycls4XT1Gb250TG93Q29sb3I7dGhpcy5zdHls
+ZS5jb2xvcj10aGlzLkFycls4XTsNCglpZighdGhpcy5BcnJbOV0pdGhpcy5BcnJb
+OV09Rm9udEhpZ2hDb2xvcjsNCglpZighdGhpcy5BcnJbMTFdKXRoaXMuQXJyWzEx
+XT1Gb250RmFtaWx5O3RoaXMuc3R5bGUuZm9udEZhbWlseT10aGlzLkFyclsxMV07
+DQoJaWYodGhpcy5BcnJbMTJdPT0tMSl0aGlzLkFyclsxMl09Rm9udFNpemU7dGhp
+cy5zdHlsZS5mb250U2l6ZT10aGlzLkFyclsxMl0qKE5hdlllcz8xOkZudEZjKSsi
+cHgiOw0KCWlmKHRoaXMuQXJyWzEzXT09LTEpdGhpcy5BcnJbMTNdPUZvbnRCb2xk
+O3RoaXMuc3R5bGUuZm9udFdlaWdodD10aGlzLkFyclsxM10/ImJvbGQiOiJub3Jt
+YWwiOw0KCWlmKHRoaXMuQXJyWzE0XT09LTEpdGhpcy5BcnJbMTRdPUZvbnRJdGFs
+aWM7dGhpcy5zdHlsZS5mb250U3R5bGU9dGhpcy5BcnJbMTRdPyJpdGFsaWMiOiJu
+b3JtYWwiOw0KCWlmKCF0aGlzLkFyclsxNV0pdGhpcy5BcnJbMTVdPU1lbnVUZXh0
+Q2VudGVyZWQ7dGhpcy5zdHlsZS50ZXh0QWxpZ249dGhpcy5BcnJbMTVdOw0KCWlm
+KCF0aGlzLkFyclsxNl0pdGhpcy5BcnJbMTZdPXRoaXMuQXJyWzFdOw0KCWlmKHRh
+Mil7CWlmKHRhMi5pbmRleE9mKCJyb2xsb3ZlciIpPT0tMSl0aGlzLnN0eWxlLmJh
+Y2tncm91bmRJbWFnZT0idXJsKFwiIit0YTIrIlwiKSI7DQoJCWVsc2V7CXRoaXMu
+cm9iPTE7dGhpcy5yaWIxPXRhMi5zdWJzdHJpbmcodGEyLmluZGV4T2YoIj8iKSsx
+LHRhMi5sYXN0SW5kZXhPZigiPyIpKTt0aGlzLnJpYjI9dGEyLnN1YnN0cmluZyh0
+YTIubGFzdEluZGV4T2YoIj8iKSsxLHRhMi5sZW5ndGgpOw0KCQkJdGhpcy5zdHls
+ZS5iYWNrZ3JvdW5kSW1hZ2U9InVybChcIiIrdGhpcy5yaWIxKyJcIikiOw0KCQkJ
+dGhpcy5zdHlsZS5iYWNrZ3JvdW5kUmVwZWF0PSJuby1yZXBlYXQiOw0KCQkJdGhp
+cy5zdHlsZS5iYWNrZ3JvdW5kUG9zaXRpb249QmdJbWdMZWZ0T2Zmc2V0KyJweCJ9
+fQ0KCWlmKFRmbGQuaW5kZXhPZigiPCIpPT0tMSl7dD1MY3RuLmRvY3VtZW50LmNy
+ZWF0ZVRleHROb2RlKFRmbGQpO3RoaXMuYXBwZW5kQ2hpbGQodCl9DQoJZWxzZSB0
+aGlzLmlubmVySFRNTD1UZmxkOw0KCWlmKHRoaXMuQXJyWzNdKXsNCgkJYT1STHZs
+PD1GaXJzdExpbmVIb3Jpem9udGFsP0JvdHRvbVVwPzk6MzpSaWdodFRvTGVmdD82
+OjA7DQoJCWlmKEFycndzW2FdKXsNCgkJCXQ9TGN0bi5kb2N1bWVudC5jcmVhdGVF
+bGVtZW50KCJpbWciKTt0aGlzLmFwcGVuZENoaWxkKHQpOw0KCQkJdC5zdHlsZS5w
+b3NpdGlvbj0iYWJzb2x1dGUiO3Quc3JjPUFycndzW2FdO3Quc3R5bGUud2lkdGg9
+QXJyd3NbYSsxXSpGbnRGYytQX1g7dC5zdHlsZS5oZWlnaHQ9QXJyd3NbYSsyXSpG
+bnRGYytQX1g7dGhpcy5haT10fX0NCglpZihFeHBZZXMpe3RoaXMub25zZWxlY3Rz
+dGFydD1DbmNsU2xjdDt0aGlzLm9ubW91c2VvdmVyPU9wZW5NZW51O3RoaXMub25t
+b3VzZW91dD1DbG9zZU1lbnU7dGhpcy5vbmNsaWNrPUdvVG99DQoJZWxzZXt0aGlz
+LmFkZEV2ZW50TGlzdGVuZXIoIm1vdXNlb3ZlciIsT3Blbk1lbnUsZmFsc2UpOwl0
+aGlzLmFkZEV2ZW50TGlzdGVuZXIoIm1vdXNlb3V0IixDbG9zZU1lbnUsZmFsc2Up
+Ow0KCQl0aGlzLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIixHb1RvLGZhbHNlKX0N
+Cn0NCg0KZnVuY3Rpb24gQ3JlYXRlTWVudVN0cnVjdHVyZShNTm0sTm8sTWNsbHIp
+ew0KCVJMdmwrKzsNCgl2YXIgaSxNYnIsUE1iPW51bGwsV01udT1NTm0rIjEiLE1X
+ZD1ldmFsKFdNbnUrIls1XSIpKkZudEZjLE1IdD1ldmFsKFdNbnUrIls0XSIpKkZu
+dEZjLA0KCUxjdG49Ukx2bD09MT9GTG9jOlNjTG9jLE1iQz1MY3RuLmRvY3VtZW50
+LmNyZWF0ZUVsZW1lbnQoImRpdiIpLE1JRj0hRXhwWWVzfHxNYWNFeHA1fHwhT3Zl
+ckZvcm1FbGVtZW50cz9NYkM6TGN0bi5kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJp
+ZnJhbWUiKTsNCglMY3RuLmRvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoTWJDKTsN
+CglpZihFeHBZZXMmJiFNYWNFeHA1JiZPdmVyRm9ybUVsZW1lbnRzKXtNSUYuc3Jj
+PSJodHRwOi8vd3d3LmNvZGVwcm9qZWN0LmNvbS9zY3JpcHQvSFZNZW51L2JsYW5r
+Lmh0bWwiO0xjdG4uZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChNSUYpfQ0KCU1i
+Qy5zdHlsZS5wb3NpdGlvbj1NSUYuc3R5bGUucG9zaXRpb249ImFic29sdXRlIjsN
+CglNYkMuc3R5bGUudmlzaWJpbGl0eT1NSUYuc3R5bGUudmlzaWJpbGl0eT1NX0hp
+ZGU7DQoJTWJDLm1pZj1NSUY7DQoJTWJDLlNldFVwPUNudG5yU2V0VXA7TWJDLlNl
+dFVwKE5vLE1ObSsiMSIsTWNsbHIsKE1ObT09Ik1lbnUiKSk7DQoJZm9yKGk9MTtp
+PE5vKzE7aSsrKXsNCgkJV01udT1NTm0rZXZhbChpKTsNCgkJTWJyPUxjdG4uZG9j
+dW1lbnQuY3JlYXRlRWxlbWVudCgiZGl2Iik7TWJyLnN0eWxlLnBvc2l0aW9uPSJh
+YnNvbHV0ZSI7TWJyLnN0eWxlLnZpc2liaWxpdHk9ImluaGVyaXQiO01iQy5hcHBl
+bmRDaGlsZChNYnIpOw0KCQlNYnIuQXJyPWV2YWwoV01udSk7aWYoIU1ici5BcnJb
+NF0pTWJyLkFycls0XT1NSHQ7aWYoIU1ici5BcnJbNV0pTWJyLkFycls1XT1NV2Q7
+DQoJCU1ici5TZXRVcD1NYnJTZXRVcDtNYnIuU2V0VXAoTWJDLFBNYixXTW51LCAo
+TU5tPT0iTWVudSIpKTsNCgkJaWYoTWJyLkFyclszXSYmIUJ1aWxkT25EZW1hbmQp
+e01ici5DQ249Q3JlYXRlTWVudVN0cnVjdHVyZShXTW51KyJfIixNYnIuQXJyWzNd
+LE1icil9DQoJCVBNYj1NYnJ9DQoJTWJDLkZyc3RNYnI9TWJyOw0KCVJMdmwtLTty
+ZXR1cm4oTWJDKX0NCg0KZnVuY3Rpb24gQ3JlYXRlTWVudVN0cnVjdHVyZUFnYWlu
+KE1ObSxObyl7DQoJdmFyIE1icj1GcnN0Q250bnIuRnJzdE1icixpLFdNbnU7DQoJ
+aWYoIUJ1aWxkT25EZW1hbmQpCXtSTHZsKys7Zm9yKGk9Tm87aT4wO2ktLSl7V01u
+dT1NTm0rZXZhbChpKTtpZihNYnIuQXJyWzNdKU1ici5DQ249Q3JlYXRlTWVudVN0
+cnVjdHVyZShXTW51KyJfIixNYnIuQXJyWzNdLE1icik7TWJyPU1ici5QcnZNYnJ9
+Ukx2bC0tfQ0KCWVsc2V7d2hpbGUoTWJyKXtNYnIuQ0NuPW51bGw7TWJyPU1ici5Q
+cnZNYnJ9fX0=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=vista20.gif
+Content-Type: image/gif; name=vista20.gif
+Content-Location: http://www.codeproject.com/Feature/Vista/vista20.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhFAAUAOYAAAQsToy9MqlKGRhgmtTy/yVhLrK9xp6ksBqGyUhies+mGBtB
+VPTAF2eqHYhUVlBullyBrSNpareJLf7fYUg2RqSZWhtDdOvv8V1dOId3RbPTYxd9
+wA06ZbRpZEKQHVyw2y2d1VJriSpUiDFLbtV0RWmiU9uIPsuiJOLCO0xgauVkFffR
+LCdio53E572LEQQuUSJajkFiNmaLVTpzqf+gAP///0qPx4Gv2F1qVxBIjf/1oT4+
+SyA5WitIasu3dCWR0BkzUmR6mr9fWX82Ldh3bSZdWXh/bdjthj6k357GVeq1FLTR
+5iJPRyl8vk57Pau3we2YODhTdT1Zco9eHrDW6ZKJRCJWlRElRXuyK1Z1Vxk7ZPL1
++VdwjAk0W2uAn0JvfmCf1DdojidtsmOWxS+CwX5ZPdRtZHuaaB5RiyJ7vR9CY/3Z
+PhlHe8PeeOmYFbnF1TKY1jtuTfyyB110lDOZzP/oe09EV/+/CNaLFEp6sWh7W5tc
+WCpamwcsTjGg3A4zUiH5BAQUAP8ALAAAAAAUABQAAAf/gDWCgzUHCWpqCQeEjINP
+XCFzQUFzISFPjYIXCVFckJagUQkXjBc9I1E9qqpRrVEjI6SDCTy1dg57DnZAtb0J
+jn1AwkJmREQdPUBXy0B9mDVSfdIUJCQmUGUlJXFFEQtXUjUGf+QvQypuSkoYSQEN
+HgXSfwYJAF1dfwICUy4Kem1JsMDr0+UFrS4cOPCIMmOMlx1njmhwxyRhFx5quljQ
+goYMmBYEguDIIsNJDC0WLHBQw4XDRitpbNxoYUSHjwonJLDZqYXLm5QW+IjxmKdC
+nQlr7mTIgQaNhTc1HrARYcXKgCZhUKxZwYBGiqpoHgh6gwaGWRgDvty5I4cGHhgs
+S1iggSoIglAxafJ+qVIlwxcxYlhAILQlj5gmCH4oRrChcRMxebYw2jImzQ84SDL7
+AfEjzRjJmZaAgeNHsx8wSzIxovIBBIgPVDIFAgA7
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=gadgets20.gif
+Content-Type: image/gif; name=gadgets20.gif
+Content-Location: http://www.codeproject.com/Feature/Gadgets/gadgets20.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODdhFAATAOYAACSCpJTC1GSy1Mzi7HTK5JTa7EyWtHyyzLTa7FSmxGTC5Oz2
+9IzW7ITK5DySrKzW5HSyxNTu9KTa7LTm9FyivGSmxHzC3ITS7JTO5GS63EyevHS+
+3IzK3OT2/DSKrJza7LTi7FyuzPz+/ESatNz2/Iy+1JTW7GyyzHzK5GzG5Oz+/Nzy
+9Kzi9MTm9FSevMzq9FymxGy+3ESSrKza7GSuzITG3IzO7DyKrNTm7JTe/EyatHy6
+zLze7PT6/Iza9ITO5LTW3HS61NTy9Lzm9HzG3JzS5Gy61HTG5IzO5Jze9Lzi9JzW
+7Gy2zHzO7FSivFyqxGzC3ESWtCyGpJzK1GS21Mzm7HTK7JTa9Hy2zLTe7Oz2/IzW
+9KzW7HS2zKTe9LTq/GSitGSqxIzS7JTS7EyivHTC3IzK5DSOrJza9LTi9Fyu1ESa
+vIzC1JTW9HzK7PT+/Nzy/MTq9Gy+5ESStKze9GyuxDyOrEyavITO7NTy/HzG5Gy6
+3Gy21FSixFyqzAAAACwAAAAAFAATAAAH/4A6USMGawYJfHMaV092IWEjUTqEazp3
+BiNzfEkhfG0xCWMoURqYOpYjfkQaVAxXV2KvW3sweDQjdxoaOkZtF20/fE8JfkYN
+DAxbVDoad2t3UWMfHwkyggYOJ15oGFGDdhAgRRMSQxIaklEwaXQYQxxLXQ4wD3lZ
+Ml1wCFEeOi1xFOZkEdKiyxwAFHqw8WCnTgcebKpEoGDnDJs3FQCAeYBDBBY7Bjx0
+EUESwhkDZw6IGDDFyQMWLGDIiCLDCR0vLBrpsPOERRouDqTcYXTDTpQGF8r8uODC
+zo0nVzR4kOHCQhIiN5yYMNHUAJIkNG4QScLHgJ0gLJZ4sfDBC4x0LoPGsDAj4cOX
+Lk4SPAlBJ00aJmsSCNaQQMIEOjROPKFCRQCGOJAxBGEsIAaGFi/iFAlBZY+RDDNe
+NFBCgqCSFkJWpEHywkuGGGWgyIFiIYOSBUoiLIigpMeDDHo2yCljRQ8BPUcIDGmh
+oIiIMUcipDmS3HiT69iPWHFTYIUJKygIYL8eCAA7
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=prize_winner_sm.gif
+Content-Type: image/gif; name=prize_winner_sm.gif
+Content-Location: http://www.codeproject.com/script/images/prize_winner_sm.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODdhCgAUAPcAADwyJIyeXMTibPxCFMSuNGRuPPSetOTOjPyyDHR+lOS2PHxW
+BJyOROzq7ISKTFRWPISa1PTGFNxyBPzOBJRuNJy2XHRyZMy6fOTOvPzSRDQ+LPRa
+ZPS+FOTGNPz25Px2PExSZNx+DPzaBDw6JPzejHSOzIyWdLS2tPzKLPzGbPzCPLSe
+PNSuTHRyVIxiBPzq1JSi7PzKBOxuBOzOLExadISSzPxOHPzWlPS2HIxWBJySXHyK
+fIyi7LS6XHR6XPRidPy6BPzGXPzy5PzWHDw2HJyafMSuVPSitOTOpIya1PzCBNS+
+hPTixPRedPz+/ExWdEQ6LHSS3PzCxPzKRHR6TOx2BPTWJPy+FPxKHGx6VPy2BOS+
+NIRaBKSOPISKZExeROR2BJy2bHRudMy2lPTS5PzObDxGNPRebOTKRPz6/ExWbOR6
+BPzeBDw6LPzmtHyOxJSWdPzKdPzGTLyqZNyyPHxyRPzu3PzKFOxyBOzSLFRadISW
+zPxSHPy2HIxaBKSWVISWdKSabOzSrIye5Ly6VPy+BMSyVPzGBHR6ZPzy7Dw2JPSi
+vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAACwAAAAACgAUAAAIzgCdNJGh6M0gGgtsLHLyAw8RgzS42DAg
+sMpDHk8kUmwCZkQNGGq4YDGQ5syaERAw+sFyxMkGCW0gwADhYkBLKSEAJOGhJscH
+MmmcIGmzEwQFD06cBD3xpkSCBkqjYgg0RlBQpWniHOrigIOKF0lTKCHwRQAhJX3s
+3Chk5UEWL4DQKCnTJ8YWMybE7EAT44qWGEPqFKjQI8IEIAiUsFmhIQADEYeDoIAz
+h0qFC0U6yBEix8iMPxZmGMLhxsmLDDp8WECkgETURAdY0FnCJGlAADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=t.gif
+Content-Type: image/gif; name=t.gif
+Content-Location: http://www.codeproject.com/script/images/t.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhAQABAIAAAP//////zCH5BAUUAAAALAAAAAABAAEAAAICRAEAOw==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=print.gif
+Content-Type: image/gif; name=print.gif
+Content-Location: http://www.codeproject.com/images/print.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAKIAAP//////AMTCxP6sIv+ZAAAAAAAAAAAAACH5BAUUAAMALAAA
+AAAQABAAAAM7OLrcXjDGB6qthcoCcuOX5THc1k0KGHZC0Q7b1raQYN+4q8e8XeM0
+1ywjxAWOPgiMJ/MUgUMSU+moNhIAOw==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=sitebuild_icon.gif
+Content-Type: image/gif; name=sitebuild_icon.gif
+Content-Location: http://www.codeproject.com/script/images/sitebuild_icon.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAMQAAP////Pz8/Pm4t/g49vc3MzMzP/HXbLM5rvJzeilcbSystCl
+nt6ge5mxyv+ZM6Kiot6FUZmZmX2atpCOjuRtPuRkF8xmM356eXB5lYNaMVNZa9Ys
+AH1IIrYvAEdHaRcXFSH5BAUUAAAALAAAAAAQABAAAAVXICASClGciBKIrPgERDDM
+QzO0LnIpR4NpEwwOENE8PBKM5/HxDCcKQOFXAARWQ9Hgd8u2BAzLwttKGDYcMgvi
+2GTUIrYbDpC/4XZ6Ht++q/dqFBUdfiwhADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=link.gif
+Content-Type: image/gif; name=link.gif
+Content-Location: http://www.codeproject.com/images/link.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAJEAAP6sIP+ZAAAAAAAAACH5BAUUAAAALAAAAAAQABAAAAIkhI+p
+Jr0pTnwMxLmu3U/rvn1ZyI0edWJKipIqVJVjTFlOjQMFADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=mail_small.gif
+Content-Type: image/gif; name=mail_small.gif
+Content-Location: http://www.codeproject.com/images/mail_small.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhDwAQALMAAAAAAAAAgAAA/8wA////AICAgMDAwP///wAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAACH5BAEAAAMALAAAAAAPABAAAAROcMhJq7226M0LLUcohgbw
+hQBwaERJlYEQhMThTqogAEUQtCYJwKBT1Wo3SbHn+yWLh2MUqNytmj5q0SAleKmp
+QcFALpfDwpR6HcS434MIADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=mail.gif
+Content-Type: image/gif; name=mail.gif
+Content-Location: http://www.codeproject.com/images/mail.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAJEAAP////+ZAAAAAAAAACH5BAUUAAEALAAAAAAQABAAAAIpjI+p
+y30Co5xBgIszFhVIDXmdloWcRZJnOW1jWr7e56JwPeWRw/f+UQAAOw==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=red.gif
+Content-Type: image/gif; name=red.gif
+Content-Location: http://www.codeproject.com/script/images/red.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhAQABALMAAP8zAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAACwAAAAAAQABAAAEAhBEADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=white.gif
+Content-Type: image/gif; name=white.gif
+Content-Location: http://www.codeproject.com/script/images/white.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhAQABALMAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAACwAAAAAAQABAAAEAhBEADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=makeversion.gif
+Content-Type: image/gif; name=makeversion.gif
+Content-Location: http://www.codeproject.com/cpp/makeversion/makeversion.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhTwFTAfcAAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//
+AAAA//8A/wD//////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMwAAZgAA
+mQAAzAAA/wAzAAAzMwAzZgAzmQAzzAAz/wBmAABmMwBmZgBmmQBmzABm/wCZAACZ
+MwCZZgCZmQCZzACZ/wDMAADMMwDMZgDMmQDMzADM/wD/AAD/MwD/ZgD/mQD/zAD/
+/zMAADMAMzMAZjMAmTMAzDMA/zMzADMzMzMzZjMzmTMzzDMz/zNmADNmMzNmZjNm
+mTNmzDNm/zOZADOZMzOZZjOZmTOZzDOZ/zPMADPMMzPMZjPMmTPMzDPM/zP/ADP/
+MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YzAGYzM2YzZmYzmWYzzGYz
+/2ZmAGZmM2ZmZmZmmWZmzGZm/2aZAGaZM2aZZmaZmWaZzGaZ/2bMAGbMM2bMZmbM
+mWbMzGbM/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5kzAJkz
+M5kzZpkzmZkzzJkz/5lmAJlmM5lmZplmmZlmzJlm/5mZAJmZM5mZZpmZmZmZzJmZ
+/5nMAJnMM5nMZpnMmZnMzJnM/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswA
+mcwAzMwA/8wzAMwzM8wzZswzmcwzzMwz/8xmAMxmM8xmZsxmmcxmzMxm/8yZAMyZ
+M8yZZsyZmcyZzMyZ/8zMAMzMM8zMZszMmczMzMzM/8z/AMz/M8z/Zsz/mcz/zMz/
+//8AAP8AM/8AZv8Amf8AzP8A//8zAP8zM/8zZv8zmf8zzP8z//9mAP9mM/9mZv9m
+mf9mzP9m//+ZAP+ZM/+ZZv+Zmf+ZzP+Z///MAP/MM//MZv/Mmf/MzP/M////AP//
+M///Zv//mf//zP///yH5BAEAABAALAAAAABPAVMBAAj/AP1Rw0dNILWCAxEeFEjQ
+IMKGBx8qlOiQ4USLFRNmhLhQY0SMHz125EgxJEmQIy+KLJlyo8qTK1GynCmzZsyb
+MHO+3Omyp0meP31GHDptaMSiRqkhNbqUaFKlEf9JnUq1qtWrWLNKZfq06dGuYJN6
+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
+eOoTJherF20A/xnOeQa0uMHtbaOmMIPGq2Cj19wwwRnRRz9kYLZLE04OBgbSUM73
+kp3Mb30/Obqdzo3WRM2XKQJNeGucN6rpiG1SN/zUU4uWqife6lVfOb2+u1ffZmc6
+UN2tkrHTIuMAWTD94A4iv//+iOhOPuySEzvZMIfxmZcdZk6p2Xx0sxDCrY0s+/H8
+iBFi953lR0TiDT3I4w43ufmM9KXbWNKYLvSlp55pSlNd6lWPeoW3DvWrs4biF684
+2C1O9rGbPUwzT7uy1R7zmrf95TJfu9xP7PSmK/3u5faz3fOedL7X3bf/Dny/9+3v
+wQu+8IgnvOKrdPawO77sYo/84xs/ULfH/e3HZvvlN2/5zsMdv3tnut5H33fRl/7b
+eDf934Pb9ax7vfVYjz3XN6112M/e6q6HLOV3L3nIT773vP+s5j2f+blz/vPILz7m
+aT7m1Ts/9aj3O/RDH33VT39Ch1+84bef+Ox7n/va777/UYPv+/KT//zAT//xlb9+
+5rOf+O6P//CTP5Hq25/6+Cf986XPf+v3n5m2F4C093oDmHuyJ4C4d4AFqIAJ2Bfo
+93sQaH7qJ4ERGGLz9370d4HyZ3zwp4Ee+Fb7538ieH/6d32nl38nWIIR8n3i14Lh
+94IsCIPgF4PX9YAUeIM2mIMTyFmUYjSqBWsewTcbuHwfSIQcmIFHiIG8c3MLw2ME
+R4IpGIUhCIVTiIIhKGiEU3vxIm8IqIUN2IUE+IULeHteWIZTF3DRdjZjw0g95zQQ
+BD0ugzXqo4MVuIN2WIfCp1aK1kEGMTuIE0IhNzqXVDyhhIRGeIjtV4SJmIQk1WxS
+/0M/LmQt2XMt8yNt8zaCVmiCVaiCmMiJf1YlCSRDNeJCGHRDCHQ5lYQyNDiDrOiC
+q+iKrVgjaAhHn4ZF3TNFSfRuo7aLeIiDd+iLvWiBGVcsj3YsrfQ61vZIxQJyupY3
+jTOEi4iIHciIijiN/7cX2+aJmXiN2tiNUqiJ4MiAhhZOYGiAZBiGZmiO5SiO6NiO
+dAiM8PiO8viLcUON9iiNhhiN+miN+0h/m/iN3AiQnSiQVBiOA/mKMgiLCpmQDImQ
+Dulk8xiM9DiRElmR58WPGJmPGamE0LiRHZlm2ziQ/ziSBlmQAUmSwLSO56iOY6iS
+LtmSMCmGMpmOkhGR8UiRN/9pkTZZj/jIkdWokUDpk/fYj8eGkiJZkiFpkkd5kkiJ
+fbH4kAsJlQ35lFQZlVqykziJlTqZlSTmkT8plD35kWBJlGKZHkp5lkmZlt5olGi5
+loYVkzS5kuzIkjPZjnQZly9Zl42hlTnZl3z5lw71lWUpmIQ5lF5pmP7YlASplovp
+lkz5mEu5IFI5mVU5lVZ5mZaZmSWzJpkiVQ3Hi1OGNBCkG4u0YZ3ZNk/oJksjNlIU
+M4vkl1xZYhnncW9XMLzGYo60Oaqkm8OGeXu4WiznE/9SPLR2m2RZmIjIhNR3cH+W
+cE5RLdP3hHuVjctkicTJmGyJnTw5MoPWQbjGcwiEPTf/g0p4w4WbJkCMUTitQYwN
+RD6bQ06KBBsWxEinqJucE0fsmRrudjj0o5dz+Z9y6YBh4mm7yJ/Z0z1Zg6Bd5UJp
+dDVs+EZSVIkEJHG/NJpX5KARakViZDUpQ0QFeomwuZXj9WoZMZwj10iqozea44wc
+KEBzo3Io95438zqidKI+6GgjRzqWczqwE56StDS0qaJ/aJtBOZiIqROO6BvXGULo
+M6GXU2BE1yt0pkZEUTwrczliwTzzwzTnE0b7Am0bqjNXqouP6JiR2ZYUAooARJyl
+KIr7qXDhJ0InVECJliwbNJ9yyp+E5p0d1IZ36qd4ukFQhEG6WDEFpJmVOZluc5rt
+/7mGtDhqRrc1GnpV10M1B5c0uIKfRTN0OaekmNqG20NGBqeGqwmJZdOalUqgIhqi
+VNVljQOEJGGcYRacH7dsslpWtBqWyHmcQ9lnO3cgr7mWb7aloxeswWU0ipmdZoqm
+ZpGXeAmXdgmgzhqtATqtrgeYq4qtrKqtgLKrh6mrR2qk4Dqu7aesjXmu5pquybqu
+K5io7oqZlAmv74qoSMatsbmt92qv2FGk3sqv4dqvY/mttMKs7Hqm2gmZBIuwOmat
+0gqtd0mtDFutDtuwVqev+Jqt+ZqxeUiuAtux/sqxH8urJ6WuCrusB2uwJpuyURiv
+9NqyLPuy8/qyFjuzGnuxIf/qsQEbsjgrriLbszKRsCiLrgULtER7sgg2sRLrn0n7
+rEobsU6LtPJCsxg7tTYrtan1r1gLsjm7tTy7szNHskELtkWrsmLLmDArr2jrsjG7
+tmm7mVRrtXBbs8HntVnrszp7t1y7q2MrtCXLt2E7tEbrFk/btFBbuIR7uEybuBAL
+rXH7tnL7uI67r7i5jAqhcfKXqyUhhH04Y7DatXjruXkLgr6EcNUjTIALRfyFTH1b
+tmR7ummaXXRaim37JPAGu2o7u7h7uwAHJn6QCr37u1BUiQO3RWTkoBxaLGSTvDkX
+P8ypNDCzPW2YNKgKqg2UvA/ju9j7u9m7vdrbvdz7vd7/G77gO77iW77ke77mm77o
+u77q277kCzxulQottZs16jjJEoi2oxF7JEh+6GgItLnGKGzW1kiKlKIhpynYg78A
+gzo61cAO/MAQzFLy6xAcQkJnAZ3gE0WdqW3DM56/9EHxQ4kTeotdaj+lO54hfKFN
+uLquy7qnZ8HNujHyaxnq2Ud4qhjdiTgp9Gj+S2iPc29CKjkHVKN+Y6B9+sN7hLiL
+q8QP28SyN8Pd5SfwK0TG6zwqnIsF92kq7DwaiosQR5wQKqlPGkJh/MFVC7mwSULb
+aRMTHBSQZJ80WjWCVDnFSMDvyZvEuL/FeaKcdL82rEo++L9y/Eqhq7Wge8gC0cY0
+/4YWMNzCjszCkPy3kWwUMExUUHy2uovJmsy2mXwlTHInaozGjXvGkQt5ocweiozI
+dUu3hgywqlwpbZwildy6kxy4tCzJuOxjjcxNUDy4iuvES7vEv0yxwyxOlwzKU0zK
+yjzKzMy7U+wfsWy3hSzNr0zNrpzI7bLIa7HLuWzLfru3LhzOsxxUl8zJm5y759zJ
+mHnMztzMpezOy4wnp7woqXzNq/y59tzK9wwT0VzBxPTI3XzL4AzQZ8nNsdHLB3Oo
+vizMDD0atVswdrPQwCzRmsHOUgwnVvzOj4ttXzOHovzRa/PMZBXNMtFC+WzNs6Vx
+nfuMJ83KcZfK+sPNx9RzrP/Jhngmh41KNmyoPuG8XNxS02QKQQLtzSM5zlNSzjHU
+p3DKQfDWSef2QPYmb+ncXPM5QEZMqOhszrFo0YJyynFixUJXRsGixcQjxsYDz0XU
+n9b5mvDMe/McK9m8E35MpAbMh/67cbdDOtUMf0O6xyY6zS6dkf3cIOOsc8frpC4k
+pocjoWy2wgEdhVxEnKJ6NwRN1DVm0DIcUQk9craGni5kOkztSjkEQQ1NzBFGjkZn
+ax2MMhQdzBPtyffUziAdzxpd2zf51rBMTSitz7y92759mDC9ITJt2bU81Mb9zcSd
+FEb9JEitzs491Vqd1ev8ybJt220928381gFSzybhvt7/zb7g/d3iHd7kbcEnMd7o
+Xd7qnd7svd7u3btxnRGDfSGF/SFTcN/4nd/6vd/83d/+/d8AHuACPuAEjt9k4hbB
+UeAKvuAM3uAO/uAPjk9wgdkig9CwYR4qQAUwsOFVsOEZvuEw0OEw8OEc7uEaXuIj
+fuIhbuIgLuIkvuIp3uIsjuIv7uIqbuMyHuM0TgWLdR73ITCGW8ytLWnuodmpwdVq
+4tXRERwj3uQq4ORQ/uRSHuVUPuVWXuVYfuVanuVcvuVWbh+1ASFLBDUAZd0gbRvn
+ksy6gdvbQdIiYR4woOFU0eEaTuch/g9U8A92XgV4vuJUUedxvuKAPuiCXuh7HuiH
+/07oiW7oiN7og37gNCEkFdUQiwPY+Hykui0TwYEPmQ5LcR3TJ8MUTP7k/9Dkpe7l
+/2DlqW7qrL7lp97lsO7lsd7lZKIgYt4h0IK8cXalLiM90GappEo+zuJmdZaNb9jr
+lC2lp9owJ1yqM8MraV4hy10kzf0iGC7nH57qJ07iGX7qJ97nI17qKe7tLK7tM87t
+257u567uOo7u677uCjQkkm4kE5RoUb2maZgw927vgdpTljqoVS2obHhvpEiKKtpo
+M1JCPLLpCr8aSL4bSi4Xow4Dr37qq64CqZ7xpD4VU/7qGC/lHE/xqz4Vsy7rJl/y
+Tg7paXLrBFXmUaTFY7xFAv+XxV5aiwwXcdER2WXyRQlHmq1Zateh5nSR5kku0tsd
+393tB4E+53Gu503P53kO9XcO6KVO505P9RT/9Fqv6I7O6Fz/9V7v9fGeOBox7+ed
+UQVMyIVIwJb7qh0nyPzymjbhcjUTx4DMw3gNSITzOKOUq/E9MBYh5mys2/78FhNf
+8eEO8h+v8Ynf6o2P8SRv8VRx8pSP8pQP6XG2PpgfPl/UhNzy+cTK0R/8pYuNFpcK
+F2ZiujxtcDudORgsFrcCvEPxJ/8cERTOMRbuGtee9R2u7eLO5xSf5xQv4uCe9eO+
+4eKO8bxP7jue4zU+4zD+/Doe/Tdu4tlkqqTk45vhTRz/BNqROKHdv8MnFPd72ocE
+r58mlDA4TMO0xtQoBEI1LBkR1b0dwfAVTd0XzRuH3+ojr/GM//EAAUMFjH8CCRos
+OLBgwn8DVTQ06DDiRIkVKV60mDEitX/UqKEAGRKFx2mppnD0SG1aypInV45c+TEm
+ipcqP9ocKXKkzJQ7Ve6clnNmzJ8kWR6FidSmR581iRL1qfPm0Kk7mwI9ynGln1Rc
+vab0c/Lf06N+xnr0lzItPmpp0VJL9c9tW2ps3frxA4MKwX99q+jlS+VflX+C//bt
+u/cwYsV6ERckvBcxjL+NLVMGXBnzZc2dM3/mrBflW7tq8Y6ma/e0PxSlP65Fwfrt
+/8i0tOvGvgl7Lmu7OXXv5E2XNF3bxVPjni089U3SuIs7b9uaeXTXqeV6fIzYo0l8
+14enjbvWaMqs1MyOJ6/SJEb2Gt23h/9efnz6FVESJR/T5P30cE9+FOklkJjCL6QC
+mSJPKgCTCqmnAfPrb7oFa1rwwasSXArBnwa0Kr2kJMSvowwhDGs0/MASMSW2PFqx
+rpTiYlFFFfFSYS+BbKwRhht1zHFHH3sEEkcheRzyxyKDJDJJI5VE8kaUWoTSo9M6
+itI8P2SMMUsXtaxySy+7BBPLL8UMk0syzzQzzTG5FDFM7toUE8a6yEJvq7Pq3G6K
+7Pbks08//wQ0UEEHBRQ1Ov/VE6u8ljI8tFFFH8UzUkYhnVRSRy2l9NJK76zUPLEc
+NSsm8XZzEbzrqlsLL0JXZbVVV1/tqCtZvZq1qyupVM6f1dQqlVdUe/3O11yBXY7U
+X48dFlljk2V2WWelrJVWWsUaldfwIhwRxf7wM+kxkWAFN1xx+5yiXHPPRTdRCP0r
+b930TkTPXXnbpTfeerO1N19894V333T/NXeaFMs7b6m5WpxLzoNNM6svFLwd98+H
+I6aYT161nOtW5VY8DWMxF37LY5G9BHnji0n+OOWREVYZ5ZVP7ihmlGSWubuQvZQT
+H03tvLRbhysOdGKgh+Yo0P1SfGq/nTNlGlOnO1366aj/oW56rJgF1urqqx8N9eZq
+37o2WCsRE9pbkBw+++x/QlpbaLbXbhttuYceF7Wv25pSWF2vvLtvYv1WVm/BxS52
+8MIJB7xZw9OieWbHqfSu8GtX7Jeogiv3Ge7s3NZ84oc9/5lztT//WXO6weVv2zxT
+J28/1V9/N8LKZacd9nn1nd32e3OPPSWtH8da5n0LRhNnOLlUtXSIQy+d9M7bZlt0
+sk+vG9c0866y4zW3L5P74rsH/3vx1QyffN8fRx9yNXNeuutIMy9beedBBx3u+KWf
+nnrUkVb06P5dahrVpBbAqRWQgAccYNYUaLUFgupOiTMV4JJnOvtNr37zY14GK/g8
+//296knNwl6udoW4v5UwcCQ84eFUCMHFmVBxwWpcDEdzqmGFTXdSGli8Mgc9t42u
+eRz0nA9/GLcOejCH8PLfulzHr9r1zom3Y+INo/jE3TURipWLYfBmhjUnXu5mLNuO
+iEq2tyKWkXooGaOUNAYy7YHRZW90YxxPJscvztGOdcSjyfKYxpHJUIY20yNc2tQ+
+TtFph2ZEZPUylURGKQ2BAoSkARMYyUdKclPBw+TvClmWB7bQhl+bYCJFub/F5e07
+u0ohC1H4whW68FmrfGUrU5k+WnbnWZPDnbb4dchR9nJVrFNiopD4HyrmUoq8u6IV
+q3hMZRrziZrcYuOGl8Pu5f+MTKH8li+12acPXk9j2buS+cTpvXGWj5znNGc6x0fL
+Px7PeCwiZM/0pDwKbtOehvofPkniyEla0p+VBGg/EchAgmZSK1zrZOBwaawJxs+e
+D+3LB50Vwt2MUJasVOVFY5lRjrqyhYHzI/o44jcbFtM8ORwR/Pj0tugFUW3QC90F
+IVqoI/aHkeNZIjKXaVKdOjOZzAQqT2WXRaLCzouBTJgYP9bQPeGPfvmz4FPrOdPs
+oFFleWNjOOF4R6S2jI5dfdkevcpVPm71ZiFtHCBLxj6mua9SKt2cBX/IOR6aDoNU
+5Sb/6sTIpAFQoH+lJGD/KdiqGbSgW8OT+zYqyFcyNa7/GZTqBiV7V7zuyW5/M2Wx
+UIlRj8Lyo5ydZWhBy1m0Os6WgsPlFI/6Lrhq8K7Om6xd51ZZy3Ykd/4bZjOn+FOh
+BpW3v93pb6E5XH0Rb5zWRF7D0PZSls71bXWlq0NpG1HrrSmEWWrjOtVZTu12l7vf
+RaeYSlszd7aIrZhyqyHnCS7pAqq9tNVnI9Ul38DWd7D2DSh+CdtATWISoaLy6EJ9
+FcpXvXelBq6sRPVGUYaNdrGifbCDPxthCgtuvDMkaeRMalwdrne6D0VNvm66lJzq
+tqe7DW6KfapiFOOuqDTjoruOWlaFLVW5H75nR/iIVSxlV6xhBatZg/zVshJ5rD9+
+/+OF1RfI81ItvVmB37dg29THCgrBVI1vX7PMT/12+b5fzu9gD8vfgya2kyT8JLAc
+W2UqLw/HrrosqjI7qs1W2LN31uiE9Yznjiq5LpGrVmp5t9r8tNbNK4Xqm1sFTCgL
+06bEBO6KJd1iSp/Y0iYmD3EJaqIIcbia5Z2Rcu/XuZfKj2yjC2LzfFjqHJPzulvy
+cXjBu11Z15rWtxYvO00L6jDCs62bxOl6s0k6uppatjKF7efqB2K90rfZiwLzfr0c
+ZmoncMzXdiCAFUpDhoo6rsp+rmulDNVkyxaiCj7lN0XItz3nmc+ddXe8OwphXUuT
+29bSMBQ5nFJhf3uqcqUnBf8jW+5z1zQ9I9YPMS/tWxYvvLcPjzS/XhxNo4oIwCOr
+McbWzLxiJ9qpHAf4v3tpVZHxGLtaNTKQi0zWIw+Z5SpveVn9rNY4DfLX8kz0BsOd
+8+bOzaXGZvYi56vlaE9b2kVHelaw3d//eq2EaXYNgRU9yjivu+p7kze85y3hd9O7
+68OaOaB7JegmEpolvJx6Ihkd7LUvMeIOfzumGT5puGtaixbvNDWLh9wvST3tiOym
+ddV9cu/auvC4nvXhFY+dej+J14L0NXqBTWIP/13tzz770DNvdM4n/ejVvmR/mW5m
+bStOwKTZeMXKtnpFo1uz6q4ou79u56x7vfZcz7OfR/r/9Hzfa9/c6jei2Wu2nMPX
+4K2bL9vpLneIN5z5cZ+7Sib+uy7iPcgZJ1nqi8+q1Xd8uiR3mclhjfKXC3nlSE65
++WO+fpgz/sI011KTsw0puCrb56i2Xw+XrfNT/5y5rNafLNu8Z+Myz+s80DNASVq6
+Bmo6zoI64XCsVTO1VKunKaMsgBs4M7q6BksROmM329s62gvBdhtBEgq7W6Ih1bI+
+1go+pxo3c3vBueq/1+KhK4uYtaO8toM054s+uOPB5ls+27E7aeoXT9u7x8OHCMTA
+x8IfybKrZaNBGwSawAMnKlSjxTO8xNPCLORCcwq79bE5ycO5IeI/yAo5Czy1CZTB
+/4A7I8zbJ817wwP8vDmUQzlcwIJqQBY6vdRQwiHqueiKnkPTPxqEKQ3ElYmCvQYT
+Qa1jRBBsRNwbQd27N7DpveJCKeCzvJE7vhdJvhwMQiCstOf7QejjqelToOobDxpT
+Ko27sUw0RLASP44hP/Qrv/SzxVrERVrUReX4QiYLQyebvIRzRVESwDgkQL+qwwRE
+wGW0NsNyxjz0JLGLulYcxg7aQLSYs1KpMxJ8xEV0xG+ExMYjLxQUDxXEHUOrRrrB
+wYTTQVH8RFKEx1EcxSF0nGlKj08jH+1Lx4qxQsKrLlnEQsTrwoAkyC3sxS6RvwZ8
+q+DbR3V0Q0TZMmRURjqcyP9kVDpnHL1JUawAm0Q+9LbNWbVBhMH/QzUp1ERXYjBs
+lL3b88ZwBMeWrDBJzLC52LBLRL7tiynXMrcz3MkE28TVMbgS60F3DMWhNEpQvLsF
+ojhUNJiWwT6E0b4YLDdATJuo2jks07GrWqMem0WX28Xz88qwBMuxZD9xdLw8SkjS
+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
+wT5hczbxcybsPxOrN0Fs7v5eOw1xI2pcgGZvyl7qd9XwEnXqeD1VzlajGadxxMlG
+1cjo1d5qjv7vBwPyPOFR1y1HkY5dIZ/eDdEJdrStKL3wlf5tChdCaJEWmygRij2p
+/+P9aZn24egWY4kh6yMmRlyRCoDkY9zEbu297jtn8Z2dlb5gCxc/88T+WxkPY70m
+9OYGWpYwkAH00KS+cUa/FE7xioja8XfdSFCO6swtayvb5jdTMNswcv0l2iRH8iUf
+9QCns74QjwGX1wLPcC7+7LJ98FIrtkoeb7Zd2w2l2ltdawv38l7vcgzvjxwKCw7P
+EA/XT7v21GKt7eWubxgs5W42WyCucrgl8a5M8WsPbBTP9jhCdvCYAvgj2Xjy7jYD
+bz0VU2WfdWbPzhpf9PXGcUfHDk0Zc5zl4XlV7nIXb54UxNpd8yFfoSLnb9au5YEX
+eMBpcv94ciyO8oKd7am6b//IanZvjkJ150cYtngo9d0K1/gtb+mUunhpURfWNHOE
+RHPlPtJKNlaHB0kmjXW+bpUmhnknTmLrxXM73+mbNyeZ13kmBiSSB/SgNqR3d/e7
+JMChN/pG3y9Kf2rJNHgq321UcfqGJHApMnCOd2sux/qO5/Vfz/qrdyZjd6NhVfET
+X2dtL+yzN/u0L/u1X3G230Wg7nF4P3qhR/q6p/uk20g0O/iCF/XWLnUlB3DAF/y/
+1zMf1WJf7/qtT/yNR3ytZ3yur1jywEecr/PKr3nLp/zL1/zMhzwYV+y5l3u7D/27
+H32AqvT67XuCT32+J3W/d33Vb/1WImCwhnyvt33Fd3z/q8f923/8r03Fah774Md2
+tHd74d/2tkd+sk9+45/Tn4970Id+0Y9+0p9+k93swX991g98ws/+1ff+2Ff4kC67
+GP548jf/8kf/81f/9Gf/9Xf/9of/95f/+Kf/+bf/+sf/+1//1szuqPf//weIfwIH
+Eixo8CBChNSo4Zu2kJrDhREhPpxosSJGiRkpauzI8eNFjyFBbhxpsiRKkSlJqmzJ
+8uVJlzFhrpxpsyZOmTlptvTHkJrPhT7xAX04tKjQn0GLEl161KlSo1GTNpValSpS
+plmfWt06VSvUq2C7hvUqlivWsmrJsk3bdqzbuHDnoqX7tS7eu3rFPvTYd+LfvhsD
+Zwv+SFgw4MGK/S423Dgx48iOJUOebLky5sKXNWcu3Bkx59CeRYMebbo0asJLiSZd
+yDrr69VSXc/+2do27NqxH+6mfbs3btm/dRMfbjz3ceHIlytvzrs48+fJpUf3XT04
+defWtWN3HRAAOw==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=togglePre.js
+Content-Type: application/x-javascript; name=togglePre.js
+Content-Location: http://www.codeproject.com/script/togglePre.js
+Content-Transfer-Encoding: Base64
+
+dmFyIE1pblByZUhlaWdodCA9IDQ1MDsNCnZhciBNaW5QcmVDaGFycyAgPSA3NTA7
+DQoNCnZhciBQcmVPcGVuID0gbmV3IEltYWdlKCk7DQp2YXIgUHJlQ2xvc2UgPSBu
+ZXcgSW1hZ2UoKTsNClByZU9wZW4uc3JjPSIvaW1hZ2VzL3BsdXMuZ2lmIjsNClBy
+ZUNsb3NlLnNyYz0iL2ltYWdlcy9taW51cy5naWYiOw0KDQpmdW5jdGlvbiB0b2dn
+bGVQcmUoKQ0Kew0KCXZhciBpZCA9IHRoaXMuZ2V0QXR0cmlidXRlKCJwcmVpZCIp
+Ow0KCXZhciBwcmVlbG0gPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgicHJlIiAr
+IGlkKTsNCgl2YXIgaW1nZWxtID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInBy
+ZWltZyIgKyBpZCk7DQoJdmFyIHRvZ2VsbSA9IGRvY3VtZW50LmdldEVsZW1lbnRC
+eUlkKCJwcmVjb2xsYXBzZSIgKyBpZCk7DQoNCglpZiAocHJlZWxtLnN0eWxlLmRp
+c3BsYXkgIT0gJ25vbmUnKSANCgl7DQoJCWlmIChkb2N1bWVudC5hbGwpIHRvZ2Vs
+bS5pbm5lclRleHQgPSAiIEV4cGFuZCBjb2RlIHNuaXBwZXQiOw0KCQllbHNlIA0K
+CQl7DQoJCQlkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgicHJlbWFpbiIgKyBpZCku
+Y2xhc3NOYW1lID0gInByZWNvbGxhcHNlIjsNCgkJCXRvZ2VsbS5maXJzdENoaWxk
+Lm5vZGVWYWx1ZSA9ICIgRXhwYW5kIGNvZGUgc25pcHBldCI7DQoJCX0NCgkJcHJl
+ZWxtLnN0eWxlLmRpc3BsYXkgPSAnbm9uZSc7DQoJCWltZ2VsbS5zZXRBdHRyaWJ1
+dGUoInNyYyIsIFByZU9wZW4uc3JjKTsNCgl9DQoJZWxzZSANCgl7DQoJCWlmIChk
+b2N1bWVudC5hbGwpIHRvZ2VsbS5pbm5lclRleHQgPSAiIENvbGxhcHNlIjsNCgkJ
+ZWxzZSANCgkJewkNCgkJCWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJwcmVtYWlu
+IiArIGlkKS5jbGFzc05hbWUgPSAic21hbGxUZXh0IjsNCgkJCXRvZ2VsbS5maXJz
+dENoaWxkLm5vZGVWYWx1ZSA9ICIgQ29sbGFwc2UiOw0KCQl9DQoJCXByZWVsbS5z
+dHlsZS5kaXNwbGF5ID0gJ2Jsb2NrJzsNCgkJaW1nZWxtLnNldEF0dHJpYnV0ZSgi
+c3JjIiwgUHJlQ2xvc2Uuc3JjKTsNCgl9DQp9DQoNCmZ1bmN0aW9uIEluaXRUb2dn
+bGVQcmUoKQ0Kew0KCXZhciBhcnRpY2xlVGV4dCA9IGRvY3VtZW50LmdldEVsZW1l
+bnRCeUlkKCJjb250ZW50ZGl2Iik7DQoJdmFyIHByZXMgPSBhcnRpY2xlVGV4dC5n
+ZXRFbGVtZW50c0J5VGFnTmFtZSgicHJlIik7DQoNCglmb3IgKHZhciBpPTA7IGk8
+cHJlcy5sZW5ndGg7IGkrKykNCgl7CQ0KCQlpZiAocHJlc1tpXS5vZmZzZXRIZWln
+aHQgPT0gMCkNCgkJew0KCQkJaWYgKHByZXNbaV0uaW5uZXJUZXh0Lmxlbmd0aCA8
+IE1pblByZUNoYXJzKSBjb250aW51ZTsNCgkJfQ0KCQllbHNlIGlmIChwcmVzW2ld
+Lm9mZnNldEhlaWdodCA8IE1pblByZUhlaWdodCkNCgkJCWNvbnRpbnVlOw0KCQkN
+CgkJdmFyIG1haW4gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTsNCgkJ
+bWFpbi5zdHlsZS53aWR0aD0iMTAwJSI7DQoJCW1haW4uc2V0QXR0cmlidXRlKCJp
+ZCIsICJwcmVtYWluIiArIGkudG9TdHJpbmcoKSk7DQoNCgkJZWxtID0gZG9jdW1l
+bnQuY3JlYXRlRWxlbWVudCgiaW1nIik7DQoJCWVsbS5zZXRBdHRyaWJ1dGUoImlk
+IiwgInByZWltZyIgKyBpLnRvU3RyaW5nKCkpOw0KCQllbG0uc2V0QXR0cmlidXRl
+KCJzcmMiLCBQcmVDbG9zZS5zcmMpOw0KCQlpZiAoZG9jdW1lbnQuYWxsKSBlbG0u
+c3R5bGUuY3Vyc29yID0gImhhbmQiOw0KCQllbG0uc2V0QXR0cmlidXRlKCJoZWln
+aHQiLCA5KTsNCgkJZWxtLnNldEF0dHJpYnV0ZSgid2lkdGgiLCA5KTsNCgkJZWxt
+LnNldEF0dHJpYnV0ZSgicHJlaWQiLCBpKTsNCgkJZWxtLm9uY2xpY2sgPSB0b2dn
+bGVQcmU7DQoNCgkJbWFpbi5hcHBlbmRDaGlsZChlbG0pOwkNCgkNCgkJZWxtID0g
+ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic3BhbiIpOw0KCQllbG0uc2V0QXR0cmli
+dXRlKCJpZCIsICJwcmVjb2xsYXBzZSIgKyBpLnRvU3RyaW5nKCkpOw0KDQoJCWlm
+IChkb2N1bWVudC5hbGwpDQoJCXsNCgkJCW1haW4uY2xhc3NOYW1lID0gInByZWNv
+bGxhcHNlIjsNCgkJCWVsbS5pbm5lclRleHQgPSAiIENvbGxhcHNlIjsNCgkJCWVs
+bS5zdHlsZS5jdXJzb3IgPSAiaGFuZCI7DQoJCX0NCgkJZWxzZQ0KCQl7DQoJCQlt
+YWluLmNsYXNzTmFtZSA9ICJzbWFsbFRleHQiOw0KCQkJLy9UaGlzIGlzIGxhbWUu
+IFdoeSBjYW4ndCBXM0MganVzdCBhbGxvdyBpbm5lclRleHQgb24gc3BhbnM/Pw0K
+CQkJdmFyIG5ld19lbCA9IGRvY3VtZW50LmNyZWF0ZVRleHROb2RlKCIgQ29sbGFw
+c2UiKTsNCgkJCWVsbS5hcHBlbmRDaGlsZChuZXdfZWwpOw0KCQl9DQoJCQ0KCQll
+bG0uc3R5bGUubWFyZ2luQm90dG9tID0gMDsNCgkJZWxtLm9uY2xpY2sgPSB0b2dn
+bGVQcmU7DQoJCWVsbS5zZXRBdHRyaWJ1dGUoInByZWlkIiwgaSk7DQoJDQoJCW1h
+aW4uYXBwZW5kQ2hpbGQoZWxtKTsNCgkJDQoJCXByZXNbaV0uc2V0QXR0cmlidXRl
+KCJpZCIsICJwcmUiICsgaS50b1N0cmluZygpKTsNCgkJcHJlc1tpXS5zdHlsZS5t
+YXJnaW5Ub3AgPSAwOw0KDQoJCXZhciBwYXJlbnQgPSBwcmVzW2ldLnBhcmVudE5v
+ZGU7DQoJCXBhcmVudC5pbnNlcnRCZWZvcmUobWFpbiwgcHJlc1tpXSk7DQoJfQ0K
+fQ0KDQpJbml0VG9nZ2xlUHJlKCk7
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=forum_faq.GIF
+Content-Type: image/gif; name=forum_faq.GIF
+Content-Location: http://www.codeproject.com/script/images/forum_faq.GIF
+Content-Transfer-Encoding: Base64
+
+R0lGODdhEAAQAPdvAP8A/wtrBFbCLz2vIUhIgGrYOljPLjKyFymJHDZIX4qK1JKT
+63JywkGZMKel66ys+pmd/5eT1IuHxGlpwlNZgaqm7sbF/7Gx/qOj8Lulgv+9AJ2O
+km5u3F9ewnZ2pIeHv7a2/q2s77idaHp0sV1dy1RSwp2d2V9fkXl5tqOl+7ilkvy9
+A5WEjGNl11paxk5Nv0xLwLy8/pyc2VtbjHR0tY+R96yZi56Jc11f1FVUxE1MxUxL
+xT8/lmtrpbe3+pCQ1VxcjnBwsoCB44mBsW1ry11czlBPxkFAkzU1NlFRUWZmo6Wl
+9IODz2trmHJysm1u3V9eykNCkLCxqZiYmF9fnY6O4nd3x29vnlVVhqysqsrLysvM
+zJ+foFZWkn192WNjtLa2sMnKys7Oz8LCxKqrqzExMlRUkltasdTU1MHBwoqLizQ0
+NYyOjklJfjk4OwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANn8AAAAEgAAAJEFyCCYfMgAFQAS2pEF
+URN4fG0AFXyRBQAAAAQ9AAB8kQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAACgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANSHNNtZdxgAAAAS2BUA
+ANuQABgAEnyQ7pFAwP//fLv//3yRQAHWjgBFAAwAAAAS2hAAgNuQwBgAEnyQ7pEF
+cP//fAD//wAAAJEEPdtAfHUAEnyBCwAAAEEkAP8COgAA/zpBJAAYAgAAAAAAABLb
+KABAAAAAAAAAABLbDAAAAAAAAAAAAAAAAAAMAAIAAAAAAJABAfwAfK5//QAAAAAA
+AAACALYAAAIaABUgoAAAAKAAAAAVIAAABeLfAGR8gAAS24AaT+XlfEh8kHyBDgAB
+qNuIAJAAEgAS2wAACCH5BAkAAAAALAAAAAAQABAAAAjCAAEACBBAoMGDBgkKGFAQ
+AIGHCAcWMHAAQQICChYwIBAxQIOHDh5AiCBhAseDFAhUsHABQwYNGzh0OCmQgIcP
+IEJo0CBCwwgSJWgSMHECRQoVKzSwaOHiBYyTBGLImEGjhg0NN3Dk0LGDB0cCPXz8
+ABJEyBAiRYwcQYIkSU0lS5g0cfIEShS2Uqa4rUmlipUrWNhm0bKFy96aXbx8QQIm
+jJgxZJCUQUjAzBkkaNKoQbImYk0CSNiw9XywjRskpFMjDAgAIf4AOw==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=forum_search.gif
+Content-Type: image/gif; name=forum_search.gif
+Content-Location: http://www.codeproject.com/script/images/forum_search.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODdhEAAQAPf/AP8A/3B+p3OAqW54pGVomIeVuqTX6p7V6pfA4Gx3pWt0odPU
+4e7+/4zM93O08IjH96Xj/IigwpOyzt3+/6XR9Hu67o/H8qvh+Lrw/Mr6/G93o3N/
+qqTg+ni38Kbd9sz7/tP//9H//9f//6fF2Wx1o3iKsZne/2eh6ZnR9Mz8/tX//9r/
+/9z//8Xm73V+qXiJsJfa/ni07bvu+/T//+L//7zd6XN7ppLR+sL0/tD///b///z/
+/4STtn2RwKzp/Mz//8///97///r//9HT42Vpmf+rO+fKoXmGrXODqbHP4N3//8/4
+/J+yzP6lOP+dMs5tFVtPRGVrnHuIr36Ir3WAqv6kN/+eNd5vD4tgNX97pv+fN95t
+DolfNXl/u/6gMv+hN+JvEItfMnl9trKEUOFvD4xfMnp+uGJLMX59rAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANn8AAAAEgAAAJEFyCCYfMgAFQAS2pEF
+URN4fG0AFXyRBQAAAAQ9AAB8kQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAACgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANSHNNtZdxgAAAAS2BUA
+ANuQABgAEnyQ7pFAwP//fLv//3yRQAHWjgBFAAwAAAAS2hAAgNuQwBgAEnyQ7pEF
+cP//fAD//wAAAJEEPdtAfHUAEnyBCwAAAA9YAP8CPQAA/z0PWAAYAgAAAAAAABLb
+KABAAAAAAAAAABLbDAAAAAAAAAAAAAAAAAAMAAIAAAAAAJABAfwAfKh//QAAAAAA
+AAACALAAAAIaABUgoAAAAKAAAAAVIAAABeLfAGR8gAAS24AaT+XlfEh8kHyBDgAB
+qNuIAJAAEgAS2wAACCH5BAkAAAAALAAAAAAQABAAAAioAAEIHDgwgIABBBMKJFDA
+wAEECRIoFKhgAYMGDh5AiCBRoYQJFCpYuIAhgwaFGzh0qODhA4gQIkaQSFjCxAkU
+KVSsYCGihYuEL2DEkAGCxYwZNGrYUPjiBo4cK3Ts2MFjYg8fP4DkCCJkCJGERYwc
+QZJkhZIlTBQkbOLkCRQAUaRMoaKwipUrWLJMHFhFyxYuXfYK9PIFTBgxggWOIVPG
+TOKBZ9A8FhgQACH+ADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=forum_newmsg.gif
+Content-Type: image/gif; name=forum_newmsg.gif
+Content-Location: http://www.codeproject.com/script/images/forum_newmsg.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAPf/AHmr522S0V9rpf8A/9AyJ7QZDPD0++/0++/z+u/y+O/y98DC
+2GyDwb9jAu1FL9MxEJUKAf///8XH3E+R0cGPBt6TA7ogA7IYA5kLAXWd2vv+//f+
+/7rB2lZflVhdnqeELfC7Bt6OAJUPAIEAAPz+/+/2/Obz/Kq1z2Zml6mq73NtjJ95
+Hr2YDPD3/OXv+rXB11tbiqam5ouLynV1tkJEfkVBPvD3/sDO4VhZh6Gh4Y6OzHR0
+sFFRhjw7Y2iCvPD2/Obv+s7c611ejKGh4o+PznZ2tFJShjg/XE5MdvL3/tXl8GJd
+a6Gk6ZCQz3V1slNThzU8WFBpelRTgWt1p/z//+bw+trq+J2fj11VYoyQ3Xl5uFdX
+jjc9W1FrfV2Bml5ckvD7/9zq+Mrd7mxXIoJeFmVddFRSfTk/XlhyhmaMp3Oqzmdl
+oFtnoOX0/8/l94CPnGNGDZJiA1Q7C0FHS157kWyXtXSr0X2/6WlnpNrv/sbg9i0t
+MCclIUZFN2iEmW+SrXSgwnqy3H6854HE787q/LrY8KDB3ImqxICkv4Kvz4G13H64
+4n+96Xh39AAVE/Rn+QAAd+UAAHf0ZgAAAFFkAIwBnwEoCgAAUNoMAAIAEgAAAAoA
+CK6QAAJ3+AAAAJoAmOwAAIJ//QF1BBLanAAAABoAAAAAAgAAAACYALwAAAAS1xLb
+aCwgACgAHQAAAhLXsAMsAEwAQwAS2/RaNK5wd/93+P////SwUrHGdwF39AAAABLa
+YNrkAAAAEgAAABUAAOwAAEV//QAAAAGYENnMAIAAEsAQABLbTFo0AFh39Hf4lP//
+/2f5/wB39AAAAPRm5ZhgdwB35AAAAJy/wP//AcAAAAGcvwAAGAAAAOQAAAAS2gAA
+QAAAAMgAAAAS2gAAAAAAAAAAAAAAAAAAAAAMAAIAAAAAAPQBAewAd5h//QAAAAAA
+AAACAKAAAAIaAB0sIP//AAAAAAAAAB0sIAAFACAAAAAS2+SacTODdyF39HfkkgAB
+xNtEAEwAEgAS2wAACCH5BAkAAAMALAAAAAAQABAAAAjeAAEEGEhwoIABCAkUGADA
+wAEECBIoULBAAIMBDRw8gAAggsePESQImEChgoULGDKAjKBhA4cOHj6ACCFihMqP
+JEqYOIEihYoVLFgMCICzhYsXMGLImEGjBkKiEUjYcHEDRw4dO3j0QDjAR9QfQIII
+GUKkiJEjSLh6TQJEyRImTZw8gRJFCtcpVKpYuYIli5YtXLp4+XIXTBgxY8iUMXMG
+TRo1a7iyaePmDZw4cubQqWPnDh7JefTs4dPHzx9AgQQN+owQD6FChg4hSqRokSBG
+q7ni2c27N2+uwIMLHxAQACH+ADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=news_general.gif
+Content-Type: image/gif; name=news_general.gif
+Content-Location: http://www.codeproject.com/script/images/news_general.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAPcZAP8A/7Ozs+Tk5L+/v9LS0uXl5ff39+jo6N3d3erq6q6uruzs
+7Lu7u7q6urm5ue7u7tHR0fDw8PLy8vT09Pb29vj4+Pr6+vz8/ABfADYAMQBfAC4A
+ZABnAGYAaQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLagAAAAJcAAHf0fB4N
+WGfhAHh39AAVE/Rn+QAAd+UAAHf0ZgAAAEB0AIwBtgEoCgAAYdoMAAIAEgAAAAoA
+CK6QAAJ3+AAAALwAuuwAAGh//QF5BBLanAAAABoAAAAAAgAAAAC6ALwAAAAS1xLb
+aA1gACgAHgAAAhLXsAWOAEwDUwAS2/RaNK5wd/93+P////SwUrHGdwF39AAAABLa
+YNrkAAAAEgAAABUAAOwAAEV//QAAAAGYENnMAIAAEsAQABLbTFo0AFh39Hf4lP//
+/2f5/wB39AAAAPRm5ZhgdwB35AAAAKcwtP//AbQAAAGnMAAAGAAAAOQAAAAS2gAA
+QAAAAMgAAAAS2gAAAAAAAAAAAAAAAAAAAAAMAAIAAAAAAPQBAewAd7p//QAAAAAA
+AAACAMIAAAIaAB4NYP//AAAAAAAAAB4NYAAFACAAAAAS2+SacTODdyF39HfkkgAB
+lNtEAEwAEgAS2wAACCH5BAkAAAAALAAAAAAQABAAAAh1AAEIBBCgoMGCAxMSFMCQ
+4QACARQKDFCgYsUBBiBKDHCgY0eMBhBETBgggcmTClIqGDlxgcuXDBg0cMCS4IOb
+OCHohFAzQISfQIP2lEC0qNGeE5IqXdqTgtOnUHtWmEq1ak8LWLNq7Xmhq9evXL+K
+7XmwbMGAACH+ADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=userinfo.gif
+Content-Type: image/gif; name=userinfo.gif
+Content-Location: http://www.codeproject.com/script/images/userinfo.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhDgAPALMAAP///+Tm1MzMmayqlJmZZnx+fACZ/zNm/2ZmADMAzCQiJAAA
+/wAAAAAAAAAAAAAAACH5BAUUAAAALAAAAAAOAA8AAARTEEiJKpoYVCEIqRnCeZWC
+MJhIBqyCUl3FBoKSCogyB4c9IR8di1P7fXI0wcCV+iQHy4xGpxwUfBmdYovFHA6B
+qBRwMBgS6IS0/P0uFmoMY06vTyIAOw==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=ind.gif
+Content-Type: image/gif; name=ind.gif
+Content-Location: http://www.codeproject.com/script/images/ind.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhCwALAPcAAAAAAI9/b/////9A/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAACH5BAEAAAMALAAAAAALAAsAAAgVAAcIHEiwoMGDCBMqXMiw
+ocOHAwICADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=news_info.gif
+Content-Type: image/gif; name=news_info.gif
+Content-Location: http://www.codeproject.com/script/images/news_info.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAPdEAP8A/3ObyYeo3P///2NokwBmy3KYxnCUwm6PvT6Z3/r//2yJ
+twCZALXi//v9/vX6/u/3/fL5/u37/2mDsf/MAACZ/+/3/N3z/mZ+quLy+9vu+tPq
++Nbs+c7r/GN4pP7//+/4/On0/OLy+trv+tPr+Mvn98Pi9sXk973l+mFxnvT//6/e
++F5smePx+8Tj9rzg9bTd9K3Z86jW8qnX8qPY9Vxnk9Xx/5vU9FpjkMTk9rzk+rPh
++qvd96Pa95/X9pzW9prV9p7b+llgjHR4pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLagAAAAJcAAHf0fCDS
+KGfhAHh39AAVE/Rn+QAAd+UAAHf0ZgAAAFsIAIwCCwEoCgAAVtoMAAIAEgAAAAoA
+CK6QAAJ3+AAAAKYApOwAAEF//QF1BBLanAAAABoAAAAAAgAAAACkALwAAAAS1xLb
+aNIwACgAIAAAAhLXsAOGAEwkqwAS2/RaNK5wd/93+P////SwUrHGdwF39AAAABLa
+YNrkAAAAEgAAABUAAOwAAEV//QAAAAGYENnMAIAAEsAQABLbTFo0AFh39Hf4lP//
+/2f5/wB39AAAAPRm5ZhgdwB35AAAALGNQP//AUAAAAGxjQAAGAAAAOQAAAAS2gAA
+QAAAAMgAAAAS2gAAAAAAAAAAAAAAAAAAAAAMAAIAAAAAAPQBAewAd6R//QAAAAAA
+AAACAKwAAAIaACDSMP//AAAAAAAAACDSMAAFACAAAAAS2+SacTODdyF39HfkkgAB
+0NtEAEwAEgAS2wAACCH5BAkAAAAALAAAAAAQABAAAAiYAAEIHEiw4MAAAhIqXCiA
+YIABECNKJOBwQIGLGC8OoDjQgMWMGDcSPCCxpMiBCD5qTMBSAUeBCywyaFDAwQMI
+ESS8BDDBIoUKBSywTHBhJwaVBTJo2MChw04PH0CEEDGCRAkTJ1DsTKFiqNcEK3ay
+aLGhhIsXMGLImEFjZw0bX4fe2Ikjh44dPHr4+AEESJCdQoYIHkyYY0AAIf4AOw==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=news_question.gif
+Content-Type: image/gif; name=news_question.gif
+Content-Location: http://www.codeproject.com/script/images/news_question.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAPe0AP8A/7jG5cHM6b/L6brH5uDm8/Lz+Pv8/vz+//v7/PLz+tfg
+8unt9////8/j96DH75nC7ZO76pK46sXZ9OPp9LHB4uru+JjC7ZLA69np+PL3/O/2
+/M/g9nKe4YSr4+Ln88rU6tfg8J/F7oKy6fP3/Jy76pi66fL2/Pf6/kp703+g3sDM
+6fr6/ODu+k+O3LfR8v7//3ej4TBrziVex3KZ3Yqp4hxNwM7Z7u/w87bE4pzA60F+
+1UyD11SH2DtyzzFnyyZaxZm15nma3Aw7t3aW1//688zX7nWj4Tl00Dty0DNpyy5j
+ySlcxpy25tXg9CxaxBJBulB4zPjz7brF4c7X7m2X3C1myjFmyitexyNUwZ+357fJ
+6ytZwhlJvBdHvE11yu3m4bbC3cLO6oen4iNXxClaxR5Pvy9dxvT4/uXr+CVUwRZG
+ux9PvxZFvWuJy93Y1a+83LLB4/z8/tHe9CRVwh1MvxxKvShXwoCf3meL1xpKvR5O
+vxxMv6axysTEyam63dnh8Hqa2hFBuhtLvR9Ov46q4oGf3hxMvRVFv2WDxcG9v6y1
+zK294e/w9v//+mmL0xZGvBpKv8nY87XH7hZGvRhJv15+wbe0t6aquOnt8Pz48LG/
+3ll+y0pzyUlyx1N2wo6cwLGvsaCktKSy0bC/4dDX5ubl4+bg3MfHzr+9xMC8vK2v
+t52kuLLA3rK/2rG81ay30Ka00QAS2/RaNK5wd/93+P////SwUrHGdwF39AAAABLa
+YNrkAAAAEgAAABUAAOwAAEV//QAAAAGYENnMAIAAEsAQABLbTFo0AFh39Hf4lP//
+/2f5/wB39AAAAPRm5ZhgdwB35AAAAJ3V7P//AewAAAGd1QAAGAAAAOQAAAAS2gAA
+QAAAAMgAAAAS2gAAAAAAAAAAAAAAAAAAAAAMAAIAAAAAAPQBAewAd5h//QAAAAAA
+AAACAKAAAAIaAB0sIP//AAAAAAAAAB0sIAAFACAAAAAS2+SacTODdyF39HfkkgAB
+xNtEAEwAEgAS2wAACCH5BAkAAAAALAAAAAAQABAAAAj+AAEIFBgggIABBAgMXAiA
+QAEDBxAcSKBgwQKGBBg0cPAAQgQJExpQqDCQgIUGFzBk0LCBQwcPDT6AEBiigYgR
+DUiUMHECRQoVDWauYNHCxQsYMWTMoNGgho0bOHKsaKBjB48ePn4ACdJAyBAiRXIY
+aXAESRIlS5g0aeDkCZQoUqZQaVDFyhUsWbQ02MKli5cvYMKIaTCGTBkzZ9CkUbOG
+TRs3b+DEkTOHTh07d/Dk0bOHD5s+fv4AANQgkKBBhAoZOnQIUSJFiwQyauToEaRI
+kiZRqmTpEibRAuNk0rSJUydPn0CFEjWKIalSpk6hSqVqFSvgDAG0cvUKVizsAgMB
+AgAh/gA7
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=news_answer.gif
+Content-Type: image/gif; name=news_answer.gif
+Content-Location: http://www.codeproject.com/script/images/news_answer.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAPcAAAAAAAEBAQICAgMDAwQEBAUFBQYGBgcHBwgICAkJCQoKCgsL
+CwwMDA0NDQ4ODg8PDxAQEBERERISEhMTExQUFBUVFRYWFhcXFxgYGBkZGRoaGhsb
+GxwcHB0dHR4eHh8fHyAgICEhISIiIiMjIyQkJCUlJSYmJicnJygoKCkpKSoqKisr
+KywsLC0tLS4uLi8vLzAwMDExMTIyMjMzMzQ0NDU1NTY2Njc3Nzg4ODk5OTo6Ojs7
+Ozw8PD09PT4+Pj8/P0BAQEFBQUJCQkNDQ0REREVFRUZGRkdHR0hISElJSUpKSktL
+S0xMTE1NTU5OTk9PT1BQUFFRUVJSUlNTU1RUVFVVVVZWVldXV1hYWFlZWVpaWltb
+W1xcXF1dXV5eXl9fX2BgYGFhYWJiYmNjY2RkZGVlZWZmZmdnZ2hoaGlpaWpqamtr
+a2xsbG1tbW5vcnByeGp5dWR+cV+AblqCalOFZEqIWkCLUDiORjCQPSmRNiOTLx6U
+KBqVIxSWHBCWFg2XEgqXDgiXCwaYCQWYBwSYBgOYBAKYBAKYAwGYAgGYAQOYCgeY
+FwyYKBOYQR2ZYyOZeiqZki+ZozOZszaZwTqZyjyZzz6Z00CZ2EGZ2kOa2Eab1Eqb
+0E+dylSexFifv1yguV6gtmGhsmShrmaiqmehqWigp2qepmudpW2apm6Yp3GUqXSR
+rHaOrniMr3mKsXqJsnqJsnqJs3uIs3uJs3uJs3uKtHuLtnyNuX6Tvn6Twn6Wx3+Z
+y4CbzoCc0IGe0oGf04Ge0oKd0YSb0IeW0JGL1J952q9l4cdH69su8vAS+vsE/f4A
+/v4A/v4A/v4A/v4A/v4A/v4A/v4A/v4A/v4A/v4A/v4A/v4A/v4A/v4A/v4A/v4A
+/vwJ/vgX/e8y/Nxo+dCL+Man9r2+9bfL9LPS87HW87PY8rXa87bb87jd87re87zf
+9L7g9MHh9MTj9cnl9czm9s7n9tDo99Lp99Xr+Njs+Nzu+eHw+uXy++j0++v1++72
+/PH3/PL4/PT5/PP5/CH5BAkAANMALAAAAAAQABAAAAiYAKcJHEiw4MBfCBMqTHjQ
+n0OH/frly4cP36yGECNOrFjvosBf/jCJHDmSnsdpwPxFlEixXj16JgfuWkkRn0uY
+707OJMnT3clcE1vCjPfOHbufLW+2S5SI3bqTtyomkicPF9N169BBdZnITpxEc7Ki
+M3dy1kt5TBOJNVfupCx6RN2pRYeunN2TruI6pcv27kBXswILHhx4WkAAOw==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=news_game.gif
+Content-Type: image/gif; name=news_game.gif
+Content-Location: http://www.codeproject.com/script/images/news_game.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAOYAAP////b4+fH4/er0/vfy4Obv/ODs++bq7f/ksffjwdfn/M/n
+/9vj7eLd2e7ctsvi+//blNbc5dbe3vTWndXW29XW1sDa+MrW57vZ/v7OcL/U7+XM
+oMrP2v/FUKTS/6bO/dPEpfHCZrLI5vK/aLnGzOW/epnM/+69Sr2/xN25eeW7UdK9
+efW3OK282v2zKI/C/+O0YZ2597W2vaG55KW42P6tDauwvJG13na6//imBqiqrd2l
+K6alm4Og/p+hqZOjtuCZCNCaJZudpWyk4ZmZmY2crdWSGdWSCt+PAaaUdtWQAE+i
+/1+b4ICNvtWEAM2GAYiLlkCb/5GIesWBAauCOIuGfzOZ/1WN4o6DcXOAtKN9OGeB
+w6F5MW57mnx4cWB7p4B1ZqtxCC2C9aduA6BsDpJqIpVnE41nJ5lmAHVnUnhnRoll
+I1VklnRhO3JeQ2teS3lcJ31ZH4RWAXBWMG5XMnFRH29OF3hOAAdY31pLOWhFCWA7
+AFQ3CEIsBf///wAAACH5BAUUAH4ALAAAAAAQABAAAAfwgH4FGBYWIiItLTM0DQAA
+fpAGjgACAgMDD1dfFY+QDJWXBqIaYnhdB5B+DAWhCq4LMT1sKKkMBgMBAwUKKDw8
+JF0yqREFH1FLTGBwa2twXjbDDBYmN3RaGwgQKmRuEZARDCZWaVQEFQkTKyxjYN8R
+GD9xCBxpJTB1QTlxtBERJlhcHIBIMeJEkCdI0EjxQ+HCByxUkrzJ0MFFjTtywixs
+aIJImRB5zuwAgqbPEzM8GHJ4MaSNkRN69uzhc8SJGgkMNXjAUcTOkRpKlORQUkcH
+JA5bsmRpAmUOmilT0LQRkioACSE+svqokiZNFRuo/AQCADs=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=news_sticky.gif
+Content-Type: image/gif; name=news_sticky.gif
+Content-Location: http://www.codeproject.com/script/images/news_sticky.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhEAAQAPeIAP8A/5aq2Kq64Jeq2M/Z7v///+Dm85Gm19DZ7tPq+sbg9t7l
+9Jmt2NDa7rvc9o/F8Hmw6pO869ri8JOn19Td7rbX9kqS4Nrq+tDg9yhkyYKk4f//
+/tfc6Zeq19Xd77LU80WK3D5+1VWJ2Eh50CFUwBhHu3+a1//+8MnP4Nnh8qfL7zt9
+1TFvzkZ707/U8p+65xlFuA83sAktqm2IyuXh2ra8z5On1cve9jZ20y9pzChdxiJU
+wNjj9s7a8hA3rw0yrAkuq4eXwsC7uJijwcXZ8yddxhxKuxdBts/c88nV8A80rQ81
+rQcsrWp/tKGen4uVsdrh8oim4RA7tA81sA82r8zY8sfU8A4zrQ0xrAgtrUBesJyY
+oISImYuex93i8nKP1QYqpxA2rdzl9tfh9AgtrENisaGeo4eKntnh72qHzhpBtYKf
+3YGe3RpCuKOeoYeLnoudxtne6v/+8l19xgMlpwMmqkhlsaOfo5qv2M7R4eHd2n6R
+wnCDtJ2aoIiOoIyex7u/zsC7t6CcnoaMn5iq1ZijvYuWtI6eyQAAAJcAAHf0fB0s
+GGfhAHh39AAVE/Rn+QAAd+UAAHf0ZgAAAGycAIwBoAEoCgAAUdoMAAIAEgAAAAoA
+CK6QAAJ3+AAAAJwAmuwAAHV//QF1BBLanAAAABoAAAAAAgAAAACaALwAAAAS1xLb
+aCwgACgAHQAAAhLXsAMsAEwADAAS2/RaNK5wd/93+P////SwUrHGdwF39AAAABLa
+YNrkAAAAEgAAABUAAOwAAEV//QAAAAGYENnMAIAAEsAQABLbTFo0AFh39Hf4lP//
+/2f5/wB39AAAAPRm5ZhgdwB35AAAADfrZP//AWQAAAE36wAAGAAAAOQAAAAS2gAA
+QAAAAMgAAAAS2gAAAAAAAAAAAAAAAAAAAAAMAAIAAAAAAPQBAewAd5p//QAAAAAA
+AAACAKIAAAIaAB0sIP//AAAAAAAAAB0sIAAFACAAAAAS2+SacTODdyF39HfkkgAB
+xNtEAEwAEgAS2wAACCH5BAkAAAAALAAAAAAQABAAAAjWAAEIHBhAgIAAAxMmHECg
+QAEDAxQmPICgQAIFBRYwkAhgQIMCDh5AiFBAQsSEEygUqGDhAoYMGjZw6DBwgIcC
+H0CEEDGCRAkTJ1BEDJCigIoVLFq4eAEjhowZNGrYEFDgBo4cOnbw6OHjxw8gQYQM
+oUqkyA4jR5AkUfJjCZMmTp4EgFIgipQpVKpYuYIli5YtXLp09FLgC5gwYsaEIVPG
+zJmTHdFsSKNmDZs2Wty8gaNwQBw5c+jUsXPnMUc8efTs4dPHzx+OAgcACiRoEGTY
+hAoZOiQxIAAh/gA7
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=front.js
+Content-Type: application/x-javascript; name=front.js
+Content-Location: http://codeproject.us.intellitxt.com/intellitxt/front.asp?ipid=5102
+Content-Transfer-Encoding: Base64
+
+dmFyIGl0eHR1cmw9J2h0dHA6Ly9jb2RlcHJvamVjdC51cy5pbnRlbGxpdHh0LmNv
+bS92My9kb29yLmpzcD90cz0nKyhuZXcgRGF0ZSgpKS5nZXRUaW1lKCkrJyZpcGlk
+PTUxMDImcmVmdXJsPScrZG9jdW1lbnQubG9jYXRpb24uaHJlZi5yZXBsYWNlKC9c
+Ji9nLCclMjYnKS5yZXBsYWNlKC9cJy9nLCAnJTI3JykucmVwbGFjZSgvXCIvZywg
+JyUyMicpOw0KdHJ5IHsNCmRvY3VtZW50LndyaXRlKCc8cycrJ2NyaXB0IGxhbmd1
+YWdlPSJqYXZhc2NyaXB0IiBzcmM9IicraXR4dHVybCsnIj48L3MnKydjcmlwdD4n
+KTsNCn1jYXRjaChlKXt9DQo=
+
+------------HCDeAsRhzK6bbUPEHWS2Q5
+Content-Disposition: inline; filename=space.gif
+Content-Type: image/gif; name=space.gif
+Content-Location: http://www.codeproject.com/images/space.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhAgACAID/AMDAwAAAACH5BAEAAAAALAAAAAACAAIAQAIChFEAOw==
+
+------------HCDeAsRhzK6bbUPEHWS2Q5--

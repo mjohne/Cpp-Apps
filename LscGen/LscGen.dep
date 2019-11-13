@@ -1,0 +1,179 @@
+# Microsoft Developer Studio Generated Dependency File, included by LscGen.mak
+
+.\BCMenu.cpp : \
+	".\BCMenu.h"\
+	
+
+.\BtnST.cpp : \
+	".\BCMenu.h"\
+	".\BtnST.h"\
+	
+
+.\ExportAsGraphicDlg.cpp : \
+	".\BCMenu.h"\
+	".\BtnST.h"\
+	".\ExportAsGraphicDlg.h"\
+	".\HyperLink.h"\
+	".\LscGen.h"\
+	".\ThemeHelperST.h"\
+	".\XPStyleButtonST.h"\
+	
+
+.\ExportAsModelDlg.cpp : \
+	".\BCMenu.h"\
+	".\BtnST.h"\
+	".\ExportAsModelDlg.h"\
+	".\HyperLink.h"\
+	".\LscGen.h"\
+	".\ThemeHelperST.h"\
+	".\XPStyleButtonST.h"\
+	
+
+.\HyperLink.cpp : \
+	".\HyperLink.h"\
+	
+
+.\LscGen.cpp : \
+	".\BCMenu.h"\
+	".\BtnST.h"\
+	".\HyperLink.h"\
+	".\LscGen.h"\
+	".\LscGenDlg.h"\
+	".\ThemeHelperST.h"\
+	".\XPStyleButtonST.h"\
+	
+
+.\LscGen.rc : \
+	".\res\about.ico"\
+	".\res\arrow_down_blue.ico"\
+	".\res\arrow_left_blue.ico"\
+	".\res\arrow_right_blue.ico"\
+	".\res\arrow_up_blue.ico"\
+	".\res\banner_current.bmp"\
+	".\res\book_blue.ico"\
+	".\res\book_open.ico"\
+	".\res\check.ico"\
+	".\res\check2.ico"\
+	".\res\clipboard.ico"\
+	".\res\clipboard_empty.ico"\
+	".\res\colors.ico"\
+	".\res\copy.ico"\
+	".\res\cut.ico"\
+	".\res\data_into.ico"\
+	".\res\delete.ico"\
+	".\res\delete2.ico"\
+	".\res\document_check.ico"\
+	".\res\document_info.ico"\
+	".\res\document_preferences.ico"\
+	".\res\document_view.ico"\
+	".\res\download.ico"\
+	".\res\edit.ico"\
+	".\res\edit2.ico"\
+	".\res\environment.ico"\
+	".\res\error.ico"\
+	".\res\exchange.ico"\
+	".\res\exit.ico"\
+	".\res\faq.ico"\
+	".\res\fit_to_size.ico"\
+	".\res\folder_closed.ico"\
+	".\res\forbidden.ico"\
+	".\res\gear.ico"\
+	".\res\heightfield.ico"\
+	".\res\help2.ico"\
+	".\res\help_online.ico"\
+	".\res\id_card.ico"\
+	".\res\information.ico"\
+	".\res\lightbulb.ico"\
+	".\res\lightbulb_on.ico"\
+	".\res\logic_and.ico"\
+	".\res\logic_not.ico"\
+	".\res\logic_or.ico"\
+	".\res\LscGen.ico"\
+	".\res\LscGen.rc2"\
+	".\res\mail.ico"\
+	".\res\manifest.xml"\
+	".\res\mfc.ico"\
+	".\res\mfc7.ico"\
+	".\res\model.ico"\
+	".\res\msvc6.ico"\
+	".\res\msvc7.ico"\
+	".\res\nav_down_green.ico"\
+	".\res\nav_left_green.ico"\
+	".\res\nav_plain_green.ico"\
+	".\res\nav_right_green.ico"\
+	".\res\nav_up_green.ico"\
+	".\res\navi.ico"\
+	".\res\navigate_cross.ico"\
+	".\res\navigate_down.ico"\
+	".\res\navigate_left.ico"\
+	".\res\navigate_minus.ico"\
+	".\res\navigate_plus.ico"\
+	".\res\navigate_right.ico"\
+	".\res\navigate_up.ico"\
+	".\res\new.ico"\
+	".\res\notebook.ico"\
+	".\res\notebook_preferences.ico"\
+	".\res\open.ico"\
+	".\res\paste.ico"\
+	".\res\photo_portrait.ico"\
+	".\res\photo_scenery.ico"\
+	".\res\recycle.ico"\
+	".\res\redo.ico"\
+	".\res\refresh.ico"\
+	".\res\save.ico"\
+	".\res\script.ico"\
+	".\res\stop.ico"\
+	".\res\transform.ico"\
+	".\res\transform2.ico"\
+	".\res\undo.ico"\
+	".\res\unknown.ico"\
+	".\res\vrml.ico"\
+	".\res\warning.ico"\
+	".\res\window_earth.ico"\
+	".\res\window_edit.ico"\
+	".\res\window_environment.ico"\
+	".\res\window_gear.ico"\
+	".\res\window_information.ico"\
+	".\res\window_new.ico"\
+	".\res\x3d.ico"\
+	
+
+.\LscGenDlg.cpp : \
+	".\BCMenu.h"\
+	".\BtnST.h"\
+	".\ExportAsGraphicDlg.h"\
+	".\ExportAsModelDlg.h"\
+	".\HyperLink.h"\
+	".\LscGen.h"\
+	".\LscGenDlg.h"\
+	".\LscNewDlg.h"\
+	".\ThemeHelperST.h"\
+	".\XPStyleButtonST.h"\
+	
+
+.\LscNewDlg.cpp : \
+	".\BCMenu.h"\
+	".\BtnST.h"\
+	".\HyperLink.h"\
+	".\LscGen.h"\
+	".\LscNewDlg.h"\
+	".\ThemeHelperST.h"\
+	".\XPStyleButtonST.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\..\..\microsoft visual studio 6\vc98\include\basetsd.h"\
+	".\Mtrx.h"\
+	".\StdAfx.h"\
+	
+
+.\ThemeHelperST.cpp : \
+	".\ThemeHelperST.h"\
+	
+
+.\XPStyleButtonST.cpp : \
+	".\BCMenu.h"\
+	".\BtnST.h"\
+	".\ThemeHelperST.h"\
+	".\XPStyleButtonST.h"\
+	
