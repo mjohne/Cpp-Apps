@@ -1,0 +1,267 @@
+<head>
+<body>
+<title>Console.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"
+</head>
+<body bgcolor="#FFFFFF" text="#000000"><font face=Courier>
+<font color="red">}</font><font color="green">// H-Line</font><br>
+<font color="green">/****************************************************************/</font><br>
+<font color="green">/*&nbsp;Description:&nbsp;Win<font color="blue">do</font>ws&nbsp;Textmode&nbsp;Console&nbsp;Functions									&nbsp;**/</font><br>
+<font color="green">/*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;look&nbsp;at&nbsp;Microsoft&nbsp;In<font color="blue">for</font>mation&nbsp;(KB&nbsp;Q99261)									**/</font><br>
+<font color="green">/*&nbsp;Compiler&nbsp;NT:&nbsp;MS&nbsp;Visual&nbsp;C++&nbsp;6.0,&nbsp;Console&nbsp;App											**/</font><br>
+<font color="green">/*&nbsp;Written&nbsp;by.:&nbsp;F.&nbsp;Mersmann,&nbsp;23.03.1988&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Version&nbsp;3.20,&nbsp;12.03.2003	**/</font><br>
+<font color="green">/***************************************************************/</font><br>
+<font color="green">/*&nbsp;Change&nbsp;log.:&nbsp;Gabriel&nbsp;Augustin,&nbsp;01.06.2001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**/</font><br>
+<font color="green">/*&nbsp;Change&nbsp;log.:&nbsp;Mark&nbsp;Scholtes,&nbsp;11.12.2002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**/</font><br>
+<font color="green">/*&nbsp;Change&nbsp;log.:&nbsp;J.&nbsp;Wolkenhauer,&nbsp;10.03.2003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**/</font><br>
+<font color="green">/*******************************************************************************/</font><br>
+<br>
+<font color="green">//#include "stdafx.h"  						// bei MFC-Projekt 'includen'</font><br>
+#include&nbsp;"Console<font color="red">.</font>h"<br>
+#include&nbsp;"iostream<font color="red">.</font>h"<br>
+#include&nbsp;"assert<font color="red">.</font>h"<br>
+<br>
+#<font color="blue">if</font>def&nbsp;_DEBUG<br>
+#undef&nbsp;THIS_FILE<br>
+<font color="blue">static</font>&nbsp;<font color="blue">char</font>&nbsp;THIS_FILE[]<font color="red">=</font>__FILE__<font color="red">;</font><br>
+#define&nbsp;<font color="blue">new</font>&nbsp;DEBUG_NEW<br>
+#end<font color="blue">if</font><br>
+<br>
+<font color="green">//////////////////////////////////////////////////////////////////////</font><br>
+<font color="green">// Con<font color="blue">struct</font>ion/De<font color="blue">struct</font>ion</font><br>
+<font color="green">//////////////////////////////////////////////////////////////////////</font><br>
+<br>
+CConsole<font color="red">:</font><font color="red">:</font>CConsole<font color="red">(</font><font color="red">)</font><br>
+<font color="red">{</font><br>
+&nbsp;&nbsp;hCon&nbsp;<font color="red">=</font>&nbsp;GetStdHandle<font color="red">(</font>STD_OUTPUT_HANDLE<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;ios<font color="red">:</font><font color="red">:</font>sync_with_stdio<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;stMaxSize&nbsp;<font color="red">=</font>&nbsp;GetMaxWin<font color="blue">do</font>wSize<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;nOldtime&nbsp;<font color="red">=</font>&nbsp;<font color="red">-</font>1<font color="red">;</font><br>
+&nbsp;&nbsp;stSize<font color="red">.</font>X&nbsp;<font color="red">=</font>&nbsp;80<font color="red">;</font><br>
+&nbsp;&nbsp;stSize<font color="red">.</font>Y&nbsp;<font color="red">=</font>&nbsp;25<font color="red">;</font><br>
+&nbsp;&nbsp;SetWin<font color="blue">do</font>wSize<font color="red">(</font>stSize<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;bIsWin<font color="blue">do</font>w&nbsp;<font color="red">=</font>&nbsp;TRUE<font color="red">;</font>&nbsp;<font color="green">// Console hat normale Groesse</font><br>
+<font color="red">}</font><br>
+<br>
+CConsole<font color="red">:</font><font color="red">:</font><font color="red">~</font>CConsole<font color="red">(</font><font color="red">)</font><br>
+<font color="red">{</font><br>
+&nbsp;&nbsp;ScreenMode<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font><br>
+<br>
+COORD&nbsp;CConsole<font color="red">:</font><font color="red">:</font>GetMaxWin<font color="blue">do</font>wSize<font color="red">(</font><font color="red">)</font>	<font color="green">// ask os <font color="blue">for</font> max possible win<font color="blue">do</font>w size</font><br>
+<font color="red">{</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">return</font><font color="red">(</font>GetLargestConsoleWin<font color="blue">do</font>wSize<font color="red">(</font>hCon<font color="red">)</font><font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font><br>
+<br>
+COORD&nbsp;CConsole<font color="red">:</font><font color="red">:</font>GetWin<font color="blue">do</font>wSize<font color="red">(</font><font color="red">)</font>		<font color="green">// ask actual win<font color="blue">do</font>w size</font><br>
+<font color="red">{</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">return</font><font color="red">(</font>stSize<font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font><br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>SetWin<font color="blue">do</font>wSize<font color="red">(</font><font color="blue">int</font>&nbsp;nXsize<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nYsize<font color="red">)</font>	<font color="green">// set actual win<font color="blue">do</font>w size</font><br>
+<font color="red">{</font><br>
+&nbsp;&nbsp;COORD&nbsp;stNewSize<font color="red">;</font><br>
+&nbsp;&nbsp;stNewSize<font color="red">.</font>X&nbsp;<font color="red">=</font>&nbsp;nXsize<font color="red">;</font><br>
+&nbsp;&nbsp;stNewSize<font color="red">.</font>Y&nbsp;<font color="red">=</font>&nbsp;nYsize<font color="red">;</font><br>
+&nbsp;&nbsp;SetWin<font color="blue">do</font>wSize<font color="red">(</font>stNewSize<font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font><br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>SetWin<font color="blue">do</font>wSize<font color="red">(</font>COORD&nbsp;stNewSize<font color="red">)</font>&nbsp;&nbsp;<font color="green">// set actual win<font color="blue">do</font>w size</font><br>
+<font color="red">{</font><br>
+&nbsp;&nbsp;assert<font color="red">(</font>stNewSize<font color="red">.</font>X&nbsp;<font color="red">&lt;</font><font color="red">=</font>&nbsp;stMaxSize<font color="red">.</font>X<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;assert<font color="red">(</font>stNewSize<font color="red">.</font>X&nbsp;<font color="red">&lt;</font><font color="red">=</font>&nbsp;stMaxSize<font color="red">.</font>X<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;SetConsoleScreenBufferSize<font color="red">(</font>hCon<font color="red">,</font>&nbsp;stNewSize<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;stSize&nbsp;<font color="red">=</font>&nbsp;stNewSize<font color="red">;</font><br>
+<font color="red">}</font><br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>SetTitle<font color="red">(</font><font color="blue">char</font>&nbsp;<font color="red">*</font>&nbsp;pszStr<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;&nbsp;<font color="green">// set a console win<font color="blue">do</font>w title</font><br>
+&nbsp;&nbsp;<font color="blue">if</font><font color="red">(</font>pszStr<font color="red">)</font>&nbsp;SetConsoleTitle<font color="red">(</font>pszStr<font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font>&nbsp;&nbsp;<font color="green">// CConsole</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;&nbsp;CConsole<font color="red">:</font><font color="red">:</font>Box<font color="red">(</font><font color="blue">int</font>&nbsp;nX1<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY1<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nX2<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY2<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;&nbsp;<font color="green">// draw simple box from (nX1,nY1) to (nX2,nY2) with a single line</font><br>
+<font color="blue">int</font>&nbsp;&nbsp;&nbsp;nI<font color="red">;</font><br>
+<br>
+&nbsp;&nbsp;GotoXY<font color="red">(</font>nX1<font color="red">,</font>&nbsp;nY1<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>218<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;<font color="blue">for</font><font color="red">(</font>nI&nbsp;<font color="red">=</font>&nbsp;nX1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">;</font>&nbsp;nI&nbsp;<font color="red">&lt;</font>&nbsp;nX2<font color="red">;</font>&nbsp;nI<font color="red">+</font><font color="red">+</font><font color="red">)</font>&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>196<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>191<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;<font color="blue">for</font><font color="red">(</font>nI&nbsp;<font color="red">=</font>&nbsp;nY1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">;</font>&nbsp;nI&nbsp;<font color="red">&lt;</font>&nbsp;nY2<font color="red">;</font>&nbsp;nI<font color="red">+</font><font color="red">+</font><font color="red">)</font><br>
+&nbsp;&nbsp;<font color="red">{</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;GotoXY<font color="red">(</font>nX1<font color="red">,</font>&nbsp;nI<font color="red">)</font><font color="red">;</font>&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>179<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;GotoXY<font color="red">(</font>nX2<font color="red">,</font>&nbsp;nI<font color="red">)</font><font color="red">;</font>&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>179<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;<font color="red">}</font><br>
+&nbsp;&nbsp;GotoXY<font color="red">(</font>nX1<font color="red">,</font>&nbsp;nY2<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>192<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;<font color="blue">for</font><font color="red">(</font>nI&nbsp;<font color="red">=</font>&nbsp;nX1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">;</font>&nbsp;nI&nbsp;<font color="red">&lt;</font>&nbsp;nX2<font color="red">;</font>&nbsp;nI<font color="red">+</font><font color="red">+</font><font color="red">)</font>&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>196<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>217<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;GotoXY<font color="red">(</font>nX1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">,</font>&nbsp;nY1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;cout<font color="red">.</font>flush<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font>&nbsp;&nbsp;<font color="green">// Box</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;&nbsp;CConsole<font color="red">:</font><font color="red">:</font>ClrBox<font color="red">(</font><font color="blue">int</font>&nbsp;nX1<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY1<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nX2<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY2<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;&nbsp;<font color="green">// Clear Box, leave border, position cursor to {nX1+1, nY1+1}</font><br>
+<font color="blue">int</font>&nbsp;&nbsp;&nbsp;nI&nbsp;<font color="red">=</font>&nbsp;nX1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">,</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nJ&nbsp;<font color="red">=</font>&nbsp;nY1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">;</font><br>
+<br>
+&nbsp;&nbsp;<font color="blue">for</font><font color="red">(</font>&nbsp;<font color="red">;</font>&nbsp;nJ&nbsp;<font color="red">&lt;</font>&nbsp;nY2<font color="red">;</font>&nbsp;nJ<font color="red">+</font><font color="red">+</font><font color="red">)</font><br>
+&nbsp;&nbsp;<font color="red">{</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;GotoXY<font color="red">(</font>nI<font color="red">,</font>&nbsp;nJ<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">for</font><font color="red">(</font>&nbsp;<font color="red">;</font>&nbsp;nI&nbsp;<font color="red">&lt;</font>&nbsp;nX2<font color="red">;</font>&nbsp;nI<font color="red">+</font><font color="red">+</font><font color="red">)</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;'&nbsp;'<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;nI&nbsp;<font color="red">=</font>&nbsp;nX1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">;</font><br>
+&nbsp;&nbsp;<font color="red">}</font><br>
+&nbsp;&nbsp;GotoXY<font color="red">(</font>nX1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">,</font>&nbsp;nY1&nbsp;<font color="red">+</font>&nbsp;1<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;cout<font color="red">.</font>flush<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font>&nbsp;&nbsp;<font color="green">// ClrBox</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>ClrScr<font color="red">(</font><font color="blue">int</font>&nbsp;nY1<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY2<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;&nbsp;<font color="green">// Clear Screen <font color="blue">for</font> any win<font color="blue">do</font>w size, position cursor to {0, nY1}</font><br>
+<br>
+&nbsp;&nbsp;coord<font color="red">.</font>X&nbsp;<font color="red">=</font>&nbsp;0<font color="red">;</font><br>
+&nbsp;&nbsp;coord<font color="red">.</font>Y&nbsp;<font color="red">=</font>&nbsp;nY1<font color="red">;</font><br>
+&nbsp;&nbsp;bSuccess&nbsp;<font color="red">=</font>&nbsp;GetConsoleScreenBufferInfo<font color="red">(</font>hCon<font color="red">,</font>&nbsp;<font color="red">&</font>csbi<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;<font color="blue">if</font><font color="red">(</font><font color="red">!</font>&nbsp;nY2<font color="red">)</font>&nbsp;nY2&nbsp;<font color="red">=</font>&nbsp;csbi<font color="red">.</font>dwSize<font color="red">.</font>Y<font color="red">;</font><br>
+&nbsp;&nbsp;nConsize&nbsp;<font color="red">=</font>&nbsp;csbi<font color="red">.</font>dwSize<font color="red">.</font>X&nbsp;<font color="red">*</font>&nbsp;<font color="red">(</font>nY2&nbsp;<font color="red">-</font>&nbsp;nY1<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;FillConsoleOutputCharacter<font color="red">(</font>hCon<font color="red">,</font>&nbsp;'&nbsp;'<font color="red">,</font>&nbsp;nConsize<font color="red">,</font>&nbsp;coord<font color="red">,</font>&nbsp;<font color="red">&</font>nConsize<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;bSuccess&nbsp;<font color="red">=</font>&nbsp;SetConsoleCursorPosition<font color="red">(</font>hCon<font color="red">,</font>&nbsp;coord<font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font>&nbsp;&nbsp;<font color="green">// ClrScr</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>ClrEoln<font color="red">(</font><font color="red">)</font><br>
+<font color="red">{</font>&nbsp;<font color="green">// Clear from cursor to end of line, leave cursor at current position</font><br>
+&nbsp;&nbsp;bSuccess&nbsp;<font color="red">=</font>&nbsp;GetConsoleScreenBufferInfo<font color="red">(</font>hCon<font color="red">,</font>&nbsp;<font color="red">&</font>csbi<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;nConsize&nbsp;<font color="red">=</font>&nbsp;csbi<font color="red">.</font>dwSize<font color="red">.</font>X&nbsp;<font color="red">-</font>&nbsp;csbi<font color="red">.</font>dwCursorPosition<font color="red">.</font>X<font color="red">;</font><br>
+&nbsp;&nbsp;coord<font color="red">.</font>X&nbsp;<font color="red">=</font>&nbsp;csbi<font color="red">.</font>dwCursorPosition<font color="red">.</font>X<font color="red">;</font><br>
+&nbsp;&nbsp;coord<font color="red">.</font>Y&nbsp;<font color="red">=</font>&nbsp;csbi<font color="red">.</font>dwCursorPosition<font color="red">.</font>Y<font color="red">;</font><br>
+&nbsp;&nbsp;FillConsoleOutputCharacter<font color="red">(</font>hCon<font color="red">,</font>&nbsp;'&nbsp;'<font color="red">,</font>&nbsp;nConsize<font color="red">,</font>&nbsp;coord<font color="red">,</font>&nbsp;<font color="red">&</font>nConsize<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;bSuccess&nbsp;<font color="red">=</font>&nbsp;SetConsoleCursorPosition<font color="red">(</font>hCon<font color="red">,</font>&nbsp;coord<font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font>&nbsp;&nbsp;<font color="green">// ClrEoln</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>GotoXY<font color="red">(</font><font color="blue">int</font>&nbsp;nX<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;&nbsp;<font color="green">// position cursor to {nX, nY}</font><br>
+&nbsp;&nbsp;bSuccess&nbsp;<font color="red">=</font>&nbsp;GetConsoleScreenBufferInfo<font color="red">(</font>hCon<font color="red">,</font>&nbsp;<font color="red">&</font>csbi<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;coord<font color="red">.</font>X&nbsp;<font color="red">=</font>&nbsp;nX&nbsp;%&nbsp;csbi<font color="red">.</font>dwSize<font color="red">.</font>X<font color="red">;</font><br>
+&nbsp;&nbsp;coord<font color="red">.</font>Y&nbsp;<font color="red">=</font>&nbsp;nY&nbsp;%&nbsp;csbi<font color="red">.</font>dwSize<font color="red">.</font>Y<font color="red">;</font><br>
+&nbsp;&nbsp;bSuccess&nbsp;<font color="red">=</font>&nbsp;SetConsoleCursorPosition<font color="red">(</font>hCon<font color="red">,</font>&nbsp;coord<font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font>&nbsp;&nbsp;<font color="green">// GotoXY</font><br>
+<br>
+<br>
+bool&nbsp;CConsole<font color="red">:</font><font color="red">:</font>Time<font color="red">(</font><font color="blue">int</font>&nbsp;nX<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY<font color="red">,</font>&nbsp;bool&nbsp;bWait<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;&nbsp;<font color="green">// postion Clock to {nX, nY}</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">int</font>&nbsp;nNewtime<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;time_t&nbsp;&nbsp;&nbsp;stMyTime<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;tm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">*</font>&nbsp;pstToday<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;time<font color="red">(</font><font color="red">&</font>stMyTime<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;pstToday&nbsp;<font color="red">=</font>&nbsp;localtime<font color="red">(</font><font color="red">&</font>stMyTime<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;nNewtime&nbsp;<font color="red">=</font>&nbsp;pstToday<font color="red">-</font><font color="red">&gt;</font>tm_sec10<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">if</font><font color="red">(</font>nNewtime&nbsp;<font color="red">!</font><font color="red">=</font>&nbsp;nOldtime&nbsp;<font color="red">|</font><font color="red">|</font>&nbsp;nOldtime&nbsp;<font color="red">=</font><font color="red">=</font>&nbsp;<font color="red">(</font><font color="red">-</font>1<font color="red">)</font><font color="red">)</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">{</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GotoXY<font color="red">(</font>nX<font color="red">,</font>&nbsp;nY<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;pstToday<font color="red">-</font><font color="red">&gt;</font>tm_hour&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;"<font color="red">:</font>"<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">if</font><font color="red">(</font>pstToday<font color="red">-</font><font color="red">&gt;</font>tm_min&nbsp;<font color="red">&lt;</font>&nbsp;10<font color="red">)</font>cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;'0'<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;pstToday<font color="red">-</font><font color="red">&gt;</font>tm_min<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout<font color="red">.</font>flush<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nOldtime&nbsp;<font color="red">=</font>&nbsp;nNewtime<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">return</font>&nbsp;<font color="red">(</font>1<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">}</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">if</font><font color="red">(</font>bWait<font color="red">)</font>&nbsp;Sleep<font color="red">(</font>1000<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">return</font>&nbsp;<font color="red">(</font>0<font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font>&nbsp;<font color="green">// Time</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>Date<font color="red">(</font><font color="blue">int</font>&nbsp;nX<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;&nbsp;<font color="green">// postion Date to {nX, nY}</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;GotoXY<font color="red">(</font>nX<font color="red">,</font>&nbsp;nY<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;time_t&nbsp;&nbsp;&nbsp;stMyTime<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;tm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">*</font>&nbsp;pstToday<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;time<font color="red">(</font><font color="red">&</font>stMyTime<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;pstToday&nbsp;<font color="red">=</font>&nbsp;localtime<font color="red">(</font><font color="red">&</font>stMyTime<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">if</font><font color="red">(</font>pstToday<font color="red">-</font><font color="red">&gt;</font>tm_mday&nbsp;<font color="red">&lt;</font>&nbsp;10<font color="red">)</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;'0'<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;pstToday<font color="red">-</font><font color="red">&gt;</font>tm_mday&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;'<font color="red">.</font>'<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">if</font><font color="red">(</font><font color="red">(</font>pstToday<font color="red">-</font><font color="red">&gt;</font>tm_mon<font color="red">+</font>1<font color="red">)</font>&nbsp;<font color="red">&lt;</font>&nbsp;10<font color="red">)</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;'0'<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="red">(</font>pstToday<font color="red">-</font><font color="red">&gt;</font>tm_mon<font color="red">+</font>1<font color="red">)</font>&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;'<font color="red">.</font>'&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font><br>
+pstToday<font color="red">-</font><font color="red">&gt;</font>tm_year<font color="red">+</font>1900<font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout<font color="red">.</font>flush<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font>&nbsp;<font color="green">// Date</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>HLine<font color="red">(</font><font color="blue">int</font>&nbsp;nX1<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nX2<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;<font color="green">// draw simple V-Line from (nX1,nY) to (nX2,nY) with a single line (made <font color="blue">for</font> Box)</font><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;assert<font color="red">(</font>nX1&nbsp;<font color="red">&gt;</font><font color="red">=</font>&nbsp;0<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;assert<font color="red">(</font>nX2&nbsp;<font color="red">&lt;</font>&nbsp;stSize<font color="red">.</font>X<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;GotoXY<font color="red">(</font>nX1<font color="red">,</font>&nbsp;nY<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>195<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">for</font><font color="red">(</font>nX1&nbsp;<font color="red">;</font>&nbsp;nX1&nbsp;<font color="red">&lt;</font>&nbsp;<font color="red">(</font>nX2&nbsp;<font color="red">-</font>&nbsp;1<font color="red">)</font><font color="red">;</font>&nbsp;nX1<font color="red">+</font><font color="red">+</font><font color="red">)</font>&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;&nbsp;<font color="blue">char</font><font color="red">(</font>196<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>180<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout<font color="red">.</font>flush<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font><font color="green">// H-Line</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>VLine<font color="red">(</font><font color="blue">int</font>&nbsp;nX<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY1<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY2<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;<font color="green">// draw simple H-Line from (nX,nY1) to (nX,nY2) with a single line (made <font color="blue">for</font> Box)</font><br>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;assert<font color="red">(</font>nY1&nbsp;<font color="red">&gt;</font><font color="red">=</font>&nbsp;0<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;assert<font color="red">(</font>nY2&nbsp;<font color="red">&lt;</font>&nbsp;stSize<font color="red">.</font>Y<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;GotoXY<font color="red">(</font>nX<font color="red">,</font>&nbsp;nY1<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>194<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">for</font><font color="red">(</font>nY1<font color="red">+</font><font color="red">+</font><font color="red">;</font>&nbsp;nY1&nbsp;<font color="red">&lt;</font>&nbsp;nY2&nbsp;<font color="red">;</font>&nbsp;nY1<font color="red">+</font><font color="red">+</font><font color="red">)</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">{</font><br>
+		GotoXY<font color="red">(</font>nX<font color="red">,</font>&nbsp;nY1<font color="red">)</font><font color="red">;</font><br>
+		cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;&nbsp;<font color="blue">char</font><font color="red">(</font>179<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">}</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;GotoXY<font color="red">(</font>nX<font color="red">,</font>&nbsp;nY1<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>193<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout<font color="red">.</font>flush<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font><font color="green">// V-Line</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>SetX<font color="red">(</font><font color="blue">int</font>&nbsp;nX<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY<font color="red">)</font><br>
+<font color="red">{</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;GotoXY<font color="red">(</font>nX<font color="red">,</font>&nbsp;nY<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout&nbsp;<font color="red">&lt;</font><font color="red">&lt;</font>&nbsp;<font color="blue">char</font><font color="red">(</font>197<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;cout<font color="red">.</font>flush<font color="red">(</font><font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font><br>
+<br>
+<font color="green">//nachtrag von wolke 10.3.2003</font><br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>ScreenMode&nbsp;<font color="red">(</font><font color="blue">int</font>&nbsp;nSize<font color="red">)</font><br>
+<font color="red">{</font><font color="green">//<font color="blue">switch</font>es between full and normal screen <font color="blue">for</font> the console</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="blue">if</font>&nbsp;<font color="red">(</font>bIsWin<font color="blue">do</font>w&nbsp;<font color="red">&</font><font color="red">&</font>&nbsp;nSize&nbsp;<font color="red">=</font><font color="red">=</font>&nbsp;FULLSCREEN&nbsp;<font color="red">|</font><font color="red">|</font>&nbsp;<font color="red">!</font>bIsWin<font color="blue">do</font>w&nbsp;<font color="red">&</font><font color="red">&</font>&nbsp;nSize&nbsp;<font color="red">=</font><font color="red">=</font>&nbsp;WINDOW<font color="red">)</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">{</font><br>
+		&nbsp;&nbsp;<font color="green">//Emulation of keys ALT + ENTER</font><br>
+		&nbsp;&nbsp;keybd_event&nbsp;<font color="red">(</font>&nbsp;VK_MENU&nbsp;<font color="red">,</font>&nbsp;0x38&nbsp;<font color="red">,</font>&nbsp;0&nbsp;<font color="red">,</font>&nbsp;0&nbsp;<font color="red">)</font><font color="red">;</font><font color="green">//Alt key was pressed</font><br>
+		&nbsp;&nbsp;keybd_event&nbsp;<font color="red">(</font>&nbsp;VK_RETURN&nbsp;<font color="red">,</font>&nbsp;0x1c&nbsp;<font color="red">,</font>&nbsp;0&nbsp;<font color="red">,</font>&nbsp;0&nbsp;<font color="red">)</font><font color="red">;</font><font color="green">//Return key was pressed</font><br>
+		&nbsp;&nbsp;keybd_event&nbsp;<font color="red">(</font>&nbsp;VK_RETURN&nbsp;<font color="red">,</font>&nbsp;0x1c&nbsp;<font color="red">,</font>&nbsp;KEYEVENTF_KEYUP&nbsp;<font color="red">,</font>&nbsp;0&nbsp;<font color="red">)</font><font color="red">;</font><font color="green">//Return key was released</font><br>
+		&nbsp;&nbsp;keybd_event&nbsp;<font color="red">(</font>&nbsp;VK_MENU&nbsp;<font color="red">,</font>&nbsp;0x38&nbsp;<font color="red">,</font>&nbsp;KEYEVENTF_KEYUP&nbsp;<font color="red">,</font>&nbsp;0&nbsp;<font color="red">)</font><font color="red">;</font><font color="green">//Alt key was released</font><br>
+		&nbsp;&nbsp;<font color="blue">if</font>&nbsp;<font color="red">(</font>nSize&nbsp;<font color="red">=</font><font color="red">=</font>&nbsp;FULLSCREEN&nbsp;<font color="red">)</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bIsWin<font color="blue">do</font>w&nbsp;<font color="red">=</font>&nbsp;FALSE<font color="red">;</font><br>
+		&nbsp;&nbsp;<font color="blue">else</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bIsWin<font color="blue">do</font>w&nbsp;<font color="red">=</font>&nbsp;TRUE<font color="red">;</font>&nbsp;<font color="green">//stores current screen size</font><br>
+	&nbsp;&nbsp;<font color="red">}</font><br>
+<font color="red">}</font><br>
+<br>
+<br>
+<font color="green">// Nachtrag am 11.12.2002 von M. Scholtes, geaendert 12.03.2003, fme</font><br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>ClrScrAttribute<font color="red">(</font><font color="blue">int</font>&nbsp;nY1<font color="red">,</font>&nbsp;<font color="blue">int</font>&nbsp;nY2<font color="red">)</font><br>
+<font color="red">{</font>&nbsp;&nbsp;<font color="green">// Clear Screen <font color="blue">for</font> any win<font color="blue">do</font>w size, position cursor to {0, nY1}</font><br>
+<br>
+&nbsp;&nbsp;ClrScr<font color="red">(</font>nY1<font color="red">,</font>&nbsp;nY2<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;SetConsoleTextAttribute<font color="red">(</font>GetStdHandle<font color="red">(</font>STD_OUTPUT_HANDLE<font color="red">)</font><font color="red">,</font>&nbsp;FOREGROUND_BLUE&nbsp;<font color="red">|</font>&nbsp;FOREGROUND_GREEN&nbsp;<font color="red">|</font>&nbsp;FOREGROUND_RED<font color="red">)</font><font color="red">;</font><br>
+&nbsp;&nbsp;FillConsoleOutputAttribute<font color="red">(</font>hCon<font color="red">,</font>&nbsp;FOREGROUND_BLUE&nbsp;<font color="red">|</font>&nbsp;FOREGROUND_GREEN&nbsp;<font color="red">|</font>&nbsp;FOREGROUND_RED<font color="red">,</font>&nbsp;nConsize<font color="red">,</font>&nbsp;coord<font color="red">,</font>&nbsp;<font color="red">&</font>nConsize<font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font>&nbsp;&nbsp;<font color="green">// ClrScrAttribute</font><br>
+<br>
+<br>
+<font color="blue">void</font>&nbsp;CConsole<font color="red">:</font><font color="red">:</font>SetTextAttribute<font color="red">(</font>WORD&nbsp;wAttribute<font color="red">)</font><br>
+<font color="red">{</font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;SetConsoleTextAttribute<font color="red">(</font>GetStdHandle<font color="red">(</font>STD_OUTPUT_HANDLE<font color="red">)</font><font color="red">,</font>&nbsp;wAttribute<font color="red">)</font><font color="red">;</font><br>
+<font color="red">}</font><br>
+</body>
+</html>
