@@ -1,0 +1,32 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_BUTTON_WORDDIAG_LENFREQ             0x18008
+HID_BUTTON_TEXT                         0x18009
+HID_BUTTON_KVALUE                       0x1800A
+HID_BUTTON_WORDLENDIAG_SORTPOS          0x1800B
+HID_BUTTON_WORDLENDIAG_SORTFREQ         0x1800C
+HID_BUTTON32782                         0x1800E
+HID_BUTTON32783                         0x1800F
+HID_SORT_UP                             0x18011
+HID_SORT_DOWN                           0x18012
+HID_BUTTON32787                         0x18013
+HID_BUTTON_WORDLEN_SEQUENCE             0x18014
+HID_DIAGRAMME_WORTLNGENDIAGRAMMSORTIERTNACHLNGE	0x18015
+HID_DIAGRAMME_W                         0x18016
+HID_DIAGRAMME_A                         0x18017
+HID_DIAGRAMME_KWERTDIAGRAMM             0x18018
+HID_DIAGRAMME_ZEIGTDIEFOLGEVONWORTLNGENALSDIAGRAMMAN	0x18019
+ 
+// Prompts (IDP_*) 
+HIDP_OLE_INIT_FAILED                    0x30064
+HIDP_SOCKETS_INIT_FAILED                0x30068
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_WORDSTTYPE                         0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_DIALOG_LIMITX                      0x20084
+ 
+// Frame Controls (IDW_*) 
