@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\AyatFinder.Application = AyatFinder Application
+HKEY_CLASSES_ROOT\AyatFinder.Application\CLSID = {09C50B09-C22B-448B-B72D-87138C4D8DFC}
+
+HKEY_CLASSES_ROOT\CLSID\{09C50B09-C22B-448B-B72D-87138C4D8DFC} = AyatFinder Application
+HKEY_CLASSES_ROOT\CLSID\{09C50B09-C22B-448B-B72D-87138C4D8DFC}\ProgId = AyatFinder.Application
+HKEY_CLASSES_ROOT\CLSID\{09C50B09-C22B-448B-B72D-87138C4D8DFC}\LocalServer32 = AYAT FINDER.EXE

@@ -1,0 +1,30 @@
+# Microsoft Developer Studio Generated Dependency File, included by Ayat Finder.mak
+
+".\Ayat Finder.cpp" : \
+	".\Ayat Finder.h"\
+	".\Ayat FinderDlg.h"\
+	".\StdAfx.h"\
+	
+
+".\Ayat Finder.rc" : \
+	".\res\Ayat Finder.ico"\
+	".\res\Ayat Finder.rc2"\
+	
+
+".\Ayat FinderDlg.cpp" : \
+	".\Ayat Finder.h"\
+	".\Ayat FinderDlg.h"\
+	".\DlgProxy.h"\
+	".\StdAfx.h"\
+	
+
+.\DlgProxy.cpp : \
+	".\Ayat Finder.h"\
+	".\Ayat FinderDlg.h"\
+	".\DlgProxy.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

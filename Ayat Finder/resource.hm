@@ -1,0 +1,10 @@
+// Microsoft Developer Studio generated Help ID include file.
+// Used by Ayat Finder.rc
+//
+#define HIDC_BUTTON_FIND                0x806603e9    // IDD_AYATFINDER_DIALOG
+#define HIDC_BUTTON_OPTION              0x806603eb    // IDD_AYATFINDER_DIALOG
+#define HIDC_BUTTON_SAVE                0x806603f0    // IDD_AYATFINDER_DIALOG
+#define HIDC_EDIT_KEYWORD               0x806603e8    // IDD_AYATFINDER_DIALOG
+#define HIDC_PROGRESS                   0x806603ea    // IDD_AYATFINDER_DIALOG
+#define HIDC_STATIC_AYATFOUND           0x806603f3    // IDD_AYATFINDER_DIALOG
+#define HIDC_STATIC_PERCENT             0x806603f4    // IDD_AYATFINDER_DIALOG
