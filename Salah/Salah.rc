@@ -1,0 +1,300 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Salah.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Salah.ico"
+IDI_ICON_INFO           ICON    DISCARDABLE     "res\\info.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über Salah"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Salah Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_SALAH_DIALOG DIALOGEX 0, 0, 337, 380
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Salah"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Ort auswählen",IDC_STATIC,5,5,185,135
+    CONTROL         "&1. Möglichkeit",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,11,20,60,10
+    CONTROL         "&2. Möglichkeit",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,
+                    11,55,60,10
+    CONTROL         "&3. Möglichkeit",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,
+                    11,80,60,10
+    LTEXT           "Stadt wählen:",IDC_STATIC,85,20,44,8
+    COMBOBOX        IDC_COMBO1,85,30,95,60,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "&Weltkarte öffnen",IDC_BUTTON_WELTKARTE,85,55,95,14,
+                    BS_MULTILINE
+    LTEXT           "Koordinaten eingeben:",IDC_STATIC,85,80,72,8
+    LTEXT           "&Breitengrad:",IDC_STATIC,85,95,39,8
+    EDITTEXT        IDC_EDIT1,130,95,50,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "&Längengrad:",IDC_STATIC,85,114,41,8
+    EDITTEXT        IDC_EDIT2,130,114,50,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    GROUPBOX        "&Zeitraum auswählen",IDC_STATIC,195,5,135,225
+    LTEXT           "Beginn:",IDC_STATIC,205,20,25,8
+    CONTROL         "MonthCalendar1",IDC_MONTHCALENDAR1,"SysMonthCal32",
+                    MCS_NOTODAY | WS_TABSTOP,205,30,120,90
+    LTEXT           "Ende:",IDC_STATIC,205,125,20,8
+    CONTROL         "MonthCalendar1",IDC_MONTHCALENDAR2,"SysMonthCal32",
+                    MCS_NOTODAY | WS_TABSTOP,205,135,120,90
+    GROUPBOX        "&Daten",IDC_STATIC,5,140,185,50
+    LTEXT           "Koordinaten des Orts:",IDC_STATIC,10,155,175,8
+    LTEXT           "Zeitraum - Beginn:",IDC_STATIC,10,165,175,8
+    LTEXT           "Zeitraum - Ende:",IDC_STATIC,10,175,175,8
+    DEFPUSHBUTTON   "&Gebetszeiten errechnen",IDC_BUTTON_GEBETSZEITEN,20,200,
+                    70,30,BS_MULTILINE
+    PUSHBUTTON      "&Tabelle\nspeichern",IDC_BUTTON_TABELLE,105,200,70,30,
+                    BS_MULTILINE
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,5,240,325,135
+END
+
+IDD_DIALOG_WELTKARTE DIALOG DISCARDABLE  0, 0, 480, 275
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Weltkarte"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         129,IDC_STATIC,"Static",SS_BITMAP,0,0,20,20
+    ICON            IDI_ICON_INFO,IDC_STATIC,10,230,20,20
+    LTEXT           "Um einen Ort auf der Weltkarte der Erde auswählen zu können, halten Sie die linke Maustaste gedrückt und bewegen Sie den Mauszeiger über der Weltkarte, bis der gewünschte Ort erreicht ist.",
+                    IDC_STATIC,35,230,201,35
+    GROUPBOX        "Koordinaten",IDC_STATIC,270,225,110,40
+    LTEXT           "Längengrad:",IDC_STATIC,276,236,99,8
+    LTEXT           "Breitengrad:",IDC_STATIC,276,246,99,8
+    DEFPUSHBUTTON   "&OK",IDOK,410,230,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,410,250,50,14
+END
+
+IDD_DIALOG_TABELLE_SPEICHERN DIALOG DISCARDABLE  0, 0, 117, 105
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tabelle speichern"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Speichern",IDOK,5,85,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,60,85,50,14
+    GROUPBOX        "Speicher&format wählen",IDC_STATIC,5,5,105,75
+    CONTROL         "(&1) Textdatei",IDC_RADIO_FORMAT_TXT,"Button",
+                    BS_AUTORADIOBUTTON,15,20,90,10
+    CONTROL         "(&3) Hypertext-Dokument",IDC_RADIO_FORMAT_HTM,"Button",
+                    BS_AUTORADIOBUTTON,15,40,91,10
+    CONTROL         "(&4) RTF-Dokument",IDC_RADIO_FORMAT_RTF,"Button",
+                    BS_AUTORADIOBUTTON,15,50,90,10
+    CONTROL         "(&5) CSV-Tabelle",IDC_RADIO_FORMAT_CSV,"Button",
+                    BS_AUTORADIOBUTTON,15,60,90,10
+    CONTROL         "(&2) XML-Datei",IDC_RADIO_FORMAT_XML,"Button",
+                    BS_AUTORADIOBUTTON,15,30,90,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,14974
+ PRODUCTVERSION 1,0,0,14974
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Salah\0"
+            VALUE "FileVersion", "1, 0, 0, 14974\0"
+            VALUE "InternalName", "Salah\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008 Michael Johne\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Salah.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Salah - Gebetszeitenrechner\0"
+            VALUE "ProductVersion", "1, 0, 0, 14974\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SALAH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 330
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 373
+    END
+
+    IDD_DIALOG_WELTKARTE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 473
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+
+    IDD_DIALOG_TABELLE_SPEICHERN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 110
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_WELTKARTE_ERDE BITMAP  DISCARDABLE     "res\\erde.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "Inf&o über Salah..."
+    IDS_STRING_VERSION      "1.0.0.080510"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Salah.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

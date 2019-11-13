@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by Salah.mak
+
+.\Salah.cpp : \
+	".\Salah.h"\
+	".\SalahDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\Salah.rc : \
+	".\res\Salah.ico"\
+	".\res\Salah.rc2"\
+	
+
+.\SalahDlg.cpp : \
+	".\Salah.h"\
+	".\SalahDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
