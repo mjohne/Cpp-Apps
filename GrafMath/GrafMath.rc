@@ -1,0 +1,918 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\GrafMath.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\GrafMath.ico"
+IDI_ICON_GRAPH16        ICON    DISCARDABLE     "res\\graph_zeichnen16.ico"
+IDI_ICON_STEIGUNG16     ICON    DISCARDABLE     "res\\steigung16.ico"
+IDI_ICON_GRAPH32        ICON    DISCARDABLE     "res\\steigung32.ico"
+IDI_ICON_STEIGUNG32     ICON    DISCARDABLE     "res\\graph_zeichnen32.ico"
+IDI_ICON_WENDEPUNKT32   ICON    DISCARDABLE     "res\\wendepunkt32.ico"
+IDI_ICON_ABLEITUNG16    ICON    DISCARDABLE     "res\\ableitung16.ico"
+IDI_ICON_ABLEITUNG32    ICON    DISCARDABLE     "res\\ableitung32.ico"
+IDI_ICON_HOCHPUNKT16    ICON    DISCARDABLE     "res\\hochpunkt16.ico"
+IDI_ICON_HOCHPUNKT32    ICON    DISCARDABLE     "res\\hochpunkt32.ico"
+IDI_ICON_TIEFPUNKT16    ICON    DISCARDABLE     "res\\tiefpunkt16.ico"
+IDI_ICON_TIEFPUNKT32    ICON    DISCARDABLE     "res\\tiefpunkt32.ico"
+IDI_ICON_WENDEPUNKT16   ICON    DISCARDABLE     "res\\wendepunkt16.ico"
+IDI_ICON_TANGENTE32     ICON    DISCARDABLE     "res\\tangente32.ico"
+IDI_ICON_TANGENTE16     ICON    DISCARDABLE     "res\\tangente16.ico"
+IDI_ICON_SCHNITTPUNKT_YACHSE32 ICON    DISCARDABLE     "res\\schnittpunkt_yachse32.ico"
+IDI_ICON_SCHNITTPUNKT_XACHSE16 ICON    DISCARDABLE     "res\\schnittpunkt_xachse16.ico"
+IDI_ICON_SCHNITTPUNKT_XACHSE32 ICON    DISCARDABLE     "res\\schnittpunkt_xachse32.ico"
+IDI_ICON_SCHNITTPUNKT_YACHSE16 ICON    DISCARDABLE     "res\\schnittpunkt_yachse16.ico"
+IDI_ICON_ZOOMOUT_YACHSE32 ICON    DISCARDABLE     "res\\zoomout_yachse32.ico"
+IDI_ICON_ZOOMIN_XACHSE16 ICON    DISCARDABLE     "res\\zoomin_xachse16.ico"
+IDI_ICON_ZOOMIN_XACHSE32 ICON    DISCARDABLE     "res\\zoomin_xachse32.ico"
+IDI_ICON_ZOOMIN_XYACHSE16 ICON    DISCARDABLE     "res\\zoomin_xyachse16.ico"
+IDI_ICON_ZOOMIN_XYACHSE32 ICON    DISCARDABLE     "res\\zoomin_xyachse32.ico"
+IDI_ICON_ZOOMIN_YACHSE16 ICON    DISCARDABLE     "res\\zoomin_yachse16.ico"
+IDI_ICON_ZOOMIN_YACHSE32 ICON    DISCARDABLE     "res\\zoomin_yachse32.ico"
+IDI_ICON_ZOOMOUT_XACHSE16 ICON    DISCARDABLE     "res\\zoomout_xachse16.ico"
+IDI_ICON_ZOOMOUT_XACHSE32 ICON    DISCARDABLE     "res\\zoomout_xachse32.ico"
+IDI_ICON_ZOOMOUT_XYACHSE16 ICON    DISCARDABLE     "res\\zoomout_xyachse16.ico"
+IDI_ICON_ZOOMOUT_XYACHSE32 ICON    DISCARDABLE     "res\\zoomout_xyachse32.ico"
+IDI_ICON_ZOOMOUT_YACHSE16 ICON    DISCARDABLE     "res\\zoomout_yachse16.ico"
+IDI_ICON_AXISOPTIONS    ICON    DISCARDABLE     "res\\icon_axi.ico"
+IDI_HELP_ICON           ICON    DISCARDABLE     "res\\HelpDialog.ico"
+IDI_ICON_OK             ICON    DISCARDABLE     "res\\ok.ico"
+IDI_ICON_WERTETABELLE32 ICON    DISCARDABLE     "res\\wertetabelle32.ico"
+IDI_ICON_WERTETABELLE16 ICON    DISCARDABLE     "res\\wertetabelle16.ico"
+IDI_ICON_SAVE           ICON    DISCARDABLE     "res\\save.ico"
+IDI_ICON_OPEN           ICON    DISCARDABLE     "res\\open.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_HELP_DIALOG DIALOGEX 0, 0, 174, 76
+STYLE DS_3DLOOK | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Help Topic"
+MENU IDR_POPUP_HELP_MENU
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+END
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 237, 120
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über Graf Math"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Graf Math 1.36",IDC_STATIC,30,10,48,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,30,20,60,8
+    DEFPUSHBUTTON   "OK",IDOK,95,100,50,14,WS_GROUP
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,121,20,110,12
+    LTEXT           "entwickelt von:",IDC_STATIC,121,10,49,8
+    LTEXT           "Mümine Avcu",IDC_STATIC_MA,121,45,44,8
+    LTEXT           "Michael Johne",IDC_STATIC_MJ,121,60,47,8
+    LTEXT           "Eugen Spielmann",IDC_STATIC_ES,175,45,56,8
+    LTEXT           "Peter Stein",IDC_STATIC_PS,175,60,36,8
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,10,20,20
+    LTEXT           "'Graf Math' ist ein Programm zur Analyse graphischer Funktionen.",
+                    IDC_STATIC,5,45,105,20
+    LTEXT           "Dieses Programm entstand im Rahmen des 'Projekt-Management'- Unterrichts der Klasse I07A am SZUT (Bremen) im 1. Halbjahr 2008.",
+                    IDC_STATIC,10,75,215,20
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,115,5,1,65
+    LTEXT           "Build 080528",IDC_STATIC,30,30,42,8
+END
+
+IDD_GRAFMATH_DIALOG DIALOGEX 0, 0, 332, 341
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Graf Math"
+MENU IDR_MENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Funktion (bis zum 3. Grad):  f(x) = ",IDC_STATIC,5,10,
+                    106,8
+    PUSHBUTTON      "a*x^3 + b*x^2 + c*x + d ",IDC_BUTTON_INPUT_FUNCTION,113,
+                    7,85,15
+    DEFPUSHBUTTON   "&Zeichnen",IDC_BUTTON_DRAW,203,7,50,15
+    GROUPBOX        "Ansicht",IDC_STATIC,5,25,40,30
+    PUSHBUTTON      "",IDC_BUTTON_VIEW_LOAD,10,35,15,15,WS_DISABLED
+    GROUPBOX        "Aufgaben",IDC_STATIC,50,25,125,30
+    PUSHBUTTON      "",IDC_BUTTON_SCHNITTPUNKT_XACHSE,55,35,15,15
+    PUSHBUTTON      "",IDC_BUTTON_SCHNITTPUNKT_YACHSE,70,35,15,15
+    PUSHBUTTON      "",IDC_BUTTON_HOCHTIEFPUNKT,85,35,15,15
+    PUSHBUTTON      "",IDC_BUTTON_WENDEPUNKT,100,35,15,15
+    PUSHBUTTON      "",IDC_BUTTON_ABLEITUNG,120,35,15,15
+    PUSHBUTTON      "",IDC_BUTTON_TANGENTE,136,35,15,15
+    PUSHBUTTON      "",IDC_BUTTON_STEIGUNG,156,35,15,15
+    GROUPBOX        "Achsenskalierung",IDC_STATIC,180,25,145,30
+    PUSHBUTTON      "",IDC_BUTTON_AXISOPTIONS,185,35,15,15
+    PUSHBUTTON      "xy",IDC_BUTTON_GETXYRANGE,200,35,15,15
+    PUSHBUTTON      "",IDC_BUTTON_ZOOMIN_XACHSE,220,35,15,15,WS_DISABLED
+    PUSHBUTTON      "",IDC_BUTTON_ZOOMOUT_XACHSE,235,35,15,15,WS_DISABLED
+    PUSHBUTTON      "",IDC_BUTTON_ZOOMIN_YACHSE,255,35,15,15,WS_DISABLED
+    PUSHBUTTON      "",IDC_BUTTON_ZOOMOUT_YACHSE,270,35,15,15,WS_DISABLED
+    PUSHBUTTON      "",IDC_BUTTON_ZOOMIN_XYACHSE,290,35,15,15
+    PUSHBUTTON      "",IDC_BUTTON_ZOOMOUT_XYACHSE,305,35,15,15
+    GROUPBOX        "Zeichenoberfläche für den Graphen",IDC_STATIC,5,60,320,
+                    265
+    CONTROL         "",IDC_CANVAS,"Static",SS_WHITERECT | WS_BORDER,5,70,320,
+                    255
+    PUSHBUTTON      "",IDC_BUTTON_VIEW_SAVE,25,35,15,15,WS_DISABLED
+END
+
+IDD_DIALOG_AXISOPTIONS DIALOG DISCARDABLE  0, 0, 192, 91
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Einstellungen für die Achsen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Einteilung in Abschnitte pro Achse:",IDC_STATIC,5,5,
+                    110,8
+    EDITTEXT        IDC_EDIT_AXISPARTS,150,5,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_AXISPARTS,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,175,5,11,10
+    LTEXT           "&Breite der Hilfsachsen in Pixel:",IDC_STATIC,5,20,96,8
+    EDITTEXT        IDC_EDIT_HELPAXISWIDTH,150,20,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_HELPAXISWIDTH,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,175,20,11,10
+    LTEXT           "Anzahl der Stellen nach dem &Dezimalkomma:",IDC_STATIC,
+                    5,35,142,8
+    EDITTEXT        IDC_EDIT_DECIMALPARTS,150,35,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | ES_NUMBER
+    CONTROL         "Spin1",IDC_SPIN_DECIMALPARTS,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,175,35,11,10
+    CONTROL         "A&chsenbeschriftung anzeigen",IDC_CHECK_AXISDESCRIPTION,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,50,180,10
+    DEFPUSHBUTTON   "&OK",IDOK,15,70,50,14
+    PUSHBUTTON      "&Standard",IDC_BUTTON_DEFAULT,70,70,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,125,70,50,14
+END
+
+IDD_DIALOG_INPUT_FUNCTION DIALOG DISCARDABLE  0, 0, 137, 140
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Funktion eingeben"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Funktion: f(x) = a*x^3 + b*x^2 + c*x + d ",IDC_STATIC,5,
+                    10,126,8
+    LTEXT           "Koeffizient &a = ",IDC_STATIC,25,30,48,8
+    EDITTEXT        IDC_EDIT_COEFFICIENT_A,75,30,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    CONTROL         "Spin1",IDC_SPIN_COEFFICIENT_A,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,100,30,11,14
+    LTEXT           "Koeffizient &b = ",IDC_STATIC,25,45,48,8
+    EDITTEXT        IDC_EDIT_COEFFICIENT_B,75,45,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    CONTROL         "Spin1",IDC_SPIN_COEFFICIENT_B,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,100,45,11,14
+    LTEXT           "Koeffizient &c = ",IDC_STATIC,25,60,48,8
+    EDITTEXT        IDC_EDIT_COEFFICIENT_C,75,60,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    CONTROL         "Spin1",IDC_SPIN_COEFFICIENT_C,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,100,60,11,14
+    LTEXT           "Koeffizient &d = ",IDC_STATIC,25,75,48,8
+    EDITTEXT        IDC_EDIT_COEFFICIENT_D,75,75,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    CONTROL         "Spin1",IDC_SPIN_COEFFICIENT_D,"msctls_updown32",
+                    UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | 
+                    UDS_ARROWKEYS,100,75,11,14
+    DEFPUSHBUTTON   "&OK",IDOK,15,120,50,14
+    PUSHBUTTON      "Abbruc&h",IDCANCEL,75,120,50,14
+    LTEXT           "Hinweis: Die Koeffizienten sind von -100  ...  +100 begrenzt.!",
+                    IDC_STATIC,10,95,115,20,SS_SUNKEN
+END
+
+IDD_DIALOG_GAUSSELIM DIALOG DISCARDABLE  0, 0, 357, 195
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Gauß-Eliminationsverfahren"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Anzahl der aufzulösenden Gleichungen (1-5):",
+                    IDC_STATIC,120,10,142,8
+    EDITTEXT        IDC_EDIT_NUMB_OF_EQUATIONS,265,10,30,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | ES_NUMBER
+    GROUPBOX        "Eingabe der Koeffizienten",IDC_STATIC,5,30,345,115
+    LTEXT           "a[11] = ",IDC_STATIC,15,45,25,8
+    EDITTEXT        IDC_EDIT_COEFFA11,40,45,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[12] = ",IDC_STATIC,70,45,25,8
+    EDITTEXT        IDC_EDIT_COEFFA12,95,45,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[13] = ",IDC_STATIC,125,45,25,8
+    EDITTEXT        IDC_EDIT_COEFFA13,150,45,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[14] = ",IDC_STATIC,180,45,25,8
+    EDITTEXT        IDC_EDIT_COEFFA14,205,45,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[15] = ",IDC_STATIC,235,45,25,8
+    EDITTEXT        IDC_EDIT_COEFFA15,260,45,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "b[1] = ",IDC_STATIC,295,45,21,8
+    EDITTEXT        IDC_EDIT_COEFFB1,315,45,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[21] = ",IDC_STATIC,15,65,25,8
+    EDITTEXT        IDC_EDIT_COEFFA21,40,65,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[22] = ",IDC_STATIC,70,65,25,8
+    EDITTEXT        IDC_EDIT_COEFFA22,95,65,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[23] = ",IDC_STATIC,125,65,25,8
+    EDITTEXT        IDC_EDIT_COEFFA23,150,65,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[24] = ",IDC_STATIC,180,65,25,8
+    EDITTEXT        IDC_EDIT_COEFFA24,205,65,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[25] = ",IDC_STATIC,235,65,25,8
+    EDITTEXT        IDC_EDIT_COEFFA25,260,65,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "b[2] = ",IDC_STATIC,295,65,21,8
+    EDITTEXT        IDC_EDIT_COEFFB2,315,65,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[31] = ",IDC_STATIC,15,85,25,8
+    EDITTEXT        IDC_EDIT_COEFFA31,40,85,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[32] = ",IDC_STATIC,70,85,25,8
+    EDITTEXT        IDC_EDIT_COEFFA32,95,85,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[33] = ",IDC_STATIC,125,85,25,8
+    EDITTEXT        IDC_EDIT_COEFFA33,150,85,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[34] = ",IDC_STATIC,180,85,25,8
+    EDITTEXT        IDC_EDIT_COEFFA34,205,85,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[35] = ",IDC_STATIC,235,85,25,8
+    EDITTEXT        IDC_EDIT_COEFFA35,260,85,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "b[3] = ",IDC_STATIC,295,85,21,8
+    EDITTEXT        IDC_EDIT_COEFFB3,315,85,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[41] = ",IDC_STATIC,15,105,25,8
+    EDITTEXT        IDC_EDIT_COEFFA41,40,105,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[42] = ",IDC_STATIC,70,105,25,8
+    EDITTEXT        IDC_EDIT_COEFFA42,95,105,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[43] = ",IDC_STATIC,125,105,25,8
+    EDITTEXT        IDC_EDIT_COEFFA43,150,105,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "a[44] = ",IDC_STATIC,180,105,25,8
+    EDITTEXT        IDC_EDIT_COEFFA44,205,105,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "a[45] = ",IDC_STATIC,235,105,25,8
+    EDITTEXT        IDC_EDIT_COEFFA45,260,105,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "b[4] = ",IDC_STATIC,295,105,21,8
+    EDITTEXT        IDC_EDIT_COEFFB4,315,105,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[51] = ",IDC_STATIC,15,125,25,8
+    EDITTEXT        IDC_EDIT_COEFFA51,40,125,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[52] = ",IDC_STATIC,70,125,25,8
+    EDITTEXT        IDC_EDIT_COEFFA52,95,125,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "a[53] = ",IDC_STATIC,125,125,25,8
+    EDITTEXT        IDC_EDIT_COEFFA53,150,125,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "a[54] = ",IDC_STATIC,180,125,25,8
+    EDITTEXT        IDC_EDIT_COEFFA54,205,125,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "a[55] = ",IDC_STATIC,235,125,25,8
+    EDITTEXT        IDC_EDIT_COEFFA55,260,125,25,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "b[5] = ",IDC_STATIC,295,125,21,8
+    EDITTEXT        IDC_EDIT_COEFFB5,315,125,25,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    PUSHBUTTON      "&Unbekannte errechnen",IDC_BUTTON_CALC,5,150,55,35,
+                    BS_MULTILINE
+    GROUPBOX        "Ergebnisse",IDC_STATIC,65,150,285,35
+    LTEXT           "x[1] = ",IDC_STATIC,70,165,20,8
+    EDITTEXT        IDC_EDIT_RESULTX1,90,165,30,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_WANTRETURN
+    LTEXT           "x[2] = ",IDC_STATIC,125,165,20,8
+    EDITTEXT        IDC_EDIT_RESULTX2,145,165,30,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN
+    LTEXT           "x[3] = ",IDC_STATIC,180,165,20,8
+    EDITTEXT        IDC_EDIT_RESULTX3,200,165,30,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN
+    LTEXT           "x[4] = ",IDC_STATIC,235,165,20,8
+    EDITTEXT        IDC_EDIT_RESULTX4,255,165,30,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN
+    LTEXT           "x[5] = ",IDC_STATIC,290,165,20,8
+    EDITTEXT        IDC_EDIT_RESULTX5,310,165,30,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN
+    DEFPUSHBUTTON   "&Setzen",IDC_BUTTON_SET_COEFFICIENTS,300,10,40,14
+END
+
+IDD_DIALOG_VALUETABLE DIALOG DISCARDABLE  0, 0, 207, 145
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Wertetabelle ermitteln"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Wertebereich",IDC_STATIC,5,10,85,50
+    LTEXT           "x_min:",IDC_STATIC,15,20,21,8
+    EDITTEXT        IDC_EDIT_X_MIN,45,20,35,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "x_max:",IDC_STATIC,15,39,23,8
+    EDITTEXT        IDC_EDIT_X_MAX,45,39,35,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    GROUPBOX        "Schrittweite",IDC_STATIC,5,65,85,35
+    LTEXT           "x_delta:",IDC_STATIC,15,80,26,8
+    EDITTEXT        IDC_EDIT_X_DELTA,45,80,35,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    CONTROL         "List1",IDC_LIST_VALUETABLE,"SysListView32",LVS_REPORT | 
+                    WS_BORDER | WS_TABSTOP,100,5,100,135
+    DEFPUSHBUTTON   "&Berechnen",IDC_BUTTON_CALC,25,105,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,25,125,50,14
+END
+
+IDD_DIALOG_GRADIENT DIALOG DISCARDABLE  0, 0, 162, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Steigung ermitteln"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "S&telle x",IDC_STATIC,5,5,70,40
+    LTEXT           "&x = ",IDC_STATIC,15,20,12,8
+    EDITTEXT        IDC_EDIT_X,31,20,34,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    GROUPBOX        "&Steigung",IDC_STATIC,85,5,70,40
+    LTEXT           "&m = ",IDC_STATIC,95,20,14,8
+    EDITTEXT        IDC_EDIT_GRADIENT,110,20,35,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_WANTRETURN
+    DEFPUSHBUTTON   "&Berechnen",IDC_BUTTON_CALC,25,55,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,85,55,50,14
+END
+
+IDD_DIALOG_TANGENT DIALOG DISCARDABLE  0, 0, 167, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tangentengleichung ermitteln"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "S&telle x",IDC_STATIC,5,5,70,40
+    LTEXT           "&x = ",IDC_STATIC,15,20,12,8
+    EDITTEXT        IDC_EDIT_X,31,20,39,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    GROUPBOX        "&Tangente",IDC_STATIC,85,5,75,40
+    DEFPUSHBUTTON   "&Berechnen",IDC_BUTTON_CALC,25,55,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,85,55,50,14
+    EDITTEXT        IDC_EDIT_TANGENT,90,20,65,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_WANTRETURN
+END
+
+IDD_DIALOG_CREDITS DIALOG DISCARDABLE  0, 0, 232, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Credits"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,90,115,50,14
+    LTEXT           "Das Programm verwendet externe zum GUI-Design von freien Drittanbietern. Die Klassen wurden aus der Webseite 'Code Project' (http://www.codeproject.com) entnommen.",
+                    IDC_STATIC,7,30,220,25,SS_SUNKEN
+    LTEXT           "'Graf Math' ist ein gemeinschaftliches Projekt von Mümine, Avcu, Michael Johne, Eugen Spielmann und Peter Stein.",
+                    IDC_STATIC,7,7,220,18,SS_SUNKEN
+    LTEXT           "- Klasse 'BCMenu' von Brent Corkum\n- Klassen 'CButtonST', 'CXPStyleButtonST' und 'CThemeHelperST'       von Davide Calabro\n- Klasse 'HelpDialog' von Antoine Megens\n- Klasse 'XPTabCtrl' von Adi Dedic\n- Klasse 'HyperLink' von Chris Maunder\n",
+                    IDC_STATIC,7,60,220,50,SS_SUNKEN
+END
+
+IDD_DIALOG_MONOTONY DIALOG DISCARDABLE  0, 0, 167, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Monotonie"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "S&telle x",IDC_STATIC,5,5,70,40
+    LTEXT           "&x = ",IDC_STATIC,15,20,12,8
+    EDITTEXT        IDC_EDIT_X,31,20,39,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    GROUPBOX        "&Monotonie",IDC_STATIC,85,5,75,40
+    EDITTEXT        IDC_EDIT_MONOTONY,90,20,65,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_WANTRETURN
+    DEFPUSHBUTTON   "&Berechnen",IDC_BUTTON_CALC,25,55,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,85,55,50,14
+END
+
+IDD_DIALOG_INTEGRAL DIALOG DISCARDABLE  0, 0, 197, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Flächenberechnung"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Wertebereich",IDC_STATIC,10,10,85,50
+    LTEXT           "x_min:",IDC_STATIC,20,20,21,8
+    EDITTEXT        IDC_EDIT_X_MIN,50,20,35,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    LTEXT           "x_max:",IDC_STATIC,20,39,23,8
+    EDITTEXT        IDC_EDIT_X_MAX,50,39,35,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    GROUPBOX        "Fläche",IDC_STATIC,105,10,85,50
+    LTEXT           "Grösse:",IDC_STATIC,110,30,25,8
+    EDITTEXT        IDC_EDIT_AREA,140,30,45,12,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN | WS_DISABLED
+    GROUPBOX        "Einschränkung &X-Achse",IDC_STATIC,10,70,85,45
+    CONTROL         "-x ... +x",IDC_RADIO_X0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,30,80,39,10
+    CONTROL         "x <= 0",IDC_RADIO_X1,"Button",BS_AUTORADIOBUTTON,30,90,
+                    35,10
+    CONTROL         "x >= 0",IDC_RADIO_X2,"Button",BS_AUTORADIOBUTTON,30,100,
+                    35,10
+    GROUPBOX        "Einschränkung &Y-Achse",IDC_STATIC,105,70,85,45
+    CONTROL         "-y ... +y",IDC_RADIO_Y0,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,125,80,39,10
+    CONTROL         "x <= 0",IDC_RADIO_Y1,"Button",BS_AUTORADIOBUTTON,125,90,
+                    35,10
+    CONTROL         "x >= 0",IDC_RADIO_Y,"Button",BS_AUTORADIOBUTTON,125,100,
+                    35,10
+    DEFPUSHBUTTON   "&Berechnen",IDC_BUTTON_CALC,45,125,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,105,125,50,14
+END
+
+IDD_DIALOG_YAUSX DIALOG DISCARDABLE  0, 0, 162, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Y-Wert aus X-Stelle ermitteln"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "&Stelle x",IDC_STATIC,5,5,70,40
+    LTEXT           "&x = ",IDC_STATIC,15,20,12,8
+    EDITTEXT        IDC_EDIT_X,31,20,34,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    GROUPBOX        "&Ergebnis y",IDC_STATIC,85,5,70,40
+    LTEXT           "&y = ",IDC_STATIC,95,20,12,8
+    EDITTEXT        IDC_EDIT_Y,110,20,35,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_WANTRETURN
+    DEFPUSHBUTTON   "&Berechnen",IDC_BUTTON_CALC,25,55,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,85,55,50,14
+END
+
+IDD_DIALOG_LEN2P DIALOG DISCARDABLE  0, 0, 157, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Länge zwischen 2 Punkten"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Punkt &1",IDC_STATIC,5,5,70,70
+    LTEXT           "x = ",IDC_STATIC,15,20,12,8
+    EDITTEXT        IDC_EDIT_P1X,31,20,34,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "y = ",IDC_STATIC,15,55,12,8
+    EDITTEXT        IDC_EDIT_P1Y,30,55,35,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_WANTRETURN
+    GROUPBOX        "Punkt &2",IDC_STATIC,80,6,70,69
+    LTEXT           "x = ",IDC_STATIC,90,20,12,8
+    EDITTEXT        IDC_EDIT_P2X,105,20,34,12,ES_AUTOHSCROLL | ES_WANTRETURN
+    LTEXT           "y = ",IDC_STATIC,90,55,12,8
+    EDITTEXT        IDC_EDIT_P2Y,105,55,35,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_WANTRETURN
+    LTEXT           "Länge = ",IDC_STATIC,50,85,29,8
+    EDITTEXT        IDC_EDIT_LEN2P,80,85,35,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    ES_WANTRETURN
+    DEFPUSHBUTTON   "&Berechnen",IDC_BUTTON_CALC,25,110,50,14
+    PUSHBUTTON      "&Abbruch",IDCANCEL,80,110,50,14
+    PUSHBUTTON      "'y' ermitteln",IDC_BUTTON_GETY2,90,35,50,14
+    PUSHBUTTON      "'y' ermitteln",IDC_BUTTON_GETY1,15,35,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,36,0,0
+ PRODUCTVERSION 1,36,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "Dieses Programm entstand im Rahmen des 'Projekt-Management'- Unterrichts der Klasse I07A am SZUT (Bremen) im 1. Halbjahr 2008.\0"
+            VALUE "CompanyName", "Geometriker\0"
+            VALUE "FileDescription", "'Graf Math' ist ein Programm zur Analyse graphischer Funktionen.\0"
+            VALUE "FileVersion", "1, 36, 0, 0\0"
+            VALUE "InternalName", "Graf Math\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008 - Geometriker(Mümine Avcu, Michael Johne, Eugen Spielmann & Peter Stein)\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "GrafMath.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Graf Math\0"
+            VALUE "ProductVersion", "1, 36, 0, 0\0"
+            VALUE "SpecialBuild", "080528\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+
+    IDD_GRAFMATH_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 334
+    END
+
+    IDD_DIALOG_AXISOPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 185
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+
+    IDD_DIALOG_INPUT_FUNCTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 130
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 133
+    END
+
+    IDD_DIALOG_GAUSSELIM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+    END
+
+    IDD_DIALOG_VALUETABLE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_DIALOG_GRADIENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_DIALOG_TANGENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_DIALOG_CREDITS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 225
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_DIALOG_MONOTONY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_DIALOG_INTEGRAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_DIALOG_YAUSX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_DIALOG_LEN2P, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUP_HELP_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Copy All",                   ID_EDIT_COPY
+        POPUP "Keep Help on top"
+        BEGIN
+            MENUITEM "On Top",                      ID_FILE_KEEPHELPONTOP_ONTOP
+
+            MENUITEM "Not On Top",                  ID_FILE_KEEPHELPONTOP_NOTONTOP
+
+        END
+        MENUITEM "Print Topic...",              ID_POPUP_HELP_PRINT
+        MENUITEM "E&xit",                       IDOK
+    END
+END
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "&Programm"
+    BEGIN
+        MENUITEM "Ansicht &laden\tAlt+L",       ID_MNU_APP_ANSICHTLADEN
+        , GRAYED
+        MENUITEM "Ansicht &speichern\tAlt+S",   ID_MNU_APP_ANSICHTSPEICHERN
+        , GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Über\tAlt+Ü",                IDD_ABOUTBOX
+        MENUITEM "&Credits\tAlt+C",             ID_MNU_APP_CREDITS
+        MENUITEM "&Hilfe\tAlt+H",               ID_MNU_APP_HILFE
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden\tAlt+B",             ID_APP_EXIT
+    END
+    POPUP "&Achsen"
+    BEGIN
+        POPUP "&Achsenskalierung\tAlt+A"
+        BEGIN
+            MENUITEM "&in die X/Y-Achsen hineinzoomen\tAlt+I", 
+                                                    ID_MNU_ACHSEN_ACHSENSKALIERUNG_ZOOMIN_XY
+
+            MENUITEM "&aus die X/Y-Achsen herauszoomen\tAlt+A", 
+                                                    ID_MNU_ACHSEN_ACHSENSKALIERUNG_ZOOMOUT_XY
+
+        END
+        MENUITEM "&Einstellungen\tAlt+E",       ID_MNU_ACHSEN_EINSTELLUNGEN
+        MENUITEM "Anzeige der &Skalierung\tAlt+S", 
+                                                ID_MNU_ACHSEN_ANZEIGE_SKALIERUNG
+
+    END
+    POPUP "&Funktion"
+    BEGIN
+        MENUITEM "Eingeben &und Zeichnen\tAlt+U", 
+                                                ID_MNU_FUNKTION_EINGEBENUNDZEICHNEN
+
+        MENUITEM SEPARATOR
+        MENUITEM "&Eingeben\tAlt+E",            ID_MNU_FUNKTION_EINGEBEN
+        MENUITEM "&Zeichnen\tAlt+Z",            ID_MNU_FUNKTION_ZEICHNEN
+    END
+    POPUP "P&unkte"
+    BEGIN
+        MENUITEM "Schnitttellen mit &X-Achse\tAlt+X", 
+                                                ID_MNU_PUNKT_SCHNITTSTELLEN_XACHSE
+
+        MENUITEM "Schnittstelle mit &Y-Achse\tAlt+Y", 
+                                                ID_MNU_PUNKT_SCHNITTSTELLEN_YACHSE
+
+        MENUITEM "&Hoch- und Tiefpunkte\tAlt+H", ID_MNU_PUNKT_HOCHTIEF
+        MENUITEM "&Scheitelpunkt\tAlt+S",       ID_MNU_PUNKT_SCHEITELPUNKT
+        MENUITEM "&Wendestelle\tAlt+W",         ID_MNU_PUNKT_WENDESTELLE
+    END
+    POPUP "&Sonstiges"
+    BEGIN
+        MENUITEM "Y-Wert aus X-Stelle &ermitteln\tAlt+E", ID_MNU_MISC_YAUSX
+        MENUITEM "&Wertetabelle\tAlt+W",        ID_MNU_MISC_WERTETABELLE
+        MENUITEM SEPARATOR
+        MENUITEM "&Aufleitung\tAlt+A",          ID_MNU_MISC_AUFLEITUNG
+        , GRAYED
+        MENUITEM "A&bleitungen\tAlt+B",         ID_MNU_MISC_ABLEITUNGEN
+        MENUITEM "&Flächenberechnung\tAlt+F",   ID_MNU_MISC_FLAECHENBERECHNUNG
+        , GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "&Gauß-Eliminationsverfahren\tAlt+G", 
+                                                ID_MNU_MISC_GAUSS_ELIMINATION
+
+        MENUITEM "&Länge zwischen 2 Punkten\tAlt+L", ID_MNU_MISC_LAENGE2P
+        MENUITEM SEPARATOR
+        MENUITEM "&Monotonie\tAlt+M",           ID_MNU_MISC_MONOTONIE
+        MENUITEM "&Steigung\tAlt+S",            ID_MNU_MISC_STEIGUNG
+        MENUITEM "&Tangentengleichung\tAlt+T",  ID_MNU_MISC_TANGENTE_GLEICHUNG
+
+        MENUITEM "S&ymmetrie-Verhalten\tAlt+Y", ID_MNU_MISC_ACHSENSYMMETRIE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\GeometrikerBanner.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+IDR_MANIFEST            24      DISCARDABLE     "res\\manifest.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RTF
+//
+
+IDR_RTF_HILFE           RTF     DISCARDABLE     "res\\hilfe.rtf"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MNU_PUNKT_SATTELPUNKT "Sattelpunkt ermitteln"
+    ID_MNU_PUNKT_WENDESTELLE "Wendestelle ermitteln"
+    ID_MNU_PUNKT_MINIMA_MAXIMA "Minima / Maxima ermitteln"
+    ID_MNU_PUNKT_HOCHTIEF   "Hoch- und Tiefpunkte ermitteln"
+    ID_MNU_MISC_STEIGUNG    "Steigung ermitteln"
+    ID_MNU_MISC_TANGENTE_GLEICHUNG "Tangentengleichung ermitteln"
+    ID_MNU_MISC_ABLEITUNGEN "Ableitungen ermitteln"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Über das Programm"
+    IDS_INDICATOR_TIME      " "
+    IDS_INDICATOR_NISH      " "
+    IDS_SCHNITTPUNKT_XACHSE "Schnittpunkt mit der X-Achse ermitteln"
+    IDS_SCHNITTPUNKT_YACHSE "Schnittpunkt mit der Y-Achse ermitteln"
+    IDS_ABLEITUNG           "Ableitung ermitteln"
+    IDS_TANGENTE            "Tangentengleichung ermitteln"
+    IDS_ZOOMOUT_XYACHSE     "Aus der X- & Y-Achse herauszoomen"
+    IDS_ZOOMIN_XYACHSE      "In die X- & Y-Achse hereinzoomen"
+    IDS_ZOOMIN_XACHSE       "In die X-Achse hereinzoomen"
+    IDS_ZOOMOUT_YACHSE      "Aus der Y-Achse herauszoomen"
+    IDS_ZOOMIN_YACHSE       "In die Y-Achse hereinzoomen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ZOOMOUT_XACHSE      "Aus der X-Achse herauszoomen"
+    IDS_GRAPHZEICHNEN       "Graph zeichnen"
+    IDS_GETXYRANGE          "Spannweiten der Achsen ermitteln"
+    IDS_EDIT_FUNCTION       "Funktion eingeben"
+    IDS_AXISOPTIONS         "Einstellung für die Achsen"
+    IDS_INPUTFUNCTION       "Funktionseingabe"
+    IDS_ANSICHT_SPEICHERN   "Ansicht speichern"
+    IDS_ANSICHT_LADEN       "Ansicht laden"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MNU_PUNKT_SCHNITTSTELLEN_XACHSE 
+                            "Schnittpunkte mit der X-Achse ermitteln"
+    ID_MNU_PUNKT_SCHNITTSTELLEN_YACHSE 
+                            "Schnittpunkt mit der Y-Achse ermitteln"
+    ID_MNU_MISC_GAUSS_ELIMINATION "Gauss-Elimininationsverfahren anwenden"
+    ID_MNU_FUNKTION_EINGEBEN "Funktionen eingeben"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MNU_FUNKTION_ZEICHNEN "Funktion zeichnen"
+    ID_MNU_FUNKTION_EINGEBENUNDZEICHNEN "Funktion eingeben und zeichnen"
+    ID_MNU_MISC_ACHSENSYMMETRIE "Achsen-Symmetrie ermitteln"
+    ID_MNU_ACHSEN_ACHSENSKALIERUNG_ZOOMIN_XY 
+                            "In die X- & Y-Achse hereinzoomen"
+    ID_MNU_ACHSEN_EINSTELLUNGEN "Einstellung für die Achsen"
+    ID_MNU_ACHSEN_ANZEIGE_SKALIERUNG "Spannweiten der Achsen ermitteln"
+    ID_MNU_MISC_WERTETABELLE "Wertetabelle erstellen"
+    ID_MNU_APP_CREDITS      "Credits anzeigen"
+    ID_MNU_MISC_AUFLEITUNG  "Aufleitung ermitteln"
+    ID_MNU_MISC_FLAECHENBERECHNUNG "Fläche berechnen (Integral)"
+    ID_MNU_PUNKT_SCHEITELPUNKT "Scheitelpunkt ermitteln"
+    ID_MNU_MISC_MONOTONIE   "Monotonie ablesen"
+    ID_MNU_MISC_YAUSX       "Y-Wert aus X-Stelle ermitteln"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_MNU_MISC_LAENGE2P    "Länge zwischen 2 Punkten ermitteln"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\GrafMath.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
