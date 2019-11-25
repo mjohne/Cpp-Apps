@@ -1,0 +1,519 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DigitalBankbook.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DigitalBankbook.ico"
+IDI_ICON_BUSINESSMAN_32 ICON    DISCARDABLE     "res\\businessman_32.ico"
+IDI_ICON_BANKBOOK_NEW_32 ICON    DISCARDABLE     "res\\book_new_32.ico"
+IDI_ICON_EXIT_32        ICON    DISCARDABLE     "res\\exit_32.ico"
+IDI_ICON_GEAR_32        ICON    DISCARDABLE     "res\\gear_32.ico"
+IDI_ICON_BANKBOOK_OPEN_32 ICON    DISCARDABLE     "res\\book_open_32.ico"
+IDI_ICON_ABOUT_32       ICON    DISCARDABLE     "res\\about_32.ico"
+IDI_ICON_CHECK_32       ICON    DISCARDABLE     "res\\check_32.ico"
+IDI_ICON_DELETE_32      ICON    DISCARDABLE     "res\\delete_32.ico"
+IDI_ICON_ADD_32         ICON    DISCARDABLE     "res\\add_32.ico"
+IDI_ICON_EDIT_32        ICON    DISCARDABLE     "res\\edit_32.ico"
+IDI_ICON_PRESENT_CHART_32 ICON    DISCARDABLE     "res\\presentation_chart_32.ico"
+IDI_ICON_BANKBOOK_VIEW_32 ICON    DISCARDABLE     "res\\book_view_32.ico"
+IDI_ICON_CHART_32       ICON    DISCARDABLE     "res\\chart_32.ico"
+IDI_ICON_COLCHART_32    ICON    DISCARDABLE     "res\\column-chart_32.ico"
+IDI_ICON_CURRENCY_EUR_32 ICON    DISCARDABLE     "res\\currency_euro_32.ico"
+IDI_ICON_MFC4_32        ICON    DISCARDABLE     "res\\mfc4_32.ico"
+IDI_ICON_MONEY2_32      ICON    DISCARDABLE     "res\\money2_32.ico"
+IDI_ICON_MONEYBAG_EUR_32 ICON    DISCARDABLE     "res\\moneybag_euro_32.ico"
+IDI_ICON_PIECHART_32    ICON    DISCARDABLE     "res\\pie-chart_32.ico"
+IDI_ICON_BANKBOOK_DELETE_32 ICON    DISCARDABLE     "res\\book_delete_32.ico"
+IDI_ICON_BANKBOOK_FIND_32 ICON    DISCARDABLE     "res\\book_find_32.ico"
+IDI_ICON_BANKBOOK_NEXT_32 ICON    DISCARDABLE     "res\\book_next_32.ico"
+IDI_ICON_BANKBOOK_PREF_32 ICON    DISCARDABLE     "res\\book_preferences_32.ico"
+IDI_ICON_BANKBOOK_PREV_32 ICON    DISCARDABLE     "res\\book_previous_32.ico"
+IDI_ICON_IDCARD_32      ICON    DISCARDABLE     "res\\id_card_32.ico"
+IDI_ICON_SORTASC_32     ICON    DISCARDABLE     "res\\sort_ascending_32.ico"
+IDI_ICON_SORTDESC_32    ICON    DISCARDABLE     "res\\sort_descending_32.ico"
+IDI_ICON_DOWN_32        ICON    DISCARDABLE     "res\\arrow_down_blue_32.ico"
+IDI_ICON_UP_32          ICON    DISCARDABLE     "res\\arrow_up_blue_32.ico"
+IDI_ICON_ARROW_END_32   ICON    DISCARDABLE     "res\\media_end_32.ico"
+IDI_ICON_ARROW_RIGHT_32 ICON    DISCARDABLE     "res\\arrow_right_blue_32.ico"
+IDI_ICON_CALENDER_32    ICON    DISCARDABLE     "res\\calendar_32.ico"
+IDI_ICON_DOTCHART_32    ICON    DISCARDABLE     "res\\dot-chart_32.ico"
+IDI_ICON_ARROW_BEGIN_32 ICON    DISCARDABLE     "res\\media_begin_32.ico"
+IDI_ICON_ARROW_LEFT_32  ICON    DISCARDABLE     "res\\arrow_left_blue_32.ico"
+IDI_ICON_UNDO_32        ICON    DISCARDABLE     "res\\undo_32.ico"
+IDI_ICON_ADD2_32        ICON    DISCARDABLE     "res\\add2_32.ico"
+IDI_ICON_CALCULATOR_32  ICON    DISCARDABLE     "res\\calculator_32.ico"
+IDI_ICON_CASHIER_32     ICON    DISCARDABLE     "res\\cashier_32.ico"
+IDI_ICON_CLIPBOARD_32   ICON    DISCARDABLE     "res\\clipboard_32.ico"
+IDI_ICON_CLOCK_32       ICON    DISCARDABLE     "res\\clock_32.ico"
+IDI_ICON_COPY_32        ICON    DISCARDABLE     "res\\copy_32.ico"
+IDI_ICON_CURRENCY_DOLLAR_32 ICON    DISCARDABLE     "res\\currency_dollar_32.ico"
+IDI_ICON_CURRENCY_POUND_32 ICON    DISCARDABLE     "res\\currency_pound_32.ico"
+IDI_ICON_CURRENCY_YEN_32 ICON    DISCARDABLE     "res\\currency_yen_32.ico"
+IDI_ICON_CUT_32         ICON    DISCARDABLE     "res\\cut_32.ico"
+IDI_ICON_DATETIME_32    ICON    DISCARDABLE     "res\\date-time_32.ico"
+IDI_ICON_DISK_32        ICON    DISCARDABLE     "res\\disk_blue_32.ico"
+IDI_ICON_DOC_32         ICON    DISCARDABLE     "res\\document_32.ico"
+IDI_ICON_MESSAGE_EDIT_32 ICON    DISCARDABLE     "res\\message_edit_32.ico"
+IDI_ICON_NOTE_32        ICON    DISCARDABLE     "res\\note_32.ico"
+IDI_ICON_CLIP_32        ICON    DISCARDABLE     "res\\paperclip_32.ico"
+IDI_ICON_PASTE_32       ICON    DISCARDABLE     "res\\paste_32.ico"
+IDI_ICON_PERCENT_32     ICON    DISCARDABLE     "res\\percent_32.ico"
+IDI_ICON_IMAGE_32       ICON    DISCARDABLE     "res\\photo_scenery_32.ico"
+IDI_ICON_PREF_32        ICON    DISCARDABLE     "res\\preferences_32.ico"
+IDI_ICON_PRESS_32       ICON    DISCARDABLE     "res\\press_32.ico"
+IDI_ICON_PRINT_32       ICON    DISCARDABLE     "res\\printer_32.ico"
+IDI_ICON_REDO_32        ICON    DISCARDABLE     "res\\redo_32.ico"
+IDI_ICON_REFRESH_32     ICON    DISCARDABLE     "res\\refresh_32.ico"
+IDI_ICON_HOME_32        ICON    DISCARDABLE     "res\\home_32.ico"
+IDI_ICON_MAIL_32        ICON    DISCARDABLE     "res\\mail_32.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 157, 70
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über Digital Bankbook"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,5,20,20
+    LTEXT           "Digital Bankbook",IDC_STATIC_VERSION,35,5,120,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,35,15,95,8
+    DEFPUSHBUTTON   "&OK",IDOK,55,35,50,25,WS_GROUP
+END
+
+IDD_DIGITALBANKBOOK_DIALOG DIALOGEX 0, 0, 162, 195
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Digital Bankbook"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "&Neues digitales Sparbuch anlegen",
+                    IDC_BUTTON_BANKBOOK_NEW,10,10,140,25,BS_CENTER
+    PUSHBUTTON      "&Ein digitales Sparbuch öffnen",
+                    IDC_BUTTON_BANKBOOK_OPEN,10,45,140,25,BS_CENTER
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,5,80,153,1
+    PUSHBUTTON      "&Informationen über das\nProgramm 'Digital Bankbook'",
+                    IDC_BUTTON_BANKBOOK_ABOUT,15,90,130,25,BS_CENTER | 
+                    BS_MULTILINE
+    PUSHBUTTON      "&Programmeinstellungen",IDC_BUTTON_APP_OPTIONS,15,125,
+                    130,25,BS_CENTER
+    PUSHBUTTON      "Programm &beenden",IDCANCEL,15,160,130,25,BS_CENTER
+END
+
+IDD_DIALOG_BANKBOOK_NEW DIALOG DISCARDABLE  0, 0, 247, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Neues Sparbuch anlegen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ICON_BANKBOOK_NEW_32,IDC_STATIC,5,5,20,20
+    LTEXT           "Be&zeichnung",IDC_STATIC,35,10,42,8
+    EDITTEXT        IDC_EDIT_BANKBOOK_NAME,90,10,150,12,ES_AUTOHSCROLL
+    LTEXT           "&Beschreibung:",IDC_STATIC,35,30,46,8
+    EDITTEXT        IDC_EDIT_BANKBOOK_DESCRIPTION,90,30,150,50,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+    PUSHBUTTON      "&Angaben zum\nSparbuch-Inhaber",IDC_BUTTON_USER,5,90,85,
+                    25,BS_MULTILINE
+    DEFPUSHBUTTON   "&Sparbuch erstellen",IDC_BUTTON_BANKBOOK_CREATE,95,90,
+                    80,25
+    PUSHBUTTON      "Abbruc&h",IDCANCEL,180,90,59,25
+END
+
+IDD_DIALOG_USER_NEW DIALOG DISCARDABLE  0, 0, 197, 110
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Neuen Sparbuch-Inhaber anlegen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ICON_BUSINESSMAN_32,IDC_STATIC,5,5,20,20
+    LTEXT           "&Name:",IDC_STATIC,35,5,22,8
+    EDITTEXT        IDC_EDIT_USER_NAME,90,5,100,12,ES_AUTOHSCROLL
+    LTEXT           "&Geburtsdatum:",IDC_STATIC,35,20,47,8
+    CONTROL         "DateTimePicker1",IDC_USER_BIRTHDATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_APPCANPARSE | WS_TABSTOP,90,20,100,
+                    15
+    LTEXT           "&Straße /  Nr.:",IDC_STATIC,35,40,42,8
+    EDITTEXT        IDC_EDIT_USER_STREET,90,40,100,12,ES_AUTOHSCROLL
+    LTEXT           "&Wohnort:",IDC_STATIC,35,55,30,8
+    EDITTEXT        IDC_EDIT_USER_PLACE,90,55,100,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,5,75,50,25
+    PUSHBUTTON      "&Abbruch",IDCANCEL,61,75,59,25
+    PUSHBUTTON      "&Als VCARD exportieren",IDC_BUTTON_VCARDEXPORT,125,75,
+                    65,25,BS_MULTILINE
+END
+
+IDD_DIALOG_OPENBANKBOOK DIALOG DISCARDABLE  0, 0, 422, 255
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Einblick in das geöffnete Sparbuch"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "List2",IDC_LIST_TRANSACTIONS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_AUTOARRANGE | 
+                    WS_BORDER | WS_TABSTOP,35,5,380,195
+    PUSHBUTTON      "",IDC_BUTTON_ENTRY_UP,5,45,25,25,BS_FLAT
+    PUSHBUTTON      "",IDC_BUTTON_ENTRY_DOWN,5,75,25,25,BS_FLAT
+    PUSHBUTTON      "",IDC_BUTTON_ENTRY_SORTASC,5,115,25,25,BS_FLAT
+    PUSHBUTTON      "",IDC_BUTTON_ENTRY_SORTDESC,5,145,25,25,BS_FLAT
+    PUSHBUTTON      "&Neuen Eintrag hinzufügen",IDC_BUTTON_ENTRY_ADD,5,215,
+                    80,25,BS_MULTILINE
+    PUSHBUTTON      "&Aktuellen Eintrag\nändern",IDC_BUTTON_ENTRY_CHANGE,90,
+                    215,85,25,BS_MULTILINE
+    PUSHBUTTON      "Aktuellen &Eintrag\nlöschen",IDC_BUTTON_ENTRY_DELETE,
+                    180,215,85,25,BS_MULTILINE
+    PUSHBUTTON      "&Graphische\nAusgabe",IDC_BUTTON_GRAPHIC_OUTPUT,270,215,
+                    70,25,BS_MULTILINE
+    DEFPUSHBUTTON   "&Sparbuch\nSchließen",IDC_BUTTON_BANKBOOK_CLOSE,345,215,
+                    70,25,BS_MULTILINE
+END
+
+IDD_DIALOG_GRAPHIC_OUTPUT DIALOG DISCARDABLE  0, 0, 347, 262
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Graphische Ausgabe"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_WHITERECT | WS_BORDER,5,5,335,
+                    190
+    PUSHBUTTON      "",IDC_BUTTON_TIMESCALE_BEGIN,30,200,25,25
+    PUSHBUTTON      "",IDC_BUTTON_TIMESCALE_BACKWARD,60,200,25,25
+    PUSHBUTTON      "",IDC_BUTTON_TIMESCALE_FORWARD,90,200,25,25
+    PUSHBUTTON      "",IDC_BUTTON_TIMESCALE_END,120,200,25,25
+    PUSHBUTTON      "",IDC_BUTTON_APP_OPTIONS,210,200,25,25
+    PUSHBUTTON      "",IDC_BUTTON_GRAPHICPRINT,240,200,25,25
+    PUSHBUTTON      "Als Grafik\nabspeichern",IDC_BUTTON_GRAPHICSAVE,270,200,
+                    70,25,BS_MULTILINE
+    PUSHBUTTON      "Gesamtverlauf",IDC_BUTTON_COURSE,5,230,80,25,
+                    BS_MULTILINE
+    PUSHBUTTON      "SOLL/HABEN-\nDifferenzen",IDC_BUTTON_DCDIFF,90,230,85,
+                    25,BS_MULTILINE
+    PUSHBUTTON      "SOLL/HABEN-\nVerhältnis",IDC_BUTTON_DCRATIO,180,230,85,
+                    25,BS_MULTILINE
+    DEFPUSHBUTTON   "Fenster\nschließen",IDCANCEL,270,230,70,25,BS_MULTILINE
+END
+
+IDD_DIALOG_ENTRY DIALOG DISCARDABLE  0, 0, 197, 142
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Eintrag anlegen oder ändern"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ICON_ADD_32,IDC_STATIC,5,5,20,20
+    LTEXT           "Buchungs-&ID:",IDC_STATIC,35,5,44,8
+    EDITTEXT        IDC_EDIT_TRANSACTION_ID,90,5,30,12,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Buchungs&datum:",IDC_STATIC,35,21,54,8
+    CONTROL         "DateTimePicker1",IDC_TRANSACTION_DATE,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_APPCANPARSE | WS_TABSTOP,90,20,100,
+                    15
+    LTEXT           "Buchungs&text:",IDC_STATIC,35,40,46,8
+    EDITTEXT        IDC_EDIT_TRANSACTION_TEXT,90,40,100,12,ES_AUTOHSCROLL
+    LTEXT           "&Zusatztext:",IDC_STATIC,35,55,36,8
+    EDITTEXT        IDC_EDIT_TRANSACTION_TEXT_MORE,90,55,100,12,
+                    ES_AUTOHSCROLL
+    LTEXT           "&Betrag:",IDC_STATIC,35,70,24,8
+    EDITTEXT        IDC_EDIT_TRANSACTION_PAYMENT,90,71,100,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    LTEXT           "&Fluktuation:",IDC_STATIC,35,86,38,8
+    CONTROL         "Zugang (&HABEN)",IDC_RADIO_TURNOVER_HAVE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,90,86,71,10
+    CONTROL         "Abgang (&SOLL)",IDC_RADIO_TURNOVER_MUST,"Button",
+                    BS_AUTORADIOBUTTON,90,95,65,10
+    DEFPUSHBUTTON   "&OK",IDOK,40,110,50,25
+    PUSHBUTTON      "&Abbruch",IDCANCEL,96,110,59,25
+END
+
+IDD_DIALOG_APPOPTIONS DIALOG DISCARDABLE  0, 0, 197, 171
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Programmeinstellungen"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ICON_GEAR_32,IDC_STATIC,5,5,20,20
+    LTEXT           "&Speichern der Einstellungen",IDC_STATIC,35,5,89,8
+    CONTROL         "In einer INI-&Datei",IDC_RADIO_SAVE_INI,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,45,15,69,10
+    CONTROL         "In der &Registry",IDC_RADIO_SAVE_REG,"Button",
+                    BS_AUTORADIOBUTTON,45,25,61,10
+    GROUPBOX        "Zeichenoptionen für Diagramme",IDC_STATIC,35,40,150,85
+    CONTROL         "&Hauptachsen anzeigen",IDC_CHECK_OP_MAINAXIS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,45,50,135,10
+    CONTROL         "Hilfsa&chsen anzeigen",IDC_CHECK_OP_HELPAXIS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,45,60,135,10
+    CONTROL         "Zu Beginn &gesamte Achsen anzeigen",
+                    IDC_CHECK_OP_SCALE100,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,45,70,134,10
+    CONTROL         "Mit &Zeichenoberfläche hinterlegen",IDC_CHECK_OP_BGAREA,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,80,135,10
+    CONTROL         "&Legende anzeigen",IDC_CHECK_OP_LEGEND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,45,90,135,10
+    CONTROL         "&Titel anzeigen",IDC_CHECK_OP_TITLE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,45,100,135,10
+    CONTROL         "Achsenbeschriftung anzeigen",IDC_CHECK_OP_AXISDESCRIPT,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,45,110,135,10
+    DEFPUSHBUTTON   "&OK",IDOK,40,135,50,25
+    PUSHBUTTON      "&Abbruch",IDCANCEL,95,135,59,25
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x21L
+#else
+ FILEFLAGS 0x20L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Digital Bankbook\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008 Michael Johne\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DigitalBankbook.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Digital Bankbook\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "Alpha 2\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_DIGITALBANKBOOK_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 188
+    END
+
+    IDD_DIALOG_BANKBOOK_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 118
+    END
+
+    IDD_DIALOG_USER_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+
+    IDD_DIALOG_OPENBANKBOOK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 415
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 248
+    END
+
+    IDD_DIALOG_GRAPHIC_OUTPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 340
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 255
+    END
+
+    IDD_DIALOG_ENTRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 135
+    END
+
+    IDD_DIALOG_APPOPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+IDR_MANIFEST            24      DISCARDABLE     "res\\manifest.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "Inf&o über DigitalBankbook..."
+    IDS_VERSION             "Digital Bankbook 1.0.080413 Alpha 2"
+    IDS_ENTRY_OK            "Setzt bzw. ändert den Eintrag "
+    IDS_CANCEL              "Bricht den Vorgang ab"
+    IDS_ENTRY_MOVEUP        "Bewegt den Eintrag eine Zeile nach oben"
+    IDS_ENTRY_MOVEDOWN      "Bewegt den Eintrag eine Zeile nach unten"
+    IDS_SORTASC             "Sortiert aufsteigend"
+    IDS_SORTDESC            "Sortiert absteigend"
+    IDS_ENTRY_ADD           "Fügt einen Eintrag hinzu"
+    IDS_ENTRY_CHANGE        "Ändert den aktuellen Eintrag"
+    IDS_ENTRY_DELETE        "Löscht den aktuellen Eintrag"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_BANKBOOK_CLOSE      "Schließt das digitale Sparbuch"
+    IDS_VCARD_EXPORT        "Exportiert die persönlichen Daten in eine VCARD-Datei"
+    IDS_USER_ADD            "Legt einen neuen Sparbuch-Inhaber an"
+    IDS_BANKBOOK_CREATE     "Erstellt ein neues digitales Sparbuch"
+    IDS_BANKBOOK_OPEN       "Öffnet ein digitales Sparbuch"
+    IDS_APPOPTIONS          "Programmeinstellungen"
+    IDS_GRAPHIC_SAVE        "Speichert die Grafik als eine Bilddatei ab"
+    IDS_GRAPHIC_PRINT       "Druckt die Grafik aus"
+    IDS_DCRATION            "SOLL/HABEN-Verhältnis"
+    IDS_DCDIFF              "SOLL/HABEN-Differenzen"
+    IDS_COURSE              "Gesamtverlauf"
+    IDS_TIMESCALE_BEGIN     "Zum Beginn der Zeitskala springen"
+    IDS_TIMESCALE_BACKWARD  "In der Zeitskala zurück gehen"
+    IDS_TIMESCALE_FORWARD   "In der Zeitskala vorwärts gehen"
+    IDS_TIMESCALE_END       "Zum Ende der Zeitskala springen"
+    IDS_EXIT                "Beendet das Programm"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_OK                  "OK"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\DigitalBankbook.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

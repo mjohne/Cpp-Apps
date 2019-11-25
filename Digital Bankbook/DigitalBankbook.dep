@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by DigitalBankbook.mak
+
+".\DigitalBankbook.cpp" : \
+	".\DigitalBankbook.h"\
+	".\DigitalBankbookDlg.h"\
+	".\StdAfx.h"\
+	
+
+".\DigitalBankbook.rc" : \
+	".\res\DigitalBankbook.ico"\
+	".\res\DigitalBankbook.rc2"\
+	
+
+".\DigitalBankbookDlg.cpp" : \
+	".\DigitalBankbook.h"\
+	".\DigitalBankbookDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
