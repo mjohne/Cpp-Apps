@@ -1,0 +1,30 @@
+# Microsoft Developer Studio Generated Dependency File, included by FmwRSS.mak
+
+.\DlgProxy.cpp : \
+	".\DlgProxy.h"\
+	".\FmwRSS.h"\
+	".\FmwRSSDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\FmwRSS.cpp : \
+	".\FmwRSS.h"\
+	".\FmwRSSDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\FmwRSS.rc : \
+	".\res\FmwRSS.ico"\
+	".\res\FmwRSS.rc2"\
+	
+
+.\FmwRSSDlg.cpp : \
+	".\DlgProxy.h"\
+	".\FmwRSS.h"\
+	".\FmwRSSDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

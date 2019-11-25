@@ -1,0 +1,422 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FmwRSS.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FmwRSS.ico"
+IDI_ICON_STOP           ICON    DISCARDABLE     "res\\stop.ico"
+IDI_ICON_STAR           ICON    DISCARDABLE     "res\\star.ico"
+IDI_ICON_WEB16          ICON    DISCARDABLE     "res\\web16.ico"
+IDI_ICON_CANCEL         ICON    DISCARDABLE     "res\\cancel.ico"
+IDI_ICON_CHECK          ICON    DISCARDABLE     "res\\check.ico"
+IDI_ICON_ERROR          ICON    DISCARDABLE     "res\\error.ico"
+IDI_ICON_RSS16          ICON    DISCARDABLE     "res\\FmwRSS_16.ico"
+IDI_ICON_FOLDER         ICON    DISCARDABLE     "res\\folder.ico"
+IDI_ICON_FOLDER_DOWNLOAD ICON    DISCARDABLE     "res\\folder_download.ico"
+IDI_ICON_FOLDER_X       ICON    DISCARDABLE     "res\\folder_locked.ico"
+IDI_ICON_HISTORY        ICON    DISCARDABLE     "res\\history.ico"
+IDI_ICON_HOME           ICON    DISCARDABLE     "res\\home.ico"
+IDI_ICON_INBOX          ICON    DISCARDABLE     "res\\inbox.ico"
+IDI_ICON_NETWORK        ICON    DISCARDABLE     "res\\network.ico"
+IDI_ICON_OPTIONS        ICON    DISCARDABLE     "res\\options.ico"
+IDI_ICON_OUTBOX         ICON    DISCARDABLE     "res\\outbox.ico"
+IDI_ICON_WARNING        ICON    DISCARDABLE     "res\\warning.ico"
+IDI_ICON_INFO           ICON    DISCARDABLE     "res\\info.ico"
+IDI_ICON_FOLDER_NEW     ICON    DISCARDABLE     "res\\folder_new.ico"
+IDI_ICON_FOLDER_OPEN    ICON    DISCARDABLE     "res\\folder_open.ico"
+IDI_ICON_FOLDER_TXT     ICON    DISCARDABLE     "res\\folder_txt.ico"
+IDI_ICON_REFRESH        ICON    DISCARDABLE     "res\\refresh.ico"
+IDI_ICON_RSSFILE_DELETE ICON    DISCARDABLE     "res\\rss_file_remove_16.ico"
+IDI_ICON_RSSFILE_ADD    ICON    DISCARDABLE     "res\\rss_file_add_16.ico"
+IDI_ICON_RSSFILE_INFO   ICON    DISCARDABLE     "res\\rss_file_info_16.ico"
+IDI_ICON_RSSFILE        ICON    DISCARDABLE     "res\\RSS_file_16.ico"
+IDI_ICON_VIEW2          ICON    DISCARDABLE     "res\\view-2.ico"
+IDI_ICON_VIEW3          ICON    DISCARDABLE     "res\\view-3.ico"
+IDI_ICON_VIEW12         ICON    DISCARDABLE     "res\\view-12.ico"
+IDI_ICON_VIEW13         ICON    DISCARDABLE     "res\\view-13.ico"
+IDI_ICON_VIEW23         ICON    DISCARDABLE     "res\\view-23.ico"
+IDI_ICON_VIEW0          ICON    DISCARDABLE     "res\\view-0.ico"
+IDI_ICON_VIEW1          ICON    DISCARDABLE     "res\\view-1.ico"
+IDI_ICON_SUBSCRIBE      ICON    DISCARDABLE     "res\\subscribe_16.ico"
+IDI_ICON_UNSUBSCRIBE    ICON    DISCARDABLE     "res\\unsubscribe_16.ico"
+IDI_ICON_RSS_CHECK      ICON    DISCARDABLE     "res\\check_all_16.ico"
+IDI_ICON_RSS_ADD        ICON    DISCARDABLE     "res\\comment_rss_add_16.ico"
+IDI_ICON_RSS_DELETE     ICON    DISCARDABLE     "res\\comment_rss_delete_16.ico"
+IDI_ICON_RSSINFO        ICON    DISCARDABLE     "res\\comment_rss_info_16.ico"
+IDI_ICON_MARKASREAD     ICON    DISCARDABLE     "res\\mark_as_read_16.ico"
+IDI_ICON_RSS_NEXT       ICON    DISCARDABLE     "res\\next_rss_16.ico"
+IDI_ICON_NEXT_UNREAD    ICON    DISCARDABLE     "res\\next_unread_16.ico"
+IDI_ICON_RSS_PREV       ICON    DISCARDABLE     "res\\previous_rss_16.ico"
+IDI_ICON_PREV_UNREAD    ICON    DISCARDABLE     "res\\previous_unread_16.ico"
+IDI_ICON_RSS            ICON    DISCARDABLE     "res\\RSS_16.ico"
+IDI_ICON_EXIT           ICON    DISCARDABLE     "res\\exit.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_GROUP DIALOG DISCARDABLE  0, 0, 182, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Group"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name of the group:",IDC_STATIC,20,15,62,8
+    EDITTEXT        IDC_EDIT_GROUPNAME,20,25,140,14,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    DEFPUSHBUTTON   "&OK",IDOK,20,50,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,110,50,50,14
+END
+
+IDD_DIALOG_FEED DIALOG DISCARDABLE  0, 0, 182, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Feed"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "URL of the feed:",IDC_STATIC,20,15,65,8
+    EDITTEXT        IDC_EDIT_FEEDURL,20,26,140,14,ES_AUTOHSCROLL | 
+                    ES_WANTRETURN
+    DEFPUSHBUTTON   "&OK",IDOK,20,50,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,110,50,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG_GROUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_DIALOG_FEED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "F&ile"
+    BEGIN
+        POPUP "&Group\tAlt+G"
+        BEGIN
+            MENUITEM "&New Group\tAlt+N",           ID_FILE_GROUP_NEW
+            MENUITEM "&Edit Group\tAlt+E",          ID_FILE_GROUP_EDIT
+            MENUITEM "&Delete Group\tAlt+D",        ID_FILE_GROUP_DELETE
+        END
+        POPUP "&Feed\tAlt+F"
+        BEGIN
+            MENUITEM "&New Feed\tAlt+N",            ID_FILE_FEED_NEW
+            MENUITEM "&Edit Feed\tAlt+E",           ID_FILE_FEED_EDIT
+            MENUITEM "&Delete Feed\tAlt+D",         ID_FILE_FEED_DELETE
+        END
+        POPUP "&OPML\tAlt+O"
+        BEGIN
+            MENUITEM "&Import\tAlt+I",              ID_FILE_OPML_IMPORT
+            MENUITEM "&Export\tAlt+E",              ID_FILE_OPML_EXPORT
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Exit\tAlt+E",                ID_FILE_EXIT
+    END
+    POPUP "&Misc"
+    BEGIN
+        MENUITEM "&Update Feeds now\tAlt+U",    ID_MISC_UPDATEFEEDSNOW
+        MENUITEM "&Feed Cooker\tAlt+F",         ID_MISC_FEEDCOOKER
+        MENUITEM "&Options\tAlt+O",             ID_MISC_OPTIONS
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&All\tAlt+A",                 ID_WINDOW_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "No &Feeds\tAlt+F",            ID_WINDOW_NOFEEDS
+        MENUITEM "No &News\tAlt+N",             ID_WINDOW_NONEWS
+        MENUITEM "No &View\tAlt+V",             ID_WINDOW_NOVIEW
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+IDR_MANIFEST            24      DISCARDABLE     "res\\manifest.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_RSSFILE      BITMAP  DISCARDABLE     "res\\RSS_file_16.bmp"
+IDB_BITMAP_FOLDER       BITMAP  DISCARDABLE     "res\\folder.bmp"
+IDB_BITMAP_FMWRSS       BITMAP  DISCARDABLE     "res\\FmwRSS_16.bmp"
+IDB_BITMAP_FOLDER_OPEN  BITMAP  DISCARDABLE     "res\\folder_open.bmp"
+IDB_BITMAP_NEXT_UNREAD  BITMAP  DISCARDABLE     "res\\next_unread_16.bmp"
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 147, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About FmwRSS"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,10,10,20,20
+    LTEXT           "Feed me with RSS! (FmwRSS)",IDC_STATIC,40,10,100,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,20,85,8
+    DEFPUSHBUTTON   "OK",IDOK,50,35,50,14,WS_GROUP
+END
+
+IDD_FMWRSS_DIALOG DIALOGEX 0, 0, 482, 360
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Feed me with RSS! (FmwRSS)"
+MENU IDR_MENU
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "",IDC_BUTTON_GROUP_NEW,5,5,15,15
+    PUSHBUTTON      "",IDC_BUTTON_GROUP_EDIT,19,5,15,15
+    PUSHBUTTON      "",IDC_BUTTON_GROUP_DELETE,34,5,15,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,54,4,1,15
+    PUSHBUTTON      "",IDC_BUTTON_FEED_NEW,60,5,15,15
+    PUSHBUTTON      "",IDC_BUTTON_FEED_EDIT,74,5,15,15
+    PUSHBUTTON      "",IDC_BUTTON_FEED_DELETE,89,5,15,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,110,5,1,14
+    PUSHBUTTON      "",IDC_BUTTON_OPML_IMPORT,115,5,15,15
+    PUSHBUTTON      "",IDC_BUTTON_OPML_EXPORT,131,5,15,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,150,5,1,14
+    PUSHBUTTON      "",IDC_BUTTON_UPDATE_NOW,155,5,15,15
+    PUSHBUTTON      "",IDC_BUTTON_OPTIONS,171,5,15,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,190,5,1,14
+    PUSHBUTTON      "",IDC_BUTTON_VIEW0,195,5,15,15
+    PUSHBUTTON      "",IDC_BUTTON_VIEW23,211,5,15,15
+    PUSHBUTTON      "",IDC_BUTTON_VIEW13,225,5,15,15
+    PUSHBUTTON      "",IDC_BUTTON_VIEW12,239,5,15,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,260,5,1,14
+    PUSHBUTTON      "",ID_APP_ABOUT,265,5,15,15
+    PUSHBUTTON      "",IDCANCEL,280,5,15,15
+    GROUPBOX        "Abonned Feeds",IDC_STATIC_FEED,5,25,140,325
+    CONTROL         "Tree1",IDC_TREE_FEEDS,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_SHOWSELALWAYS | 
+                    TVS_TRACKSELECT | TVS_SINGLEEXPAND | TVS_INFOTIP | 
+                    TVS_FULLROWSELECT | TVS_NONEVENHEIGHT | WS_BORDER | 
+                    WS_TABSTOP,10,35,130,310
+    GROUPBOX        "Contained News",IDC_STATIC_NEWS,150,25,325,130
+    CONTROL         "List2",IDC_LIST_NEWS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_SHOWSELALWAYS | WS_BORDER | 
+                    WS_TABSTOP,155,35,315,115
+    GROUPBOX        "View",IDC_STATIC_VIEW,150,160,325,190
+    EDITTEXT        IDC_EDIT_VIEW,155,170,315,175,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_VSCROLL | WS_HSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 140
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_FMWRSS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 475
+        BOTTOMMARGIN, 353
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,14974
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "FmwRSS\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FmwRSS\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008 Michael Johne <michael-johne@gmx.de>\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FmwRSS.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Feet me with RSS! (FmwRSS)\0"
+            VALUE "ProductVersion", "1, 0, 0, 14974\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDS_ABOUTBOX            "&About FmwRSS..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FmwRSS.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FmwRSS - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x407 /fo"Release/FmwRSS.res" /i "Release" /d "NDEBUG" "E:\Programmierung\C, C++ und C#\MyProjects\FMWRSS\FmwRSS.rc"" 
+Creating temporary file "C:\Users\MICHAE~1\AppData\Local\Temp\RSP8409.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/FmwRSS.pdb" /machine:I386 /out:"Release/FmwRSS.exe" 
+".\Release\BCMenu.obj"
+".\Release\BtnST.obj"
+".\Release\DlgProxy.obj"
+".\Release\FeedDlg.obj"
+".\Release\FmwRSS.obj"
+".\Release\FmwRSSDlg.obj"
+".\Release\GroupDlg.obj"
+".\Release\HyperLink.obj"
+".\Release\StdAfx.obj"
+".\Release\ThemeHelperST.obj"
+".\Release\XPStyleButtonST.obj"
+".\Release\XPTabCtrl.obj"
+".\Release\FmwRSS.res"
+]
+Creating command line "link.exe @C:\Users\MICHAE~1\AppData\Local\Temp\RSP8409.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+FmwRSS.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
