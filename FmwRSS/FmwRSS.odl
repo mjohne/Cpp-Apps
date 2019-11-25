@@ -1,0 +1,42 @@
+// FmwRSS.odl : type library source for FmwRSS.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (FmwRSS.tlb).
+
+[ uuid(67A1D16B-DD1A-4C21-8DA5-F88B318EC868), version(1.0) ]
+library FmwRSS
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CFmwRSSDoc
+	
+	[ uuid(EF0BA5A2-9105-471D-952F-4B77E80E5759) ]
+	dispinterface IFmwRSS
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CFmwRSSDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CFmwRSSDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CFmwRSSDoc
+	
+	[ uuid(530A1A2C-A468-44A1-84B0-B5E87627FD2A) ]
+	coclass FmwRSS
+	{
+		[default] dispinterface IFmwRSS;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

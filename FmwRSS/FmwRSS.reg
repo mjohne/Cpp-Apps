@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\FmwRSS.Application = FmwRSS Application
+HKEY_CLASSES_ROOT\FmwRSS.Application\CLSID = {530A1A2C-A468-44A1-84B0-B5E87627FD2A}
+
+HKEY_CLASSES_ROOT\CLSID\{530A1A2C-A468-44A1-84B0-B5E87627FD2A} = FmwRSS Application
+HKEY_CLASSES_ROOT\CLSID\{530A1A2C-A468-44A1-84B0-B5E87627FD2A}\ProgId = FmwRSS.Application
+HKEY_CLASSES_ROOT\CLSID\{530A1A2C-A468-44A1-84B0-B5E87627FD2A}\LocalServer32 = FMWRSS.EXE
