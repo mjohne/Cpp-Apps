@@ -1,0 +1,30 @@
+# Microsoft Developer Studio Generated Dependency File, included by UPXGuy.mak
+
+.\DlgProxy.cpp : \
+	".\DlgProxy.h"\
+	".\StdAfx.h"\
+	".\UPXGuy.h"\
+	".\UPXGuyDlg.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	
+
+.\UPXGuy.cpp : \
+	".\StdAfx.h"\
+	".\UPXGuy.h"\
+	".\UPXGuyDlg.h"\
+	
+
+.\UPXGuy.rc : \
+	".\res\UPXGuy.ico"\
+	".\res\UPXGuy.rc2"\
+	
+
+.\UPXGuyDlg.cpp : \
+	".\DlgProxy.h"\
+	".\StdAfx.h"\
+	".\UPXGuy.h"\
+	".\UPXGuyDlg.h"\
+	
