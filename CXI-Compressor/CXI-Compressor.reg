@@ -1,0 +1,14 @@
+REGEDIT
+;   Diese .REG-Datei kann von Ihrem SETUP-Programm verwendet werden.
+;   Falls kein SETUP-Programm verfügbar ist, werden die unten stehenden Einträge
+;   automatisch in InitInstance registriert, mit einem Aufruf an 
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\CXICompressor.Application = CXICompressor Application
+HKEY_CLASSES_ROOT\CXICompressor.Application\CLSID = {716F7118-EA54-4474-A134-CC153DA99D6E}
+
+HKEY_CLASSES_ROOT\CLSID\{716F7118-EA54-4474-A134-CC153DA99D6E} = CXICompressor Application
+HKEY_CLASSES_ROOT\CLSID\{716F7118-EA54-4474-A134-CC153DA99D6E}\ProgId = CXICompressor.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{716F7118-EA54-4474-A134-CC153DA99D6E}\LocalServer32 = CXI-Compressor.EXE

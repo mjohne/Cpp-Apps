@@ -1,0 +1,29 @@
+// CXI-Compressor.idl : Typenbibliothekquelle für CXI-Compressor.exe
+
+// Diese Datei wird vom MIDL-Compiler verarbeitet, um die
+// Typenbibliothek (CXICompressor.tlb) zu erstellen.
+
+[ uuid(28EA988E-540F-4771-B96E-4FA3AA40E56D), version(1.0) ]
+library CXICompressor
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Primäre Verteilschnittstelle für CCXICompressorDoc
+	
+	[ uuid(E576B3FA-26A8-4403-A39B-A62179D5E1AA) ]
+	dispinterface ICXICompressor
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Klasseninformationen für CCXICompressorDoc
+	
+	[ uuid(716F7118-EA54-4474-A134-CC153DA99D6E) ]
+	coclass CXICompressor
+	{
+		[default] dispinterface ICXICompressor;
+	};
+};

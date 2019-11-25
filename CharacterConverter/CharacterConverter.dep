@@ -1,0 +1,22 @@
+# Microsoft Developer Studio Generated Dependency File, included by CharacterConverter.mak
+
+.\CharacterConverter.cpp : \
+	".\CharacterConverter.h"\
+	".\CharacterConverterDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\CharacterConverter.rc : \
+	".\res\CharacterConverter.ico"\
+	".\res\CharacterConverter.rc2"\
+	
+
+.\CharacterConverterDlg.cpp : \
+	".\CharacterConverter.h"\
+	".\CharacterConverterDlg.h"\
+	".\StdAfx.h"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	

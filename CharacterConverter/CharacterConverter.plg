@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CharacterConverter - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\MICHAE~1\AppData\Local\Temp\RSPBEBB.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/CharacterConverter.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Programmierung\C, C++ und C#\MyProjects\CharacterConverter\CharacterConverterDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\MICHAE~1\AppData\Local\Temp\RSPBEBB.tmp" 
+Creating temporary file "C:\Users\MICHAE~1\AppData\Local\Temp\RSPBEBC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/CharacterConverter.pdb" /machine:I386 /out:"Release/CharacterConverter.exe" 
+".\Release\BCMenu.obj"
+".\Release\BtnST.obj"
+".\Release\CharacterConverter.obj"
+".\Release\CharacterConverterDlg.obj"
+".\Release\HyperLink.obj"
+".\Release\StdAfx.obj"
+".\Release\ThemeHelperST.obj"
+".\Release\XPStyleButtonST.obj"
+".\Release\XPTabCtrl.obj"
+".\Release\CharacterConverter.res"
+]
+Creating command line "link.exe @C:\Users\MICHAE~1\AppData\Local\Temp\RSPBEBC.tmp"
+<h3>Output Window</h3>
+Compiling...
+CharacterConverterDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+CharacterConverter.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

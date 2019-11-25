@@ -1,0 +1,262 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\CharacterConverter.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CharacterConverter.ico"
+IDI_ICON_GO             ICON    DISCARDABLE     "res\\go.ico"
+IDI_ICON_ABOUT          ICON    DISCARDABLE     "res\\about.ico"
+IDI_ICON_FOLDER         ICON    DISCARDABLE     "res\\folder.ico"
+IDI_ICON_INFO           ICON    DISCARDABLE     "res\\info.ico"
+IDI_ICON_EXIT           ICON    DISCARDABLE     "res\\x.ico"
+IDI_ICON_APPLY          ICON    DISCARDABLE     "res\\apply.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+IDR_MANIFEST            24      DISCARDABLE     "res\\manifest.xml"
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 127, 60
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About CharacterConverter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,10,10,20,20
+    LTEXT           "CharacterConverter 1.0",IDC_STATIC,40,10,75,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,65,8
+    DEFPUSHBUTTON   "&OK",IDOK,5,35,30,14,WS_GROUP
+    LTEXT           "Mail:",IDC_STATIC,40,40,16,8
+    LTEXT           "Michael Johne",IDC_STATIC_MAIL,60,40,47,8
+END
+
+IDD_CHARACTERCONVERTER_DIALOG DIALOGEX 0, 0, 162, 160
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "CharacterConverter"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Choose &input file",IDC_STATIC,10,10,140,30
+    EDITTEXT        IDC_EDIT_IFILE,15,20,110,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_BUTTON_IFILE,130,20,15,15
+    GROUPBOX        "Choose char&set",IDC_STATIC,10,45,140,30
+    COMBOBOX        IDC_COMBO_CHARSET,15,55,110,60,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_BUTTON_CHARSET,130,54,15,15
+    GROUPBOX        "Choose &output file",IDC_STATIC,10,80,140,30
+    EDITTEXT        IDC_EDIT_OFILE,15,90,110,15,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_BUTTON_OFILE,130,90,15,15
+    PUSHBUTTON      "&Convert!",IDC_BUTTON_CONVERT,15,120,70,30
+    PUSHBUTTON      "&About...",IDC_BUTTON_ABOUT,95,120,50,14
+    PUSHBUTTON      "E&xit",IDCLOSE,95,135,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "CharacterConverter MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "CharacterConverter\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "CharacterConverter.EXE\0"
+            VALUE "ProductName", "CharacterConverter Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 120
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+
+    IDD_CHARACTERCONVERTER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CHARACTERCONVERTER_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_CHARSET, 0x403, 15, 0
+0x4858, 0x4d54, 0x204c, 0x6e65, 0x6974, 0x6974, 0x7365, "\000" 
+    IDC_COMBO_CHARSET, 0x403, 9, 0
+0x5555, 0x6e45, 0x6f63, 0x6564, "\000" 
+    IDC_COMBO_CHARSET, 0x403, 9, 0
+0x5858, 0x6e45, 0x6f63, 0x6564, "\000" 
+    IDC_COMBO_CHARSET, 0x403, 7, 0
+0x6142, 0x6573, 0x3436, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About CharacterConverter..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\CharacterConverter.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
