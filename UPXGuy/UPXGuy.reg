@@ -1,0 +1,13 @@
+REGEDIT
+; This .REG file may be used by your SETUP program.
+;   If a SETUP program is not available, the entries below will be
+;   registered in your InitInstance automatically with a call to
+;   CWinApp::RegisterShellFileTypes and COleObjectFactory::UpdateRegistryAll.
+
+
+HKEY_CLASSES_ROOT\UPXGuy.Application = UPXGuy Application
+HKEY_CLASSES_ROOT\UPXGuy.Application\CLSID = {0BC18076-7549-40C0-B0F2-B51765F870EA}
+
+HKEY_CLASSES_ROOT\CLSID\{0BC18076-7549-40C0-B0F2-B51765F870EA} = UPXGuy Application
+HKEY_CLASSES_ROOT\CLSID\{0BC18076-7549-40C0-B0F2-B51765F870EA}\ProgId = UPXGuy.Application
+HKEY_CLASSES_ROOT\CLSID\{0BC18076-7549-40C0-B0F2-B51765F870EA}\LocalServer32 = UPXGUY.EXE

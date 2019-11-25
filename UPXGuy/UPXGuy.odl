@@ -1,0 +1,42 @@
+// UPXGuy.odl : type library source for UPXGuy.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (UPXGuy.tlb).
+
+[ uuid(DEDA3DF3-AAC1-4AF0-8D9C-F3803E288024), version(1.0) ]
+library UPXGuy
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CUPXGuyDoc
+	
+	[ uuid(164FA0CF-910F-471F-88B3-2258211CB978) ]
+	dispinterface IUPXGuy
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CUPXGuyDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CUPXGuyDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CUPXGuyDoc
+	
+	[ uuid(0BC18076-7549-40C0-B0F2-B51765F870EA) ]
+	coclass UPXGuy
+	{
+		[default] dispinterface IUPXGuy;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
